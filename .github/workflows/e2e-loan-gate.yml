@@ -13,7 +13,7 @@ env:
   AUTOMATION_REPO: "ShaikSuhailAhmed/autochek-api-e2e-loan-automation"
 
 jobs:
-  api-automation-tests:
+  e2e-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -40,7 +40,7 @@ jobs:
       - name: Verify Allure results exist
         id: verify
         run: |
-          RESULT_COUNT=$(find api-automation/target/allure-results -type f -name "*.json" -not -path "*/history/*" 2>/dev/null | wc -l | tr -d ' ')
+          RESULT_COUNT=$(find e2e/target/allure-results -type f -name "*.json" -not -path "*/history/*" 2>/dev/null | wc -l | tr -d ' ')
           echo "count=$RESULT_COUNT" >> $GITHUB_OUTPUT
           if [ "$RESULT_COUNT" -eq 0 ]; then
             echo "::error::No Allure test results were produced."
@@ -58,29 +58,29 @@ jobs:
       # --- Restore Allure history ---
       - name: Restore Allure history
         run: |
-          mkdir -p api-automation/target/allure-results/history
+          mkdir -p e2e/target/allure-results/history
           if [ -d "ghp/latest/history" ]; then
-            cp -r ghp/latest/history/* api-automation/target/allure-results/history/ || true
+            cp -r ghp/latest/history/* e2e/target/allure-results/history/ || true
           fi
 
       # --- Generate Allure report ---
       - name: Generate Allure Report
         run: |
           npm install -g allure-commandline --save-dev
-          allure generate api-automation/target/allure-results -o api-automation/target/allure-report --clean
+          allure generate e2e/target/allure-results -o e2e/target/allure-report --clean
 
       # --- Upload report artifacts ---
       - name: Upload Allure HTML (artifact)
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
-          path: api-automation/target/allure-report
+          path: e2e/target/allure-report
 
       - name: Upload Allure history (artifact)
         uses: actions/upload-artifact@v4
         with:
           name: allure-history
-          path: api-automation/target/allure-report/history
+          path: e2e/target/allure-report/history
 
       # --- Compute archive directory ---
       - name: Compute archive directory
@@ -106,8 +106,8 @@ jobs:
           rm -rf ghp/latest || true
           mkdir -p ghp/latest
 
-          cp -r api-automation/target/allure-report/* "ghp/${DEST}/"
-          cp -r api-automation/target/allure-report/* "ghp/latest/"
+          cp -r e2e/target/allure-report/* "ghp/${DEST}/"
+          cp -r e2e/target/allure-report/* "ghp/latest/"
 
           {
             echo "<!doctype html><html><head><meta charset='utf-8'>"
@@ -173,7 +173,7 @@ jobs:
             select( ($sevlist | index($sev)) != null )
             |
             [ $sev, .status, (.name // .fullName // "unknown") ] | @tsv
-          ' api-automation/target/allure-results/*.json 2>/dev/null | tee .blocked.tsv
+          ' e2e/target/allure-results/*.json 2>/dev/null | tee .blocked.tsv
 
           BLOCK_COUNT=$(wc -l < .blocked.tsv | tr -d ' ')
           {
