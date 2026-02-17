@@ -1,0 +1,2410 @@
+{
+    "documents": [
+        {
+            "fields": [
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "borrower indemnity customs indemnity only",
+                    "name": "LCD-b05mCKLgQ~borrower-indemnity-customs-indemnity-only",
+                    "type": "file",
+                    "required": true,
+                    "visibility": true,
+                    "subsection": "Additional Requested Documents",
+                    "group": "LCD-b05mCKLgQ~borrower-indemnity-customs-indemnity-only",
+                    "status": "AWAITING DOCUMENT"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "LCD-b05mCKLgQ~borrower-indemnity-customs-indemnity-onlyFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your document",
+                                    "visibility": true,
+                                    "subsection": "Additional Requested Documents"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your borrower indemnity customs indemnity only Password-Protected?",
+                    "name": "LCD-b05mCKLgQ~borrower-indemnity-customs-indemnity-onlyIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": true,
+                    "subsection": "Additional Requested Documents",
+                    "group": "LCD-b05mCKLgQ~borrower-indemnity-customs-indemnity-only"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Work ID - Optional",
+                    "name": "workId",
+                    "type": "file",
+                    "required": false,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Employment",
+                    "group": "workId",
+                    "status": "APPROVED",
+                    "description": "workId"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "workIdFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your work ID",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Employment",
+                                    "group": "workId"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Work ID Password-Protected?",
+                    "name": "workIdIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Employment",
+                    "group": "workId"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Work ID 2 - Optional",
+                    "name": "workId2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Employment",
+                    "group": "workId"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "workId2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your work ID",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Employment",
+                                    "group": "workId"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Work ID Password-Protected?",
+                    "name": "workId2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Employment",
+                    "group": "workId"
+                },
+                {
+                    "options": [
+                        "Employment confirmation letter",
+                        "Employment letter"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Proof Of Employment",
+                    "name": "proofOfEmployment",
+                    "type": "fileSelection",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Employment",
+                    "group": "proofOfEmployment",
+                    "status": "APPROVED",
+                    "description": "proofOfEmployment"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "proofOfEmploymentFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your proof of employment",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Employment",
+                                    "group": "proofOfEmployment"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Proof Of Employment Password-Protected?",
+                    "name": "proofOfEmploymentIsPasswordProtected",
+                    "type": "radio",
+                    "required": true,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Employment",
+                    "group": "proofOfEmployment"
+                },
+                {
+                    "options": [
+                        "Employment confirmation letter",
+                        "Employment letter"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Proof Of Employment 2",
+                    "name": "proofOfEmployment2",
+                    "type": "fileSelection",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Employment",
+                    "group": "proofOfEmployment"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "proofOfEmployment2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your proof of employment",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Employment",
+                                    "group": "proofOfEmployment"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Proof Of Employment Password-Protected?",
+                    "name": "proofOfEmployment2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Employment",
+                    "group": "proofOfEmployment"
+                },
+                {
+                    "options": [
+                        "Employment confirmation letter",
+                        "Employment letter"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Proof Of Employment 3",
+                    "name": "proofOfEmployment3",
+                    "type": "fileSelection",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Employment",
+                    "group": "proofOfEmployment"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "proofOfEmployment3FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your proof of employment",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Employment",
+                                    "group": "proofOfEmployment"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Proof Of Employment Password-Protected?",
+                    "name": "proofOfEmployment3IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Employment",
+                    "group": "proofOfEmployment"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "First Payslip",
+                    "name": "proofOfEmploymentPayslip",
+                    "type": "file",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Payslip (3 months payslip of current year)",
+                    "group": "proofOfPayslip",
+                    "status": "APPROVED",
+                    "description": "proofOfEmploymentPayslip"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "proofOfEmploymentPayslipFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your payslip",
+                                    "visibility": true,
+                                    "subsection": "Payslip (3 months payslip of current year)"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your First Payslip Password-Protected?",
+                    "name": "proofOfEmploymentPayslipIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Payslip (3 months payslip of current year)",
+                    "group": "proofOfPayslip"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Second Payslip",
+                    "name": "proofOfEmploymentPayslip2",
+                    "type": "file",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Payslip (3 months payslip of current year)",
+                    "group": "proofOfPayslip",
+                    "status": "APPROVED",
+                    "description": "proofOfEmploymentPayslip2"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "proofOfEmploymentPayslip2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your payslip",
+                                    "visibility": true,
+                                    "subsection": "Payslip (3 months payslip of current year)"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Second Payslip Password-Protected?",
+                    "name": "proofOfEmploymentPayslip2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Payslip (3 months payslip of current year)",
+                    "group": "proofOfPayslip"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Third Payslip",
+                    "name": "proofOfEmploymentPayslip3",
+                    "type": "file",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Payslip (3 months payslip of current year)",
+                    "group": "proofOfPayslip",
+                    "status": "APPROVED",
+                    "description": "proofOfEmploymentPayslip3"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "proofOfEmploymentPayslip3FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your payslip",
+                                    "visibility": true,
+                                    "subsection": "Payslip (3 months payslip of current year)"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Third Payslip Password-Protected?",
+                    "name": "proofOfEmploymentPayslip3IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Payslip (3 months payslip of current year)",
+                    "group": "proofOfPayslip"
+                },
+                {
+                    "options": [
+                        "National ID",
+                        "Passport",
+                        "Driver’s License",
+                        "Voters ID"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Government Issued ID",
+                    "name": "identity",
+                    "type": "fileSelection",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity",
+                    "status": "APPROVED",
+                    "description": "identity"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "identityFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your ID",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Identity",
+                                    "group": "identity"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your ID Password-Protected?",
+                    "name": "identityIsPasswordProtected",
+                    "type": "radio",
+                    "required": true,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        "National ID",
+                        "Passport",
+                        "Driver’s License",
+                        "Voters ID"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Government Issued ID 2",
+                    "name": "identity2",
+                    "type": "fileSelection",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "identity2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your ID",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Identity",
+                                    "group": "identity"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your ID Password-Protected?",
+                    "name": "identity2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        "National ID",
+                        "Passport",
+                        "Driver’s License",
+                        "Voters ID"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Government Issued ID 3",
+                    "name": "identity3",
+                    "type": "fileSelection",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "identity3FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your ID",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Identity",
+                                    "group": "identity"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your ID Password-Protected?",
+                    "name": "identity3IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        "National ID",
+                        "Passport",
+                        "Driver’s License",
+                        "Voters ID"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Government Issued ID 4",
+                    "name": "identity4",
+                    "type": "fileSelection",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "identity4FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your ID",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Identity",
+                                    "group": "identity"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your ID Password-Protected?",
+                    "name": "identity4IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Identity",
+                    "group": "identity"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload 6 Months Personal Bank Statement (of current year)",
+                    "name": "personalBankStatement",
+                    "type": "file",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Income",
+                    "group": "personalBankStatement",
+                    "status": "APPROVED",
+                    "description": "personalBankStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "personalBankStatementFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your statement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Income",
+                                    "group": "personalBankStatement"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Personal Bank Statement Password-Protected ?",
+                    "name": "personalBankStatementIsPasswordProtected",
+                    "type": "radio",
+                    "required": true,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Income",
+                    "group": "personalBankStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload 6 Months Personal Bank Statement (of current year) 2",
+                    "name": "personalBankStatement2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Income",
+                    "group": "personalBankStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "personalBankStatement2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your statement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Income",
+                                    "group": "personalBankStatement"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Personal Bank Statement Password-Protected ?",
+                    "name": "personalBankStatement2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Income",
+                    "group": "personalBankStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload 6 Months Business Bank Statement (of current year) - Optional",
+                    "name": "businessBankStatement",
+                    "type": "file",
+                    "required": false,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Income",
+                    "group": "businessBankStatement",
+                    "status": "APPROVED",
+                    "description": "businessBankStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "businessBankStatementFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your statement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Income",
+                                    "group": "businessBankStatement"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Business Bank Statement Password-Protected ?",
+                    "name": "businessBankStatementIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Income",
+                    "group": "businessBankStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload 6 Months Business Bank Statement (of current year) 2 - Optional",
+                    "name": "businessBankStatement2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Income",
+                    "group": "businessBankStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "businessBankStatement2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your statement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Income",
+                                    "group": "businessBankStatement"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Business Bank Statement Password-Protected ?",
+                    "name": "businessBankStatement2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Income",
+                    "group": "businessBankStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload 6 Months Mobile Money Statement (of current year) - Optional",
+                    "name": "mobileMoneyStatement",
+                    "type": "file",
+                    "required": false,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Income",
+                    "group": "mobileMoneyStatement",
+                    "status": "APPROVED",
+                    "description": "mobileMoneyStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "mobileMoneyStatementFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your mobile money statement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Income",
+                                    "group": "mobileMoneyStatement"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Mobile Money Statement Password-Protected ?",
+                    "name": "mobileMoneyStatementIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Income",
+                    "group": "mobileMoneyStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload 6 Months Mobile Money Statement (of current year) 2 - Optional",
+                    "name": "mobileMoneyStatement2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Income",
+                    "group": "mobileMoneyStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "mobileMoneyStatement2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your mobile money statement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Income",
+                                    "group": "mobileMoneyStatement"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Mobile Money Statement Password-Protected ?",
+                    "name": "mobileMoneyStatement2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Income",
+                    "group": "mobileMoneyStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload Utility Bill/Lease Agreement",
+                    "name": "utilityBill",
+                    "type": "file",
+                    "required": true,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Proof Of Address",
+                    "group": "utilityBill",
+                    "status": "APPROVED",
+                    "description": "utilityBill"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "utilityBillFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your utility bill/lease agreement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Address",
+                                    "group": "utilityBill"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Utility Bill/Lease Agreement Password-Protected?",
+                    "name": "utilityBillIsPasswordProtected",
+                    "type": "radio",
+                    "required": true,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Proof Of Address",
+                    "group": "utilityBill"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload Utility Bill/Lease Agreement 2",
+                    "name": "utilityBill2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Address",
+                    "group": "utilityBill"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "utilityBill2FilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your utility bill/lease agreement",
+                                    "visibility": true,
+                                    "subsection": "Proof Of Address",
+                                    "group": "utilityBill"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your Utility Bill Password-Protected?",
+                    "name": "utilityBill2IsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Proof Of Address",
+                    "group": "utilityBill"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload dealer invoice",
+                    "name": "dealerInvoice",
+                    "type": "file",
+                    "required": false,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Dealer",
+                    "group": "dealerInvoice",
+                    "status": "APPROVED",
+                    "description": "dealerInvoice"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "dealerInvoiceFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your document",
+                                    "visibility": true,
+                                    "subsection": "Dealer",
+                                    "group": "dealerInvoice",
+                                    "channel": "dealerplus"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your dealer invoice Password-Protected?",
+                    "name": "dealerInvoiceIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Dealer",
+                    "group": "dealerInvoice"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload dealer invoice 2",
+                    "name": "dealerInvoice2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Dealer",
+                    "group": "dealerInvoice"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "dealerInvoiceFilePassword2",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your document",
+                                    "visibility": true,
+                                    "subsection": "Dealer",
+                                    "group": "dealerInvoice",
+                                    "channel": "dealerplus"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your dealer invoice Password-Protected?",
+                    "name": "dealerInvoiceIsPasswordProtected2",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Dealer",
+                    "group": "dealerInvoice"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload dealer bank statement",
+                    "name": "dealerBankStatement",
+                    "type": "file",
+                    "required": false,
+                    "url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+                    "visibility": true,
+                    "subsection": "Dealer",
+                    "group": "dealerBankStatement",
+                    "status": "APPROVED",
+                    "description": "dealerBankStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "dealerBankStatementFilePassword",
+                                    "type": "password",
+                                    "required": true,
+                                    "value": "",
+                                    "helpText": "We need this password to be able to review your document",
+                                    "visibility": true,
+                                    "subsection": "Dealer",
+                                    "group": "dealerBankStatement",
+                                    "channel": "dealerplus"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your dealer bank statement Password-Protected?",
+                    "name": "dealerBankStatementIsPasswordProtected",
+                    "type": "radio",
+                    "required": false,
+                    "value": "No",
+                    "visibility": true,
+                    "subsection": "Dealer",
+                    "group": "dealerBankStatement"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Upload dealer invoice 2",
+                    "name": "dealerBankStatement2",
+                    "type": "file",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Dealer",
+                    "group": "dealerBankStatement"
+                },
+                {
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "label": "Enter PDF Password",
+                                    "name": "dealerBankStatementFilePassword2",
+                                    "type": "password",
+                                    "required": true,
+                                    "helpText": "We need this password to be able to review your document",
+                                    "visibility": true,
+                                    "subsection": "Dealer",
+                                    "group": "dealerBankStatement",
+                                    "channel": "dealerplus"
+                                }
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "value": "Yes"
+                        }
+                    ],
+                    "label": "Is Your dealer bank statement Password-Protected?",
+                    "name": "dealerBankStatementIsPasswordProtected2",
+                    "type": "radio",
+                    "required": false,
+                    "visibility": false,
+                    "subsection": "Dealer",
+                    "group": "dealerBankStatement"
+                }
+            ],
+            "label": "Upload Documents",
+            "name": "citizen"
+        },
+        {
+            "fields": [
+                {
+                    "options": [
+                        "Mr",
+                        "Mrs",
+                        "Ms",
+                        "Dr",
+                        "Prof",
+                        "Rev",
+                        "Pastor",
+                        "Bishop"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Title",
+                    "name": "nameTitle",
+                    "type": "selection",
+                    "required": true,
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        "Single",
+                        "Married"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Marital status",
+                    "name": "maritalStatus",
+                    "type": "radio",
+                    "required": true,
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Address",
+                    "name": "address",
+                    "type": "google-address",
+                    "required": true,
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "House/Apartment number",
+                    "name": "houseNumber",
+                    "type": "text",
+                    "required": false,
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Street name",
+                    "name": "streetName",
+                    "type": "text",
+                    "required": true,
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "State of residence",
+                    "name": "state",
+                    "type": "selection",
+                    "required": true,
+                    "url": "/v1/state?country_code=NG&page_size=50",
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "LGA of residence",
+                    "name": "lga",
+                    "type": "selection",
+                    "required": true,
+                    "url": "/v1/lga?state_id={{state_id}}",
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "City of residence",
+                    "name": "city",
+                    "type": "selection",
+                    "required": true,
+                    "url": "/v1/city?state_id={{state_id}}",
+                    "visibility": true
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Next of Kin's name",
+                    "name": "nextOfKinName",
+                    "type": "text",
+                    "required": true,
+                    "visibility": true,
+                    "subsection": "Next of Kin"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Next of Kin's Address",
+                    "name": "nextOfKinAddress",
+                    "type": "text",
+                    "required": true,
+                    "visibility": true,
+                    "subsection": "Next of Kin"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Next of Kin's Phone number",
+                    "name": "nextOfKinTelephone",
+                    "type": "tel",
+                    "required": true,
+                    "visibility": true,
+                    "subsection": "Next of Kin"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Next of Kin's Email",
+                    "name": "nextOfKinEmail",
+                    "type": "email",
+                    "required": true,
+                    "visibility": true,
+                    "subsection": "Next of Kin"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Next of Kin's Relationship",
+                    "name": "nextOfKinRelationship",
+                    "type": "text",
+                    "required": true,
+                    "placeholder": "e.g. Brother, Sister, etc.",
+                    "visibility": true,
+                    "subsection": "Next of Kin"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Side business address (Optional)",
+                    "name": "sideBusinessAddress",
+                    "type": "text",
+                    "required": false,
+                    "visibility": true,
+                    "subsection": "Side Business Details"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Side business bank (Optional)",
+                    "name": "sideBusinessBank",
+                    "type": "selection",
+                    "required": false,
+                    "url": "/v1/origination/banks?country=NG",
+                    "visibility": true,
+                    "subsection": "Side Business Details"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Side business account holder name (Optional)",
+                    "name": "sideBusinessAccountHolderName",
+                    "type": "text",
+                    "required": false,
+                    "visibility": true,
+                    "subsection": "Side Business Details"
+                },
+                {
+                    "options": [
+                        
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Side business account number (Optional)",
+                    "name": "sideBusinessAccountNumber",
+                    "type": "number",
+                    "required": false,
+                    "length": 10,
+                    "minValue": 0,
+                    "visibility": true,
+                    "subsection": "Side Business Details"
+                },
+                {
+                    "options": [
+                        "Cheque/Current",
+                        "Savings"
+                    ],
+                    "fields": [
+                        
+                    ],
+                    "actions": [
+                        
+                    ],
+                    "when": [
+                        
+                    ],
+                    "label": "Side business account type (Optional)",
+                    "name": "sideBusinessAccountType",
+                    "type": "selection",
+                    "required": false,
+                    "visibility": true,
+                    "subsection": "Side Business Details"
+                }
+            ],
+            "label": "Additional Information",
+            "name": "citizenAdditionalInformation"
+        }
+    ]
+}
