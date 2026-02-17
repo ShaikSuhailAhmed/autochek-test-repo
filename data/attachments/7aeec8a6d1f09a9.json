@@ -1,0 +1,52 @@
+{
+  "reviews" : [ {
+    "name" : "workId",
+    "id" : "2dCVjUrvD",
+    "status" : "APPROVED"
+  }, {
+    "name" : "proofOfEmployment",
+    "id" : "2TxktgWDHf",
+    "status" : "APPROVED"
+  }, {
+    "name" : "proofOfEmploymentPayslip",
+    "id" : "dYkSngT2S4",
+    "status" : "APPROVED"
+  }, {
+    "name" : "proofOfEmploymentPayslip2",
+    "id" : "sLmiLBqNW9",
+    "status" : "APPROVED"
+  }, {
+    "name" : "dealerInvoice",
+    "id" : "FC6MldfQsf",
+    "status" : "APPROVED"
+  }, {
+    "name" : "proofOfEmploymentPayslip3",
+    "id" : "k5-JMBbG3O",
+    "status" : "APPROVED"
+  }, {
+    "name" : "passport",
+    "id" : "NlbqY0J-8T",
+    "status" : "APPROVED"
+  }, {
+    "name" : "residencyOrWorkPermit",
+    "id" : "9rzAZFboPd",
+    "status" : "APPROVED"
+  }, {
+    "name" : "businessBankStatement",
+    "id" : "wZCJ-IX4li",
+    "status" : "APPROVED"
+  }, {
+    "name" : "utilityBill",
+    "id" : "UUq4rQKr6b",
+    "status" : "APPROVED"
+  }, {
+    "name" : "personalBankStatement",
+    "id" : "bk-P7No7hG",
+    "status" : "APPROVED"
+  }, {
+    "name" : "mobileMoneyStatement",
+    "id" : "m-cp4SRiIr",
+    "status" : "APPROVED"
+  } ],
+  "loan_id" : "xRjYTXJTE"
+}

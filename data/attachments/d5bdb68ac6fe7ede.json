@@ -1,0 +1,1064 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+am1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=4&page_size=50&franchise=kpMngdaMZ&country=NG&name=Toyota
+Proxy:			<none>
+Request params:	<none>
+Query params:	exclude_sold_cars=true
+				exclude_category_name=logbook
+				page_number=4
+				page_size=50
+				franchise=kpMngdaMZ
+				country=NG
+				name=Toyota
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				x-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "profile": [
+        {
+            "name": "sourceDataId",
+            "value": "vr9eEIvTglZkIOM4aaES",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "sourceData",
+            "value": "eshareddy+am1@frugaltestingin.com",
+            "type": "email",
+            "valid": true
+        },
+        {
+            "name": "source",
+            "value": "accountManager",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "referrerSource",
+            "value": "Franchise",
+            "valid": true
+        },
+        {
+            "name": "referrerData",
+            "value": "100% Automobile Nig.",
+            "valid": true
+        },
+        {
+            "name": "referrerDataId",
+            "value": "kpMngdaMZ",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "firstName",
+            "value": "E2E_By_AM_525ddd",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "lastName",
+            "value": "AUTO_6057b3",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "telephone",
+            "value": "+2342893151306",
+            "type": "tel",
+            "valid": true
+        },
+        {
+            "name": "email",
+            "value": "ng6713a7@test.com",
+            "type": "email",
+            "valid": true
+        },
+        {
+            "name": "description",
+            "value": "Salary earner",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "monthlyGrossIncome",
+            "value": "334371.0",
+            "type": "amount",
+            "valid": true
+        },
+        {
+            "name": "sourceOfFunds",
+            "value": "Wages, bonuses, dividends, and other income from employment",
+            "valid": true
+        },
+        {
+            "name": "dob",
+            "value": "1999-08-06",
+            "type": "date",
+            "valid": true
+        },
+        {
+            "name": "nin",
+            "value": "70398454338",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "BVN",
+            "value": "87520321650",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "gender",
+            "value": "Male",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "nationality",
+            "value": "Nigeria",
+            "valid": true
+        },
+        {
+            "name": "nationalityStatus",
+            "value": "Resident",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "state",
+            "value": "Abuja",
+            "valid": true
+        },
+        {
+            "name": "employmentType",
+            "value": "Permanent",
+            "valid": true
+        },
+        {
+            "name": "industry",
+            "value": "Consultancy",
+            "valid": true
+        },
+        {
+            "name": "employerName",
+            "value": "Test",
+            "valid": true
+        },
+        {
+            "name": "employerAddress",
+            "value": "Test Address",
+            "valid": true
+        },
+        {
+            "name": "yearWithEmployer",
+            "value": "1",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "sideBusiness",
+            "value": "No",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "primaryBank",
+            "value": "Globus Bank Limited",
+            "valid": true
+        },
+        {
+            "name": "accountHolderName",
+            "value": "Test Testing",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "accountNumber",
+            "value": "9776896420",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "accountType",
+            "value": "Savings",
+            "valid": true
+        },
+        {
+            "name": "monthlyExpenses",
+            "value": "65000",
+            "type": "amount",
+            "valid": true
+        },
+        {
+            "name": "monthlyGrossIncome2",
+            "value": "334371.0",
+            "type": "amount",
+            "valid": true
+        },
+        {
+            "name": "vehicleUse",
+            "value": "Personal",
+            "type": "radio",
+            "valid": true
+        }
+    ],
+    "loan_fields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": true,
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": true,
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": true,
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontRoadsideAssistance",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "creditCheckConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "financeAndVehicleConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "platformPolicy",
+            "value": "Yes",
+            "valid": true
+        }
+    ],
+    "car_id": "k43OFDZ6t",
+    "user_id": "vr9eEIvTglZkIOM4aaES",
+    "product_id": "hj43BXLXe",
+    "country": "NG",
+    "is_draft": false,
+    "captcha_token": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/xRjYTXJTE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/document-config/xRjYTXJTE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=xRjYTXJTE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/documents/CreateDocuments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": [
+        {
+            "valid": true,
+            "name": "nameTitle",
+            "label": "Title",
+            "type": "selection",
+            "value": "Mr"
+        },
+        {
+            "valid": true,
+            "name": "maritalStatus",
+            "label": "Marital status",
+            "type": "radio",
+            "value": "Single"
+        },
+        {
+            "valid": true,
+            "name": "address",
+            "label": "Address",
+            "type": "google-address",
+            "value": "Niger, Nigeria"
+        },
+        {
+            "valid": true,
+            "name": "houseNumber",
+            "label": "House/Apartment number",
+            "type": "text",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "streetName",
+            "label": "Street name",
+            "type": "text",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "state",
+            "label": "State of residence",
+            "type": "selection",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "lga",
+            "label": "LGA of residence",
+            "type": "selection",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "city",
+            "label": "City of residence",
+            "type": "selection",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "nextOfKinName",
+            "label": "Next of Kin's name",
+            "type": "text",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "nextOfKinAddress",
+            "label": "Next of Kin's Address",
+            "type": "text",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "nextOfKinTelephone",
+            "label": "Next of Kin's Phone number",
+            "type": "tel",
+            "value": "+2347405439681"
+        },
+        {
+            "valid": true,
+            "name": "nextOfKinEmail",
+            "label": "Next of Kin's Email",
+            "type": "email",
+            "value": "testuser_e35cca39@testing.com"
+        },
+        {
+            "valid": true,
+            "name": "nextOfKinRelationship",
+            "label": "Next of Kin's Relationship",
+            "type": "text",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "accountHolderName",
+            "label": "Account holder name",
+            "type": "text",
+            "value": "TestValue"
+        },
+        {
+            "valid": true,
+            "name": "accountNumber",
+            "label": "Your account number",
+            "type": "number",
+            "value": "9282740351"
+        },
+        {
+            "valid": true,
+            "name": "accountType",
+            "label": "Account type",
+            "type": "selection",
+            "value": "Savings"
+        }
+    ],
+    "documents": [
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "workId",
+            "description": "workId"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "proofOfEmployment",
+            "description": "proofOfEmployment"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "proofOfEmploymentPayslip",
+            "description": "proofOfEmploymentPayslip"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "proofOfEmploymentPayslip2",
+            "description": "proofOfEmploymentPayslip2"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "proofOfEmploymentPayslip3",
+            "description": "proofOfEmploymentPayslip3"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "passport",
+            "description": "passport"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "residencyOrWorkPermit",
+            "description": "residencyOrWorkPermit"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "personalBankStatement",
+            "description": "personalBankStatement"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "businessBankStatement",
+            "description": "businessBankStatement"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "mobileMoneyStatement",
+            "description": "mobileMoneyStatement"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "utilityBill",
+            "description": "utilityBill"
+        },
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "dealerInvoice",
+            "description": "dealerInvoice"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/documents?loanId=xRjYTXJTE
+Proxy:			<none>
+Request params:	<none>
+Query params:	loanId=xRjYTXJTE
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/app/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": "MTWTPQxpuzUfg3Vz59oa",
+    "roles": [
+        "LOAN ADMIN",
+        "CREDIT_OFFICER",
+        "CREDIT_ADMIN"
+    ],
+    "email": "eshareddy+underwriter@frugaltestingin.com"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/customerDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ6Wjg2Y3VOSVI1WnBicXBwNTdFZiIsImp3dElkIjoiRkZueGpPS2ExRlNqeTZpZTNNaGMiLCJpYXQiOjE3NzEzMTA5NjQsImV4cCI6MTgwMjg0Njk2NH0.dwHM8-aSwf0lzEknhRNf-P7hhL5T66qyqPm5JGbDqUQ
+				x-autochek-app=AFS_MIDDLEWARE_RETOOL
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "workId",
+            "id": "2dCVjUrvD",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmployment",
+            "id": "2TxktgWDHf",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmploymentPayslip",
+            "id": "dYkSngT2S4",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmploymentPayslip2",
+            "id": "sLmiLBqNW9",
+            "status": "APPROVED"
+        },
+        {
+            "name": "dealerInvoice",
+            "id": "FC6MldfQsf",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmploymentPayslip3",
+            "id": "k5-JMBbG3O",
+            "status": "APPROVED"
+        },
+        {
+            "name": "passport",
+            "id": "NlbqY0J-8T",
+            "status": "APPROVED"
+        },
+        {
+            "name": "residencyOrWorkPermit",
+            "id": "9rzAZFboPd",
+            "status": "APPROVED"
+        },
+        {
+            "name": "businessBankStatement",
+            "id": "wZCJ-IX4li",
+            "status": "APPROVED"
+        },
+        {
+            "name": "utilityBill",
+            "id": "UUq4rQKr6b",
+            "status": "APPROVED"
+        },
+        {
+            "name": "personalBankStatement",
+            "id": "bk-P7No7hG",
+            "status": "APPROVED"
+        },
+        {
+            "name": "mobileMoneyStatement",
+            "id": "m-cp4SRiIr",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/customerDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ6Wjg2Y3VOSVI1WnBicXBwNTdFZiIsImp3dElkIjoiRkZueGpPS2ExRlNqeTZpZTNNaGMiLCJpYXQiOjE3NzEzMTA5NjQsImV4cCI6MTgwMjg0Njk2NH0.dwHM8-aSwf0lzEknhRNf-P7hhL5T66qyqPm5JGbDqUQ
+				x-autochek-app=zoho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "workId",
+            "id": "2dCVjUrvD",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmployment",
+            "id": "2TxktgWDHf",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmploymentPayslip",
+            "id": "dYkSngT2S4",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmploymentPayslip2",
+            "id": "sLmiLBqNW9",
+            "status": "APPROVED"
+        },
+        {
+            "name": "dealerInvoice",
+            "id": "FC6MldfQsf",
+            "status": "APPROVED"
+        },
+        {
+            "name": "proofOfEmploymentPayslip3",
+            "id": "k5-JMBbG3O",
+            "status": "APPROVED"
+        },
+        {
+            "name": "passport",
+            "id": "NlbqY0J-8T",
+            "status": "APPROVED"
+        },
+        {
+            "name": "residencyOrWorkPermit",
+            "id": "9rzAZFboPd",
+            "status": "APPROVED"
+        },
+        {
+            "name": "businessBankStatement",
+            "id": "wZCJ-IX4li",
+            "status": "APPROVED"
+        },
+        {
+            "name": "utilityBill",
+            "id": "UUq4rQKr6b",
+            "status": "APPROVED"
+        },
+        {
+            "name": "personalBankStatement",
+            "id": "bk-P7No7hG",
+            "status": "APPROVED"
+        },
+        {
+            "name": "mobileMoneyStatement",
+            "id": "m-cp4SRiIr",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inventory/documents
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "documents": [
+        {
+            "date_of_entry": "2026-02-17",
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "port_of_entry": "8450",
+            "name": "customs-document",
+            "c_number": "9962",
+            "description": ""
+        }
+    ],
+    "car_id": "k43OFDZ6t",
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/documents/5nueyEIk8/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ6Wjg2Y3VOSVI1WnBicXBwNTdFZiIsImp3dElkIjoiRkZueGpPS2ExRlNqeTZpZTNNaGMiLCJpYXQiOjE3NzEzMTA5NjQsImV4cCI6MTgwMjg0Njk2NH0.dwHM8-aSwf0lzEknhRNf-P7hhL5T66qyqPm5JGbDqUQ
+				X-autochek-app=zoho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "approval_status": "Valid",
+    "review": [
+        {
+            "question": "Is the customs paid up to 50% of the assessed duty or above",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs paid above 40% and did the dealer sign a master dealer agreement where we now have a floating charge over the dealer's assets?",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs outstanding not more than 3 million Naira, irrespective of the percentage",
+            "value": "Yes"
+        },
+        {
+            "question": "Is Autochek financing the top-up",
+            "value": "No"
+        },
+        {
+            "question": "Is the Dealer providing the collateral",
+            "value": "Yes"
+        },
+        {
+            "question": "Required Duty Amount",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Paid",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Shortfall",
+            "value": "0.00"
+        },
+        {
+            "question": "Customs Document Comment",
+            "value": "Testing E2E "
+        }
+    ],
+    "id": "5nueyEIk8",
+    "document_id": "5nueyEIk8"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/document-config/xRjYTXJTE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=xRjYTXJTE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/documents/CreateDocuments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": [
+        
+    ],
+    "documents": [
+        {
+            "file_url": "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+            "password": "",
+            "name": "LCD-GiaFtaMUo~borrower-indemnity-customs-indemnity-only",
+            "description": "LCD-GiaFtaMUo~borrower-indemnity-customs-indemnity-only"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/documents?loanId=xRjYTXJTE
+Proxy:			<none>
+Request params:	<none>
+Query params:	loanId=xRjYTXJTE
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/customerDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ6Wjg2Y3VOSVI1WnBicXBwNTdFZiIsImp3dElkIjoiRkZueGpPS2ExRlNqeTZpZTNNaGMiLCJpYXQiOjE3NzEzMTA5NjQsImV4cCI6MTgwMjg0Njk2NH0.dwHM8-aSwf0lzEknhRNf-P7hhL5T66qyqPm5JGbDqUQ
+				x-autochek-app=AFS_MIDDLEWARE_RETOOL
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "borrower-indemnity-customs-indemnity-only",
+            "id": "LCD-GiaFtaMUo",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/customerDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ6Wjg2Y3VOSVI1WnBicXBwNTdFZiIsImp3dElkIjoiRkZueGpPS2ExRlNqeTZpZTNNaGMiLCJpYXQiOjE3NzEzMTA5NjQsImV4cCI6MTgwMjg0Njk2NH0.dwHM8-aSwf0lzEknhRNf-P7hhL5T66qyqPm5JGbDqUQ
+				x-autochek-app=zoho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "borrower-indemnity-customs-indemnity-only",
+            "id": "LCD-GiaFtaMUo",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/customerDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ6Wjg2Y3VOSVI1WnBicXBwNTdFZiIsImp3dElkIjoiRkZueGpPS2ExRlNqeTZpZTNNaGMiLCJpYXQiOjE3NzEzMTA5NjQsImV4cCI6MTgwMjg0Njk2NH0.dwHM8-aSwf0lzEknhRNf-P7hhL5T66qyqPm5JGbDqUQ
+				x-autochek-app=zoho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "borrower-indemnity-customs-indemnity-only",
+            "id": "LCD-GiaFtaMUo",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "note": "E2E Testing",
+    "year": 2020,
+    "city": "Aba South",
+    "franchise_id": "kpMngdaMZ",
+    "vin": "EXV16021642080703",
+    "model_id": 1891,
+    "state": "Niger",
+    "inspection_type": "warranty",
+    "car_id": "k43OFDZ6t",
+    "assignee_id": "vr9eEIvTglZkIOM4aaES",
+    "loan_id": "xRjYTXJTE"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request?country=NG&type=warranty&query=EXV16021642080703
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				type=warranty
+				query=EXV16021642080703
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6IkFLeWlCbWppcVRacTBaWWVybU5EIiwiand0SWQiOiJ5WHVlV0R4MXdXenpCY3lhSUVKOCIsImlhdCI6MTc3MTMxMDY0MiwiZXhwIjoxODAyODQ2NjQyfQ.L-rJr3ohRtXBUUX3dhyl9U0rrrgQRUNkrcj-UT1t3Sc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "inspector1@testing.com",
+    "password": "Autochek@123"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request/inspector
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer null
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ids": [
+        "6UppbBj9L"
+    ],
+    "assignee_id": null
+}
