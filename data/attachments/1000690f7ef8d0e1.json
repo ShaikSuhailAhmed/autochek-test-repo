@@ -1,0 +1,10 @@
+{
+    "error": "Session is invalid",
+    "message": "Session is invalid",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/origination/loans/3DSlAATHM"
+        }
+    ]
+}
