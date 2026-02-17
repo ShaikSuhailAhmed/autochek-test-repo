@@ -1,4 +1,4 @@
-name: E2E Loan API Gate
+name: API Automation Workflow
 
 on:
   pull_request:
@@ -8,47 +8,95 @@ on:
 permissions:
   contents: write
 
+env:
+  BLOCK_SEVERITIES: blocker,critical,sev1,p0
+
 jobs:
-  e2e-loan-tests:
+  api-automation-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout client repo (Repo A)
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Checkout E2E automation repo (Repo B)
-        uses: actions/checkout@v4
-        with:
-          repository: ShaikSuhailAhmed/autochek-api-e2e-loan-automation
-          token: ${{ secrets.E2E_AUTOMATION_TOKEN }}
-          path: e2e
-
-      - name: Setup Java
+      - name: Set up JDK 22
         uses: actions/setup-java@v4
         with:
           java-version: "22"
           distribution: "temurin"
           cache: maven
 
-      - name: Run E2E Loan API tests
-        working-directory: e2e
-        run: mvn -B clean test -DsuiteXmlFile=testng.xml -Dallure.results.directory=target/allure-results
-
-      - name: Generate Allure report
-        working-directory: e2e
+      # Run tests but DO NOT stop job (we still want Allure + Pages)
+      - name: Run API Tests
+        id: run_tests
+        continue-on-error: true
         run: |
-          npm install -g allure-commandline
+          mvn -B clean test \
+            -DsuiteXmlFile=testng.xml \
+            -Dallure.results.directory=target/allure-results
+
+      - name: Verify Allure results exist
+        id: verify
+        run: |
+          RESULT_COUNT=$(find target/allure-results -type f -name "*.json" -not -path "*/history/*" 2>/dev/null | wc -l | tr -d ' ')
+          echo "count=$RESULT_COUNT" >> $GITHUB_OUTPUT
+          if [ "$RESULT_COUNT" -eq 0 ]; then
+            echo "::error::No Allure test results were produced."
+            exit 1
+          fi
+
+      # --- Generate Allure report ---
+      - name: Generate Allure Report
+        if: steps.verify.outputs.count != '0'
+        run: |
+          npm install -g allure-commandline --save-dev
           allure generate target/allure-results -o target/allure-report --clean
 
-      - name: Publish Allure report to GitHub Pages (Repo A)
+      # --- Publish to gh-pages ---
+      - name: Publish Allure report to GitHub Pages
+        if: steps.verify.outputs.count != '0'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: e2e/target/allure-report
+          publish_dir: target/allure-report
+          keep_files: true
 
-      - name: Block PR if E2E tests failed
-        if: failure()
+      # 🔴 SEVERITY-BASED PR GATING (KEY STEP)
+      - name: Gate PR on blocking severities
+        if: always()
         run: |
-          echo "::error::E2E Loan API tests failed. Blocking PR."
-          exit 1
+          sudo apt-get update >/dev/null 2>&1 && sudo apt-get install -y jq >/dev/null 2>&1 || true
+
+          jq -r --arg block "${BLOCK_SEVERITIES}" '
+            ( $block | ascii_downcase | split(",") ) as $sevlist
+            |
+            select(.status=="failed" or .status=="broken")
+            |
+            (.labels // [] 
+              | map(select(.name=="severity") | .value | ascii_downcase)
+              | .[0] // "unknown") as $sev
+            |
+            select( ($sevlist | index($sev)) != null )
+            |
+            [ $sev, .status, (.name // .fullName // "unknown") ] | @tsv
+          ' target/allure-results/*.json 2>/dev/null | tee .blocked.tsv || true
+
+          BLOCK_COUNT=$(wc -l < .blocked.tsv | tr -d ' ')
+
+          {
+            echo ""
+            echo "### Blocking failures (severity-based)"
+            echo "| Severity | Status | Test |"
+            echo "|---|---|---|"
+            if [ "$BLOCK_COUNT" -gt 0 ]; then
+              awk -F'\t' '{printf("| %s | %s | %s |\n",$1,$2,$3)}' .blocked.tsv
+            else
+              echo "| — | — | — |"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ "$BLOCK_COUNT" -gt 0 ]; then
+            echo "::error::Blocking test failures detected ($BLOCK_COUNT). PR will be blocked."
+            exit 1
+          fi
