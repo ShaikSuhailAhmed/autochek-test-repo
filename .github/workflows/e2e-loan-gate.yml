@@ -16,19 +16,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ---------------- Repo A ----------------
-      - name: Checkout client repo (Repo A)
+      # Repo A (client)
+      - name: Checkout client repo
         uses: actions/checkout@v4
 
-      # ---------------- Repo B ----------------
-      - name: Checkout E2E automation repo (Repo B)
+      # Repo B (E2E automation)
+      - name: Checkout E2E automation repo
         uses: actions/checkout@v4
         with:
           repository: ShaikSuhailAhmed/autochek-api-e2e-loan-automation
           token: ${{ secrets.E2E_AUTOMATION_TOKEN }}
           path: e2e
 
-      # ---------------- Java ----------------
       - name: Set up JDK 22
         uses: actions/setup-java@v4
         with:
@@ -36,22 +35,12 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      # ---------------- Run Tests ----------------
       - name: Run E2E API Tests
         working-directory: e2e
         run: mvn -B clean test -DsuiteXmlFile=testng.xml -Dallure.results.directory=target/allure-results
 
-      # ---------------- Verify Results ----------------
-      - name: Verify Allure results exist
-        id: verify
-        working-directory: e2e
-        run: |
-          RESULT_COUNT=$(find target/allure-results -type f -name "*.json" | wc -l | tr -d ' ')
-          echo "count=$RESULT_COUNT" >> $GITHUB_OUTPUT
-          [ "$RESULT_COUNT" -gt 0 ]
-
-      # ---------------- History Restore ----------------
-      - name: Checkout gh-pages (for history)
+      # --- Pull previous gh-pages for history ---
+      - name: Checkout gh-pages (if exists)
         uses: actions/checkout@v4
         with:
           ref: gh-pages
@@ -59,30 +48,45 @@ jobs:
         continue-on-error: true
 
       - name: Restore Allure history
-        working-directory: e2e
         run: |
-          mkdir -p target/allure-results/history
-          if [ -d "../ghp/latest/history" ]; then
-            cp -r ../ghp/latest/history/* target/allure-results/history/
+          mkdir -p e2e/target/allure-results/history
+          if [ -d "ghp/latest/history" ]; then
+            cp -r ghp/latest/history/* e2e/target/allure-results/history/ || true
           fi
 
-      # ---------------- Generate Report ----------------
       - name: Generate Allure Report
         working-directory: e2e
         run: |
           npm install -g allure-commandline
           allure generate target/allure-results -o target/allure-report --clean
 
-      # ---------------- Prepare gh-pages ----------------
+      # --- Prepare gh-pages ---
       - name: Prepare gh-pages content
         run: |
-          mkdir -p ghp/latest
-          cp -r e2e/target/allure-report/* ghp/latest/
-          echo > ghp/.nojekyll
+          TS=$(date -u +"%Y-%m-%d_%H-%M-%S")
+          DEST="${TS}_pr-${{ github.event.pull_request.number }}_${GITHUB_SHA::7}"
 
-      # ---------------- Publish Pages ----------------
-      - name: Publish Allure report to GitHub Pages
-        if: steps.verify.outputs.count != '0'
+          mkdir -p ghp/$DEST
+          mkdir -p ghp/latest
+
+          cp -r e2e/target/allure-report/* ghp/$DEST/
+          cp -r e2e/target/allure-report/* ghp/latest/
+
+          if [ ! -f ghp/.nojekyll ]; then echo > ghp/.nojekyll; fi
+
+          {
+            echo "<!doctype html><html><head><meta charset='utf-8'>"
+            echo "<title>Allure Reports</title></head><body>"
+            echo "<h1>Allure Reports</h1>"
+            echo "<p><b>Latest:</b> <a href='./latest/'>Open</a></p>"
+            echo "<h2>All Runs</h2><ul>"
+            find ghp -maxdepth 1 -type d | sed 's|ghp/||' | grep -vE 'latest|\.git' | sort -r | while read d; do
+              echo "<li><a href='./$d/'>$d</a></li>"
+            done
+            echo "</ul></body></html>"
+          } > ghp/index.html
+
+      - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -90,35 +94,31 @@ jobs:
           publish_dir: ghp
           keep_files: true
 
-      # ---------------- Summary Link ----------------
+      # --- Summary (ROOT link, not /latest) ---
       - name: Post Allure link to Summary
         run: |
-          OWNER="${{ github.repository_owner }}"
-          REPO="${{ github.event.repository.name }}"
-          echo "### Allure Report" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🔗 https://${OWNER}.github.io/${REPO}/latest/" >> $GITHUB_STEP_SUMMARY
+          BASE="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+          {
+            echo "### Allure Report"
+            echo ""
+            echo "[Open report index](${BASE}/)"
+          } >> $GITHUB_STEP_SUMMARY
 
-      # ---------------- Severity Gating ----------------
+      # --- Severity-based PR gating ---
       - name: Gate PR on severe failures
         if: always()
-        working-directory: e2e
         run: |
-          sudo apt-get install -y jq
+          sudo apt-get update -y && sudo apt-get install -y jq || true
           jq -r --arg block "${BLOCK_SEVERITIES}" '
-            ( $block | split(",") ) as $sevlist
-            | select(.status=="failed" or .status=="broken")
-            | (.labels[]? | select(.name=="severity") | .value) as $sev
-            | select($sevlist | index($sev))
-            | [$sev, .status, .name] | @tsv
-          ' target/allure-results/*.json | tee blocked.tsv
+            ($block | split(",")) as $sev |
+            select(.status=="failed" or .status=="broken") |
+            (.labels[]? | select(.name=="severity") | .value) as $s |
+            select($sev | index($s)) |
+            [$s, .status, .name] | @tsv
+          ' e2e/target/allure-results/*.json > blocked.tsv || true
 
-          COUNT=$(wc -l < blocked.tsv | tr -d ' ')
-          {
-            echo "### Severe test failures (blocking)"
-            echo "| Severity | Status | Test |"
-            echo "|---|---|---|"
-            [ "$COUNT" -gt 0 ] && awk -F'\t' '{print "| "$1" | "$2" | "$3" |"}' blocked.tsv || echo "| — | — | — |"
-          } >> "$GITHUB_STEP_SUMMARY"
-
-          [ "$COUNT" -gt 0 ] && exit 1 || true
+          COUNT=$(wc -l < blocked.tsv)
+          if [ "$COUNT" -gt 0 ]; then
+            echo "::error::Severe failures detected. Blocking PR."
+            exit 1
+          fi
