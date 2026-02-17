@@ -1,0 +1,54 @@
+name: E2E Loan API Gate
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  e2e-loan-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout client repo (Repo A)
+        uses: actions/checkout@v4
+
+      - name: Checkout E2E automation repo (Repo B)
+        uses: actions/checkout@v4
+        with:
+          repository: ShaikSuhailAhmed/autochek-api-e2e-loan-automation
+          token: ${{ secrets.E2E_AUTOMATION_TOKEN }}
+          path: e2e
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: "22"
+          distribution: "temurin"
+          cache: maven
+
+      - name: Run E2E Loan API tests
+        working-directory: e2e
+        run: mvn -B clean test -DsuiteXmlFile=testng.xml -Dallure.results.directory=target/allure-results
+
+      - name: Generate Allure report
+        working-directory: e2e
+        run: |
+          npm install -g allure-commandline
+          allure generate target/allure-results -o target/allure-report --clean
+
+      - name: Publish Allure report to GitHub Pages (Repo A)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: e2e/target/allure-report
+
+      - name: Block PR if E2E tests failed
+        if: failure()
+        run: |
+          echo "::error::E2E Loan API tests failed. Blocking PR."
+          exit 1
