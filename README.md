@@ -1,1 +1,3 @@
 # autochek-test-repo
+
+test
