@@ -1,3 +1,4 @@
-# autochek-test-repo
+It should not merge now
+
 
 test
