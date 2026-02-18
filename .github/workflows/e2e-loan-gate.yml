@@ -118,11 +118,11 @@ jobs:
             echo "<p><strong>Latest:</strong> <a href='./latest/'>Open</a> <span class='muted'>(auto-updated)</span></p>"
             echo "<h2>All Runs</h2><ul>"
             find ghp -maxdepth 1 -type d -printf '%f\n' 2>/dev/null \
-              | grep -Ev '^\.$|^\.git$|^latest$' \
-              | sort -r \
-              | while read d; do
+                | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}_.+' \
+                | sort -r \
+                | while read d; do
                   if [ -d "ghp/$d" ]; then
-                    echo "<li><a href='./$d/'>$d</a></li>"
+                    echo  "<li><a href='./$d/'>$d</a></li>"
                   fi
                 done
             echo "</ul>"
