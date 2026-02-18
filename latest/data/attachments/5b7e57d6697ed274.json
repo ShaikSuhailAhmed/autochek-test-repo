@@ -1,0 +1,161 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "sNa1fUdy1I",
+                    "status": "pending",
+                    "createdAt": "2026-02-17T05:33:04.819Z"
+                },
+                {
+                    "id": "omm7JN_ti",
+                    "status": "scheduled",
+                    "createdAt": "2026-02-17T05:51:14.928Z"
+                }
+            ],
+            "inspectionRequestSummary": [
+                {
+                    "id": "rCN_5fHC5",
+                    "assigneeId": "0DKPnNJoj",
+                    "inspectionStatus": "pending",
+                    "createdAt": "2026-02-17T05:51:13.085Z",
+                    "updatedAt": "2026-02-17T05:51:13.085Z"
+                }
+            ],
+            "id": "tDwpISVrs",
+            "carTitle": "Toyota Corolla 2025",
+            "modelId": 1891,
+            "vin": "RXC16021641436917",
+            "isExistingCar": true,
+            "assigneeId": "0DKPnNJoj",
+            "assigneeFirstName": "Inspector",
+            "assigneeLastName": "Frugal testing",
+            "assigneePhoneNumber": "+2349997766551",
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "254791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "scheduled",
+            "createdAt": "2026-02-17T05:33:04.759Z",
+            "updatedAt": "2026-02-17T05:51:13.085Z",
+            "carId": "qflw8tfmL",
+            "userId": "PAJ4DaGVsqA8OkmlFDZB",
+            "userName": "Jayanth Pavanagundla",
+            "userPhoneNumber": "+2348907899870",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "830333112358581",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "qflw8tfmL",
+                "year": 2025,
+                "insured": false,
+                "mileage": 2555,
+                "vin": "RXC16021641436917",
+                "licensePlate": "LP30003",
+                "engineNumber": "552926518",
+                "price": 909900,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 909900,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/mbT46TPy.jpg",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1891,
+                    "name": "Corolla",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": true
+                },
+                "state": "Niger",
+                "country": "NG",
+                "address": "Block A, Apo Resettlement",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "new",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "city": "Borgu",
+                "marketplaceOldPrice": 909900,
+                "createdAt": "2026-02-16T11:11:45.091Z",
+                "updatedAt": "2026-02-16T11:18:13.336Z",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "green",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 5,
+                "installment": 111457,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 1291514,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/qflw8tfmL",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 1,
+                "moderated": false,
+                "summary": "TEST123",
+                "listingScore": "3.1",
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "assignedAt": "2026-02-17T05:51:13.085Z",
+            "summary": "{\"sms\":[{\"text\":\"Hello 100% Automobile Nig., this is Inspector Frugal testing from Autochek. I tried reaching you regarding the vehicle inspection for Toyota Corolla 2025, , but I was unable to get through. Kindly let me know a convenient time to connect. Thank you.\",\"order\":\"1\",\"title\":\"Phone unreableble\"},{\"text\":\"Hello 100% Automobile Nig., this is Inspector Frugal testing from Autochek. I’ve been trying to call you regarding the vehicle inspection for Toyota Corolla 2025, but haven’t been able to reach you. Please call me back at your earliest convenience. Thanks.\",\"order\":\"2\",\"title\":\"Not picking up call\"},{\"text\":\"Hello 100% Automobile Nig., this is Inspector Frugal testing from Autochek. I tried contacting you regarding the vehicle inspection for Toyota Corolla 2025, but your phone appears to be switched off. Kindly contact me when you are available or provide an alternative contact number. Thank you.\",\"order\":\"3\",\"title\":\"Phone switched off\"}],\"call\":[]}"
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
