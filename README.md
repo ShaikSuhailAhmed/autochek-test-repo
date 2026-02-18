@@ -1,17 +1,1 @@
-# autochek-test-repo
-
-
-test here 
-
-
-test here
-
-
-tesr\t here
-
-
-now here
-
-test here 
-
-test
+Pass IF No Critical
