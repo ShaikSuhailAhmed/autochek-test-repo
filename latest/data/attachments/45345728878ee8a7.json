@@ -1,0 +1,417 @@
+{
+    "equities": [
+        
+    ],
+    "offers": [
+        
+    ],
+    "loanFields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontRoadsideAssistance",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "creditCheckConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "financeAndVehicleConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "platformPolicy",
+            "value": "Yes",
+            "valid": true
+        }
+    ],
+    "carFields": [
+        
+    ],
+    "yangoCarDetails": [
+        
+    ],
+    "id": "OyItpVUKc",
+    "email": "ng80b5f6@test.com",
+    "phone": "+2342556662550",
+    "carId": "dMHwK7_UG",
+    "country": "NG",
+    "firstName": "E2E_By_FA_6ed0f8",
+    "lastName": "AUTO_a96dc3",
+    "lastSeen": "Wed Feb 18 2026 06:51:46 GMT+0000 (Coordinated Universal Time)",
+    "firstSeen": "Wed Feb 18 2026 06:51:46 GMT+0000 (Coordinated Universal Time)",
+    "status": "APPLICATION_COMPLETED",
+    "car": {
+        "id": "dMHwK7_UG",
+        "year": 2020,
+        "insured": false,
+        "mileage": 2555,
+        "vin": "0000779324771430531",
+        "licensePlate": "78891558",
+        "engineNumber": "12411",
+        "price": 909900,
+        "createdBy": "BQlQBbLTW",
+        "marketplacePrice": 909900,
+        "marketplaceVisible": false,
+        "isFeatured": false,
+        "imageUrl": "https://media.autochek.africa/file/w_812,q_100/X0siggWk.webp",
+        "ownerId": "-lh7_mmKJ",
+        "model": {
+            "id": 1891,
+            "name": "Corolla",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 106,
+                "name": "Toyota",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+            },
+            "popular": true
+        },
+        "state": "Abuja",
+        "country": "NG",
+        "address": "test",
+        "carManagerId": "kpMngdaMZ",
+        "ownerType": "self",
+        "transmission": "automatic",
+        "fuelType": "petrol",
+        "sellingCondition": "new",
+        "bodyType": {
+            "id": 7,
+            "name": "Coupe",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+        },
+        "city": "Airport Junction Citec",
+        "marketplaceOldPrice": 909900,
+        "createdAt": "Tue Feb 10 2026 16:35:02 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Tue Feb 10 2026 16:36:51 GMT+0000 (Coordinated Universal Time)",
+        "mileageUnit": "km",
+        "hasWarranty": false,
+        "hasFinancing": true,
+        "interiorColor": "blue",
+        "exteriorColor": "green",
+        "engineType": "2-cylinder(I2)",
+        "gradeScore": 4.5,
+        "installment": 111457,
+        "depositReceived": false,
+        "isFirstOwner": false,
+        "loanValue": 1291514,
+        "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/dMHwK7_UG",
+        "sold": false,
+        "hasThreeDImage": false,
+        "isUpgraded": false,
+        "ccMeasurement": 1,
+        "carManagerName": "100% Automobile Nig."
+    },
+    "sourceId": "kpMngdaMZ",
+    "loanValue": 1291514,
+    "productType": "Decision Engine Loan",
+    "source": "FRANCHISE",
+    "sourceData": "100% Automobile Nig.",
+    "customer": {
+        "profile": [
+            {
+                "name": "sourceDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "sourceData",
+                "value": "100% Automobile Nig.",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "source",
+                "value": "FRANCHISE",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerSource",
+                "value": "Franchise",
+                "valid": true
+            },
+            {
+                "name": "referrerData",
+                "value": "100% Automobile Nig.",
+                "valid": true
+            },
+            {
+                "name": "referrerDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "firstName",
+                "value": "E2E_By_FA_6ed0f8",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "lastName",
+                "value": "AUTO_a96dc3",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "telephone",
+                "value": "+2342556662550",
+                "type": "tel",
+                "valid": true
+            },
+            {
+                "name": "email",
+                "value": "ng80b5f6@test.com",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "description",
+                "value": "Salary earner",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome",
+                "value": "334371.0",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "sourceOfFunds",
+                "value": "Wages, bonuses, dividends, and other income from employment",
+                "valid": true
+            },
+            {
+                "name": "dob",
+                "value": "1997-11-21",
+                "type": "date",
+                "valid": true
+            },
+            {
+                "name": "nin",
+                "value": "52959089801",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "BVN",
+                "value": "74428872162",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "gender",
+                "value": "Male",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "nationality",
+                "value": "Nigeria",
+                "valid": true
+            },
+            {
+                "name": "nationalityStatus",
+                "value": "Citizen",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "state",
+                "value": "Abuja",
+                "valid": true
+            },
+            {
+                "name": "employmentType",
+                "value": "Permanent",
+                "valid": true
+            },
+            {
+                "name": "industry",
+                "value": "Consultancy",
+                "valid": true
+            },
+            {
+                "name": "employerName",
+                "value": "Test",
+                "valid": true
+            },
+            {
+                "name": "employerAddress",
+                "value": "Test Address",
+                "valid": true
+            },
+            {
+                "name": "yearWithEmployer",
+                "value": "1",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "sideBusiness",
+                "value": "No",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "primaryBank",
+                "value": "Globus Bank Limited",
+                "valid": true
+            },
+            {
+                "name": "accountHolderName",
+                "value": "Test Testing",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "accountNumber",
+                "value": "5568000195",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "accountType",
+                "value": "Savings",
+                "valid": true
+            },
+            {
+                "name": "monthlyExpenses",
+                "value": "65000",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome2",
+                "value": "334371.0",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "vehicleUse",
+                "value": "Personal",
+                "type": "radio",
+                "valid": true
+            }
+        ],
+        "utmParams": [
+            
+        ],
+        "id": "wYGQY59HNO",
+        "userId": "rBnU01pSC",
+        "country": "NG",
+        "createdAt": "Wed Feb 18 2026 06:51:44 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Wed Feb 18 2026 06:51:44 GMT+0000 (Coordinated Universal Time)",
+        "prequalification": {
+            
+        }
+    },
+    "expired": false,
+    "completedAt": "Wed Feb 18 2026 06:51:46 GMT+0000 (Coordinated Universal Time)",
+    "preQualified": false,
+    "product": {
+        "requestedDocuments": [
+            
+        ],
+        "id": "hj43BXLXe",
+        "name": "Decision Engine Loan",
+        "country": "NG",
+        "active": true
+    },
+    "createdAt": "Wed Feb 18 2026 06:51:46 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Wed Feb 18 2026 06:51:46 GMT+0000 (Coordinated Universal Time)",
+    "createdBy": "BQlQBbLTW",
+    "version": 3,
+    "creator": {
+        "id": "BQlQBbLTW",
+        "firstname": "Frugal",
+        "lastname": "test123",
+        "email": "suhail+1@frugaltestingin.com",
+        "primaryPhone": "+2347778889991"
+    },
+    "disburseAmount": 0,
+    "collateralDocuments": {
+        
+    },
+    "referrerSource": "Franchise",
+    "referrerData": "100% Automobile Nig.",
+    "referrerDataId": "kpMngdaMZ",
+    "expiredOfferCount": "0/0",
+    "rejectedByOrigination": false,
+    "loanCurrency": "NGN",
+    "potentialGmv": "Low",
+    "app": "dealerplus",
+    "customerType": "SALARY EARNER",
+    "isAccion": false
+}
