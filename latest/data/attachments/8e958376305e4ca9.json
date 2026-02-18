@@ -1,0 +1,161 @@
+{
+  "data" : [ {
+    "valid" : true,
+    "name" : "nameTitle",
+    "label" : "Title",
+    "type" : "selection",
+    "value" : "Mr"
+  }, {
+    "valid" : true,
+    "name" : "maritalStatus",
+    "label" : "Marital status",
+    "type" : "radio",
+    "value" : "Single"
+  }, {
+    "valid" : true,
+    "name" : "address",
+    "label" : "Address",
+    "type" : "google-address",
+    "value" : "Niger, Nigeria"
+  }, {
+    "valid" : true,
+    "name" : "houseNumber",
+    "label" : "House/Apartment number",
+    "type" : "text",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "streetName",
+    "label" : "Street name",
+    "type" : "text",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "state",
+    "label" : "State of residence",
+    "type" : "selection",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "lga",
+    "label" : "LGA of residence",
+    "type" : "selection",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "city",
+    "label" : "City of residence",
+    "type" : "selection",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "nextOfKinName",
+    "label" : "Next of Kin's name",
+    "type" : "text",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "nextOfKinAddress",
+    "label" : "Next of Kin's Address",
+    "type" : "text",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "nextOfKinTelephone",
+    "label" : "Next of Kin's Phone number",
+    "type" : "tel",
+    "value" : "+2349934199484"
+  }, {
+    "valid" : true,
+    "name" : "nextOfKinEmail",
+    "label" : "Next of Kin's Email",
+    "type" : "email",
+    "value" : "testuser_cce26f7a@testing.com"
+  }, {
+    "valid" : true,
+    "name" : "nextOfKinRelationship",
+    "label" : "Next of Kin's Relationship",
+    "type" : "text",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "accountHolderName",
+    "label" : "Account holder name",
+    "type" : "text",
+    "value" : "TestValue"
+  }, {
+    "valid" : true,
+    "name" : "accountNumber",
+    "label" : "Your account number",
+    "type" : "number",
+    "value" : "3784780039"
+  }, {
+    "valid" : true,
+    "name" : "accountType",
+    "label" : "Account type",
+    "type" : "selection",
+    "value" : "Savings"
+  } ],
+  "documents" : [ {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "workId",
+    "description" : "workId"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "proofOfEmployment",
+    "description" : "proofOfEmployment"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "proofOfEmploymentPayslip",
+    "description" : "proofOfEmploymentPayslip"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "proofOfEmploymentPayslip2",
+    "description" : "proofOfEmploymentPayslip2"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "proofOfEmploymentPayslip3",
+    "description" : "proofOfEmploymentPayslip3"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "passport",
+    "description" : "passport"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "residencyOrWorkPermit",
+    "description" : "residencyOrWorkPermit"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "personalBankStatement",
+    "description" : "personalBankStatement"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "businessBankStatement",
+    "description" : "businessBankStatement"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "mobileMoneyStatement",
+    "description" : "mobileMoneyStatement"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "utilityBill",
+    "description" : "utilityBill"
+  }, {
+    "file_url" : "https://storage.googleapis.com/autochek-staging/05c78fbc-90bd-4be6-b45b-e4f407b48a98-Testing.pdf",
+    "password" : "",
+    "name" : "dealerInvoice",
+    "description" : "dealerInvoice"
+  } ],
+  "loan_id" : "_jBnYGXnh"
+}
