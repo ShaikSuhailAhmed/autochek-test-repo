@@ -1,0 +1,137 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "PZVI7TsfGA",
+                    "status": "pending",
+                    "createdAt": "Tue Feb 24 2026 07:10:22 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "qZaCqV2RG",
+            "carTitle": "Acura RDX 2023",
+            "modelId": 2060,
+            "vin": "SWERTY7IKOL9P",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "254791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-02-24T07:10:22.108Z",
+            "updatedAt": "2026-02-24T07:10:22.108Z",
+            "carId": "GJpKO8hSL",
+            "userId": "v7RngEw6Ibj76QrnAiJb",
+            "userName": "E2E_By_AM_d933bd AUTO_f3ffea",
+            "userPhoneNumber": "+2345942108505",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "386908758655804",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "GJpKO8hSL",
+                "year": 2023,
+                "insured": false,
+                "mileage": 10,
+                "vin": "SWERTY7IKOL9P",
+                "price": 5625603,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 5625603,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_496,q_100/5A6JVSVf.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 2060,
+                    "name": "RDX",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": false
+                },
+                "country": "NG",
+                "carManagerId": "kpMngdaMZ",
+                "transmission": "duplex",
+                "fuelType": "hybrid-petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 4,
+                    "name": "Convertible",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Convertible.svg"
+                },
+                "marketplaceOldPrice": 5625603,
+                "createdAt": "Wed Feb 18 2026 16:31:15 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Feb 18 2026 17:00:13 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "green",
+                "exteriorColor": "yellow",
+                "engineType": "10-cylinder(V10)",
+                "gradeScore": 3,
+                "installment": 359549,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 5112801,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/rdx/acura/GJpKO8hSL",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 13231,
+                "moderated": true,
+                "moderationStatus": "pending",
+                "summary": "asdfghjkljhgfdsa",
+                "listingScore": "2.8",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
