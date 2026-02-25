@@ -66,8 +66,8 @@ jobs:
     - name: Verify Allure results exist
       id: verify
       run: |
-        API_COUNT=$(find e2e/api-automation/target/allure-results -name "*.json" | wc -l)
-        UI_COUNT=$(find e2e/ui-automation/target/allure-results -name "*.json" | wc -l)
+        API_COUNT=$(find e2e/api-automation/target/allure-results -name "*.json" -not -path "*/history/*" | wc -l)
+        UI_COUNT=$(find e2e/ui-automation/target/allure-results -name "*.json" -not -path "*/history/*" | wc -l)
 
         echo "api_count=$API_COUNT" >> $GITHUB_OUTPUT
         echo "ui_count=$UI_COUNT" >> $GITHUB_OUTPUT
@@ -108,12 +108,12 @@ jobs:
         allure generate e2e/ui-automation/target/allure-results  -o e2e/ui-automation/target/allure-report  --clean
 
     # =========================================================
-    # Compute archive directory
+    # Compute archive directory (for history trend)
     # =========================================================
     - name: Compute archive directory
       id: meta
       run: |
-        TS=$(date -u +"%Y-%m-%d_%H-%M")
+        TS=$(date -u +"%Y-%m-%d_%H-%M-%S")
         SHORT_SHA=${GITHUB_SHA::7}
         DEST="${TS}_${SHORT_SHA}"
         echo "dest_dir=$DEST" >> $GITHUB_OUTPUT
@@ -166,38 +166,80 @@ jobs:
         keep_files: true
 
     # =========================================================
-    # Summary (CLEAN)
+    # CLEAN SUMMARY (ONLY FAILED + SEVERE)
     # =========================================================
     - name: Job Summary
+      if: always()
       run: |
         BASE="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+
         {
           echo "## Allure Reports"
           echo ""
           echo "- [API Report](${BASE}/latest/api/)"
           echo "- [UI Report](${BASE}/latest/ui/)"
           echo ""
+
           echo "## API Severe Failures"
           echo "| Severity | Test |"
           echo "|---|---|"
-          jq -r '.labels[]?|select(.name=="severity")|.value' e2e/api-automation/target/allure-results/*.json 2>/dev/null | sed 's/^/| /;s/$/ |/' || echo "| — | — |"
+          jq -r --arg block "${API_BLOCK_SEVERITIES}" '
+            ( $block | split(",") ) as $sevlist
+            |
+            select(.status=="failed" or .status=="broken")
+            |
+            (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
+            |
+            select($sev != null and ($sevlist | index($sev)))
+            |
+            "| \($sev) | \(.name // .fullName) |"
+          ' e2e/api-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
+
           echo ""
           echo "## UI Severe Failures"
           echo "| Severity | Test |"
           echo "|---|---|"
-          jq -r '.labels[]?|select(.name=="severity")|.value' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | sed 's/^/| /;s/$/ |/' || echo "| — | — |"
-        } >> $GITHUB_STEP_SUMMARY
+          jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
+            ( $block | split(",") ) as $sevlist
+            |
+            select(.status=="failed" or .status=="broken")
+            |
+            (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
+            |
+            select($sev != null and ($sevlist | index($sev)))
+            |
+            "| \($sev) | \(.name // .fullName) |"
+          ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
+
+        } >> "$GITHUB_STEP_SUMMARY"
 
     # =========================================================
-    # FINAL GATING (AFTER EVERYTHING)
+    # FINAL PR GATE (AFTER EVERYTHING)
     # =========================================================
     - name: Final PR Gate
       if: always()
       run: |
-        API_FAIL=$(jq -r --arg s "${API_BLOCK_SEVERITIES}" '(select(.status=="failed")|.labels[]?|select(.name=="severity")|.value)' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
-        UI_FAIL=$(jq -r --arg s "${UI_BLOCK_SEVERITIES}"  '(select(.status=="failed")|.labels[]?|select(.name=="severity")|.value)' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+        API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '
+          ( $block | split(",") ) as $sevlist
+          |
+          select(.status=="failed" or .status=="broken")
+          |
+          (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev
+          |
+          select($sevlist | index($sev))
+        ' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
 
-        if [ "$API_FAIL" -gt 0 ] || [ "$UI_FAIL" -gt 0 ]; then
+        UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
+          ( $block | split(",") ) as $sevlist
+          |
+          select(.status=="failed" or .status=="broken")
+          |
+          (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev
+          |
+          select($sevlist | index($sev))
+        ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+
+        if [ "$API_BLOCK" -gt 0 ] || [ "$UI_BLOCK" -gt 0 ]; then
           echo "::error::Blocking severe failures detected"
           exit 1
         fi
