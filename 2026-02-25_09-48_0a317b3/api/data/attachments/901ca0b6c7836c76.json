@@ -1,0 +1,418 @@
+{
+    "equities": [
+        
+    ],
+    "offers": [
+        
+    ],
+    "loanFields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontRoadsideAssistance",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "creditCheckConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "financeAndVehicleConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "platformPolicy",
+            "value": "Yes",
+            "valid": true
+        }
+    ],
+    "carFields": [
+        
+    ],
+    "yangoCarDetails": [
+        
+    ],
+    "id": "HH0FQCx9S",
+    "email": "ng107337@test.com",
+    "phone": "+2345087814219",
+    "carId": "IhBKgoP4r",
+    "country": "NG",
+    "firstName": "E2E_By_AM_c78edb",
+    "lastName": "AUTO_ecf359",
+    "lastSeen": "Wed Feb 25 2026 09:33:27 GMT+0000 (Coordinated Universal Time)",
+    "firstSeen": "Wed Feb 25 2026 09:33:27 GMT+0000 (Coordinated Universal Time)",
+    "status": "APPLICATION_COMPLETED",
+    "car": {
+        "id": "IhBKgoP4r",
+        "year": 2015,
+        "insured": false,
+        "mileage": 10,
+        "vin": "FIIYYWRCCCCXU0WIM",
+        "licensePlate": "JI00NB2115",
+        "engineNumber": "95771319096",
+        "price": 10000000,
+        "createdBy": "JRcyGKufp1UGZ0Fu4U3U",
+        "marketplacePrice": 10000000,
+        "marketplaceVisible": true,
+        "marketplaceVisibleDate": "Mon Feb 23 2026 10:58:14 GMT+0000 (Coordinated Universal Time)",
+        "isFeatured": false,
+        "imageUrl": "https://media.autochek.africa/file/w_322,q_100/8qHrrvxz.webp",
+        "ownerId": "-lh7_mmKJ",
+        "model": {
+            "id": 87,
+            "name": "A5",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 9,
+                "name": "Audi",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+            },
+            "popular": false
+        },
+        "state": "Niger",
+        "country": "NG",
+        "address": "Chanchaga City",
+        "carManagerId": "kpMngdaMZ",
+        "ownerType": "self",
+        "transmission": "manual",
+        "fuelType": "petrol",
+        "sellingCondition": "local",
+        "bodyType": {
+            "id": 7,
+            "name": "Coupe",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+        },
+        "city": "Chanchaga",
+        "marketplaceOldPrice": 10000000,
+        "createdAt": "Mon Feb 23 2026 10:55:28 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Mon Feb 23 2026 10:59:22 GMT+0000 (Coordinated Universal Time)",
+        "mileageUnit": "km",
+        "hasWarranty": false,
+        "hasFinancing": true,
+        "interiorColor": "blue",
+        "exteriorColor": "red",
+        "engineType": "2-cylinder(I2)",
+        "gradeScore": 3.799999952316284,
+        "installment": 438702,
+        "depositReceived": false,
+        "isFirstOwner": false,
+        "loanValue": 7315706,
+        "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/IhBKgoP4r",
+        "sold": false,
+        "hasThreeDImage": false,
+        "isUpgraded": false,
+        "ccMeasurement": 4000,
+        "carManagerName": "100% Automobile Nig."
+    },
+    "sourceId": "vr9eEIvTglZkIOM4aaES",
+    "loanValue": 7315706,
+    "productType": "Decision Engine Loan",
+    "source": "accountManager",
+    "sourceData": "eshareddy+am1@frugaltestingin.com",
+    "customer": {
+        "profile": [
+            {
+                "name": "sourceDataId",
+                "value": "vr9eEIvTglZkIOM4aaES",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "sourceData",
+                "value": "eshareddy+am1@frugaltestingin.com",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "source",
+                "value": "accountManager",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerSource",
+                "value": "Franchise",
+                "valid": true
+            },
+            {
+                "name": "referrerData",
+                "value": "100% Automobile Nig.",
+                "valid": true
+            },
+            {
+                "name": "referrerDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "firstName",
+                "value": "E2E_By_AM_c78edb",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "lastName",
+                "value": "AUTO_ecf359",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "telephone",
+                "value": "+2345087814219",
+                "type": "tel",
+                "valid": true
+            },
+            {
+                "name": "email",
+                "value": "ng107337@test.com",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "description",
+                "value": "Salary earner",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome",
+                "value": "1316106.0",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "sourceOfFunds",
+                "value": "Wages, bonuses, dividends, and other income from employment",
+                "valid": true
+            },
+            {
+                "name": "dob",
+                "value": "1991-04-18",
+                "type": "date",
+                "valid": true
+            },
+            {
+                "name": "nin",
+                "value": "85074455081",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "BVN",
+                "value": "03635442625",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "gender",
+                "value": "Male",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "nationality",
+                "value": "Nigeria",
+                "valid": true
+            },
+            {
+                "name": "nationalityStatus",
+                "value": "Resident",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "state",
+                "value": "Abuja",
+                "valid": true
+            },
+            {
+                "name": "employmentType",
+                "value": "Permanent",
+                "valid": true
+            },
+            {
+                "name": "industry",
+                "value": "Consultancy",
+                "valid": true
+            },
+            {
+                "name": "employerName",
+                "value": "Test",
+                "valid": true
+            },
+            {
+                "name": "employerAddress",
+                "value": "Test Address",
+                "valid": true
+            },
+            {
+                "name": "yearWithEmployer",
+                "value": "1",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "sideBusiness",
+                "value": "No",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "primaryBank",
+                "value": "Globus Bank Limited",
+                "valid": true
+            },
+            {
+                "name": "accountHolderName",
+                "value": "Test Testing",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "accountNumber",
+                "value": "4259856615",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "accountType",
+                "value": "Savings",
+                "valid": true
+            },
+            {
+                "name": "monthlyExpenses",
+                "value": "65000",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome2",
+                "value": "1316106.0",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "vehicleUse",
+                "value": "Personal",
+                "type": "radio",
+                "valid": true
+            }
+        ],
+        "utmParams": [
+            
+        ],
+        "id": "SyqcfFVccn",
+        "userId": "PZvUsdt8olllCGiAiO2y",
+        "country": "NG",
+        "createdAt": "Wed Feb 25 2026 09:33:23 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Wed Feb 25 2026 09:33:23 GMT+0000 (Coordinated Universal Time)",
+        "prequalification": {
+            
+        }
+    },
+    "expired": false,
+    "completedAt": "Wed Feb 25 2026 09:33:27 GMT+0000 (Coordinated Universal Time)",
+    "preQualified": false,
+    "product": {
+        "requestedDocuments": [
+            
+        ],
+        "id": "hj43BXLXe",
+        "name": "Decision Engine Loan",
+        "country": "NG",
+        "active": true
+    },
+    "createdAt": "Wed Feb 25 2026 09:33:27 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Wed Feb 25 2026 09:33:27 GMT+0000 (Coordinated Universal Time)",
+    "createdBy": "vr9eEIvTglZkIOM4aaES",
+    "version": 3,
+    "creator": {
+        "id": "vr9eEIvTglZkIOM4aaES",
+        "firstname": "AccountManager",
+        "lastname": "Testing",
+        "email": "eshareddy+am1@frugaltestingin.com",
+        "primaryPhone": "+2349988773736"
+    },
+    "disburseAmount": 0,
+    "collateralDocuments": {
+        
+    },
+    "referrerSource": "Franchise",
+    "referrerData": "100% Automobile Nig.",
+    "referrerDataId": "kpMngdaMZ",
+    "expiredOfferCount": "0/0",
+    "rejectedByOrigination": false,
+    "loanCurrency": "NGN",
+    "potentialGmv": "Low",
+    "app": "dealerplus",
+    "customerType": "SALARY EARNER",
+    "isAccion": false
+}
