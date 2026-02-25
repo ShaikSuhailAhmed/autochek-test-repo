@@ -1,0 +1,142 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "Lt2VCjCYdu",
+                    "status": "pending",
+                    "createdAt": "Wed Feb 25 2026 12:30:51 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "vT1a9OWSx",
+            "carTitle": "Audi A6 2025",
+            "modelId": 88,
+            "vin": "TESTQ990127DH7380",
+            "isExistingCar": true,
+            "franchiseId": "7zCQ9KqlF",
+            "franchiseName": "NG Test Franchise",
+            "franchisePhoneNumber": "2349038649785",
+            "franchiseAddress": "1 Sylvia Crescent, Anthony, Lagos 105102, NG",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-02-25T12:30:51.485Z",
+            "updatedAt": "2026-02-25T12:30:51.485Z",
+            "carId": "-jFd6yutP",
+            "userId": "nE352GXw8vdooUOFCQyV",
+            "userName": "E2E_By_FA_028146 AUTO_a267e9",
+            "userPhoneNumber": "+2344112881914",
+            "source": "franchise",
+            "franchiseType": "workshop",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "324648355270433",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "-jFd6yutP",
+                "year": 2025,
+                "insured": false,
+                "mileage": 200,
+                "vin": "TESTQ990127DH7380",
+                "engineNumber": "66172",
+                "price": 12390000,
+                "createdBy": "Nahj5uITN",
+                "marketplacePrice": 12390000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Wed Feb 25 2026 07:42:17 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_259,q_100/65vkLyrL.webp",
+                "ownerId": "SrL3z-tLw",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 88,
+                    "name": "A6",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "1, Sylvia crescent street, Autochek, Anthony-village, Nigeria",
+                "carManagerId": "7zCQ9KqlF",
+                "ownerType": "self",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 14,
+                    "name": "Saloon",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/bca2d7e4-6670-44f8-ae2b-00ef08c67835-Saloon.svg"
+                },
+                "city": "Anthony",
+                "marketplaceOldPrice": 12390000,
+                "createdAt": "Wed Feb 25 2026 07:34:52 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Feb 25 2026 08:28:21 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": true,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "blue",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3,
+                "installment": 585388,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 9557292,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a6/audi/-jFd6yutP",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2300,
+                "moderated": false,
+                "listingScore": "4.1",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
