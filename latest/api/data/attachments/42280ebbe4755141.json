@@ -1,0 +1,143 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "KXSL6Rme7",
+                    "status": "pending",
+                    "createdAt": "Wed Feb 25 2026 07:30:24 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "K11Lu_1xl",
+            "carTitle": "Toyota Corolla 2020",
+            "modelId": 1891,
+            "vin": "0000792138121999041",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "254791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-02-25T07:30:24.035Z",
+            "updatedAt": "2026-02-25T07:30:24.035Z",
+            "carId": "g1hqao9dL",
+            "userId": "4e1cOp4kA4kuRRPClrrI",
+            "userName": "E2E_By_AM_b5d8dc AUTO_a47cea",
+            "userPhoneNumber": "+2345789508346",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "369961342813560",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "g1hqao9dL",
+                "year": 2020,
+                "insured": false,
+                "mileage": 2555,
+                "vin": "0000792138121999041",
+                "licensePlate": "78891558",
+                "engineNumber": "643100691",
+                "price": 909900,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 909900,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_812,q_100/X0siggWk.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1891,
+                    "name": "Corolla",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": true
+                },
+                "state": "Abuja",
+                "country": "NG",
+                "address": "test",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "self",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "new",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "city": "Airport Junction Citec",
+                "marketplaceOldPrice": 909900,
+                "createdAt": "Tue Feb 24 2026 13:57:34 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Tue Feb 24 2026 14:00:04 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "green",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 4.5,
+                "installment": 111457,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 1291514,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/g1hqao9dL",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 1,
+                "moderated": false,
+                "summary": "test",
+                "listingScore": "3.7",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
