@@ -1,0 +1,11 @@
+{
+    "code": 4090,
+    "error": "There is a completed inspection in the past 45 days for this VIN: LQO19020925306648",
+    "message": "There is a completed inspection in the past 45 days for this VIN: LQO19020925306648",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/inspection_request"
+        }
+    ]
+}
