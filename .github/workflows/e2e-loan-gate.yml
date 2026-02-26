@@ -107,7 +107,7 @@ jobs:
           allure generate e2e/api-automation/target/allure-results -o e2e/api-automation/target/allure-report --clean
           allure generate e2e/ui-automation/target/allure-results  -o e2e/ui-automation/target/allure-report --clean
 
-      # =========================================================
+       # =========================================================
       # Compute archive directory (for history trend)
       # =========================================================
       - name: Compute archive directory
@@ -145,11 +145,6 @@ jobs:
               <li><a href="./latest/api/">API Report</a></li>
               <li><a href="./latest/ui/">UI Report</a></li>
             </ul>
-            <h2>This Run</h2>
-            <ul>
-              <li><a href="./${DEST}/api/">API</a></li>
-              <li><a href="./${DEST}/ui/">UI</a></li>
-            </ul>
 
             <h2>All Runs</h2>
             <ul>
@@ -164,7 +159,6 @@ jobs:
           EOF
 
           touch ghp/.nojekyll
-
       # =========================================================
       # Publish gh-pages
       # =========================================================
