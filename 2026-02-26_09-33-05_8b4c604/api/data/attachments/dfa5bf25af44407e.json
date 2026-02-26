@@ -1,0 +1,10 @@
+{
+    "error": "jwt malformed",
+    "message": "jwt malformed",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=9&page_size=50&franchise=kpMngdaMZ&country=NG&name=Toyota"
+        }
+    ]
+}

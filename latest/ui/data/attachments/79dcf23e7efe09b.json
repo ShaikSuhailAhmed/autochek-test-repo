@@ -1,0 +1,39 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJLWXYxS3VOTnF0V0NyZHhwdFBGTCIsImp3dElkIjoidXRTTWdjdVVDbWx1WDJNN0hoeGgiLCJpYXQiOjE3NzIwOTgzNzcsImV4cCI6MTgwMzYzNDM3N30.1yDsHbhuHSLqqq5Dr8OKTOE-rq2Xg4hXbxWqI9ac0c0
+				x-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "year": 2015,
+    "vin": "null",
+    "model_id": 1891,
+    "country": "NG",
+    "inspection_type": "dealer-regular",
+    "source": "franchise",
+    "franchise_id": "kpMngdaMZ"
+}

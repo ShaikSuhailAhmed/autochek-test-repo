@@ -1,0 +1,58 @@
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 26 Feb 2026 09:29:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 143
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"8f-GLYX261ml/5Q4bfytO+70dPWbeU"
+server: hide
+
+{
+    "error": "14 UNAVAILABLE: No connection established. Last error: null",
+    "message": "14 UNAVAILABLE: No connection established. Last error: null"
+}
+HTTP/1.1 401 Unauthorized
+Date: Thu, 26 Feb 2026 09:29:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 264
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"108-d8FsrUThWxtJzpd8LiAkGS9bV7Q"
+server: hide
+
+{
+    "error": "jwt malformed",
+    "message": "jwt malformed",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=9&page_size=50&franchise=kpMngdaMZ&country=NG&name=Toyota"
+        }
+    ]
+}

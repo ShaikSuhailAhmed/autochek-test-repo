@@ -1,0 +1,10 @@
+{
+    "error": "jwt malformed",
+    "message": "jwt malformed",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/origination/loan/customerDocuments/review"
+        }
+    ]
+}
