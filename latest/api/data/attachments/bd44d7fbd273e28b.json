@@ -1,0 +1,145 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "c3u9IRnqxt",
+                    "status": "pending",
+                    "createdAt": "Thu Feb 26 2026 08:07:57 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "xDwdG3ctH",
+            "carTitle": "Audi A5 2020",
+            "modelId": 87,
+            "vin": "O985CAJMW5O8MV6GSD",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-02-26T08:07:57.624Z",
+            "updatedAt": "2026-02-26T08:07:57.624Z",
+            "carId": "MUAKArrHB",
+            "userId": "OYUdP1bm59XkBYtNdccO",
+            "userName": "E2E_By_FA_4a8912 AUTO_aa546b",
+            "userPhoneNumber": "+2349678976195",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "777981381191153",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "MUAKArrHB",
+                "year": 2020,
+                "insured": false,
+                "mileage": 1000,
+                "vin": "O985CAJMW5O8MV6GSD",
+                "licensePlate": "TV80KA3393",
+                "engineNumber": "16707399951",
+                "price": 10000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 10000000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Thu Feb 26 2026 07:37:30 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_322,q_100/Ldc00a3l.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 87,
+                    "name": "A5",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "state": "Niger",
+                "country": "NG",
+                "address": "Chanchaga City",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "self",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "city": "Chanchaga",
+                "marketplaceOldPrice": 10000000,
+                "createdAt": "Thu Feb 26 2026 07:36:10 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Feb 26 2026 07:37:55 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "red",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 0,
+                "installment": 438702,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 7315706,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/MUAKArrHB",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 4000,
+                "moderated": true,
+                "moderationStatus": "approved",
+                "summary": "This is an automated test car listing created using Selenium automation.",
+                "listingScore": "4.5",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

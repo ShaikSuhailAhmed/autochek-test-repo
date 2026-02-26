@@ -1,0 +1,146 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJZT0lEeTFReHFPb0IzSXFKYW1VMyIsImp3dElkIjoiWkVoOEk3VWpjaW5JQVlkeHR0b0IiLCJpYXQiOjE3NzIwOTM3MTQsImV4cCI6MTgwMzYyOTcxNH0.JwiNJnOs265RKVEewxZbGsPRT-5THthMU1FOIpkyHtA
+				x-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "year": 2015,
+    "vin": "4OHA7KNO6Q3R07LUK",
+    "model_id": 1891,
+    "country": "NG",
+    "inspection_type": "dealer-regular",
+    "source": "franchise",
+    "franchise_id": "kpMngdaMZ"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "pavanagundla.jayanth+inspector@frugaltesting.com",
+    "password": "Autochek@123"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request/inspector
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IlQ4enM4UE0xb044MzVYcGo5MEZDIiwiand0SWQiOiJ0bXZvaHplN0UyOWQ0RmN4OHFPdSIsImlhdCI6MTc3MjA5MzcxNSwiZXhwIjoxODAzNjI5NzE1fQ.kuXIZb1Mv7ynCiaZWmQiWBpoM2nxeCZdsvilfOH-yP8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ids": [
+        "64ODW1I28"
+    ],
+    "assignee_id": "xgWQ5CfoC"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "pavanagundla.jayanth+inspector@frugaltesting.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request/64ODW1I28?lang=en
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6Ik5jVlZGaWhmTzNFNkRnaDBRN3BRIiwiand0SWQiOiJoUnhKWlFwaHVyNkl2bHZMM25KUyIsImlhdCI6MTc3MjA5MzcxNywiZXhwIjoxODAzNjI5NzE3fQ.RZwvta5srvjoOBqK3P9Qzp9Tt1rVOXEm1FSrgnWJdP0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "pavanagundla.jayanth+inspector@frugaltesting.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inspection
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6ImlNajlTOHdnbWZyd2NjTE5YaUxnIiwiand0SWQiOiJWTXgwd0tsR3dFWEQzcEVTU0xYYiIsImlhdCI6MTc3MjA5MzcxOCwiZXhwIjoxODAzNjI5NzE4fQ.fekaZNp7N82KhB1ue5eu--39QPX1gQTym7K5QZLcdRY
+				x-autochek-app=workshop
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "form_id": "3",
+    "form_data": "{\"sections\":[{\"comment\":\"\",\"items\":[{\"entry\":\"Toyota\",\"name\":\"make\"},{\"entry\":\"Corolla\",\"name\":\"model\"},{\"entry\":\"2020\",\"name\":\"year\"},{\"entry\":\"4OHA7KNO6Q3R07LUK\",\"name\":\"vin\"},{\"entry\":\"1000\",\"name\":\"odometer\"},{\"entry\":\"km\",\"name\":\"odometerUnit\"},{\"entry\":\"18/11/2025\",\"name\":\"inspectionDate\"},{\"entry\":\"Daniel inspector qa\",\"name\":\"inspectorName\"},{\"entry\":\"265/65R17\",\"name\":\"tyreCode\"}],\"name\":\"intro\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"floodHistory\"},{\"entry\":\"pass\",\"name\":\"dashboard\"},{\"entry\":\"low\",\"name\":\"dashboardSeverity\"},{\"entry\":\"\",\"name\":\"dashboardImages\"},{\"entry\":\"pass\",\"name\":\"steering\"},{\"entry\":\"medium\",\"name\":\"steeringSeverity\"},{\"entry\":\"\",\"name\":\"steeringImages\"},{\"entry\":\"pass\",\"name\":\"seats\"},{\"entry\":\"high\",\"name\":\"seatsSeverity\"},{\"entry\":\"\",\"name\":\"seatsImages\"},{\"entry\":\"pass\",\"name\":\"roof\"},{\"entry\":\"low\",\"name\":\"roofSeverity\"},{\"entry\":\"\",\"name\":\"roofImages\"},{\"entry\":\"pass\",\"name\":\"carpet\"},{\"entry\":\"medium\",\"name\":\"carpetSeverity\"},{\"entry\":\"\",\"name\":\"carpetImages\"},{\"entry\":\"\",\"name\":\"interiorObservations\"}],\"name\":\"interior\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"powerWindows\"},{\"entry\":\"low\",\"name\":\"powerWindowsSeverity\"},{\"entry\":\"\",\"name\":\"powerWindowsImages\"},{\"entry\":\"\",\"name\":\"powerWindowsComments\"},{\"entry\":\"pass\",\"name\":\"sunRoof\"},{\"entry\":\"medium\",\"name\":\"sunRoofSeverity\"},{\"entry\":\"\",\"name\":\"sunRoofImages\"},{\"entry\":\"\",\"name\":\"sunRoofComments\"},{\"entry\":\"pass\",\"name\":\"audioSystem\"},{\"entry\":\"high\",\"name\":\"audioSystemSeverity\"},{\"entry\":\"\",\"name\":\"audioSystemImages\"},{\"entry\":\"\",\"name\":\"audioSystemComments\"},{\"entry\":\"pass\",\"name\":\"windshieldWipers\"},{\"entry\":\"medium\",\"name\":\"windshieldWipersSeverity\"},{\"entry\":\"\",\"name\":\"windshieldWipersImages\"},{\"entry\":\"\",\"name\":\"windshieldWipersComments\"},{\"entry\":\"pass\",\"name\":\"reverseCameraScreen\"},{\"entry\":\"low\",\"name\":\"reverseCameraScreenSeverity\"},{\"entry\":\"\",\"name\":\"reverseCameraScreenImages\"},{\"entry\":\"\",\"name\":\"reverseCameraScreenComments\"},{\"entry\":\"pass\",\"name\":\"innerDomeMapLight\"},{\"entry\":\"low\",\"name\":\"innerDomeMapLightSeverity\"},{\"entry\":\"\",\"name\":\"innerDomeMapLightImages\"},{\"entry\":\"\",\"name\":\"innerDomeMapLightComments\"},{\"entry\":\"pass\",\"name\":\"seatAdjuster\"},{\"entry\":\"low\",\"name\":\"seatAdjusterSeverity\"},{\"entry\":\"\",\"name\":\"seatAdjusterImages\"},{\"entry\":\"\",\"name\":\"seatAdjusterComments\"},{\"entry\":\"pass\",\"name\":\"seatCooler\"},{\"entry\":\"medium\",\"name\":\"seatCoolerSeverity\"},{\"entry\":\"\",\"name\":\"seatCoolerImages\"},{\"entry\":\"\",\"name\":\"seatCoolerComments\"},{\"entry\":\"pass\",\"name\":\"airConditioning\"},{\"entry\":\"high\",\"name\":\"airConditioningSeverity\"},{\"entry\":\"\",\"name\":\"airConditioningImages\"},{\"entry\":\"\",\"name\":\"airConditioningComments\"},{\"entry\":\"pass\",\"name\":\"dashboardIndicators\"},{\"entry\":\"low\",\"name\":\"dashboardIndicatorsSeverity\"},{\"entry\":\"\",\"name\":\"dashboardIndicatorsImages\"},{\"entry\":\"\",\"name\":\"dashboardIndicatorsComments\"},{\"entry\":\"pass\",\"name\":\"parkingSensor\"},{\"entry\":\"low\",\"name\":\"parkingSensorSeverity\"},{\"entry\":\"\",\"name\":\"parkingSensorImages\"},{\"entry\":\"\",\"name\":\"parkingSensorComments\"},{\"entry\":\"pass\",\"name\":\"horn\"},{\"entry\":\"medium\",\"name\":\"hornSeverity\"},{\"entry\":\"\",\"name\":\"hornImages\"},{\"entry\":\"\",\"name\":\"hornComments\"},{\"entry\":\"\",\"name\":\"electricalObservations\"}],\"name\":\"electricals\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"bodyDents\"},{\"entry\":\"low\",\"name\":\"bodyDentsSeverity\"},{\"entry\":\"\",\"name\":\"bodyDentsImages\"},{\"entry\":\"pass\",\"name\":\"windshield\"},{\"entry\":\"medium\",\"name\":\"windshieldSeverity\"},{\"entry\":\"\",\"name\":\"windshieldImages\"},{\"entry\":\"pass\",\"name\":\"exteriorScratches\"},{\"entry\":\"low\",\"name\":\"exteriorScratchesSeverity\"},{\"entry\":\"\",\"name\":\"exteriorScratchesImages\"},{\"entry\":\"pass\",\"name\":\"headlights\"},{\"entry\":\"low\",\"name\":\"headlightsSeverity\"},{\"entry\":\"\",\"name\":\"headlightsImages\"},{\"entry\":\"pass\",\"name\":\"rearAndBrakeLights\"},{\"entry\":\"low\",\"name\":\"rearAndBrakeLightsSeverity\"},{\"entry\":\"\",\"name\":\"rearAndBrakeLightsImages\"},{\"entry\":\"pass\",\"name\":\"logosEmblems\"},{\"entry\":\"medium\",\"name\":\"logosEmblemsSeverity\"},{\"entry\":\"\",\"name\":\"logosEmblemsImages\"},{\"entry\":\"pass\",\"name\":\"rustCorrosion\"},{\"entry\":\"high\",\"name\":\"rustCorrosionSeverity\"},{\"entry\":\"\",\"name\":\"rustCorrosionImages\"},{\"entry\":\"pass\",\"name\":\"exhaust\"},{\"entry\":\"low\",\"name\":\"exhaustSeverity\"},{\"entry\":\"\",\"name\":\"exhaustImages\"},{\"entry\":\"pass\",\"name\":\"tyreTreadDepth\"},{\"entry\":\"low\",\"name\":\"tyreTreadDepthSeverity\"},{\"entry\":\"\",\"name\":\"tyreTreadDepthImages\"},{\"entry\":\"pass\",\"name\":\"paint\"},{\"entry\":\"low\",\"name\":\"paintSeverity\"},{\"entry\":\"\",\"name\":\"paintImages\"},{\"entry\":\"\",\"name\":\"exteriorObservations\"}],\"name\":\"exterior\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"engineFiring\"},{\"entry\":\"high\",\"name\":\"engineFiringSeverity\"},{\"entry\":\"\",\"name\":\"engineFiringImages\"},{\"entry\":\"pass\",\"name\":\"gearSwitching\"},{\"entry\":\"high\",\"name\":\"gearSwitchingSeverity\"},{\"entry\":\"\",\"name\":\"gearSwitchingImages\"},{\"entry\":\"pass\",\"name\":\"oilLeakage\"},{\"entry\":\"medium\",\"name\":\"oilLeakageSeverity\"},{\"entry\":\"\",\"name\":\"oilLeakageImages\"},{\"entry\":\"pass\",\"name\":\"battery\"},{\"entry\":\"low\",\"name\":\"batterySeverity\"},{\"entry\":\"\",\"name\":\"batteryImages\"},{\"entry\":\"pass\",\"name\":\"serpentineBelt\"},{\"entry\":\"medium\",\"name\":\"serpentineBeltSeverity\"},{\"entry\":\"\",\"name\":\"serpentineBeltImages\"},{\"entry\":\"pass\",\"name\":\"engineMounts\"},{\"entry\":\"medium\",\"name\":\"engineMountsSeverity\"},{\"entry\":\"\",\"name\":\"engineMountsImages\"},{\"entry\":\"pass\",\"name\":\"catalyticConverter\"},{\"entry\":\"high\",\"name\":\"catalyticConverterSeverity\"},{\"entry\":\"\",\"name\":\"catalyticConverterImages\"},{\"entry\":\"\",\"name\":\"engineAndTransmissionObservations\"}],\"name\":\"engineAndTransmission\"},{\"comment\":\"\",\"items\":[{\"entry\":\"available\",\"name\":\"jack\"},{\"entry\":\"available\",\"name\":\"wheelSpanner\"},{\"entry\":\"available\",\"name\":\"spareTyre\"},{\"entry\":\"available\",\"name\":\"spareKey\"},{\"entry\":\"available\",\"name\":\"customsPaper\"}],\"name\":\"accessories\"},{\"comment\":\"\",\"items\":[{\"entry\":\"okay\",\"name\":\"radiatorWaterCoolant\"},{\"entry\":\"\",\"name\":\"radiatorWaterCoolantImages\"},{\"entry\":\"okay\",\"name\":\"brakeFluid\"},{\"entry\":\"\",\"name\":\"brakeFluidImages\"},{\"entry\":\"okay\",\"name\":\"steeringFluid\"},{\"entry\":\"\",\"name\":\"steeringFluidImages\"},{\"entry\":\"pass\",\"name\":\"transmissionFluid\"},{\"entry\":\"\",\"name\":\"transmissionFluidImages\"},{\"entry\":\"okay\",\"name\":\"engineOil\"},{\"entry\":\"\",\"name\":\"engineOilImages\"}],\"name\":\"fluidLevels\"},{\"comment\":\"\",\"items\":[{\"entry\":\"no\",\"name\":\"includeObds\"},{\"entry\":\"\",\"name\":\"scanReport\"},{\"entry\":\"\",\"name\":\"searchObds\"},{\"entry\":\"\",\"name\":\"obds\"}],\"name\":\"obd\"},{\"comment\":\"\",\"items\":[{\"entry\":\"\",\"media\":[{\"label\":\"\",\"name\":\"leftFront\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/iVLwN4ZR.webp\"},{\"label\":\"\",\"name\":\"rightFront\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/SsHgcb0v.webp\"},{\"label\":\"\",\"name\":\"front\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/wqQPXMXh.webp\"},{\"label\":\"\",\"name\":\"back\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/obuVDdJH.webp\"},{\"label\":\"\",\"name\":\"leftBack\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/JbTlimkx.webp\"},{\"label\":\"\",\"name\":\"rightBack\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/Pb4Atk8a.webp\"},{\"label\":\"\",\"name\":\"interiorFront\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/iXqiTxgJ.webp\"},{\"label\":\"\",\"name\":\"interiorBack\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/jsaWersa.webp\"},{\"label\":\"\",\"name\":\"dashboardImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/gHQt9iZN.webp\"},{\"label\":\"\",\"name\":\"trunkImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/PwRccmxt.webp\"},{\"label\":\"\",\"name\":\"vinImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/um9pkpGe.webp\"},{\"label\":\"\",\"name\":\"tyreImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/3AHAWzAb.webp\"}],\"name\":\"snapshots\"}],\"name\":\"carSnapshots\"},{\"comment\":\"\",\"items\":[{\"entry\":\"yes\",\"name\":\"autoFailure\"}],\"name\":\"outro\"}]}",
+    "form_data": "{\"sections\":[{\"comment\":\"\",\"items\":[{\"entry\":\"Toyota\",\"name\":\"make\"},{\"entry\":\"Corolla\",\"name\":\"model\"},{\"entry\":\"2020\",\"name\":\"year\"},{\"entry\":\"4OHA7KNO6Q3R07LUK\",\"name\":\"vin\"},{\"entry\":\"1000\",\"name\":\"odometer\"},{\"entry\":\"km\",\"name\":\"odometerUnit\"},{\"entry\":\"18/11/2025\",\"name\":\"inspectionDate\"},{\"entry\":\"Daniel inspector qa\",\"name\":\"inspectorName\"},{\"entry\":\"265/65R17\",\"name\":\"tyreCode\"}],\"name\":\"intro\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"floodHistory\"},{\"entry\":\"pass\",\"name\":\"dashboard\"},{\"entry\":\"low\",\"name\":\"dashboardSeverity\"},{\"entry\":\"\",\"name\":\"dashboardImages\"},{\"entry\":\"pass\",\"name\":\"steering\"},{\"entry\":\"medium\",\"name\":\"steeringSeverity\"},{\"entry\":\"\",\"name\":\"steeringImages\"},{\"entry\":\"pass\",\"name\":\"seats\"},{\"entry\":\"high\",\"name\":\"seatsSeverity\"},{\"entry\":\"\",\"name\":\"seatsImages\"},{\"entry\":\"pass\",\"name\":\"roof\"},{\"entry\":\"low\",\"name\":\"roofSeverity\"},{\"entry\":\"\",\"name\":\"roofImages\"},{\"entry\":\"pass\",\"name\":\"carpet\"},{\"entry\":\"medium\",\"name\":\"carpetSeverity\"},{\"entry\":\"\",\"name\":\"carpetImages\"},{\"entry\":\"\",\"name\":\"interiorObservations\"}],\"name\":\"interior\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"powerWindows\"},{\"entry\":\"low\",\"name\":\"powerWindowsSeverity\"},{\"entry\":\"\",\"name\":\"powerWindowsImages\"},{\"entry\":\"\",\"name\":\"powerWindowsComments\"},{\"entry\":\"pass\",\"name\":\"sunRoof\"},{\"entry\":\"medium\",\"name\":\"sunRoofSeverity\"},{\"entry\":\"\",\"name\":\"sunRoofImages\"},{\"entry\":\"\",\"name\":\"sunRoofComments\"},{\"entry\":\"pass\",\"name\":\"audioSystem\"},{\"entry\":\"high\",\"name\":\"audioSystemSeverity\"},{\"entry\":\"\",\"name\":\"audioSystemImages\"},{\"entry\":\"\",\"name\":\"audioSystemComments\"},{\"entry\":\"pass\",\"name\":\"windshieldWipers\"},{\"entry\":\"medium\",\"name\":\"windshieldWipersSeverity\"},{\"entry\":\"\",\"name\":\"windshieldWipersImages\"},{\"entry\":\"\",\"name\":\"windshieldWipersComments\"},{\"entry\":\"pass\",\"name\":\"reverseCameraScreen\"},{\"entry\":\"low\",\"name\":\"reverseCameraScreenSeverity\"},{\"entry\":\"\",\"name\":\"reverseCameraScreenImages\"},{\"entry\":\"\",\"name\":\"reverseCameraScreenComments\"},{\"entry\":\"pass\",\"name\":\"innerDomeMapLight\"},{\"entry\":\"low\",\"name\":\"innerDomeMapLightSeverity\"},{\"entry\":\"\",\"name\":\"innerDomeMapLightImages\"},{\"entry\":\"\",\"name\":\"innerDomeMapLightComments\"},{\"entry\":\"pass\",\"name\":\"seatAdjuster\"},{\"entry\":\"low\",\"name\":\"seatAdjusterSeverity\"},{\"entry\":\"\",\"name\":\"seatAdjusterImages\"},{\"entry\":\"\",\"name\":\"seatAdjusterComments\"},{\"entry\":\"pass\",\"name\":\"seatCooler\"},{\"entry\":\"medium\",\"name\":\"seatCoolerSeverity\"},{\"entry\":\"\",\"name\":\"seatCoolerImages\"},{\"entry\":\"\",\"name\":\"seatCoolerComments\"},{\"entry\":\"pass\",\"name\":\"airConditioning\"},{\"entry\":\"high\",\"name\":\"airConditioningSeverity\"},{\"entry\":\"\",\"name\":\"airConditioningImages\"},{\"entry\":\"\",\"name\":\"airConditioningComments\"},{\"entry\":\"pass\",\"name\":\"dashboardIndicators\"},{\"entry\":\"low\",\"name\":\"dashboardIndicatorsSeverity\"},{\"entry\":\"\",\"name\":\"dashboardIndicatorsImages\"},{\"entry\":\"\",\"name\":\"dashboardIndicatorsComments\"},{\"entry\":\"pass\",\"name\":\"parkingSensor\"},{\"entry\":\"low\",\"name\":\"parkingSensorSeverity\"},{\"entry\":\"\",\"name\":\"parkingSensorImages\"},{\"entry\":\"\",\"name\":\"parkingSensorComments\"},{\"entry\":\"pass\",\"name\":\"horn\"},{\"entry\":\"medium\",\"name\":\"hornSeverity\"},{\"entry\":\"\",\"name\":\"hornImages\"},{\"entry\":\"\",\"name\":\"hornComments\"},{\"entry\":\"\",\"name\":\"electricalObservations\"}],\"name\":\"electricals\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"bodyDents\"},{\"entry\":\"low\",\"name\":\"bodyDentsSeverity\"},{\"entry\":\"\",\"name\":\"bodyDentsImages\"},{\"entry\":\"pass\",\"name\":\"windshield\"},{\"entry\":\"medium\",\"name\":\"windshieldSeverity\"},{\"entry\":\"\",\"name\":\"windshieldImages\"},{\"entry\":\"pass\",\"name\":\"exteriorScratches\"},{\"entry\":\"low\",\"name\":\"exteriorScratchesSeverity\"},{\"entry\":\"\",\"name\":\"exteriorScratchesImages\"},{\"entry\":\"pass\",\"name\":\"headlights\"},{\"entry\":\"low\",\"name\":\"headlightsSeverity\"},{\"entry\":\"\",\"name\":\"headlightsImages\"},{\"entry\":\"pass\",\"name\":\"rearAndBrakeLights\"},{\"entry\":\"low\",\"name\":\"rearAndBrakeLightsSeverity\"},{\"entry\":\"\",\"name\":\"rearAndBrakeLightsImages\"},{\"entry\":\"pass\",\"name\":\"logosEmblems\"},{\"entry\":\"medium\",\"name\":\"logosEmblemsSeverity\"},{\"entry\":\"\",\"name\":\"logosEmblemsImages\"},{\"entry\":\"pass\",\"name\":\"rustCorrosion\"},{\"entry\":\"high\",\"name\":\"rustCorrosionSeverity\"},{\"entry\":\"\",\"name\":\"rustCorrosionImages\"},{\"entry\":\"pass\",\"name\":\"exhaust\"},{\"entry\":\"low\",\"name\":\"exhaustSeverity\"},{\"entry\":\"\",\"name\":\"exhaustImages\"},{\"entry\":\"pass\",\"name\":\"tyreTreadDepth\"},{\"entry\":\"low\",\"name\":\"tyreTreadDepthSeverity\"},{\"entry\":\"\",\"name\":\"tyreTreadDepthImages\"},{\"entry\":\"pass\",\"name\":\"paint\"},{\"entry\":\"low\",\"name\":\"paintSeverity\"},{\"entry\":\"\",\"name\":\"paintImages\"},{\"entry\":\"\",\"name\":\"exteriorObservations\"}],\"name\":\"exterior\"},{\"comment\":\"\",\"items\":[{\"entry\":\"pass\",\"name\":\"engineFiring\"},{\"entry\":\"high\",\"name\":\"engineFiringSeverity\"},{\"entry\":\"\",\"name\":\"engineFiringImages\"},{\"entry\":\"pass\",\"name\":\"gearSwitching\"},{\"entry\":\"high\",\"name\":\"gearSwitchingSeverity\"},{\"entry\":\"\",\"name\":\"gearSwitchingImages\"},{\"entry\":\"pass\",\"name\":\"oilLeakage\"},{\"entry\":\"medium\",\"name\":\"oilLeakageSeverity\"},{\"entry\":\"\",\"name\":\"oilLeakageImages\"},{\"entry\":\"pass\",\"name\":\"battery\"},{\"entry\":\"low\",\"name\":\"batterySeverity\"},{\"entry\":\"\",\"name\":\"batteryImages\"},{\"entry\":\"pass\",\"name\":\"serpentineBelt\"},{\"entry\":\"medium\",\"name\":\"serpentineBeltSeverity\"},{\"entry\":\"\",\"name\":\"serpentineBeltImages\"},{\"entry\":\"pass\",\"name\":\"engineMounts\"},{\"entry\":\"medium\",\"name\":\"engineMountsSeverity\"},{\"entry\":\"\",\"name\":\"engineMountsImages\"},{\"entry\":\"pass\",\"name\":\"catalyticConverter\"},{\"entry\":\"high\",\"name\":\"catalyticConverterSeverity\"},{\"entry\":\"\",\"name\":\"catalyticConverterImages\"},{\"entry\":\"\",\"name\":\"engineAndTransmissionObservations\"}],\"name\":\"engineAndTransmission\"},{\"comment\":\"\",\"items\":[{\"entry\":\"available\",\"name\":\"jack\"},{\"entry\":\"available\",\"name\":\"wheelSpanner\"},{\"entry\":\"available\",\"name\":\"spareTyre\"},{\"entry\":\"available\",\"name\":\"spareKey\"},{\"entry\":\"available\",\"name\":\"customsPaper\"}],\"name\":\"accessories\"},{\"comment\":\"\",\"items\":[{\"entry\":\"okay\",\"name\":\"radiatorWaterCoolant\"},{\"entry\":\"\",\"name\":\"radiatorWaterCoolantImages\"},{\"entry\":\"okay\",\"name\":\"brakeFluid\"},{\"entry\":\"\",\"name\":\"brakeFluidImages\"},{\"entry\":\"okay\",\"name\":\"steeringFluid\"},{\"entry\":\"\",\"name\":\"steeringFluidImages\"},{\"entry\":\"pass\",\"name\":\"transmissionFluid\"},{\"entry\":\"\",\"name\":\"transmissionFluidImages\"},{\"entry\":\"okay\",\"name\":\"engineOil\"},{\"entry\":\"\",\"name\":\"engineOilImages\"}],\"name\":\"fluidLevels\"},{\"comment\":\"\",\"items\":[{\"entry\":\"no\",\"name\":\"includeObds\"},{\"entry\":\"\",\"name\":\"scanReport\"},{\"entry\":\"\",\"name\":\"searchObds\"},{\"entry\":\"\",\"name\":\"obds\"}],\"name\":\"obd\"},{\"comment\":\"\",\"items\":[{\"entry\":\"\",\"media\":[{\"label\":\"\",\"name\":\"leftFront\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/iVLwN4ZR.webp\"},{\"label\":\"\",\"name\":\"rightFront\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/SsHgcb0v.webp\"},{\"label\":\"\",\"name\":\"front\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/wqQPXMXh.webp\"},{\"label\":\"\",\"name\":\"back\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/obuVDdJH.webp\"},{\"label\":\"\",\"name\":\"leftBack\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/JbTlimkx.webp\"},{\"label\":\"\",\"name\":\"rightBack\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/Pb4Atk8a.webp\"},{\"label\":\"\",\"name\":\"interiorFront\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/iXqiTxgJ.webp\"},{\"label\":\"\",\"name\":\"interiorBack\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/jsaWersa.webp\"},{\"label\":\"\",\"name\":\"dashboardImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/gHQt9iZN.webp\"},{\"label\":\"\",\"name\":\"trunkImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/PwRccmxt.webp\"},{\"label\":\"\",\"name\":\"vinImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/um9pkpGe.webp\"},{\"label\":\"\",\"name\":\"tyreImage\",\"type\":\"image\",\"url\":\"https://media.autochek.africa/file/3AHAWzAb.webp\"}],\"name\":\"snapshots\"}],\"name\":\"carSnapshots\"},{\"comment\":\"\",\"items\":[{\"entry\":\"yes\",\"name\":\"autoFailure\"}],\"name\":\"outro\"}]}",
+    "car_id": "XZaru3pKJ",
+    "inspection_request_summary_id": "0m_MWIy6x",
+    "inspection_request_id": "64ODW1I28",
+    "location": "lat:-1.264334,long:36.8068715",
+    "inspection_type": "dealer-regular",
+    "completed": true,
+    "wheel_type": "2WD",
+    "id": "3",
+    "country": "NG"
+}

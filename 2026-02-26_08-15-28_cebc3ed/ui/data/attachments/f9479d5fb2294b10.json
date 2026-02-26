@@ -1,0 +1,132 @@
+HTTP/1.1 200 OK
+Date: Thu, 26 Feb 2026 08:14:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJaTW1vZTU3R3lENE1vTmF3WmFZSiIsImp3dElkIjoiU0ltck1qNnUwZVM0WHhZcHd2ME0iLCJpYXQiOjE3NzIwOTM2OTYsImV4cCI6MTgwMzYyOTY5Nn0.9VThzcKRLArA8f0sR_zIDbTANncQjHiEmNAbZVu3lGk; Max-Age=3600; Path=/; Expires=Thu, 26 Feb 2026 09:14:56 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=86760677eb1d61a5533be37b7370fc175ef199143330ec7cc8a02b6978cbedee477a2aaa895bf14dc0b3ff3f0b88dc8d510fafc0a65bcff9deda070c314be1bc; Max-Age=2592000; Path=/; Expires=Sat, 28 Mar 2026 08:14:56 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-L3gNOWaqo2z/vjV27qfXFqg3Zo4"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "IkzXrHLw0",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJaTW1vZTU3R3lENE1vTmF3WmFZSiIsImp3dElkIjoiU0ltck1qNnUwZVM0WHhZcHd2ME0iLCJpYXQiOjE3NzIwOTM2OTYsImV4cCI6MTgwMzYyOTY5Nn0.9VThzcKRLArA8f0sR_zIDbTANncQjHiEmNAbZVu3lGk",
+        "refreshToken": "86760677eb1d61a5533be37b7370fc175ef199143330ec7cc8a02b6978cbedee477a2aaa895bf14dc0b3ff3f0b88dc8d510fafc0a65bcff9deda070c314be1bc",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Feb 2026 08:15:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1563
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"61b-Lglv9ctAPoZeeqdmZfe0TSa78Z0"
+server: hide
+
+{
+    "features": [
+        
+    ],
+    "carFeatures": [
+        
+    ],
+    "modelFeatures": [
+        
+    ],
+    "delistReason": [
+        
+    ],
+    "damageMedia": [
+        
+    ],
+    "damages": [
+        
+    ],
+    "carMedias": [
+        
+    ],
+    "media": [
+        
+    ],
+    "id": "XZaru3pKJ",
+    "year": 2015,
+    "insured": false,
+    "mileage": 10,
+    "vin": "OXVZXI9LDS34KWLFV",
+    "licensePlate": "RH29MP5956",
+    "engineNumber": "60083455085",
+    "price": 10000000,
+    "createdBy": "JRcyGKufp1UGZ0Fu4U3U",
+    "marketplacePrice": 10000000,
+    "marketplaceVisible": true,
+    "marketplaceVisibleDate": "Thu Feb 26 2026 08:14:57 GMT+0000 (Coordinated Universal Time)",
+    "isFeatured": false,
+    "imageUrl": "https://media.autochek.africa/file/w_322,q_100/o9Hwahnl.webp",
+    "ownerId": "-lh7_mmKJ",
+    "state": "Niger",
+    "country": "NG",
+    "address": "Chanchaga City",
+    "carManagerId": "kpMngdaMZ",
+    "ownerType": "self",
+    "transmission": "manual",
+    "fuelType": "petrol",
+    "sellingCondition": "local",
+    "city": "Chanchaga",
+    "marketplaceOldPrice": 10000000,
+    "createdAt": "Thu Feb 26 2026 08:14:04 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Thu Feb 26 2026 08:15:03 GMT+0000 (Coordinated Universal Time)",
+    "mileageUnit": "km",
+    "hasWarranty": false,
+    "hasFinancing": true,
+    "interiorColor": "blue",
+    "exteriorColor": "red",
+    "engineType": "2-cylinder(I2)",
+    "gradeScore": 3,
+    "installment": 438702,
+    "depositReceived": false,
+    "isFirstOwner": false,
+    "loanValue": 7315706,
+    "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/XZaru3pKJ",
+    "sold": false,
+    "hasThreeDImage": false,
+    "isUpgraded": false,
+    "ccMeasurement": 4000,
+    "moderated": true,
+    "moderationStatus": "approved",
+    "summary": "This is an automated test car listing created using Selenium automation.",
+    "listingScore": "4.5",
+    "accidented": false,
+    "isDraft": false,
+    "tradeIn": false
+}
