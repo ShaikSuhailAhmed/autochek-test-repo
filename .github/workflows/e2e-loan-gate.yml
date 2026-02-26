@@ -99,13 +99,13 @@ jobs:
           cp -r ghp/latest/ui/history/*  e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
 
       # =========================================================
-      # Generate Allure reports (ALWAYS)
+      # Generate Allure reports
       # =========================================================
       - name: Generate Allure reports
         run: |
           npm install -g allure-commandline
           allure generate e2e/api-automation/target/allure-results -o e2e/api-automation/target/allure-report --clean
-          allure generate e2e/ui-automation/target/allure-results  -o e2e/ui-automation/target/allure-report  --clean
+          allure generate e2e/ui-automation/target/allure-results  -o e2e/ui-automation/target/allure-report --clean
 
       # =========================================================
       # Compute archive directory (for history trend)
@@ -119,7 +119,7 @@ jobs:
           echo "dest_dir=$DEST" >> $GITHUB_OUTPUT
 
       # =========================================================
-      # Prepare gh-pages content
+      # Prepare gh-pages content (Timeline + Latest Reports)
       # =========================================================
       - name: Prepare gh-pages content
         run: |
@@ -154,9 +154,8 @@ jobs:
             <h2>All Runs</h2>
             <ul>
             $(for run in $(ls ghp | grep -E '^\d{4}-\d{2}-\d{2}'); do
-                API_TIME=$(date -d ${run} "+%Y-%m-%d %H:%M:%S")
-                echo "<li><a href='./$run/api/'>API ${API_TIME}</a></li>"
-                echo "<li><a href='./$run/ui/'>UI ${API_TIME}</a></li>"
+                echo "<li><a href='./$run/api/'>API ${run}</a></li>"
+                echo "<li><a href='./$run/ui/'>UI ${run}</a></li>"
             done)
             </ul>
 
