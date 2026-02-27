@@ -1,0 +1,6 @@
+{
+    "statusCode": 400,
+    "message": "Not authorized to assign loans",
+    "timestamp": "2026-02-27T09:20:04.024Z",
+    "path": "/decision-engine/assign"
+}

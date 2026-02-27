@@ -1,0 +1,11 @@
+{
+    "code": 4090,
+    "error": "There is a completed inspection in the past 45 days for this VIN: ZGS23020854509803",
+    "message": "There is a completed inspection in the past 45 days for this VIN: ZGS23020854509803",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/inspection_request"
+        }
+    ]
+}
