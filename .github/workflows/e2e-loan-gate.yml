@@ -1,8 +1,8 @@
 name: E2E API + UI Automation Workflow
 
 on:
-  push: 
-    branches: [ testing ]
+  pull_request:  
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
