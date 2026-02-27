@@ -19,7 +19,7 @@ jobs:
 
     steps:
       # =========================================================
-      # Checkout automation repo
+      # Checkout automation repo (Repo B)
       # =========================================================
       - name: Checkout E2E automation repo
         uses: actions/checkout@v4
@@ -99,7 +99,7 @@ jobs:
           cp -r ghp/latest/ui/history/*  e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
 
       # =========================================================
-      # Generate Allure reports (ALWAYS)
+      # Generate Allure reports
       # =========================================================
       - name: Generate Allure reports
         run: |
@@ -144,11 +144,6 @@ jobs:
             <ul>
               <li><a href="./latest/api/">API Report</a></li>
               <li><a href="./latest/ui/">UI Report</a></li>
-            </ul>
-            <h2>This Run</h2>
-            <ul>
-              <li><a href="./${DEST}/api/">API</a></li>
-              <li><a href="./${DEST}/ui/">UI</a></li>
             </ul>
 
             <h2>All Runs</h2>
