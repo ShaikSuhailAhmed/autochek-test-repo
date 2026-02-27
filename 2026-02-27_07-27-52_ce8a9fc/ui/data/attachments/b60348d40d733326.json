@@ -1,0 +1,67 @@
+HTTP/1.1 200 OK
+Date: Fri, 27 Feb 2026 07:27:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJjVlNudkxlMUlMSzh0dDFhZlFRdCIsImp3dElkIjoiSzBwenJ6Rjlua1RvTU9tSm5qaWciLCJpYXQiOjE3NzIxNzcyNjIsImV4cCI6MTgwMzcxMzI2Mn0.6BmcWHpMnS_l87DB8-FhjgiLTzIy_uw9RNgKWXRH_mk; Max-Age=3600; Path=/; Expires=Fri, 27 Feb 2026 08:27:42 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=978c1090f4058017161a11e6611626069ac2c9a1e7cb35005e7aaf74f17748cacb63d08f8b91f73522f256323544e3bb79f5a998258bd4e7ce653394ce2b9935; Max-Age=2592000; Path=/; Expires=Sun, 29 Mar 2026 07:27:42 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-8mSuSOsVKFTK3BtImD8Gu0IFa6c"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "IkzXrHLw0",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJjVlNudkxlMUlMSzh0dDFhZlFRdCIsImp3dElkIjoiSzBwenJ6Rjlua1RvTU9tSm5qaWciLCJpYXQiOjE3NzIxNzcyNjIsImV4cCI6MTgwMzcxMzI2Mn0.6BmcWHpMnS_l87DB8-FhjgiLTzIy_uw9RNgKWXRH_mk",
+        "refreshToken": "978c1090f4058017161a11e6611626069ac2c9a1e7cb35005e7aaf74f17748cacb63d08f8b91f73522f256323544e3bb79f5a998258bd4e7ce653394ce2b9935",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 27 Feb 2026 07:27:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 162
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"a2-9p41HkfogSfOmztF+6OWcKQ07OQ"
+server: hide
+
+{
+    "code": 4040,
+    "error": "Car not found",
+    "message": "Car not found",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/car/hBKgoP4r"
+        }
+    ]
+}
