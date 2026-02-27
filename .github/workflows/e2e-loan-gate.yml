@@ -1,7 +1,7 @@
 name: E2E API + UI Automation Workflow
 
 on:
-  pull_request:  
+  pull_request:
     branches: [ main ]
   workflow_dispatch:
 
@@ -39,7 +39,7 @@ jobs:
           cache: maven
 
       # =========================================================
-      # Run API Tests (DO NOT BLOCK UI)
+      # Run API Tests
       # =========================================================
       - name: Run API E2E Tests
         working-directory: e2e/api-automation
@@ -50,7 +50,7 @@ jobs:
             -Dallure.results.directory=target/allure-results
 
       # =========================================================
-      # Run UI Tests (ALWAYS RUN)
+      # Run UI Tests
       # =========================================================
       - name: Run UI E2E Tests
         working-directory: e2e/ui-automation
@@ -78,7 +78,7 @@ jobs:
           fi
 
       # =========================================================
-      # Checkout gh-pages (if exists)
+      # Checkout gh-pages
       # =========================================================
       - name: Checkout gh-pages
         uses: actions/checkout@v4
@@ -88,7 +88,7 @@ jobs:
         continue-on-error: true
 
       # =========================================================
-      # Restore Allure history
+      # Restore Allure history (For Trend Charts)
       # =========================================================
       - name: Restore Allure history
         run: |
@@ -96,10 +96,10 @@ jobs:
           mkdir -p e2e/ui-automation/target/allure-results/history
 
           cp -r ghp/latest/api/history/* e2e/api-automation/target/allure-results/history/ 2>/dev/null || true
-          cp -r ghp/latest/ui/history/*  e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
+          cp -r ghp/latest/ui/history/* e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
 
       # =========================================================
-      # Generate Allure reports (ALWAYS)
+      # Generate Allure reports
       # =========================================================
       - name: Generate Allure reports
         run: |
@@ -108,7 +108,7 @@ jobs:
           allure generate e2e/ui-automation/target/allure-results  -o e2e/ui-automation/target/allure-report --clean
 
       # =========================================================
-      # Compute archive directory (for history trend)
+      # Compute archive directory
       # =========================================================
       - name: Compute archive directory
         id: meta
@@ -119,83 +119,76 @@ jobs:
           echo "dest_dir=$DEST" >> $GITHUB_OUTPUT
 
       # =========================================================
-      # Prepare gh-pages content (Timeline + Latest Reports)
+      # Prepare gh-pages content (The Fix is Here)
       # =========================================================
       - name: Prepare gh-pages content
         run: |
           DEST="${{ steps.meta.outputs.dest_dir }}"
           
-          # 1. Create structure for the NEW run
+          # Force clean creation of current run folders
           mkdir -p ghp/${DEST}/api ghp/${DEST}/ui
           mkdir -p ghp/latest/api ghp/latest/ui
       
-          # 2. Copy new reports to both timestamped folder and latest folder
+          # Copy reports to timestamped and 'latest' locations
           cp -r e2e/api-automation/target/allure-report/* ghp/${DEST}/api/
           cp -r e2e/ui-automation/target/allure-report/* ghp/${DEST}/ui/
       
           cp -r e2e/api-automation/target/allure-report/* ghp/latest/api/
           cp -r e2e/ui-automation/target/allure-report/* ghp/latest/ui/
       
-          # 3. Generate HTML index
+          # Generate Dynamic HTML Dashboard
           cat <<EOF > ghp/index.html
           <!doctype html>
           <html>
           <head>
             <meta charset="utf-8">
-            <title>Automation Test History</title>
+            <title>Test Automation History</title>
             <style>
-              body { font-family: sans-serif; line-height: 1.6; padding: 20px; color: #333; }
-              ul { list-style-type: none; padding: 0; }
-              li { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-              .date { font-weight: bold; color: #555; margin-right: 15px; }
-              .links a { margin-right: 10px; text-decoration: none; color: #0066cc; }
-              .links a:hover { text-decoration: underline; }
-              .tag { font-size: 0.8em; padding: 2px 6px; border-radius: 3px; background: #eee; }
+              body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.5; padding: 40px; color: #24292e; max-width: 900px; margin: auto; }
+              h1 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+              .section { margin-bottom: 30px; }
+              .run-item { display: flex; align-items: center; padding: 10px; border-bottom: 1px solid #f6f8fa; }
+              .run-date { flex: 1; font-family: monospace; font-weight: bold; }
+              .run-links a { margin-left: 15px; text-decoration: none; color: #0366d6; font-weight: 500; }
+              .run-links a:hover { text-decoration: underline; }
+              .latest-box { background: #f6f8fa; padding: 20px; border-radius: 6px; border: 1px solid #d1d5da; }
             </style>
           </head>
           <body>
-            <h1>E2E Automation Reports</h1>
+            <h1>Test Automation Dashboard</h1>
             
-            <h2>🚀 Latest Execution</h2>
-            <ul>
-              <li>
-                <span class="links">
-                  <a href="./latest/api/">View Latest API Report</a> | 
-                  <a href="./latest/ui/">View Latest UI Report</a>
-                </span>
-              </li>
-            </ul>
-      
-            <hr>
-      
-            <h2>historical Runs</h2>
-            <ul>
-            $(for run in $(ls -1 ghp | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}' | sort -r); do
-                # Extract date/time for display
-                DISPLAY_NAME=$(echo $run | sed 's/_/ /')
-                
-                echo "<li>"
-                echo "<span class='date'>$DISPLAY_NAME</span>"
-                echo "<span class='links'>"
-                
-                # Check if API folder exists before linking
-                if [ -d "ghp/$run/api" ]; then
-                  echo "<a href='./$run/api/'>[API]</a>"
-                fi
-                
-                # Check if UI folder exists before linking
-                if [ -d "ghp/$run/ui" ]; then
-                  echo "<a href='./$run/ui/'>[UI]</a>"
-                fi
-                
-                # Fallback for legacy folders that didn't have api/ui subfolders
-                if [ ! -d "ghp/$run/api" ] && [ ! -d "ghp/$run/ui" ]; then
-                   echo "<a href='./$run/'>[Legacy Report]</a>"
-                fi
-                
-                echo "</span></li>"
-            done)
-            </ul>
+            <div class="section latest-box">
+              <h2>🚀 Latest Run</h2>
+              <div class="run-links">
+                <a href="./latest/api/">View API Report</a>
+                <a href="./latest/ui/">View UI Report</a>
+              </div>
+            </div>
+
+            <div class="section">
+              <h2>📅 All Historical Runs</h2>
+              <div id="runs">
+              $(for run in $(ls -1 ghp | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}' | sort -r); do
+                  echo "<div class='run-item'>"
+                  echo "  <div class='run-date'>$(echo $run | sed 's/_/ /')</div>"
+                  echo "  <div class='run-links'>"
+                  
+                  # Logic to handle both structured and unstructured legacy folders
+                  if [ -d "ghp/$run/api" ]; then
+                    echo "<a href='./$run/api/'>API</a>"
+                  fi
+                  if [ -d "ghp/$run/ui" ]; then
+                    echo "<a href='./$run/ui/'>UI</a>"
+                  fi
+                  if [ ! -d "ghp/$run/api" ] && [ ! -d "ghp/$run/ui" ]; then
+                    echo "<a href='./$run/'>Legacy Report (Flat)</a>"
+                  fi
+                  
+                  echo "  </div>"
+                  echo "</div>"
+              done)
+              </div>
+            </div>
           </body>
           </html>
           EOF
@@ -213,7 +206,7 @@ jobs:
           keep_files: true
 
       # =========================================================
-      # CLEAN SUMMARY (ONLY FAILED + SEVERE)
+      # Job Summary (Markdown for GitHub)
       # =========================================================
       - name: Job Summary
         if: always()
@@ -222,69 +215,44 @@ jobs:
 
           {
             echo "## Allure Reports"
-            echo ""
             echo "- [API Report](${BASE}/latest/api/)"
             echo "- [UI Report](${BASE}/latest/ui/)"
             echo ""
 
-            echo "## API Severe Failures"
+            echo "### API Severe Failures"
             echo "| Severity | Test |"
             echo "|---|---|"
             jq -r --arg block "${API_BLOCK_SEVERITIES}" '
               ( $block | split(",") ) as $sevlist
-              |
-              select(.status=="failed" or .status=="broken")
-              |
-              (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-              |
-              select($sev != null and ($sevlist | index($sev)))
-              |
-              "| \($sev) | \(.name // .fullName) |"
+              | select(.status=="failed" or .status=="broken")
+              | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
+              | select($sev != null and ($sevlist | index($sev)))
+              | "| \($sev) | \(.name // .fullName) |"
             ' e2e/api-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
+
             echo ""
-            echo "## UI Severe Failures"
+            echo "### UI Severe Failures"
             echo "| Severity | Test |"
             echo "|---|---|"
             jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
               ( $block | split(",") ) as $sevlist
-              |
-              select(.status=="failed" or .status=="broken")
-              |
-              (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-              |
-              select($sev != null and ($sevlist | index($sev)))
-              |
-              "| \($sev) | \(.name // .fullName) |"
+              | select(.status=="failed" or .status=="broken")
+              | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
+              | select($sev != null and ($sevlist | index($sev)))
+              | "| \($sev) | \(.name // .fullName) |"
             ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
           } >> "$GITHUB_STEP_SUMMARY"
 
       # =========================================================
-      # FINAL PR GATE (AFTER EVERYTHING)
+      # FINAL PR GATE
       # =========================================================
       - name: Final PR Gate
         if: always()
         run: |
-          API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '
-            ( $block | split(",") ) as $sevlist
-            |
-            select(.status=="failed" or .status=="broken")
-            |
-            (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev
-            |
-            select($sevlist | index($sev))
-          ' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
-
-          UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
-            ( $block | split(",") ) as $sevlist
-            |
-            select(.status=="failed" or .status=="broken")
-            |
-            (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev
-            |
-            select($sevlist | index($sev))
-          ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+          API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+          UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
 
           if [ "$API_BLOCK" -gt 0 ] || [ "$UI_BLOCK" -gt 0 ]; then
-            echo "::error::Blocking severe failures detected"
+            echo "::error::Blocking severe failures detected ($API_BLOCK API, $UI_BLOCK UI)"
             exit 1
           fi
