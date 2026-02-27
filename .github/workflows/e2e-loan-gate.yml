@@ -126,13 +126,13 @@ jobs:
           DEST="${{ steps.meta.outputs.dest_dir }}"
           mkdir -p ghp/${DEST}/api ghp/${DEST}/ui
           mkdir -p ghp/latest/api ghp/latest/ui
-
+      
           cp -r e2e/api-automation/target/allure-report/* ghp/${DEST}/api/
           cp -r e2e/ui-automation/target/allure-report/*  ghp/${DEST}/ui/
-
+      
           cp -r e2e/api-automation/target/allure-report/* ghp/latest/api/
           cp -r e2e/ui-automation/target/allure-report/*  ghp/latest/ui/
-
+      
           # Generate HTML index with Date, API/ UI links for All Runs
           cat <<EOF > ghp/index.html
           <!doctype html>
@@ -150,19 +150,19 @@ jobs:
               <li><a href="./${DEST}/api/">API</a></li>
               <li><a href="./${DEST}/ui/">UI</a></li>
             </ul>
-
+      
             <h2>All Runs</h2>
             <ul>
-            $(for run in $(ls ghp | grep -E '^\d{4}-\d{2}-\d{2}'); do
+            $(for run in $(ls -1 ghp | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}' | sort -r); do
                 echo "<li><a href='./$run/api/'>API ${run}</a></li>"
                 echo "<li><a href='./$run/ui/'>UI ${run}</a></li>"
             done)
             </ul>
-
+      
           </body>
           </html>
           EOF
-
+      
           touch ghp/.nojekyll
 
       # =========================================================
