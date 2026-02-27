@@ -1,0 +1,978 @@
+{
+    "equities": [
+        
+    ],
+    "offers": [
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "430720"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "142500"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "318313"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "237861"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "95000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "230000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "28242"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "3567314"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "loanDocuments": [
+                
+            ],
+            "id": "Tet8cCuUB",
+            "partner": {
+                "id": "3PpxcIGoj",
+                "name": "Get Gari Nigeria",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/52d82efb-b5e6-4d00-b688-7c30c5469444-NEW%20GETGARI%20LOGO%20SAMPLES%20%20MAY%202024%202.png",
+                "active": true,
+                "createdAt": "Wed May 25 2022 07:54:57 GMT+0000 (Coordinated Universal Time)",
+                "popular": false,
+                "code": "getgari"
+            },
+            "approvedAmount": 2824248,
+            "interest": 42,
+            "tenure": 12,
+            "monthlyRepayment": "385543.00",
+            "equity": "2300000.00",
+            "status": "PENDING",
+            "createdAt": "Fri Feb 27 2026 07:59:50 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Feb 27 2026 07:59:58 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "27.76",
+                "equity": "22.61",
+                "additionalFees": "49.63"
+            },
+            "dealerCommission": "12438.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "49251.52",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/E8OEZ1Gq6-Tet8cCuUB-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanCurrency": "NGN",
+            "loanApplicationMaximumApprovedVehicleValue": "3500000",
+            "quantityTyreBrand1": "",
+            "quantityTyreBrand2": "",
+            "tyreSize": "",
+            "unitPrice1": "",
+            "unitPrice2": "",
+            "tyreBrand1": "",
+            "tyreBrand2": "",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/CyRB6Swv2-Tet8cCuUB-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "priority": false,
+            "dealerFacilityWithAutochek": "1"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "430720"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "142500"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "318313"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "207500"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "95000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "230000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "79572"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "3765395"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "loanDocuments": [
+                
+            ],
+            "id": "YTMJzmPgn",
+            "partner": {
+                "id": "zDV2IT-QV",
+                "name": "9jaPay Microfinance Bank",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/3169520f-9dee-4987-a1f9-ddb4c05641eb-9japay%20(1).jpeg",
+                "active": true,
+                "createdAt": "Thu Jan 08 2026 11:26:20 GMT+0000 (Coordinated Universal Time)",
+                "popular": true,
+                "code": "9JAPAYNG"
+            },
+            "approvedAmount": 2652406,
+            "interest": 42,
+            "tenure": 36,
+            "monthlyRepayment": "175654.00",
+            "equity": "2525000.00",
+            "status": "PENDING",
+            "createdAt": "Fri Feb 27 2026 07:59:37 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Feb 27 2026 07:59:45 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "25.39",
+                "equity": "24.17",
+                "additionalFees": "50.44"
+            },
+            "dealerCommission": "12438.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "20730.33",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/O4qdYIMBT-YTMJzmPgn-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanCurrency": "NGN",
+            "loanApplicationMaximumApprovedVehicleValue": "6200000",
+            "quantityTyreBrand1": "",
+            "quantityTyreBrand2": "",
+            "tyreSize": "",
+            "unitPrice1": "",
+            "unitPrice2": "",
+            "tyreBrand1": "",
+            "tyreBrand2": "",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/7TgbCDDiC-YTMJzmPgn-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "priority": false,
+            "dealerFacilityWithAutochek": "1"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "430720"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "142500"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "275000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "107500"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "95000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "230000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "95695"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "3336567"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "215000"
+                }
+            ],
+            "loanDocuments": [
+                
+            ],
+            "id": "TMzhrdIIN",
+            "partner": {
+                "id": "gaDmAJ-V1",
+                "name": "hallmark finance",
+                "logoUrl": "https://media.autochek.africa/file/SnsMLH1Z.png",
+                "active": true,
+                "createdAt": "Thu Sep 28 2023 09:17:15 GMT+0000 (Coordinated Universal Time)",
+                "popular": false,
+                "code": "hallmarkfinance"
+            },
+            "approvedAmount": 3189823,
+            "interest": 47,
+            "tenure": 36,
+            "monthlyRepayment": "229394.00",
+            "equity": "2435000.00",
+            "status": "PENDING",
+            "createdAt": "Fri Feb 27 2026 07:59:23 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Feb 27 2026 07:59:31 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "30.23",
+                "equity": "23.07",
+                "additionalFees": "46.70"
+            },
+            "dealerCommission": "12438.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "35016.04",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/WhnY-Q2-W-TMzhrdIIN-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanCurrency": "NGN",
+            "loanApplicationMaximumApprovedVehicleValue": "5400000",
+            "quantityTyreBrand1": "",
+            "quantityTyreBrand2": "",
+            "tyreSize": "",
+            "unitPrice1": "",
+            "unitPrice2": "",
+            "tyreBrand1": "",
+            "tyreBrand2": "",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/AhAipixMw-TMzhrdIIN-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "priority": false,
+            "dealerFacilityWithAutochek": "1"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "475512"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "142500"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "318313"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "153750"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "95000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "230000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "86539"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "3171116"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "231125"
+                }
+            ],
+            "loanDocuments": [
+                
+            ],
+            "id": "mxOT7l_P0",
+            "partner": {
+                "id": "OInibI2XC",
+                "name": "Access Bank Nigeria Plc",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/9e9734d6-4a63-4fbc-a666-ef2b51d51cff-access-bank-plc-logo-512.png",
+                "active": true,
+                "createdAt": "Wed May 25 2022 07:54:57 GMT+0000 (Coordinated Universal Time)",
+                "popular": true,
+                "rank": "1",
+                "code": "accessbankng"
+            },
+            "approvedAmount": 2958371,
+            "interest": 33.5,
+            "tenure": 36,
+            "monthlyRepayment": "198867.00",
+            "equity": "2300000.00",
+            "status": "PENDING",
+            "createdAt": "Fri Feb 27 2026 07:59:07 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Feb 27 2026 07:59:15 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "29.11",
+                "equity": "22.63",
+                "additionalFees": "48.26"
+            },
+            "dealerCommission": "12438.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "36087.47",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/jUZ4FnW4y-mxOT7l_P0-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanCurrency": "NGN",
+            "loanApplicationMaximumApprovedVehicleValue": "5800000",
+            "quantityTyreBrand1": "",
+            "quantityTyreBrand2": "",
+            "tyreSize": "",
+            "unitPrice1": "",
+            "unitPrice2": "",
+            "tyreBrand1": "",
+            "tyreBrand2": "",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/AjbdfWe_e-mxOT7l_P0-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "priority": false,
+            "dealerFacilityWithAutochek": "1"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "430720"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "142500"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "275000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "207500"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "95000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "230000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "79572"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "3579120"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "134375"
+                }
+            ],
+            "loanDocuments": [
+                
+            ],
+            "id": "sBxZXFWb4",
+            "partner": {
+                "id": "1hPgj5dgh",
+                "name": "Stanbic IBTC Bank Nigeria",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/3ac9c3ea-78d4-4c74-9621-605f7b40e0de-stanbic-ibtc-bank-logo-512.png",
+                "active": true,
+                "createdAt": "Tue Feb 27 2024 09:48:09 GMT+0000 (Coordinated Universal Time)",
+                "popular": false,
+                "code": "stanbicng"
+            },
+            "approvedAmount": 2652406,
+            "interest": 39.25,
+            "tenure": 36,
+            "monthlyRepayment": "183374.00",
+            "equity": "2525000.00",
+            "status": "PENDING",
+            "createdAt": "Fri Feb 27 2026 07:58:53 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Feb 27 2026 07:59:04 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "25.62",
+                "equity": "24.39",
+                "additionalFees": "49.98"
+            },
+            "dealerCommission": "12438.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "29658.90",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/kjt6O8GPJ-sBxZXFWb4-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanCurrency": "NGN",
+            "loanApplicationMaximumApprovedVehicleValue": "6900000",
+            "quantityTyreBrand1": "",
+            "quantityTyreBrand2": "",
+            "tyreSize": "",
+            "unitPrice1": "",
+            "unitPrice2": "",
+            "tyreBrand1": "",
+            "tyreBrand2": "",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/r3AoseKFQ-sBxZXFWb4-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "priority": false,
+            "dealerFacilityWithAutochek": "1"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "430720"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "142500"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "318313"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "153750"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "95000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "230000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "79572"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "3530477"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "loanDocuments": [
+                
+            ],
+            "id": "prbi2wumm",
+            "partner": {
+                "id": "An5USSbTC",
+                "name": "VFD",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/ee507dd7-588d-43a5-a3d5-a04603efe6d5-VFD-MFB-Full-Logo-1536x560-2.png",
+                "active": true,
+                "createdAt": "Wed May 25 2022 07:54:56 GMT+0000 (Coordinated Universal Time)",
+                "popular": false,
+                "code": "vfd"
+            },
+            "approvedAmount": 2652406,
+            "interest": 29.399999618530273,
+            "tenure": 36,
+            "monthlyRepayment": "179543.00",
+            "equity": "2525000.00",
+            "status": "PENDING",
+            "createdAt": "Fri Feb 27 2026 07:58:40 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Feb 27 2026 07:58:50 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "26.11",
+                "equity": "24.86",
+                "additionalFees": "49.03"
+            },
+            "dealerCommission": "12438.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "20730.33",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/nQhZcXRLs-prbi2wumm-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanCurrency": "NGN",
+            "loanApplicationMaximumApprovedVehicleValue": "5900000",
+            "quantityTyreBrand1": "",
+            "quantityTyreBrand2": "",
+            "tyreSize": "",
+            "unitPrice1": "",
+            "unitPrice2": "",
+            "tyreBrand1": "",
+            "tyreBrand2": "",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/6K8pO9O5c-prbi2wumm-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "priority": false,
+            "dealerFacilityWithAutochek": "1"
+        }
+    ],
+    "loanFields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": "true",
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "upfrontRoadsideAssistance",
+            "value": "false",
+            "valid": true
+        },
+        {
+            "name": "creditCheckConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "financeAndVehicleConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "platformPolicy",
+            "value": "Yes",
+            "valid": true
+        }
+    ],
+    "carFields": [
+        
+    ],
+    "yangoCarDetails": [
+        
+    ],
+    "id": "D10sQai8L",
+    "email": "ngf0ae64@test.com",
+    "phone": "+2341363786538",
+    "carId": "fVa-fatcz",
+    "country": "NG",
+    "firstName": "E2E_By_AM_7a9152",
+    "lastName": "AUTO_5c377a",
+    "lastSeen": "Fri Feb 27 2026 07:59:55 GMT+0000 (Coordinated Universal Time)",
+    "firstSeen": "Fri Feb 27 2026 07:57:57 GMT+0000 (Coordinated Universal Time)",
+    "status": "CONDITIONAL_OFFER_RECEIVED",
+    "car": {
+        "id": "fVa-fatcz",
+        "year": 2024,
+        "insured": false,
+        "mileage": 12000,
+        "vin": "GVQZAPOP00YS3CKT2",
+        "engineNumber": "ENG1771605603767",
+        "price": 5000000,
+        "createdBy": "BQlQBbLTW",
+        "marketplacePrice": 5000000,
+        "marketplaceVisible": true,
+        "marketplaceVisibleDate": "Fri Feb 20 2026 16:41:24 GMT+0000 (Coordinated Universal Time)",
+        "isFeatured": false,
+        "imageUrl": "https://media.autochek.africa/file/w_496,q_100/xvNAe5lB.webp",
+        "ownerId": "-lh7_mmKJ",
+        "model": {
+            "id": 15,
+            "name": "RSX",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 2,
+                "name": "Acura",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+            },
+            "popular": false
+        },
+        "state": "Abuja",
+        "country": "NG",
+        "address": "12 Allen view",
+        "carManagerId": "kpMngdaMZ",
+        "ownerType": "self",
+        "transmission": "manual",
+        "fuelType": "petrol",
+        "sellingCondition": "foreign",
+        "bodyType": {
+            "id": 4,
+            "name": "Convertible",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Convertible.svg"
+        },
+        "city": "Apo Mechanic",
+        "marketplaceOldPrice": 5000000,
+        "createdAt": "Fri Feb 20 2026 16:39:58 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Fri Feb 20 2026 16:42:00 GMT+0000 (Coordinated Universal Time)",
+        "mileageUnit": "km",
+        "hasWarranty": false,
+        "hasFinancing": true,
+        "interiorColor": "red",
+        "exteriorColor": "brown",
+        "engineType": "4-cylinder(I4)",
+        "gradeScore": 4.5,
+        "installment": 276692,
+        "depositReceived": false,
+        "isFirstOwner": false,
+        "loanValue": 4160531,
+        "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/rsx/acura/fVa-fatcz",
+        "sold": false,
+        "hasThreeDImage": false,
+        "isUpgraded": false,
+        "ccMeasurement": 2000,
+        "carManagerName": "100% Automobile Nig."
+    },
+    "sourceId": "vr9eEIvTglZkIOM4aaES",
+    "loanValue": 2824248,
+    "productType": "Decision Engine Loan",
+    "source": "accountManager",
+    "sourceData": "eshareddy+am1@frugaltestingin.com",
+    "customer": {
+        "profile": [
+            {
+                "name": "sourceDataId",
+                "value": "vr9eEIvTglZkIOM4aaES",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "sourceData",
+                "value": "eshareddy+am1@frugaltestingin.com",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "source",
+                "value": "accountManager",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerSource",
+                "value": "Franchise",
+                "valid": true
+            },
+            {
+                "name": "referrerData",
+                "value": "100% Automobile Nig.",
+                "valid": true
+            },
+            {
+                "name": "referrerDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "firstName",
+                "value": "E2E_By_AM_7a9152",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "lastName",
+                "value": "AUTO_5c377a",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "telephone",
+                "value": "+2341363786538",
+                "type": "tel",
+                "valid": true
+            },
+            {
+                "name": "email",
+                "value": "ngf0ae64@test.com",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "description",
+                "value": "Salary earner",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome",
+                "value": "830076.0",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "sourceOfFunds",
+                "value": "Wages, bonuses, dividends, and other income from employment",
+                "valid": true
+            },
+            {
+                "name": "dob",
+                "value": "1994-10-23",
+                "type": "date",
+                "valid": true
+            },
+            {
+                "name": "nin",
+                "value": "19506428970",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "BVN",
+                "value": "03564534569",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "gender",
+                "value": "Male",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "nationality",
+                "value": "Nigeria",
+                "valid": true
+            },
+            {
+                "name": "nationalityStatus",
+                "value": "Resident",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "state",
+                "value": "Abuja",
+                "valid": true
+            },
+            {
+                "name": "employmentType",
+                "value": "Permanent",
+                "valid": true
+            },
+            {
+                "name": "industry",
+                "value": "Consultancy",
+                "valid": true
+            },
+            {
+                "name": "employerName",
+                "value": "Test",
+                "valid": true
+            },
+            {
+                "name": "employerAddress",
+                "value": "Test Address",
+                "valid": true
+            },
+            {
+                "name": "yearWithEmployer",
+                "value": "1",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "sideBusiness",
+                "value": "No",
+                "type": "radio",
+                "valid": true
+            },
+            {
+                "name": "primaryBank",
+                "value": "Globus Bank Limited",
+                "valid": true
+            },
+            {
+                "name": "accountHolderName",
+                "value": "Test Testing",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "accountNumber",
+                "value": "0931975220",
+                "type": "number",
+                "valid": true
+            },
+            {
+                "name": "accountType",
+                "value": "Savings",
+                "valid": true
+            },
+            {
+                "name": "monthlyExpenses",
+                "value": "65000",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome2",
+                "value": "830076.0",
+                "type": "amount",
+                "valid": true
+            },
+            {
+                "name": "vehicleUse",
+                "value": "Personal",
+                "type": "radio",
+                "valid": true
+            }
+        ],
+        "utmParams": [
+            
+        ],
+        "id": "ZjYU93tU-A",
+        "userId": "0Li7NvNtdSg63q5C3DYE",
+        "country": "NG",
+        "createdAt": "Fri Feb 27 2026 07:57:54 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Fri Feb 27 2026 07:57:54 GMT+0000 (Coordinated Universal Time)",
+        "prequalification": {
+            
+        }
+    },
+    "expired": false,
+    "completedAt": "Fri Feb 27 2026 07:57:56 GMT+0000 (Coordinated Universal Time)",
+    "preQualified": false,
+    "product": {
+        "requestedDocuments": [
+            
+        ],
+        "id": "hj43BXLXe",
+        "name": "Decision Engine Loan",
+        "country": "NG",
+        "active": true
+    },
+    "createdAt": "Fri Feb 27 2026 07:57:57 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Fri Feb 27 2026 07:59:55 GMT+0000 (Coordinated Universal Time)",
+    "createdBy": "vr9eEIvTglZkIOM4aaES",
+    "version": 3,
+    "creator": {
+        "id": "vr9eEIvTglZkIOM4aaES",
+        "firstname": "AccountManager",
+        "lastname": "Testing",
+        "email": "eshareddy+am1@frugaltestingin.com",
+        "primaryPhone": "+2349988773736"
+    },
+    "assignedAssessorEmail": "test5@gmail.com",
+    "disburseAmount": null,
+    "collateralDocuments": {
+        
+    },
+    "referrerSource": "Franchise",
+    "referrerData": "100% Automobile Nig.",
+    "referrerDataId": "kpMngdaMZ",
+    "expiredOfferCount": "0/0",
+    "rejectedByOrigination": false,
+    "loanCurrency": "NGN",
+    "loanCustomerValidation": {
+        "isValidNin": false,
+        "isValidBvn": false,
+        "isEmailVerified": false,
+        "isPhNoVerified": false,
+        "declaredNotByMe": false,
+        "identityMismatchNote": "Name mismatch with details on BVN"
+    },
+    "potentialGmv": "Low",
+    "app": "dealerplus",
+    "customerType": "SALARY EARNER",
+    "isAccion": false
+}

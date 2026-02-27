@@ -1,0 +1,144 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "ae6rfOO0ay",
+                    "status": "pending",
+                    "createdAt": "Fri Feb 27 2026 07:58:39 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "nk3a41Xt-",
+            "carTitle": "Acura RSX 2024",
+            "modelId": 15,
+            "vin": "GVQZAPOP00YS3CKT2",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-02-27T07:58:39.869Z",
+            "updatedAt": "2026-02-27T07:58:39.869Z",
+            "carId": "fVa-fatcz",
+            "userId": "0Li7NvNtdSg63q5C3DYE",
+            "userName": "E2E_By_AM_7a9152 AUTO_5c377a",
+            "userPhoneNumber": "+2341363786538",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "314515068900648",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "fVa-fatcz",
+                "year": 2024,
+                "insured": false,
+                "mileage": 12000,
+                "vin": "GVQZAPOP00YS3CKT2",
+                "engineNumber": "ENG1771605603767",
+                "price": 5000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 5000000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Fri Feb 20 2026 16:41:24 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_496,q_100/xvNAe5lB.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 15,
+                    "name": "RSX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Abuja",
+                "country": "NG",
+                "address": "12 Allen view",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "self",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 4,
+                    "name": "Convertible",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Convertible.svg"
+                },
+                "city": "Apo Mechanic",
+                "marketplaceOldPrice": 5000000,
+                "createdAt": "Fri Feb 20 2026 16:39:58 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Feb 20 2026 16:42:00 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "red",
+                "exteriorColor": "brown",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.5,
+                "installment": 276692,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 4160531,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/rsx/acura/fVa-fatcz",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2000,
+                "moderated": true,
+                "moderationStatus": "approved",
+                "summary": "This is an automated test car listing created using Selenium automation.",
+                "listingScore": "3.6",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

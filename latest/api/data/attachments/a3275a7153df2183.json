@@ -1,0 +1,145 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "S-7UpXlHQ9",
+                    "status": "pending",
+                    "createdAt": "Fri Feb 27 2026 08:04:20 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "MOjr42BMN",
+            "carTitle": "Audi A5 2015",
+            "modelId": 87,
+            "vin": "3GG2HRF7YDP364CJI",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-02-27T08:04:20.403Z",
+            "updatedAt": "2026-02-27T08:04:20.403Z",
+            "carId": "tg9apa272",
+            "userId": "XfY87CYQF5fGyRESMuZP",
+            "userName": "E2E_By_FA_2f6982 AUTO_a7578b",
+            "userPhoneNumber": "+2342625827788",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "826656838824253",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "tg9apa272",
+                "year": 2015,
+                "insured": false,
+                "mileage": 10,
+                "vin": "3GG2HRF7YDP364CJI",
+                "licensePlate": "FI01GK2733",
+                "engineNumber": "39421714467",
+                "price": 10000000,
+                "createdBy": "JRcyGKufp1UGZ0Fu4U3U",
+                "marketplacePrice": 10000000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Sun Feb 22 2026 06:51:38 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_322,q_100/paZxWxty.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 87,
+                    "name": "A5",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "state": "Niger",
+                "country": "NG",
+                "address": "Chanchaga City",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "self",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "city": "Chanchaga",
+                "marketplaceOldPrice": 10000000,
+                "createdAt": "Sun Feb 22 2026 06:50:03 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Sun Feb 22 2026 06:51:40 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "red",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 3,
+                "installment": 438702,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 7315706,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/tg9apa272",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 4000,
+                "moderated": true,
+                "moderationStatus": "approved",
+                "summary": "This is an automated test car listing created using Selenium automation.",
+                "listingScore": "4.5",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
