@@ -1,0 +1,139 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "xi7m54GAz7",
+                    "status": "pending",
+                    "createdAt": "Sun Mar 01 2026 12:41:39 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "pi_8SAw-G",
+            "carTitle": "Acura RSX 2024",
+            "modelId": 15,
+            "vin": "U37HDLLPVJ2AEI7VE",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-03-01T12:41:38.998Z",
+            "updatedAt": "2026-03-01T12:41:38.998Z",
+            "carId": "DAhUL-Mrr",
+            "userId": "1EBAY3HvLmu158x6wrY9",
+            "userName": "E2E_By_AM_678c8f AUTO_178244",
+            "userPhoneNumber": "+2345504258673",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "121182719648651",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "DAhUL-Mrr",
+                "year": 2024,
+                "insured": false,
+                "mileage": 12000,
+                "vin": "U37HDLLPVJ2AEI7VE",
+                "price": 5000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 5000000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Fri Feb 20 2026 12:42:52 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_496,q_100/pwfaqs1r.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 15,
+                    "name": "RSX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": false
+                },
+                "country": "NG",
+                "carManagerId": "kpMngdaMZ",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 4,
+                    "name": "Convertible",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Convertible.svg"
+                },
+                "marketplaceOldPrice": 5000000,
+                "createdAt": "Fri Feb 20 2026 12:41:40 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Feb 20 2026 12:43:22 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "red",
+                "exteriorColor": "brown",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.5,
+                "installment": 276692,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 4160531,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/rsx/acura/DAhUL-Mrr",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2000,
+                "moderated": true,
+                "moderationStatus": "approved",
+                "summary": "This is an automated test car listing created using Selenium automation.",
+                "listingScore": "2.8",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
