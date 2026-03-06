@@ -1,0 +1,33 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+100@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/car/34ftDrzKL
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Autochek-App=console
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiI2cEc4RUJIZThacEtiUFlrakxtdSIsImp3dElkIjoiZk0ycTFlSFdSeTVOejE3bmtPdDgiLCJpYXQiOjE3NzI3OTQxODcsImV4cCI6MTgwNDMzMDE4N30.saJqF5suIUrychuBWAYSw3DKt3kpSdXcutVxO4WHF-E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "moderation_status": "approved"
+}
