@@ -180,19 +180,14 @@ jobs:
 
           <body>
 
-          <h1>API Regression Automation Dashboard</h1>
+          <h1>Test Automation Dashboard</h1>
 
-          <div class="latest">
-          <h2>🚀 Latest API Regression Suite</h2>
-          <a href="./latest/">View Regression Report</a>
-          </div>
-
-          <h2>📅 All Historical Regression Runs</h2>
+          <h2>📅 All Test Automation Runs</h2>
 
           $(for run in $(ls -1 ghp | grep -E '^[0-9]{4}-' | sort -r); do
               echo "<div class='run'>"
               echo "<span class='date'>$(echo $run | sed 's/_/ /')</span>"
-              echo "<a href='./$run/'>Open</a>"
+              echo "<a href='./$run/'>API Regression Report</a>"
               echo "</div>"
           done)
 
