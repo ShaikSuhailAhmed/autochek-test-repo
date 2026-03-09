@@ -155,7 +155,7 @@ jobs:
             </style>
           </head>
           <body>
-            <h1>End to End Test Automation Dashboard</h1>
+            <h1>Test Automation Dashboard</h1>
             
             <div class="section latest-box">
               <h2>🚀 Latest Run</h2>
@@ -166,7 +166,7 @@ jobs:
             </div>
 
             <div class="section">
-              <h2>📅 All Historical E2E Runs</h2>
+              <h2>📅 All Test Automation Runs</h2>
               <div id="runs">
               $(for run in $(ls -1 ghp | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}' | sort -r); do
                   echo "<div class='run-item'>"
@@ -175,10 +175,10 @@ jobs:
                   
                   # Logic to handle both structured and unstructured legacy folders
                   if [ -d "ghp/$run/api" ]; then
-                    echo "<a href='./$run/api/'>API</a>"
+                    echo "<a href='./$run/api/'>API E2E</a>"
                   fi
                   if [ -d "ghp/$run/ui" ]; then
-                    echo "<a href='./$run/ui/'>UI</a>"
+                    echo "<a href='./$run/ui/'>UI E2E</a>"
                   fi
                   if [ ! -d "ghp/$run/api" ] && [ ! -d "ghp/$run/ui" ]; then
                     echo "<a href='./$run/'>Legacy Report (Flat)</a>"
