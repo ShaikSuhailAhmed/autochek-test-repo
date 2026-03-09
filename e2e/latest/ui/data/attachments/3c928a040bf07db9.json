@@ -1,0 +1,291 @@
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJBQ3hqVzRhQlBMZVY3eVRremN3USIsImp3dElkIjoiOFpKQlNsRTViZlhLU2F6ZFJyTjQiLCJpYXQiOjE3NzMwNzkyODgsImV4cCI6MTgwNDYxNTI4OH0.KwIqG1w7SKOwF4LYwAHBJuEWJ1mnA-r3IWKBR9cXGzY; Max-Age=3600; Path=/; Expires=Mon, 09 Mar 2026 19:01:28 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=95887782cd37a6881154dd49f28a5c29020a7d5b731bbd0c879dee0942eedfc26940bfd500c1c8cc4b48ca4240a807aa0dc8bfd80bd108c4825be3558f95ee75; Max-Age=2592000; Path=/; Expires=Wed, 08 Apr 2026 18:01:28 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-TCepsuZDj8y03b05QLnPPWz5boQ"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "BQlQBbLTW",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJBQ3hqVzRhQlBMZVY3eVRremN3USIsImp3dElkIjoiOFpKQlNsRTViZlhLU2F6ZFJyTjQiLCJpYXQiOjE3NzMwNzkyODgsImV4cCI6MTgwNDYxNTI4OH0.KwIqG1w7SKOwF4LYwAHBJuEWJ1mnA-r3IWKBR9cXGzY",
+        "refreshToken": "95887782cd37a6881154dd49f28a5c29020a7d5b731bbd0c879dee0942eedfc26940bfd500c1c8cc4b48ca4240a807aa0dc8bfd80bd108c4825be3558f95ee75",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"89-JLaDdflZ9x9ArQ7Goq20rqZHLL8"
+server: hide
+
+{
+    "id": "5SvoGTVFM",
+    "year": 2015,
+    "vin": "J1UY8PRK4UIPB2OQAO3",
+    "status": "pending",
+    "createdAt": "2026-03-09T18:01:29.000Z",
+    "source": "franchise"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IlYyUjVsb2E4WVoyYURXNGZrZFhUIiwiand0SWQiOiJYMm1xaEdmaTBXOXA1NEVqMlpUeSIsImlhdCI6MTc3MzA3OTI4OSwiZXhwIjoxODA0NjE1Mjg5fQ.lFWHs9o1D9mH78VlrNxKJ8y5xC5xDdZGJJPyPFWWAuk; Max-Age=3600; Path=/; Expires=Mon, 09 Mar 2026 19:01:29 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=3584132559508ec69fe28bab43909d760e9c88fdf5919f3dea7cfb3b251b51d6fb4f54f494408f5162dd264627abd118b8b6332db649ca88cf37558122ce51dd; Max-Age=2592000; Path=/; Expires=Wed, 08 Apr 2026 18:01:29 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-YX4yLymx256oJNl9qnkjZ80O+jc"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "LwsavTyeq1oNbEHFVm4l",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IlYyUjVsb2E4WVoyYURXNGZrZFhUIiwiand0SWQiOiJYMm1xaEdmaTBXOXA1NEVqMlpUeSIsImlhdCI6MTc3MzA3OTI4OSwiZXhwIjoxODA0NjE1Mjg5fQ.lFWHs9o1D9mH78VlrNxKJ8y5xC5xDdZGJJPyPFWWAuk",
+        "refreshToken": "3584132559508ec69fe28bab43909d760e9c88fdf5919f3dea7cfb3b251b51d6fb4f54f494408f5162dd264627abd118b8b6332db649ca88cf37558122ce51dd",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 16
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA"
+server: hide
+
+{
+    "success": true
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6Iko4eTZVMThTelZEeVRtQlZubkpMIiwiand0SWQiOiJocTBHS3BmNndjWjR2WE51dFNFSCIsImlhdCI6MTc3MzA3OTI5MiwiZXhwIjoxODA0NjE1MjkyfQ.yPcmscTYKGlMppHHgavaA3ISAyE6fimruvIPCnhcOUE; Max-Age=3600; Path=/; Expires=Mon, 09 Mar 2026 19:01:32 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=4ae70d290b9b9e06f85ca0f21224f8d6fd46db915eae32466d7b8404c188ccfe9b6992a2537930a39715e915bd351a1cbcd44574a171357afb950667b6fae026; Max-Age=2592000; Path=/; Expires=Wed, 08 Apr 2026 18:01:32 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-41Ykq5VRZpjp3pOmJN+9Ug7YHRY"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "LwsavTyeq1oNbEHFVm4l",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6Iko4eTZVMThTelZEeVRtQlZubkpMIiwiand0SWQiOiJocTBHS3BmNndjWjR2WE51dFNFSCIsImlhdCI6MTc3MzA3OTI5MiwiZXhwIjoxODA0NjE1MjkyfQ.yPcmscTYKGlMppHHgavaA3ISAyE6fimruvIPCnhcOUE",
+        "refreshToken": "4ae70d290b9b9e06f85ca0f21224f8d6fd46db915eae32466d7b8404c188ccfe9b6992a2537930a39715e915bd351a1cbcd44574a171357afb950667b6fae026",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2511
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"9cf-Ce2ssvO+FMNjEGegWImrekkUwY8"
+server: hide
+
+{
+    "requestStatus": [
+        {
+            "id": "mWhVxGYarm",
+            "status": "pending",
+            "createdAt": "Mon Mar 09 2026 18:01:29 GMT+0000 (Coordinated Universal Time)",
+            "createdBy": "BQlQBbLTW"
+        },
+        {
+            "id": "CivEw0jOt",
+            "status": "scheduled",
+            "createdAt": "Mon Mar 09 2026 18:01:31 GMT+0000 (Coordinated Universal Time)"
+        }
+    ],
+    "inspectionRequestSummary": [
+        {
+            "id": "viTgAPEDC",
+            "assigneeId": "xgWQ5CfoC",
+            "inspectionStatus": "pending",
+            "createdAt": "Mon Mar 09 2026 18:01:30 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 09 2026 18:01:30 GMT+0000 (Coordinated Universal Time)"
+        }
+    ],
+    "id": "5SvoGTVFM",
+    "carTitle": "Toyota Corolla 2015",
+    "modelId": 1891,
+    "vin": "J1UY8PRK4UIPB2OQAO3",
+    "isExistingCar": false,
+    "assigneeId": "xgWQ5CfoC",
+    "assigneeFirstName": "Daniel",
+    "assigneeLastName": " inspector qa",
+    "assigneePhoneNumber": "+2348100705431",
+    "franchiseId": "kpMngdaMZ",
+    "franchiseName": "100% Automobile Nig.",
+    "franchisePhoneNumber": "234791975858",
+    "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+    "inspectionRequestStatus": "scheduled",
+    "inspectionProcessStatus": "pending",
+    "requestAssignedAt": "Mon Mar 09 2026 18:01:30 GMT+0000 (Coordinated Universal Time)",
+    "assignmentLastUpdatedAt": "Mon Mar 09 2026 18:01:30 GMT+0000 (Coordinated Universal Time)",
+    "createdAt": "2026-03-09T18:01:29.000Z",
+    "updatedAt": "2026-03-09T18:01:30.987Z",
+    "country": "NG",
+    "inspectionRequestType": "dealer-regular",
+    "summaryId": "viTgAPEDC",
+    "userId": "BQlQBbLTW",
+    "userName": "Frugal test123",
+    "userPhoneNumber": "+2347778889991",
+    "source": "franchise",
+    "franchiseType": "dealer",
+    "sla": "NaN",
+    "summary": "{\"sms\":[{\"text\":\"Hello 100% Automobile Nig., this is Daniel  inspector qa from Autochek. I tried reaching you regarding the vehicle inspection for Toyota Corolla 2015, , but I was unable to get through. Kindly let me know a convenient time to connect. Thank you.\",\"order\":\"1\",\"title\":\"Phone unreableble\"},{\"text\":\"Hello 100% Automobile Nig., this is Daniel  inspector qa from Autochek. I’ve been trying to call you regarding the vehicle inspection for Toyota Corolla 2015, but haven’t been able to reach you. Please call me back at your earliest convenience. Thanks.\",\"order\":\"2\",\"title\":\"Not picking up call\"},{\"text\":\"Hello 100% Automobile Nig., this is Daniel  inspector qa from Autochek. I tried contacting you regarding the vehicle inspection for Toyota Corolla 2015, but your phone appears to be switched off. Kindly contact me when you are available or provide an alternative contact number. Thank you.\",\"order\":\"3\",\"title\":\"Phone switched off\"}],\"call\":[]}"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IlVYVTBZbUcyajdRR0VXUTBqbE0xIiwiand0SWQiOiJVcVlpYXFiOUFCeFl0WHpEUHdYayIsImlhdCI6MTc3MzA3OTI5MywiZXhwIjoxODA0NjE1MjkzfQ.VcgrE6Z-SkJyQgM4K4DFMP8eySdxU-51X8TL61dRTwY; Max-Age=3600; Path=/; Expires=Mon, 09 Mar 2026 19:01:33 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=3c81bd18d0e474091640562aa139d461963837a59260e83389cbc12bcc715f9f019c8f54e11af2b2f483e654653435c06a47cf424cc1533e1c3aea1fae656d10; Max-Age=2592000; Path=/; Expires=Wed, 08 Apr 2026 18:01:33 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-pKFaXeLIocWMmB7hc5h9ekl+RZQ"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "LwsavTyeq1oNbEHFVm4l",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IlVYVTBZbUcyajdRR0VXUTBqbE0xIiwiand0SWQiOiJVcVlpYXFiOUFCeFl0WHpEUHdYayIsImlhdCI6MTc3MzA3OTI5MywiZXhwIjoxODA0NjE1MjkzfQ.VcgrE6Z-SkJyQgM4K4DFMP8eySdxU-51X8TL61dRTwY",
+        "refreshToken": "3c81bd18d0e474091640562aa139d461963837a59260e83389cbc12bcc715f9f019c8f54e11af2b2f483e654653435c06a47cf424cc1533e1c3aea1fae656d10",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 Mar 2026 18:01:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 16
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA"
+server: hide
+
+{
+    "success": true
+}
