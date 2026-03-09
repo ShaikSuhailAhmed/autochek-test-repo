@@ -124,75 +124,70 @@ jobs:
       - name: Prepare gh-pages content
         run: |
           DEST="${{ steps.meta.outputs.dest_dir }}"
-          
-          # Force clean creation of current run folders
-          mkdir -p ghp/${DEST}/api ghp/${DEST}/ui
-          mkdir -p ghp/latest/api ghp/latest/ui
-      
-          # Copy reports to timestamped and 'latest' locations
-          cp -r e2e/api-automation/target/allure-report/* ghp/${DEST}/api/
-          cp -r e2e/ui-automation/target/allure-report/* ghp/${DEST}/ui/
-      
-          cp -r e2e/api-automation/target/allure-report/* ghp/latest/api/
-          cp -r e2e/ui-automation/target/allure-report/* ghp/latest/ui/
-      
-          # Generate Dynamic HTML Dashboard
+
+          mkdir -p ghp/e2e/${DEST}/api ghp/e2e/${DEST}/ui
+          mkdir -p ghp/e2e/latest/api ghp/e2e/latest/ui
+          mkdir -p ghp/regression || true
+
+          rm -rf ghp/e2e/latest/api/*
+          rm -rf ghp/e2e/latest/ui/*
+
+          cp -r e2e/api-automation/target/allure-report/* ghp/e2e/${DEST}/api/
+          cp -r e2e/ui-automation/target/allure-report/* ghp/e2e/${DEST}/ui/
+
+          cp -r e2e/api-automation/target/allure-report/* ghp/e2e/latest/api/
+          cp -r e2e/ui-automation/target/allure-report/* ghp/e2e/latest/ui/
+
           cat <<EOF > ghp/index.html
           <!doctype html>
           <html>
           <head>
             <meta charset="utf-8">
-            <title>Test Automation History</title>
+            <title>Test Automation Dashboard</title>
             <style>
-              body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.5; padding: 40px; color: #24292e; max-width: 900px; margin: auto; }
-              h1 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
-              .section { margin-bottom: 30px; }
-              .run-item { display: flex; align-items: center; padding: 10px; border-bottom: 1px solid #f6f8fa; }
-              .run-date { flex: 1; font-family: monospace; font-weight: bold; }
-              .run-links a { margin-left: 15px; text-decoration: none; color: #0366d6; font-weight: 500; }
-              .run-links a:hover { text-decoration: underline; }
-              .latest-box { background: #f6f8fa; padding: 20px; border-radius: 6px; border: 1px solid #d1d5da; }
+              body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial; padding:40px; max-width:900px; margin:auto; line-height:1.5; color:#24292e;}
+              h1 { border-bottom:1px solid #eaecef; padding-bottom:10px;}
+              .section{margin-bottom:30px;}
+              .run{display:flex;justify-content:space-between;padding:10px;border-bottom:1px solid #f0f0f0;}
+              .latest{background:#f6f8fa;padding:20px;border-radius:6px;border:1px solid #d1d5da;}
+              a{color:#0366d6;text-decoration:none;font-weight:500;}
             </style>
           </head>
-          <body>
-            <h1>Test Automation Dashboard</h1>
-            
-            <div class="section latest-box">
-              <h2>🚀 Latest Run</h2>
-              <div class="run-links">
-                <a href="./latest/api/">View E2E API Report</a>
-                <a href="./latest/ui/">View E2E UI Report</a>
-              </div>
-            </div>
 
-            <div class="section">
-              <h2>📅 All Test Automation Runs</h2>
-              <div id="runs">
-              $(for run in $(ls -1 ghp | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}' | sort -r); do
-                  echo "<div class='run-item'>"
-                  echo "  <div class='run-date'>$(echo $run | sed 's/_/ /')</div>"
-                  echo "  <div class='run-links'>"
-                  
-                  # Logic to handle both structured and unstructured legacy folders
-                  if [ -d "ghp/$run/api" ]; then
-                    echo "<a href='./$run/api/'>API E2E</a>"
-                  fi
-                  if [ -d "ghp/$run/ui" ]; then
-                    echo "<a href='./$run/ui/'>UI E2E</a>"
-                  fi
-                  if [ ! -d "ghp/$run/api" ] && [ ! -d "ghp/$run/ui" ]; then
-                    echo "<a href='./$run/'>Legacy Report (Flat)</a>"
-                  fi
-                  
-                  echo "  </div>"
-                  echo "</div>"
-              done)
-              </div>
-            </div>
+          <body>
+
+          <h1>Test Automation Dashboard</h1>
+
+          <div class="section latest">
+            <h2>🚀 Latest E2E Runs</h2>
+            <a href="./e2e/latest/api/">API E2E</a><br>
+            <a href="./e2e/latest/ui/">UI E2E</a>
+          </div>
+
+          <div class="section latest">
+            <h2>🚀 Latest Regression Run</h2>
+            <a href="./regression/latest/">API Regression</a>
+          </div>
+
+          <div class="section">
+            <h2>📅 Historical E2E Runs</h2>
+            $(for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span>"
+              echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
+            done)
+          </div>
+
+          <div class="section">
+            <h2>📅 Historical Regression Runs</h2>
+            $(for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>Open</a></div>"
+            done)
+          </div>
+
           </body>
           </html>
           EOF
-      
+
           touch ghp/.nojekyll
 
       # =========================================================
