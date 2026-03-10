@@ -167,24 +167,28 @@ jobs:
             echo "</div>"
           fi)
           
-          <div class="section">
-            <h2>📅 Historical E2E Runs</h2>
-            $(for run in $(ls -1 ghp/e2e 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+          $(if [ -d "ghp/e2e" ]; then
+            echo "<div class='section'>"
+            echo "<h2>📅 Historical E2E Runs</h2>"
+          
+            for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r); do
               echo "<div class='run'><span>$run</span>"
               echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
-            done)
-          </div>
+            done
           
-          <div class="section">
-            <h2>📅 Historical Regression Runs</h2>
-            $(for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+            echo "</div>"
+          fi)
+          
+          $(if [ -d "ghp/regression" ]; then
+            echo "<div class='section'>"
+            echo "<h2>📅 Historical Regression Runs</h2>"
+          
+            for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
               echo "<div class='run'><span>$run</span><a href='./regression/$run/'>Open</a></div>"
-            done)
-          </div>
+            done
           
-          </body>
-          </html>
-          EOF
+            echo "</div>"
+          fi)
 
       # =========================================================
       # Publish gh-pages
