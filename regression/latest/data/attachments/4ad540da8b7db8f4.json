@@ -1,0 +1,46 @@
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/franchise/KXVowpNL4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJBVzZlSFVLelJwN21DVG9qckxuaSIsImp3dElkIjoiZG9DZG9hcUppclowQ0Nid3l2VEYiLCJpYXQiOjE3NzMxMjE1NjgsImV4cCI6MTgwNDY1NzU2OH0.qx5Xo-8EpSELIiKzvGRHoIFZtSKdszQ59jukm7w9cxE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "zipCode": "100001",
+    "country": "Nigeria",
+    "address": "A1",
+    "accountName": "Acc1",
+    "phonenumber": "23480123458931146",
+    "bankName": "GTBank",
+    "cityId": "1309",
+    "accountNumber": "123456789031146",
+    "type": "dealer",
+    "accountBvn": "1122331146",
+    "isAnchor": "false",
+    "streetName": "Awolowo Rd",
+    "nearestLandmark": "Lekki Phase 1",
+    "displayAddress": "Addr1",
+    "name": "Frugal Automation",
+    "houseNo": "12B",
+    "state": "Lagos",
+    "email": "test1@gmail.com31146@mail.com",
+    "mapAddress": "Lagos"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/franchise/KXVowpNL4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJBVzZlSFVLelJwN21DVG9qckxuaSIsImp3dElkIjoiZG9DZG9hcUppclowQ0Nid3l2VEYiLCJpYXQiOjE3NzMxMjE1NjgsImV4cCI6MTgwNDY1NzU2OH0.qx5Xo-8EpSELIiKzvGRHoIFZtSKdszQ59jukm7w9cxE
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,787 @@
+HTTP/1.1 200 OK
+Date: Tue, 10 Mar 2026 05:46:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 8838
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"2286-X5NEpC86Fm5oXcesUyflFmSHEgk"
+server: hide
+
+{
+    "result": [
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "HwaUoAP3h",
+            "name": "franchise test creation",
+            "owner": "6JUN5hOSw",
+            "email": "zebbylion.n+02819@autochek.africa",
+            "phonenumber": "254781921010",
+            "bankName": "1234567890",
+            "accountName": "teesttest",
+            "accountBvn": 646131,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "123584511",
+            "displayAddress": "Maryland, Kenya.",
+            "address": "Airport Junction Citec, Abuja, Nigeria",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 2.2137489318847656,
+            "latitude": 46.227638244628906,
+            "mapAddress": "France",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue May 13 2025 09:18:14 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Airport Junction Citec",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "0bKKT3LaQ",
+            "name": "Franko Franko",
+            "owner": "IiRLMBhWQ",
+            "email": "franko@gmail.com",
+            "phonenumber": "2348033964707",
+            "status": "pending",
+            "contract": "pending",
+            "pocketReferenceId": "200000748",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Sanya Busstop Oshodi Apapa Expressway",
+            "address": "Sanya Busstop Oshodi Apapa Expressway",
+            "hasAssociation": false,
+            "area": "",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Wed Jun 23 2021 11:26:32 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Apapa",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "A95ryYHk5",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test26881@mail.com",
+            "phonenumber": "+2348989526881",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566711713,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526326881",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Feb 23 2026 15:26:18 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "yqisasRFG",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test69425@mail.com",
+            "phonenumber": "+2348989569425",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566754257,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526369425",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Wed Feb 25 2026 19:51:06 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "E5a-ijfWx",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test33587@mail.com",
+            "phonenumber": "+2348989533587",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566718419,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526333587",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 10 2026 05:46:11 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "B85wQx3DJ",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test1@gmail.com90880@mail.com",
+            "phonenumber": "2.34801E+1190880",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 1122390880,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "123456789090880",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Feb 09 2026 12:49:43 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "JChJZ3FkJ",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test33404@mail.com",
+            "phonenumber": "+2348989533404",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566718236,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526333404",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Feb 09 2026 14:11:36 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "EYaUvQ2ZQ",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test30378@mail.com",
+            "phonenumber": "+2348989530378",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566715210,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526330378",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Feb 23 2026 15:45:05 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "lnvkKY7jz",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test15659@mail.com",
+            "phonenumber": "+2348989515659",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566700491,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526315659",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Feb 10 2026 04:37:22 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "dY0hwItjS",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test91304@mail.com",
+            "phonenumber": "+2348989591304",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566776136,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526391304",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Feb 10 2026 05:45:02 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        }
+    ],
+    "pagination": {
+        "total": 166,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 10 Mar 2026 05:46:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1544
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"608-WiKHOqKAo+RT70HI0rsq717jt7w"
+server: hide
+
+{
+    "users": [
+        
+    ],
+    "documents": [
+        
+    ],
+    "dsas": [
+        
+    ],
+    "openingDaysAndTime": [
+        
+    ],
+    "staffs": [
+        
+    ],
+    "pictures": [
+        
+    ],
+    "id": "E5a-ijfWx",
+    "name": "Frugal Automation",
+    "owner": "diyrHzEg6",
+    "email": "test33587@mail.com",
+    "phonenumber": "+2348989533587",
+    "bankName": "GTBank",
+    "accountName": "Acc1",
+    "accountBvn": 566718419,
+    "status": "pending",
+    "contract": "pending",
+    "type": "dealer",
+    "subscriptionStatus": false,
+    "accountNumber": "894526333587",
+    "ownerInfo": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "createdBy": "",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-10T05:46:13.011Z",
+        "receiveNotification": true
+    },
+    "displayAddress": "Addr1",
+    "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+    "hasAssociation": false,
+    "longitude": 3.379199981689453,
+    "latitude": 6.524400234222412,
+    "onboardingSource": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "createdBy": "",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-10T05:46:13.011Z",
+        "receiveNotification": true
+    },
+    "mapAddress": "Lagos",
+    "isAnchor": false,
+    "forCollateralInspection": false,
+    "createdAt": "2026-03-10T05:46:11.153Z",
+    "houseNo": "12B",
+    "zipCode": "100001",
+    "streetName": "Awolowo Rd",
+    "nearestLandmark": "Lekki Phase 1",
+    "city": "Apo Mechanic",
+    "state": "Abuja",
+    "acceptedCodeOfConduct": false
+}
+HTTP/1.1 200 OK
+Date: Tue, 10 Mar 2026 05:46:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2241
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"8c1-5/BfATSOF8kgB5/2bAMfF0cVAiw"
+server: hide
+
+{
+    "users": [
+        {
+            "roles": [
+                
+            ],
+            "deviceTokens": [
+                
+            ],
+            "id": "diyrHzEg6",
+            "firstname": "esha 13",
+            "lastname": "reddy",
+            "email": "esharedddy@frugaltestingin.com",
+            "primaryPhone": "+23412345689",
+            "createdBy": "",
+            "referrerCode": "X22RYC52",
+            "country": "NG",
+            "active": true,
+            "createdAt": "2025-06-26T07:49:55.056Z",
+            "updatedAt": "2026-03-10T05:46:13.011Z",
+            "receiveNotification": true
+        }
+    ],
+    "documents": [
+        
+    ],
+    "dsas": [
+        
+    ],
+    "openingDaysAndTime": [
+        
+    ],
+    "staffs": [
+        {
+            "roles": [
+                
+            ],
+            "deviceTokens": [
+                
+            ],
+            "id": "diyrHzEg6",
+            "firstname": "esha 13",
+            "lastname": "reddy",
+            "email": "esharedddy@frugaltestingin.com",
+            "primaryPhone": "+23412345689",
+            "createdBy": "",
+            "referrerCode": "X22RYC52",
+            "country": "NG",
+            "active": true,
+            "createdAt": "2025-06-26T07:49:55.056Z",
+            "updatedAt": "2026-03-10T05:46:13.011Z",
+            "receiveNotification": true
+        }
+    ],
+    "pictures": [
+        
+    ],
+    "id": "KXVowpNL4",
+    "name": "Frugal Automation 07",
+    "owner": "diyrHzEg6",
+    "email": "test13700@mail.com",
+    "phonenumber": "+2348989513700",
+    "bankName": "Autobank",
+    "accountName": "TestUser",
+    "accountBvn": 566698532,
+    "status": "pending",
+    "contract": "pending",
+    "type": "dealer",
+    "subscriptionStatus": false,
+    "accountNumber": "894526313700",
+    "ownerInfo": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "createdBy": "",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-10T05:46:13.011Z",
+        "receiveNotification": true
+    },
+    "displayAddress": "123 Test St",
+    "address": "12B Allen Avenue (Near Ikeja Mall), Apo Mechanic, Abuja 100001, NG",
+    "hasAssociation": false,
+    "longitude": 3.379199981689453,
+    "latitude": 6.524400234222412,
+    "onboardingSource": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "createdBy": "",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-10T05:46:13.011Z",
+        "receiveNotification": true
+    },
+    "mapAddress": "Ikeja Center",
+    "isAnchor": true,
+    "forCollateralInspection": false,
+    "createdAt": "2026-03-10T05:46:12.919Z",
+    "houseNo": "12B",
+    "zipCode": "100001",
+    "streetName": "Allen Avenue",
+    "nearestLandmark": "Near Ikeja Mall",
+    "city": "Apo Mechanic",
+    "state": "Abuja",
+    "acceptedCodeOfConduct": false
+}

@@ -1,0 +1,33 @@
+HTTP/1.1 400 Bad Request
+Date: Tue, 10 Mar 2026 05:48:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 334
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"14e-ZNQ4gTEfndwVXpXAkegbGSQW47o"
+server: hide
+
+{
+    "code": 400,
+    "error": "Error creating franchise duplicate key value violates unique constraint \"UQ_a9c7c276c6b8ad2b397ffd91af8\"",
+    "message": "Error creating franchise duplicate key value violates unique constraint \"UQ_a9c7c276c6b8ad2b397ffd91af8\"",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/franchise"
+        }
+    ]
+}
