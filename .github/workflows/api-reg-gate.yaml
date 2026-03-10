@@ -152,16 +152,20 @@ jobs:
           
           <h1>Test Automation Dashboard</h1>
           
-          <div class="section latest">
-            <h2>🚀 Latest E2E Runs</h2>
-            <a href="./e2e/latest/api/">API E2E</a><br>
-            <a href="./e2e/latest/ui/">UI E2E</a>
-          </div>
-          
-          <div class="section latest">
-            <h2>🚀 Latest Regression Run</h2>
-            <a href="./regression/latest/">API Regression</a>
-          </div>
+          $(if [ -d "ghp/e2e/latest/api" ]; then
+            echo "<div class='section latest'>"
+            echo "<h2>🚀 Latest E2E Runs</h2>"
+            echo "<a href='./e2e/latest/api/'>API E2E</a><br>"
+            echo "<a href='./e2e/latest/ui/'>UI E2E</a>"
+            echo "</div>"
+          fi)
+
+          $(if [ -d "ghp/regression/latest" ]; then
+            echo "<div class='section latest'>"
+            echo "<h2>🚀 Latest Regression Run</h2>"
+            echo "<a href='./regression/latest/'>API Regression</a>"
+            echo "</div>"
+          fi)
           
           <div class="section">
             <h2>📅 Historical E2E Runs</h2>
