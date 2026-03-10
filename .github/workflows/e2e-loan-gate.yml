@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+concurrency:
+  group: gh-pages-publish
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -95,8 +99,8 @@ jobs:
           mkdir -p e2e/api-automation/target/allure-results/history
           mkdir -p e2e/ui-automation/target/allure-results/history
 
-          cp -r ghp/latest/api/history/* e2e/api-automation/target/allure-results/history/ 2>/dev/null || true
-          cp -r ghp/latest/ui/history/* e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
+          cp -r ghp/e2e/latest/api/history/* e2e/api-automation/target/allure-results/history/ 2>/dev/null || true
+          cp -r ghp/e2e/latest/ui/history/* e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
 
       # =========================================================
       # Generate Allure reports
@@ -210,8 +214,8 @@ jobs:
 
           {
             echo "## Allure Reports"
-            echo "- [API Report](${BASE}/latest/api/)"
-            echo "- [UI Report](${BASE}/latest/ui/)"
+            echo "- [API Report](${BASE}/e2e/latest/api/)"
+            echo "- [UI Report](${BASE}/e2e/latest/ui/)"
             echo ""
 
             echo "### API Severe Failures"
