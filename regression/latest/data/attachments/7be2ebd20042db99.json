@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/tyres/brands?country=%40%23%24%25%5E%26*
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=@#$%^&*
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJEQ1ZNVnJMZjBNaHlRQnFxbjI3WCIsImp3dElkIjoiOHd5Vmx1WVRrUlVSUkZ6ZUluTWYiLCJpYXQiOjE3NzMxMjQ3MzAsImV4cCI6MTgwNDY2MDczMH0.2ibHHXCS_eIpKDp8bEf6cu9qIKxbCWQ48DtKtk1Ud_A
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

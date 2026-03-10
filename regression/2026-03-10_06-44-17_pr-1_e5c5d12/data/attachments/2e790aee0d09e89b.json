@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/tyres/brands?country=%27NG%3B%20DROP%20TABLE%20users%3B%27
+Proxy:			<none>
+Request params:	<none>
+Query params:	country='NG; DROP TABLE users;'
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJEQ1ZNVnJMZjBNaHlRQnFxbjI3WCIsImp3dElkIjoiOHd5Vmx1WVRrUlVSUkZ6ZUluTWYiLCJpYXQiOjE3NzMxMjQ3MzAsImV4cCI6MTgwNDY2MDczMH0.2ibHHXCS_eIpKDp8bEf6cu9qIKxbCWQ48DtKtk1Ud_A
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
