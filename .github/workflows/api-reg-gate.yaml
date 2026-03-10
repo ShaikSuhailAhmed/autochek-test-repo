@@ -4,6 +4,11 @@ on:
   pull_request:
     branches: [ main ]
   workflow_dispatch:
+  
+concurrency:
+  group: gh-pages-publish
+  cancel-in-progress: false
+
 
 permissions:
   contents: write
@@ -79,7 +84,7 @@ jobs:
         run: |
           mkdir -p api-automation/target/allure-results/history
           if [ -d "ghp/regression/latest/history" ]; then
-            cp -r ghp/latest/history/* api-automation/target/allure-results/history/ || true
+            cp -r ghp/regression/latest/history/* api-automation/target/allure-results/history/ || true
           fi
 
       # =========================================================
@@ -123,7 +128,7 @@ jobs:
           mkdir -p ghp/regression/latest
           mkdir -p ghp/e2e || true
 
-          rm -rf ghp/latest/* || true
+          rm -rf ghp/regression/latest/* || true
 
           cp -r api-automation/target/allure-report/* "ghp/regression/${DEST}/"
           cp -r api-automation/target/allure-report/* "ghp/regression/latest/"
@@ -137,66 +142,50 @@ jobs:
           <html>
           <head>
             <meta charset="utf-8">
-            <title>API Regression Automation Dashboard</title>
+            <title>Test Automation Dashboard</title>
             <style>
-              body {
-                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial;
-                padding:40px;
-                max-width:900px;
-                margin:auto;
-                line-height:1.6;
-                color:#24292e;
-              }
-              h1 {
-                border-bottom:1px solid #eaecef;
-                padding-bottom:10px;
-              }
-              .latest {
-                background:#f6f8fa;
-                padding:20px;
-                border-radius:6px;
-                border:1px solid #d1d5da;
-                margin-bottom:30px;
-              }
-              .run {
-                display:flex;
-                justify-content:space-between;
-                padding:10px 0;
-                border-bottom:1px solid #f0f0f0;
-              }
-              a {
-                color:#0366d6;
-                text-decoration:none;
-                font-weight:500;
-              }
-              a:hover {
-                text-decoration:underline;
-              }
-              .date {
-                font-family:monospace;
-                font-weight:bold;
-              }
+              body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial; padding:40px; max-width:900px; margin:auto; line-height:1.5; color:#24292e;}
+              h1 { border-bottom:1px solid #eaecef; padding-bottom:10px;}
+              .section{margin-bottom:30px;}
+              .run{display:flex;justify-content:space-between;padding:10px;border-bottom:1px solid #f0f0f0;}
+              .latest{background:#f6f8fa;padding:20px;border-radius:6px;border:1px solid #d1d5da;}
+              a{color:#0366d6;text-decoration:none;font-weight:500;}
             </style>
           </head>
-
+          
           <body>
-
+          
           <h1>Test Automation Dashboard</h1>
-
-          <h2>📅 All Test Automation Runs</h2>
-
-          $(for run in $(ls -1 ghp/regression | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'>"
-              echo "<span class='date'>$(echo $run | sed 's/_/ /')</span>"
-              echo "<a href='./$run/'>API Regression Report</a>"
-              echo "</div>"
-          done)
-
+          
+          <div class="section latest">
+            <h2>🚀 Latest E2E Runs</h2>
+            <a href="./e2e/latest/api/">API E2E</a><br>
+            <a href="./e2e/latest/ui/">UI E2E</a>
+          </div>
+          
+          <div class="section latest">
+            <h2>🚀 Latest Regression Run</h2>
+            <a href="./regression/latest/">API Regression</a>
+          </div>
+          
+          <div class="section">
+            <h2>📅 Historical E2E Runs</h2>
+            $(for run in $(ls -1 ghp/e2e 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span>"
+              echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
+            done)
+          </div>
+          
+          <div class="section">
+            <h2>📅 Historical Regression Runs</h2>
+            $(for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>Open</a></div>"
+            done)
+          </div>
+          
           </body>
           </html>
           EOF
-
-          touch ghp/.nojekyll
 
       # =========================================================
       # Publish gh-pages
@@ -221,9 +210,9 @@ jobs:
           {
             echo "## API Regression Report"
             echo ""
-            echo "[Open Latest Report](${BASE}/latest/)"
+            echo "[Open Latest Report](${BASE}/regression/latest/)"
             echo ""
-            echo "[Open This Run](${BASE}/${DEST}/)"
+            echo "[Open This Run](${BASE}/regression/${DEST}/)"
           } >> "$GITHUB_STEP_SUMMARY"
 
       # =========================================================
