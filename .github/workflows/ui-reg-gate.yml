@@ -27,6 +27,8 @@ jobs:
           repository: ${{ env.AUTOMATION_REPO }}
           ref: main
           token: ${{ secrets.REGRESSION_AUTOMATION_TOKEN_UI }}
+          path: ui-automation
+
 
       # =========================================================
       # Set up Java
@@ -50,6 +52,7 @@ jobs:
       # Run UI Regression Tests
       # =========================================================
       - name: Run UI Tests
+        working-directory: ui-automation
         continue-on-error: true
         run: |
           mvn -B clean test \
