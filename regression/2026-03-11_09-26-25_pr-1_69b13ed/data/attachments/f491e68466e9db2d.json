@@ -1,0 +1,13 @@
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans/offer-simulations/abc123/accept
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiJTVk56a1paUERiSlBnSHNxUFk0biIsImp3dElkIjoiNFJDSWhUa0hpTXJkcmZKajJydkwiLCJpYXQiOjE3NzMyMjA4NjUsImV4cCI6MTgwNDc1Njg2NX0.ZQ2W0lAnJGSa0tQ2Ctt6LHzp-B0L--B7GiS36P5XFVk
+				x-autochek-app=dealerPlus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
