@@ -1,0 +1,236 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4326
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"10e6-gXu/DHn+Q1mbFKhUHDSyGIX9fck"
+server: hide
+
+{
+    "loanLeads": [
+        {
+            "id": "F77fAmObZO",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_b712f",
+            "lastName": "Testing",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "",
+            "email": "ng1512a@test.com",
+            "phone": "2348495139671",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 11 2026 06:53:15 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "28yKg5xtoJ"
+        },
+        {
+            "id": "FD1rTzuEXr",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_7c7c1",
+            "lastName": "Testing",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "",
+            "email": "ng22210@test.com",
+            "phone": "2348460239687",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 11 2026 06:53:01 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "19UtvqynZn"
+        },
+        {
+            "id": "T6bBv7LmR",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_b59e3",
+            "lastName": "Testing",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "ng02edf@test.com",
+            "phone": "2348542679702",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 11 2026 06:49:01 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y_rMs5fZcF"
+        },
+        {
+            "id": "IyJpsI77m",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_098a2",
+            "lastName": "Testing",
+            "status": "INSPECTION_PENDING",
+            "carName": "",
+            "email": "ngea249@test.com",
+            "phone": "2348307212687",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 11 2026 05:09:01 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "RF8us6jMY-"
+        },
+        {
+            "id": "0q_DL-Pxn-",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_2c849",
+            "lastName": "Testing",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "ng43a02@test.com",
+            "phone": "2348809659920",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 11 2026 04:40:47 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "xYkAudgHKL"
+        },
+        {
+            "id": "7lyp0WVCX",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_2349e",
+            "lastName": "Testing",
+            "status": "INSPECTION_PENDING",
+            "carName": "",
+            "email": "ng2499a@test.com",
+            "phone": "2348598943831",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 11 2026 04:34:33 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "RSAJnrJh6h"
+        },
+        {
+            "id": "1JSIHdysnP",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_74555",
+            "lastName": "Testing",
+            "status": "INSPECTION_PENDING",
+            "carName": "",
+            "email": "ng4217c@test.com",
+            "phone": "2348482814518",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 11 2026 04:27:56 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "4PlpUs1vK"
+        },
+        {
+            "id": "qJHF-HvpD",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_f5cdb",
+            "lastName": "Testing",
+            "status": "INSPECTION_PENDING",
+            "carName": "",
+            "email": "ngca9c0@test.com",
+            "phone": "2348762401782",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 11 2026 04:21:20 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "Y3zVjOvT8M"
+        },
+        {
+            "id": "Skup-4AM9",
+            "country": "NG",
+            "firstName": "Auto_e6a0c",
+            "lastName": "Testing",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "ng3a467@test.com",
+            "phone": "2348647094348",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Tue Mar 10 2026 12:23:59 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "qsy0bkqj8x"
+        },
+        {
+            "id": "rgIAm3lDG",
+            "carId": "-Em1AjQWK",
+            "country": "NG",
+            "firstName": "Auto_6676c",
+            "lastName": "Testing",
+            "status": "INSPECTION_COMPLETED",
+            "carName": "Toyota Auris  2017",
+            "email": "ng75461@test.com",
+            "phone": "2348028075125",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Tue Mar 10 2026 12:17:45 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y0cWbQaMF1"
+        }
+    ],
+    "pagination": {
+        "total": 49,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 195
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"c3-XdbZcxBHAVyIiRoU1/ffq6D5KXQ"
+server: hide
+
+{
+    "vin": "",
+    "make": "Toyota",
+    "model": "Auris",
+    "year": "2017",
+    "bodyType": "Crossover",
+    "vehicleUse": "Private",
+    "carWorth": "60000000",
+    "spareKey": "Yes",
+    "engineCapacity": "6-cylinder",
+    "vehicleModelId": "1881"
+}

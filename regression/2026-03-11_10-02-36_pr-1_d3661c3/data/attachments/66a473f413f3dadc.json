@@ -1,0 +1,681 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 10851
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"2a63-53B3I+qXngavsy0cGvl78ZJoEmk"
+server: hide
+
+{
+    "offers": [
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "135675"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "122409"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "15000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "23000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "959623"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "6cpaiaVRhN",
+            "approvedAmount": 2208800,
+            "interest": 17.299999237060547,
+            "tenure": 36,
+            "monthlyRepayment": "79080.00",
+            "equity": "844200.00",
+            "createdAt": "Wed Mar 11 2026 07:58:48 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_15c5c AUTO_192688",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "51.21",
+                "equity": "19.57",
+                "additionalFees": "29.22"
+            },
+            "dealerCommission": "8835.20",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "8835.20",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/O8IqhI6bz-6cpaiaVRhN-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "60599"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "36942"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "5000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "23000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "223911"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "UIm-n4NIQa",
+            "approvedAmount": 765019,
+            "interest": 17.299999237060547,
+            "tenure": 36,
+            "monthlyRepayment": "27389.00",
+            "equity": "172881.00",
+            "createdAt": "Wed Mar 11 2026 07:47:15 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "Manual BO AM Reddy",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "59.21",
+                "equity": "13.38",
+                "additionalFees": "27.41"
+            },
+            "dealerCommission": "0.01",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "2295.06",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/u-5oFuFDI-UIm-n4NIQa-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "4590.11"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "144000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "129920"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "15000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "23000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "1017783"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "Cvovt8x4cb",
+            "approvedAmount": 2342000,
+            "interest": 17.299999237060547,
+            "tenure": 36,
+            "monthlyRepayment": "83849.00",
+            "equity": "896000.00",
+            "createdAt": "Wed Mar 11 2026 07:53:31 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_b5932 AUTO_7db196",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "51.22",
+                "equity": "19.60",
+                "additionalFees": "29.18"
+            },
+            "dealerCommission": "9368.00",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "9368.00",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/spteKii37-Cvovt8x4cb-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "32414"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "135675"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "85693"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "15000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "32000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "39363"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "1904438"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "139896"
+                }
+            ],
+            "id": "M15rUaINa",
+            "approvedAmount": 1312103,
+            "interest": 35.75,
+            "tenure": 36,
+            "monthlyRepayment": "101202.00",
+            "equity": "1793925.00",
+            "createdAt": "Wed Mar 11 2026 07:59:11 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_15c5c AUTO_192688",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "23.88",
+                "equity": "32.65",
+                "additionalFees": "43.48"
+            },
+            "dealerCommission": "8502.43",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "17116.71",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/BtHwpyYXP-M15rUaINa-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "53000"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "60599"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "29347"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "15000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "32000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "20593"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "334863"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "42219"
+                }
+            ],
+            "id": "v9CRadVjzX",
+            "approvedAmount": 686441,
+            "interest": 35.75,
+            "tenure": 36,
+            "monthlyRepayment": "52503.00",
+            "equity": "295718.00",
+            "createdAt": "Wed Mar 11 2026 07:47:42 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "Manual BO AM Reddy",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "43.60",
+                "equity": "18.78",
+                "additionalFees": "37.62"
+            },
+            "dealerCommission": "0.00",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "4791.94",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/LueJ_AH3b-v9CRadVjzX-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "8492.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "53114"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "1580407"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "1287956"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "15000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "32000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "673679"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "23809469"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "2036970"
+                }
+            ],
+            "id": "DpoTOVLsW",
+            "approvedAmount": 22455952,
+            "interest": 35.75,
+            "tenure": 36,
+            "monthlyRepayment": "1598651.00",
+            "equity": "22169611.00",
+            "createdAt": "Wed Mar 11 2026 07:48:24 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_9e864 AUTO_56a424",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "30.30",
+                "equity": "29.91",
+                "additionalFees": "39.79"
+            },
+            "dealerCommission": "145514.57",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "270943.77",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/A5uRLCrQt-DpoTOVLsW-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "53000"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "137500"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "245544"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "30000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "32000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "32990"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "9341364"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "uqSjQ4iffK",
+            "approvedAmount": 1099655,
+            "interest": 36.25,
+            "tenure": 36,
+            "monthlyRepayment": "79640.00",
+            "equity": "9015000.00",
+            "createdAt": "Wed Mar 11 2026 07:43:34 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_7cb84 AUTO_626559",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "5.50",
+                "equity": "45.09",
+                "additionalFees": "49.41"
+            },
+            "dealerCommission": "7125.76",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "7125.76",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/adrdYqKIS-uqSjQ4iffK-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "32414"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "144000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "90912"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "15000"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "32000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "41680"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "2021212"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "148480"
+                }
+            ],
+            "id": "C4xJgi1FF",
+            "approvedAmount": 1389345,
+            "interest": 35.75,
+            "tenure": 36,
+            "monthlyRepayment": "107058.00",
+            "equity": "1904000.00",
+            "createdAt": "Wed Mar 11 2026 07:53:56 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_b5932 AUTO_7db196",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "23.86",
+                "equity": "32.69",
+                "additionalFees": "43.45"
+            },
+            "dealerCommission": "9002.96",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "18145.82",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/mhsQQMijc4-C4xJgi1FF-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "105525"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "447667"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "40000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "108540"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "1098576"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "A7hVZTvt3",
+            "approvedAmount": 2170800,
+            "interest": 16.540000915527344,
+            "tenure": 60,
+            "monthlyRepayment": "59710.00",
+            "equity": "844200.00",
+            "createdAt": "Wed Mar 11 2026 07:59:00 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_15c5c AUTO_192688",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "45.04",
+                "equity": "17.51",
+                "additionalFees": "37.45"
+            },
+            "dealerCommission": "13893.12",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "13893.12",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/fYuHm7K8x-A7hVZTvt3-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "112000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "475136"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "40000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "115200"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "4665"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "1163244"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "cBudybxUEi",
+            "approvedAmount": 2304000,
+            "interest": 16.540000915527344,
+            "tenure": 60,
+            "monthlyRepayment": "63374.00",
+            "equity": "896000.00",
+            "createdAt": "Wed Mar 11 2026 07:53:43 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "E2E_By_FA_KE_BO_b5932 AUTO_7db196",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "45.09",
+                "equity": "17.53",
+                "additionalFees": "37.38"
+            },
+            "dealerCommission": "14745.60",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "14745.60",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/-e5PLIC8L-cBudybxUEi-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        }
+    ],
+    "pagination": {
+        "total": 3521,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

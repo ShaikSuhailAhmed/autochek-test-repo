@@ -1,0 +1,113 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 71
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"47-thmvgEtFs6LoUbUPUsn5kyyPXOc"
+server: hide
+
+{
+    "loanLeads": [
+        
+    ],
+    "pagination": {
+        "total": 0,
+        "currentPage": 1,
+        "pageSize": 50
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1234
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"4d2-luEMczZ3lycglOQnAJdzLTfc4E0"
+server: hide
+
+{
+    "additionalPayments": [
+        {
+            "name": "Annual maintenance cost",
+            "value": "0"
+        },
+        {
+            "name": "Vehicle registration",
+            "value": "0"
+        },
+        {
+            "name": "Insurance fees",
+            "value": "0"
+        },
+        {
+            "name": "spare Key",
+            "value": "0"
+        },
+        {
+            "name": "Tracker",
+            "value": "0"
+        },
+        {
+            "name": "Credit life insurance",
+            "value": "0"
+        }
+    ],
+    "id": "C9Hkdnk7H",
+    "partner": {
+        "id": "gaDmAJ-V1",
+        "name": "hallmark finance",
+        "logoUrl": "https://media.autochek.africa/file/SnsMLH1Z.png"
+    },
+    "approvedAmount": 10406045,
+    "interest": 47,
+    "tenure": 36,
+    "monthlyRepayment": "692886.00",
+    "equity": "6961500.00",
+    "status": "ACCEPTED",
+    "createdAt": "Fri Nov 14 2025 12:55:13 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Thu Dec 11 2025 22:00:10 GMT+0000 (Coordinated Universal Time)",
+    "offerType": "FINAL_OFFER",
+    "loanSummary": {
+        "loan": "59.92",
+        "equity": "40.08",
+        "additionalFees": "0.00"
+    },
+    "dealerCommission": "42289.87",
+    "dsaCommission": "0.00",
+    "leadManagerCommission": "0.00",
+    "accountManagerCommission": "119097.41",
+    "pdfUrl": "https://storage.googleapis.com/autochek-loan/1lVsxgm9P-C9Hkdnk7H-FINAL_OFFER.pdf",
+    "dealerDsaCommission": "0.00",
+    "isExpired": true,
+    "state": "EXPIRED",
+    "loanApplicationMaximumApprovedVehicleValue": "654900000",
+    "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/iSZPfPfl0-C9Hkdnk7H-FINAL_OFFER-breakdown.pdf",
+    "version": "6"
+}

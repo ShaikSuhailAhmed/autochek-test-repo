@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4551
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"11c7-X1oyG7N0NjleuUQBgAZYNS+PYtk"
+server: hide
+
+{
+    "loanLeads": [
+        {
+            "id": "WJafxuJRd",
+            "carId": "4dlkXUK8y",
+            "country": "NG",
+            "firstName": "APIf51b206f",
+            "lastName": "Testing00f6928c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "APIdbcfbf@test.com",
+            "phone": "2340479475400",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 770601,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-11T07:59:46.417Z",
+            "customerType": "Salary earner",
+            "customerId": "qz6jUCRdKl"
+        },
+        {
+            "id": "Iuar0ZghiW",
+            "carId": "hNLZ-9n4o",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_b7cbe1",
+            "lastName": "AUTO_9737dd",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Audi A5  2015",
+            "email": "ng_bo_ca663d@test.com",
+            "phone": "2343171557986",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 3669828,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-11T07:18:43.580Z",
+            "customerType": "Business owner",
+            "customerId": "8f-gdusj4"
+        },
+        {
+            "id": "JIYCz8l1XR",
+            "carId": "7IBTd4v1n",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_c0e44",
+            "lastName": "AUTO_a3a023",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_self_employed_244d3d@test.com",
+            "phone": "2348486887142",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1134604,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-11T07:18:42.568Z",
+            "customerType": "Self-Employed",
+            "customerId": "XPqnW9Pdgt"
+        },
+        {
+            "id": "C4z6oGOCP",
+            "carId": "jg7EfiWMn",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_36ae08",
+            "lastName": "AUTO_77bc6e",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_bo_58634d@test.com",
+            "phone": "2345364490987",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1134604,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-11T07:18:35.970Z",
+            "customerType": "Business owner",
+            "customerId": "Pj59Yf8Ik"
+        },
+        {
+            "id": "2xkObRaihm",
+            "carId": "Rk8SBAe7N",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_Salary_026b0f",
+            "lastName": "AUTO_67b41e",
+            "status": "PPI_COMPLETED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng9e68e7@gmail.com",
+            "phone": "2344743985448",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 794501,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-11T07:18:25.173Z",
+            "customerType": "Salary earner",
+            "customerId": "04hous9WTM"
+        },
+        {
+            "id": "fFB3_N2JBu",
+            "carId": "eD2oDnE0U",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_Salary_8ff98b",
+            "lastName": "AUTO_5d4657",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng5b99f6@gmail.com",
+            "phone": "2341270340482",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 794501,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-11T07:18:20.259Z",
+            "customerType": "Salary earner",
+            "customerId": "WlLcLLGCLz"
+        },
+        {
+            "id": "OGCv6lmnz",
+            "carId": "GuGZPko1T",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_c2704",
+            "lastName": "AUTO_029f1d",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Audi A5  2020",
+            "email": "ng_self_employed_e5ff6a@test.com",
+            "phone": "2343718364492",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 4663629,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-11T07:18:14.258Z",
+            "customerType": "Self-Employed",
+            "customerId": "hgOLmh_Bce"
+        },
+        {
+            "id": "Td2iqpMkZ",
+            "carId": "EF3xMD9K2",
+            "country": "NG",
+            "firstName": "API9d89a04c",
+            "lastName": "Testingd2f460a2",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "API73fe2c@test.com",
+            "phone": "2344194294032",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 770601,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-11T07:17:40.963Z",
+            "customerType": "Salary earner",
+            "customerId": "Utjy7k_0w"
+        },
+        {
+            "id": "hz44_Rj9cA",
+            "carId": "v6ZCKJW4I",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_4fa4ae",
+            "lastName": "AUTO_28c03f",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Audi A5  2020",
+            "email": "ng_bo_5176a9@test.com",
+            "phone": "2342153702940",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 3281577,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-11T07:04:28.032Z",
+            "customerType": "Business owner",
+            "customerId": "hQIxZqVE9z"
+        },
+        {
+            "id": "FVlCEknxTP",
+            "carId": "IUupidJMb",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_be555",
+            "lastName": "AUTO_563368",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_self_employed_2ba050@test.com",
+            "phone": "2344358599736",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1115786,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-11T07:04:25.058Z",
+            "customerType": "Self-Employed",
+            "customerId": "OHpjYCoNAZ"
+        }
+    ],
+    "pagination": {
+        "total": 1379,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,101 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1868
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"74c-4XI3+dmNtZt37TMzubrLivwJ6Wg"
+server: hide
+
+{
+    "banks": [
+        {
+            "id": "546",
+            "name": "Absa Bank Ghana Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/c0527909-fbca-4eca-b3a0-0784b66ff2d5-absa.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "547",
+            "name": "Access Bank Ghana Plc",
+            "logo": "https://media.autochek.africa/file/rpkS7WsD.gif",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "548",
+            "name": "Agricultural Development Bank of Ghana",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/fb362b0e-3397-42d3-96c9-e49dcf24ce4f-gh-adb-logo.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "549",
+            "name": "Bank of Africa Ghana Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/830855f4-66f8-476c-bd69-501419392d68-bank_of_africa.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "550",
+            "name": "CalBank Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/a822cfd8-2e83-4ad5-a27d-bc5fbb18fe16-calbank.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "551",
+            "name": "Consolidated Bank Ghana Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/4f800674-40e1-4211-a56d-e47370c033d4-consolidated_bank_ghana.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "552",
+            "name": "Ecobank (Ghana) Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/6b144aaf-edc4-4f27-a6d0-4186d66633a1-Ecobank%20Logo.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "553",
+            "name": "FBN Bank Ghana Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/9f607b52-914d-41be-abb8-59afa6080ff2-FBNBank.png",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "554",
+            "name": "Fidelity Bank Ghana Limited",
+            "logo": "https://media.autochek.africa/file/bfQWaReb.jpg",
+            "country": "GH",
+            "active": true
+        },
+        {
+            "id": "555",
+            "name": "First Atlantic Bank Limited",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/8fee1151-dd1a-44b5-82d9-972cce9f8535-First%20Atlantic.png",
+            "country": "GH",
+            "active": true
+        }
+    ],
+    "pagination": {
+        "total": 23,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

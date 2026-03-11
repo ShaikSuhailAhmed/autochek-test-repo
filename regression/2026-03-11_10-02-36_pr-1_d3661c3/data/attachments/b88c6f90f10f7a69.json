@@ -1,0 +1,147 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2382
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"94e-lIGvRF4hK9J6NEa7xXtX8KOcldo"
+server: hide
+
+{
+    "partners": [
+        {
+            "id": "2iz_5GIsV",
+            "name": "Ecobank Ghana Limited",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/183f8783-b379-4e51-87d9-7f69bce5add7-ecobank-logo-512.png",
+            "code": "ecobankgh",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Autochek",
+                    "Paid_to_Ecobank"
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "Qd5vh4pui",
+            "name": "Absa Bank Ghana Limited",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/c0527909-fbca-4eca-b3a0-0784b66ff2d5-absa.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "4y5LZYqyY",
+            "name": "Access Bank",
+            "logoUrl": "https://media.autochek.africa/file/t81gsaam.gif",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "IkT53C0zu",
+            "name": "Access Bank Ghana",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/9e9734d6-4a63-4fbc-a666-ef2b51d51cff-access-bank-plc-logo-512.png",
+            "code": "accessbankgh",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "bl-f2SfU6",
+            "name": "Agricultural Development Bank of Ghana",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/fb362b0e-3397-42d3-96c9-e49dcf24ce4f-gh-adb-logo.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "u7nNx1wHC",
+            "name": "Autochek",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/full-color-logo-new.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "JKyQk9Jsc",
+            "name": "Bank of Africa Ghana Limited",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/830855f4-66f8-476c-bd69-501419392d68-bank_of_africa.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "5h4ouodhx",
+            "name": "Bayport",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/672b7dab-4e6c-4baf-95f9-edad2629d74f-WhatsApp%20Image%202021-05-21%20at%2017.52.01.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "uXDw69oK9",
+            "name": "CalBank Limited",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/a822cfd8-2e83-4ad5-a27d-bc5fbb18fe16-calbank.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "cELwVM_hR",
+            "name": "Carbon",
+            "logoUrl": "https://media.autochek.africa/file/0frZMgdR.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        }
+    ],
+    "pagination": {
+        "total": 34,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

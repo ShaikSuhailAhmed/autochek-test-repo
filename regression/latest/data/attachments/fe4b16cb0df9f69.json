@@ -1,0 +1,41 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/offers?country=NG&status=ACCEPTED&page_size=50
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				status=ACCEPTED
+				page_size=50
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6InVoQTJsbTh3V0FGaVZINFlhMjFIIiwiand0SWQiOiJvQjYydlpOTzZOM3pnVFNvVHphayIsImlhdCI6MTc3MzIyMzI5MCwiZXhwIjoxODA0NzU5MjkwfQ.ory4MfJkBqn21dUkqUOFLbInPoCwxVzz5PHZhmC3CZM
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/offers/KL5o9VGcwk/loan-document
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	offer_Id=KL5o9VGcwk
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6InVoQTJsbTh3V0FGaVZINFlhMjFIIiwiand0SWQiOiJvQjYydlpOTzZOM3pnVFNvVHphayIsImlhdCI6MTc3MzIyMzI5MCwiZXhwIjoxODA0NzU5MjkwfQ.ory4MfJkBqn21dUkqUOFLbInPoCwxVzz5PHZhmC3CZM
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/offers/4-AfdCgDc6/loan-document
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	offer_Id=4-AfdCgDc6
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6InVoQTJsbTh3V0FGaVZINFlhMjFIIiwiand0SWQiOiJvQjYydlpOTzZOM3pnVFNvVHphayIsImlhdCI6MTc3MzIyMzI5MCwiZXhwIjoxODA0NzU5MjkwfQ.ory4MfJkBqn21dUkqUOFLbInPoCwxVzz5PHZhmC3CZM
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

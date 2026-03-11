@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 10:01:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4649
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"1229-jO+QW06TOikKX0jQOs30uDyp7m0"
+server: hide
+
+{
+    "loanLeads": [
+        {
+            "id": "YnYdoGHx3",
+            "carId": "IfnIRBK3E",
+            "country": "UG",
+            "firstName": "Black ",
+            "lastName": "Salary",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "BMW 128i  2023",
+            "email": "portia.22@autochek.africa",
+            "phone": "256525663255",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "AccountUG Manager",
+            "createdAt": "Fri Feb 13 2026 13:55:59 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "zssR0mQda2"
+        },
+        {
+            "id": "Hij-UavSN",
+            "carId": "SbKn6oMQ2",
+            "country": "UG",
+            "firstName": "Salary",
+            "lastName": "Apson",
+            "status": "EQUITY_PAID",
+            "carName": "BMW 114  2021",
+            "email": "portia.11@autochek.africa",
+            "phone": "256524152632",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 2468333,
+            "createdBy": "AccountUG Manager",
+            "createdAt": "Thu Feb 12 2026 08:15:42 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "4imz2n4P1"
+        },
+        {
+            "id": "iRxw4AhXe",
+            "carId": "SbKn6oMQ2",
+            "country": "UG",
+            "firstName": "Business ",
+            "lastName": "Activation",
+            "status": "EQUITY_PAID",
+            "carName": "BMW 114  2021",
+            "email": "portia.452@autochek.africa",
+            "phone": "256526341152",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 2285107,
+            "createdBy": "AccountUG Manager",
+            "createdAt": "Thu Feb 12 2026 08:12:36 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "Lg9trWZa6Y"
+        },
+        {
+            "id": "aPs_asjH5",
+            "carId": "XIJYkKWee",
+            "country": "UG",
+            "firstName": "Boss",
+            "lastName": "Business",
+            "status": "DISBURSED",
+            "carName": "Toyota Landcruiser Prado  2020",
+            "email": "portia23@autochek.africa",
+            "phone": "254635241556",
+            "productType": "Decision Engine Loan",
+            "expired": true,
+            "loanValue": 216434032,
+            "createdBy": "AccountUG Manager",
+            "createdAt": "Thu Nov 06 2025 15:06:02 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "9qJlrL173T"
+        },
+        {
+            "id": "_sax_J5LQ",
+            "carId": "GIPzn5OiS",
+            "country": "UG",
+            "firstName": "Frie",
+            "lastName": "dly",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Subaru Forester  2014",
+            "email": "fr.dgsj@mailnator.com",
+            "phone": "256781120098",
+            "productType": "Dealer WhiteLabel",
+            "expired": true,
+            "loanValue": 5113467,
+            "createdBy": "Cliff Okiko",
+            "createdAt": "Tue Jul 23 2024 15:17:06 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "4GI4sP5Kc3"
+        },
+        {
+            "id": "NTmrmoZJ0",
+            "carId": "cMysTRBv1",
+            "country": "UG",
+            "firstName": "Salam",
+            "lastName": "Namazi",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Toyota Fielder   2018",
+            "email": "akano.a+Snama@autochek.africa",
+            "phone": "256889001322",
+            "productType": "Decision Engine Loan",
+            "expired": true,
+            "loanValue": 35481376,
+            "createdBy": "Ade QA DSA",
+            "createdAt": "Mon Jun 03 2024 07:31:03 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "naQTC5d3kc"
+        },
+        {
+            "id": "6hnWaIyPo",
+            "carId": "QYvy1x5qk",
+            "country": "UG",
+            "firstName": "debs",
+            "lastName": "debs",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Toyota Hiace  2008",
+            "email": "deb@gmail.com",
+            "phone": "254715766887",
+            "productType": "Decision Engine Loan",
+            "expired": true,
+            "loanValue": 1109711,
+            "createdBy": "Ugtest Ugtest",
+            "createdAt": "Mon Jan 22 2024 09:31:58 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "5q_ywJmTRF"
+        },
+        {
+            "id": "tkokMopm9",
+            "carId": "XUyr_ADK-",
+            "country": "UG",
+            "firstName": "Mathew",
+            "lastName": "Johns",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Lamborghini Gallardo  2009",
+            "email": "mathew.j@dispostable.com",
+            "phone": "256789023757",
+            "productType": "Decision Engine Loan",
+            "expired": true,
+            "loanValue": 1109711,
+            "createdBy": "Mathew Johns",
+            "createdAt": "Mon Nov 20 2023 09:48:25 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "DOzxLVm8c5"
+        },
+        {
+            "id": "TZM10h5BU",
+            "carId": "kk5-a7XyI",
+            "country": "UG",
+            "firstName": "Bhut",
+            "lastName": "Karkara",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Subaru Impreza  2013",
+            "email": "akano.a+karkara@autochek.africa",
+            "phone": "256776744101",
+            "productType": "Decision Engine Loan",
+            "expired": true,
+            "loanValue": 1109711,
+            "createdBy": "Bhut Karkara",
+            "createdAt": "Fri Nov 10 2023 14:11:26 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "LEuhv1aMse"
+        },
+        {
+            "id": "Hj8pC4OFB",
+            "carId": "Lro-24hp1",
+            "country": "UG",
+            "firstName": "Zebbylion",
+            "lastName": "Njau",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Volkswagen Phaeton  2020",
+            "email": "zebby.test@dispostable.com",
+            "phone": "2341234567890",
+            "productType": "Decision Engine Loan",
+            "expired": true,
+            "loanValue": 1109711,
+            "createdBy": "Zebbylion send state",
+            "createdAt": "Mon Nov 06 2023 10:39:20 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "PEJJ2oGYvh"
+        }
+    ],
+    "pagination": {
+        "total": 18,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
