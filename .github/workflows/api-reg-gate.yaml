@@ -166,6 +166,13 @@ jobs:
             echo "<a href='./regression/latest/'>API Regression</a>"
             echo "</div>"
           fi)
+           $(if [ -d "ghp/regression_ui/latest" ]; then
+            echo "<div class='section latest'>"
+            echo "<h2>🚀 Latest UI Regression Run</h2>"
+            echo "<a href='./regression_ui/latest/'>UI Regression</a>"
+            echo "</div>"
+          fi)
+
           
           $(if [ -d "ghp/e2e" ]; then
             echo "<div class='section'>"
@@ -181,12 +188,22 @@ jobs:
           
           $(if [ -d "ghp/regression" ]; then
             echo "<div class='section'>"
-            echo "<h2>📅 Historical Regression Runs</h2>"
+            echo "<h2>📅 Historical API Regression Runs</h2>"
           
             for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>Open</a></div>"
+              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>API Regression Report</a></div>"
             done
           
+            echo "</div>"
+          fi)
+           $(if [ -d "ghp/regression_ui" ]; then
+            echo "<div class='section'>"
+            echo "<h2>📅 Historical UI Regression Runs</h2>"
+
+            for run in $(ls -1 ghp/regression_ui 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span><a href='./regression_ui/$run/'>UI Regression Report</a></div>"
+            done
+
             echo "</div>"
           fi)
 
