@@ -1,0 +1,66 @@
+HTTP/1.1 400 Bad Request
+Date: Thu, 12 Mar 2026 07:59:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"ab-dm2n/0CQdlJ0LG7gBTKZgR/0uqU"
+server: hide
+
+{
+    "code": 400,
+    "error": "franchise id not found",
+    "message": "franchise id not found",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/franchise/null"
+        }
+    ]
+}
+HTTP/1.1 400 Bad Request
+Date: Thu, 12 Mar 2026 08:00:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 219
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"db-60JCmRMrW6Xj3TC1XytWA0ZMIDY"
+server: hide
+
+{
+    "code": 400,
+    "error": "Error fetching franchisefranchise id not found",
+    "message": "Error fetching franchisefranchise id not found",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/franchise/null"
+        }
+    ]
+}
