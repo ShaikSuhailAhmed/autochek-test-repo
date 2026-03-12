@@ -1,0 +1,67 @@
+HTTP/1.1 200 OK
+Date: Thu, 12 Mar 2026 08:32:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ6dXI3Z1VXV3JkQllzU2pOT1B4MCIsImp3dElkIjoiUm0wSHVlRndVcW9kN1ZWeW42QlciLCJpYXQiOjE3NzMzMDQzNjQsImV4cCI6MTgwNDg0MDM2NH0.cZQmx1xUZqToZ82dYXg7ShQiKUAGcsQrYuFeSdzJmKI; Max-Age=3600; Path=/; Expires=Thu, 12 Mar 2026 09:32:44 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=8308cf1a0db0d8abe8a1a25fc7fe848108ba42792993eee1c1a048089a56afc159f4d3b4ad1c3b6bdcf9f552cac6e9f736bd59db38102994e9dfb37b2faa3203; Max-Age=2592000; Path=/; Expires=Sat, 11 Apr 2026 08:32:44 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-x09QeCLoiNyb7XDQ2R0SeGOhKn4"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "BQlQBbLTW",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ6dXI3Z1VXV3JkQllzU2pOT1B4MCIsImp3dElkIjoiUm0wSHVlRndVcW9kN1ZWeW42QlciLCJpYXQiOjE3NzMzMDQzNjQsImV4cCI6MTgwNDg0MDM2NH0.cZQmx1xUZqToZ82dYXg7ShQiKUAGcsQrYuFeSdzJmKI",
+        "refreshToken": "8308cf1a0db0d8abe8a1a25fc7fe848108ba42792993eee1c1a048089a56afc159f4d3b4ad1c3b6bdcf9f552cac6e9f736bd59db38102994e9dfb37b2faa3203",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 409 Conflict
+Date: Thu, 12 Mar 2026 08:32:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 404
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"194-fEtc2+vohkwCtU92iJ2x8QBZ9sk"
+server: hide
+
+{
+    "code": 4090,
+    "error": "There is a scheduled inspection request with the same VIN: NULL. Complete or cancel the existing request before creating a new one.",
+    "message": "There is a scheduled inspection request with the same VIN: NULL. Complete or cancel the existing request before creating a new one.",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/inspection_request"
+        }
+    ]
+}
