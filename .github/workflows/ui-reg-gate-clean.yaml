@@ -151,14 +151,51 @@ jobs:
 
           <h1>Test Automation Dashboard</h1>
 
-          $(if [ -d "ghp/regression_ui/latest" ]; then
+          $(if [ -d "ghp/e2e/latest/api" ]; then
+            echo "<div class='section latest'>"
+            echo "<h2>🚀 Latest E2E Runs</h2>"
+            echo "<a href='./e2e/latest/api/'>API E2E</a><br>"
+            echo "<a href='./e2e/latest/ui/'>UI E2E</a>"
+            echo "</div>"
+          fi)
+
+          $(if [ -d "ghp/regression/latest" ]; then
+            echo "<div class='section latest'>"
+            echo "<h2>🚀 Latest Regression Run</h2>"
+            echo "<a href='./regression/latest/'>API Regression</a>"
+            echo "</div>"
+          fi)
+           $(if [ -d "ghp/regression_ui/latest" ]; then
             echo "<div class='section latest'>"
             echo "<h2>🚀 Latest UI Regression Run</h2>"
             echo "<a href='./regression_ui/latest/'>UI Regression</a>"
             echo "</div>"
           fi)
 
-          $(if [ -d "ghp/regression_ui" ]; then
+          
+          $(if [ -d "ghp/e2e" ]; then
+            echo "<div class='section'>"
+            echo "<h2>📅 Historical E2E Runs</h2>"
+          
+            for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span>"
+              echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
+            done
+          
+            echo "</div>"
+          fi)
+          
+          $(if [ -d "ghp/regression" ]; then
+            echo "<div class='section'>"
+            echo "<h2>📅 Historical API Regression Runs</h2>"
+          
+            for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>API Regression Report</a></div>"
+            done
+          
+            echo "</div>"
+          fi)
+           $(if [ -d "ghp/regression_ui" ]; then
             echo "<div class='section'>"
             echo "<h2>📅 Historical UI Regression Runs</h2>"
 
@@ -168,10 +205,6 @@ jobs:
 
             echo "</div>"
           fi)
-
-          </body>
-          </html>
-          EOF
 
       # =========================================================
       # Publish gh-pages
