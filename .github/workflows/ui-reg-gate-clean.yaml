@@ -177,7 +177,7 @@ jobs:
             echo "<div class='section'>"
             echo "<h2>📅 Historical E2E Runs</h2>"
           
-            for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r); do
+            for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r | head -n 5); do
               echo "<div class='run'><span>$run</span>"
               echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
             done
@@ -189,7 +189,7 @@ jobs:
             echo "<div class='section'>"
             echo "<h2>📅 Historical API Regression Runs</h2>"
           
-            for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+            for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r | head -n 5); do
               echo "<div class='run'><span>$run</span><a href='./regression/$run/'>API Regression Report</a></div>"
             done
           
@@ -199,7 +199,7 @@ jobs:
             echo "<div class='section'>"
             echo "<h2>📅 Historical UI Regression Runs</h2>"
 
-            for run in $(ls -1 ghp/regression_ui 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
+            for run in $(ls -1 ghp/regression_ui 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r | head -n 5); do
               echo "<div class='run'><span>$run</span><a href='./regression_ui/$run/'>UI Regression Report</a></div>"
             done
 
