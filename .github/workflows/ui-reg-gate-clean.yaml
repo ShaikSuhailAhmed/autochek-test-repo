@@ -10,13 +10,14 @@ permissions:
 
 env:
   UI_BLOCK_SEVERITIES: blocker,critical
-  AUTOMATION_REPO: ShaikSuhailAhmed/my-ui-automation
+  AUTOMATION_REPO: ShaikSuhailAhmed/autochek-ui-automation-clean
 
 jobs:
   ui-tests:
     runs-on: ubuntu-latest
 
     steps:
+
       # =========================================================
       # Checkout UI automation repo
       # =========================================================
@@ -24,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.AUTOMATION_REPO }}
-          token: ${{ secrets.MY_UI_AUTOMATION }}
+          token: ${{ secrets.MY_UI_AUTOMATION_CLEAN }}
           path: ui-automation
 
       # =========================================================
@@ -36,6 +37,14 @@ jobs:
           java-version: '22'
           distribution: 'temurin'
           cache: maven
+
+      # =========================================================
+      # Install Chrome
+      # =========================================================
+      - name: Install Chrome
+        run: |
+          sudo apt update
+          sudo apt install -y google-chrome-stable
 
       # =========================================================
       # Run UI Tests
@@ -74,7 +83,7 @@ jobs:
         continue-on-error: true
 
       # =========================================================
-      # Restore Allure history (trend charts)
+      # Restore Allure history
       # =========================================================
       - name: Restore Allure history
         run: |
@@ -102,9 +111,24 @@ jobs:
           DEST="${TS}_${SHORT_SHA}"
           echo "dest_dir=$DEST" >> $GITHUB_OUTPUT
 
-      # -----------------------------------------------------
+      # =========================================================
+      # Prepare gh-pages directories
+      # =========================================================
+      - name: Prepare gh-pages content
+        run: |
+          DEST="${{ steps.meta.outputs.dest_dir }}"
+
+          mkdir -p ghp/regression_ui/${DEST}
+          mkdir -p ghp/regression_ui/latest
+
+          rm -rf ghp/regression_ui/latest/*
+
+          cp -r ui-automation/target/allure-report/* ghp/regression_ui/${DEST}/
+          cp -r ui-automation/target/allure-report/* ghp/regression_ui/latest/
+
+      # =========================================================
       # Generate Dashboard
-      # -----------------------------------------------------
+      # =========================================================
       - name: Generate Dashboard
         run: |
           cat <<EOF > ghp/index.html
@@ -126,20 +150,6 @@ jobs:
           <body>
 
           <h1>Test Automation Dashboard</h1>
-          $(if [ -d "ghp/e2e/latest/api" ]; then
-            echo "<div class='section latest'>"
-            echo "<h2>🚀 Latest E2E Runs</h2>"
-            echo "<a href='./e2e/latest/api/'>API E2E</a><br>"
-            echo "<a href='./e2e/latest/ui/'>UI E2E</a>"
-            echo "</div>"
-          fi)
-
-          $(if [ -d "ghp/regression/latest" ]; then
-            echo "<div class='section latest'>"
-            echo "<h2>🚀 Latest Regression Run</h2>"
-            echo "<a href='./regression/latest/'>API Regression</a>"
-            echo "</div>"
-          fi)
 
           $(if [ -d "ghp/regression_ui/latest" ]; then
             echo "<div class='section latest'>"
@@ -147,32 +157,10 @@ jobs:
             echo "<a href='./regression_ui/latest/'>UI Regression</a>"
             echo "</div>"
           fi)
-           $(if [ -d "ghp/e2e" ]; then
-            echo "<div class='section'>"
-            echo "<h2>📅 Historical E2E Runs</h2>"
-          
-            for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'><span>$run</span>"
-              echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
-            done
-          
-            echo "</div>"
-          fi)
-          
-          $(if [ -d "ghp/regression" ]; then
-            echo "<div class='section'>"
-            echo "<h2>📅 Historical Regression Runs</h2>"
-          
-            for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>API Regression Report</a></div>"
-            done
-          
-            echo "</div>"
-          fi)
 
           $(if [ -d "ghp/regression_ui" ]; then
             echo "<div class='section'>"
-            echo "<h2>📅 Historical Regression Runs</h2>"
+            echo "<h2>📅 Historical UI Regression Runs</h2>"
 
             for run in $(ls -1 ghp/regression_ui 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
               echo "<div class='run'><span>$run</span><a href='./regression_ui/$run/'>UI Regression Report</a></div>"
@@ -196,7 +184,7 @@ jobs:
           keep_files: true
 
       # =========================================================
-      # Job Summary (Markdown for GitHub)
+      # Job Summary
       # =========================================================
       - name: Job Summary
         if: always()
@@ -206,18 +194,6 @@ jobs:
           {
             echo "## Allure Reports"
             echo "- [UI Report](${BASE}/regression_ui/latest/)"
-            echo ""
-
-            echo "### UI Severe Failures"
-            echo "| Severity | Test |"
-            echo "|---|---|"
-            jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
-              ( $block | split(",") ) as $sevlist
-              | select(.status=="failed" or .status=="broken")
-              | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-              | select($sev != null and ($sevlist | index($sev)))
-              | "| \($sev) | \(.name // .fullName) |"
-            ' ui-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
           } >> "$GITHUB_STEP_SUMMARY"
 
       # =========================================================
