@@ -1,0 +1,17 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=1&franchise=kpMngdaMZ&country=NG&name=Toyota
+Proxy:			<none>
+Request params:	<none>
+Query params:	exclude_sold_cars=true
+				exclude_category_name=logbook
+				page_number=1
+				franchise=kpMngdaMZ
+				country=NG
+				name=Toyota
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ3a0w2YkRneEtwRDNnbkdUbldIMSIsImp3dElkIjoidFVwd3NRSVhNcEtGVFdLdGFhTjEiLCJpYXQiOjE3NzMzMTE1NzUsImV4cCI6MTgwNDg0NzU3NX0.EBg0j057Fn15kot55O2zo50yB8vaMxZk1AbmPW7VumI
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
