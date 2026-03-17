@@ -1,0 +1,59 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+102@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IkZPVzN5b0lnV2lDY2VpUFNtQjZNIiwiand0SWQiOiIxMTFOZkp3VTZtbUVQNVZ2Ylh4aiIsImlhdCI6MTc3MzczMzEyNCwiZXhwIjoxODA1MjY5MTI0fQ.xEMWmrLZxojIwyT36ePjHrFR8XH4Uc2BF73SDqGTi1c
+				refresh_token=0b68223c1d758875beb2524698661d87d7a6f560f31a61f77217652134145314766de70b942db988385a9f223c4f66e20effcf302a5c8d1831bc086863aabc50
+Multiparts:		<none>
+Body:
+{
+    "all": false
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6ImQ4bFA5bkF3Rm5vUURUenY5YWE3Iiwiand0SWQiOiJDdENEVXFMWDVMSHhlSXYwYkMxVCIsImlhdCI6MTc3MzczMzEyNCwiZXhwIjoxODA1MjY5MTI0fQ.FJgtxA7bnIude539DZwk2i7E8ayDpzJ7HRYaKmqjYbs
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+102@frugaltestingin.com",
+    "password": "Autochek@123"
+}

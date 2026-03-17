@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:25:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 295
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"127-Gb00FCfrMz9K4oX0y5/qblCZ5DE"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "brands": [
+        {
+            "name": "Accelera"
+        },
+        {
+            "name": "Annaite"
+        },
+        {
+            "name": "Armstrong"
+        },
+        {
+            "name": "Austone"
+        },
+        {
+            "name": "BFGGoodrich"
+        },
+        {
+            "name": "BF Goodrich"
+        },
+        {
+            "name": "Boto"
+        },
+        {
+            "name": "Bridgestone"
+        },
+        {
+            "name": "Comfort"
+        },
+        {
+            "name": "Dunlop"
+        }
+    ],
+    "pagination": {
+        "total": 37,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4
+    }
+}

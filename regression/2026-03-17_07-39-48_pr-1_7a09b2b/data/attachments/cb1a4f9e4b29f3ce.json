@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:31:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 886
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"376-NO08wwIX+UdltlAuW/JTAjkumNc"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "obds": [
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "createdAt": "Mon Apr 07 2025 08:34:11 GMT+0000 (Coordinated Universal Time)"
+        }
+    ],
+    "pagination": {
+        "total": 3223,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 323
+    }
+}

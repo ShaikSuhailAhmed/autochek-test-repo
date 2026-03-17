@@ -1,0 +1,14 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans?country=UG&page_size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=UG
+				page_size=10
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6ImRSUHcydU9iSzJVR0VNSzdtWU84Iiwiand0SWQiOiJBdExHdG9POUZDamNMdUIyMkhaMiIsImlhdCI6MTc3MzczMzA2OCwiZXhwIjoxODA1MjY5MDY4fQ.H025L8y26hDPrz9HT5-VQgx17TQ6xeojIpZl-QpZVk4
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

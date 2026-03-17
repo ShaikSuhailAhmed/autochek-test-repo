@@ -1,0 +1,38 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inventory/car
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJnN3M5WEo4cFpjV0NIOXU4NWlpQiIsImp3dElkIjoiSWh5WE9LVEpwZk0xSjRtWGREQnQiLCJpYXQiOjE3NzM3MzI4NDEsImV4cCI6MTgwNTI2ODg0MX0.3JXA5cJdGa_adY1vUBF5XmwQBGyqebL2WP3QxpoLFgI
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "interior_color": "Blue",
+    "year": "2020",
+    "car_manager_id": "kpMngdaMZ",
+    "owner_id": "-lh7_mmKJ",
+    "image_url": "https://media.autochek.africa/file/w_812,q_100/X0siggWk.webp",
+    "body_type_id": "7",
+    "model_id": "1891",
+    "trim_id": "4512",
+    "created_by": "BQlQBbLTW",
+    "tyre_code": "TY123",
+    "mileage_unit": "km",
+    "engine_type": "2-cylinder(I2)",
+    "selling_condition": "new",
+    "cc_measurement": "1.6",
+    "transmission": "automatic",
+    "exterior_color": "Green",
+    "franchise_id": "kpMngdaMZ",
+    "price": "909900",
+    "is_draft": "TRUE",
+    "vin": "0000690750014869162",
+    "fuel_type": "petrol",
+    "mileage": "2555"
+}

@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:37:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4808
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"12c8-yySZJJOkpKhn6VQjJi4VcaL9RPs"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "YzwbMUwJz",
+            "carId": "je4eMMEL5",
+            "country": "KE",
+            "firstName": "E2E_By_FA_KE_BO_15c5c",
+            "lastName": "AUTO_192688",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Suzuki Baleno  2020",
+            "email": "ke_bo_ebd3a2@test.com",
+            "phone": "+254895856080",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1312103,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:58:00 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "dBSOYK4wtp"
+        },
+        {
+            "id": "7SIKUyh7Y-",
+            "carId": "OOfhgLIbf",
+            "country": "KE",
+            "firstName": "E2E_By_FA_KE_BO_b5932",
+            "lastName": "AUTO_7db196",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Honda Accord  2020",
+            "email": "ke_bo_4dabf7@test.com",
+            "phone": "+254896325877",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1389345,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:52:42 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "L7xoLe3FM"
+        },
+        {
+            "id": "EEcSOpo8h",
+            "carId": "IGT56Kngf",
+            "country": "KE",
+            "firstName": "manual FA BO",
+            "lastName": "Reddy",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Toyota Landcruiser prado TX.L  2014",
+            "email": "tets@gmai.com",
+            "phone": "254689543875",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 6769712,
+            "createdBy": "eshareddy testing",
+            "createdAt": "Wed Mar 11 2026 07:51:23 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "hqwLhht5SR"
+        },
+        {
+            "id": "dPz116sN7p",
+            "carId": "0e1EeXOze",
+            "country": "KE",
+            "firstName": "E2E_By_FA_KE_BO_9e864",
+            "lastName": "AUTO_56a424",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Nissan Note  2025",
+            "email": "ke_bo_846807@test.com",
+            "phone": "+254897421492",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 22455952,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:47:17 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "oxMxLVVwBK"
+        },
+        {
+            "id": "qfAQebJOm",
+            "carId": "G6dcxZvdS",
+            "country": "KE",
+            "firstName": "Manual BO AM",
+            "lastName": "Reddy",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2025",
+            "email": "testzz+55@gmail.com",
+            "phone": "254876545666",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 686441,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:44:17 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "4DjuISyFqn"
+        },
+        {
+            "id": "AvCGLuOpw",
+            "carId": "GlFMEkI1v",
+            "country": "KE",
+            "firstName": "E2E_By_FA_KE_BO_7cb84",
+            "lastName": "AUTO_626559",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Audi A5  2015",
+            "email": "ke_bo_7ea49b@test.com",
+            "phone": "+254891962695",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1099655,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:41:56 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "jbizx-RQP"
+        },
+        {
+            "id": "zzYf9evmbM",
+            "carId": "rVH2j5BCo",
+            "country": "KE",
+            "firstName": "E2E_By_FA_KE_SE_59c1f",
+            "lastName": "AUTO_f9adae",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Audi A5  2015",
+            "email": "ke_self_a09a5e@test.com",
+            "phone": "+254891818840",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1099655,
+            "createdBy": "eshareddy testing",
+            "createdAt": "Wed Mar 11 2026 07:19:15 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "HVhwD6_XYr"
+        },
+        {
+            "id": "XAMWm_gyT",
+            "carId": "oj_jEJ49r",
+            "country": "KE",
+            "firstName": "E2E_By_FA_KE_SE_91603",
+            "lastName": "AUTO_90a363",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Audi A5  2020",
+            "email": "ke_self_07dc6e@test.com",
+            "phone": "+254894001268",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 4017941,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:19:11 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "J6oQ2fxXI"
+        },
+        {
+            "id": "6vY4_GyW-Y",
+            "carId": "8TQG6qJ-q",
+            "country": "KE",
+            "firstName": "E2E_By_FA_For_Salary_cc1a4",
+            "lastName": "AUTO_8bf03",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Toyota CH-R  2020",
+            "email": "kea296c8@test.com",
+            "phone": "+254891725824",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 36250344,
+            "createdBy": "eshareddy testing",
+            "createdAt": "Wed Mar 11 2026 07:18:24 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "cPeTogdFB0"
+        },
+        {
+            "id": "B0rndZ0xM",
+            "carId": "iQQlW7dPL",
+            "country": "KE",
+            "firstName": "E2E_By_AM_For_Salary_210fb",
+            "lastName": "AUTO_d448c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Audi A5  2020",
+            "email": "ke3146fc@test.com",
+            "phone": "+254896018224",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 4018372,
+            "createdBy": "eshareddy Testing",
+            "createdAt": "Wed Mar 11 2026 07:18:24 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "CMtmj4M6MN"
+        }
+    ],
+    "pagination": {
+        "total": 416,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,144 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:39:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ3UFBtU3BYZlhhWEx3ZXdiT2tBSCIsInNlc3Npb25JZCI6InBCNVpDSUQyQ0tMWGQ5RklpdlpKIiwiand0SWQiOiI4c0pKNVdZaTRoRjQ1Q1NiQ0Z3NyIsImlhdCI6MTc3MzczMzE0MiwiZXhwIjoxODA1MjY5MTQyfQ.BOmrT3Dslo7mw5bUBjXTJhCsVa3WeeyrsmMHMPbksCg; Max-Age=3600; Path=/; Expires=Tue, 17 Mar 2026 08:39:02 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=983d4fa9306f8fc34a184c14e61bd7817251854f89d3e2dc4d97d58d2b9e93ea16d53a2c5d2017977c79549e8e33df02a78932f734b1b2aeba149a371da9fd21; Max-Age=2592000; Path=/; Expires=Thu, 16 Apr 2026 07:39:02 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-u0kx3cKj/5IzFaN4TmbIGLXBmsw"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "wPPmSpXfXaXLwewbOkAH",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ3UFBtU3BYZlhhWEx3ZXdiT2tBSCIsInNlc3Npb25JZCI6InBCNVpDSUQyQ0tMWGQ5RklpdlpKIiwiand0SWQiOiI4c0pKNVdZaTRoRjQ1Q1NiQ0Z3NyIsImlhdCI6MTc3MzczMzE0MiwiZXhwIjoxODA1MjY5MTQyfQ.BOmrT3Dslo7mw5bUBjXTJhCsVa3WeeyrsmMHMPbksCg",
+        "refreshToken": "983d4fa9306f8fc34a184c14e61bd7817251854f89d3e2dc4d97d58d2b9e93ea16d53a2c5d2017977c79549e8e33df02a78932f734b1b2aeba149a371da9fd21",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:39:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"7b-dZkVK1NfhIildGAmmqNHOBthE30"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "User has been disabled successfully.",
+    "data": {
+        "success": true,
+        "message": "User has been disabled successfully."
+    }
+}
+HTTP/1.1 401 Unauthorized
+Date: Tue, 17 Mar 2026 07:39:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 146
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"92-F/HLhW4N+UZYMcOZezA/31PzT5s"
+
+{
+    "error": "Session is invalid",
+    "message": "Session is invalid",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/users/me"
+        }
+    ]
+}
+HTTP/1.1 401 Unauthorized
+Date: Tue, 17 Mar 2026 07:39:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 49
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"31-oPIOGhSe6jATHmlDRgVkR4Yyoc0"
+
+{
+    "error": "Unauthorized",
+    "message": "Unauthorized"
+}
+HTTP/1.1 403 Forbidden
+Date: Tue, 17 Mar 2026 07:39:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"6d-1/j9MOg5uBfDV1QqpbzU1KQQODw"
+
+{
+    "error": " Account is inactive. Please contact admin",
+    "message": " Account is inactive. Please contact admin"
+}

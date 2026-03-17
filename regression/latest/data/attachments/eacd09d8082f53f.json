@@ -1,0 +1,144 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans/offer-simulations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiI5VXFNVmVsc1NoY0ZtdlNNemhOQyIsImp3dElkIjoiZW00QkhWNlJ0UW5RT05mUzVqbTIiLCJpYXQiOjE3NzM3MzIzNTYsImV4cCI6MTgwNTI2ODM1Nn0.KLNE0SkApYc7FLCq78z4TZ2OYXvpgXtPBce2NVfVxH0
+				x-autochek-app=dealerPlus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "partner_id": null,
+    "customer_preferences": [
+        {
+            "valid": true,
+            "name": "vehicleDiscount",
+            "type": "selection",
+            "value": "1%"
+        },
+        {
+            "valid": true,
+            "name": "dealDiscount",
+            "type": "selection",
+            "value": "2%"
+        },
+        {
+            "valid": true,
+            "name": "desiredLoanCurrency",
+            "type": "selection",
+            "value": "USD"
+        },
+        {
+            "valid": true,
+            "name": "equityContribution",
+            "type": "amount",
+            "value": 0
+        },
+        {
+            "valid": true,
+            "name": "monthlyPayment",
+            "type": "amount",
+            "value": "6655545"
+        },
+        {
+            "valid": true,
+            "name": "interestRateType",
+            "type": "selection",
+            "value": "@#$%"
+        },
+        {
+            "valid": true,
+            "name": "interestRate",
+            "type": "selection",
+            "value": "28"
+        },
+        {
+            "valid": true,
+            "name": "residualPercentage",
+            "type": "selection",
+            "value": "0%"
+        },
+        {
+            "valid": true,
+            "name": "term",
+            "type": "selection",
+            "value": "12 months"
+        },
+        {
+            "valid": true,
+            "name": "includeRoadworthinessFees",
+            "type": "radio",
+            "value": "Yes"
+        },
+        {
+            "valid": true,
+            "name": "includeLicenceRenewalFees",
+            "type": "radio",
+            "value": "Yes"
+        },
+        {
+            "valid": true,
+            "name": "feePaymentMethod",
+            "type": "radio",
+            "value": "Upfront"
+        },
+        {
+            "label": "Vehicle Registration",
+            "value": "TRUE",
+            "type": "checkbox",
+            "valid": true,
+            "name": "upfrontVehicleRegistration"
+        },
+        {
+            "valid": true,
+            "name": "upfrontInsurance",
+            "type": "checkbox",
+            "value": "TRUE"
+        },
+        {
+            "valid": true,
+            "name": "upfrontVehicleTracking",
+            "type": "checkbox",
+            "value": "TRUE"
+        },
+        {
+            "valid": true,
+            "name": "upfrontMaintenancePlan",
+            "type": "checkbox",
+            "value": "TRUE"
+        },
+        {
+            "label": "Credit Life Insurance",
+            "value": "TRUE",
+            "type": "checkbox",
+            "valid": true,
+            "name": "upfrontCreditLifeInsurance"
+        },
+        {
+            "valid": true,
+            "name": "upfrontWarranty",
+            "type": "checkbox",
+            "value": "Plan 1"
+        },
+        {
+            "valid": true,
+            "name": "upfrontTyres",
+            "type": "checkbox",
+            "value": "TRUE"
+        },
+        {
+            "label": "Requested Warranty Plan",
+            "name": "requestedWarrantyPlan",
+            "value": "Plan 2",
+            "valid": true
+        }
+    ],
+    "car_id": "vykHsra16",
+    "offer_id": null,
+    "loan_id": null
+}

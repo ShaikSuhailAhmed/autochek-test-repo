@@ -1,0 +1,201 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:37:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4184
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1058-cJP2j0ewW9Y1DFro0uf1no+kxww"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "3pogxHZef",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-16T12:22:14.944Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "NEPAPRt2x",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-16T12:21:43.764Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "4W4wVEuaw",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-16T07:08:57.367Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "CxrbAGKFY",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-16T07:03:14.831Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "gVKm5QQ2df",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-12T11:10:11.421Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "uIskCFoQS",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-12T11:09:43.019Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "TwHm_5-8C",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-12T11:06:30.422Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "_ML7FGZv5",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-12T11:06:17.521Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "10hVQDeYE",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-12T10:11:42.520Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "pxzw4RIjL",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-12T10:11:26.720Z",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        }
+    ],
+    "pagination": {
+        "total": 1394,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

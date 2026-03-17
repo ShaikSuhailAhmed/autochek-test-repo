@@ -1,0 +1,139 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:38:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6ImhFdTl1MHpwbU5PS0RURkJqRnduIiwiand0SWQiOiI3OHZRN210cFpQbU1Ec1dLYnR0cyIsImlhdCI6MTc3MzczMzEyMSwiZXhwIjoxODA1MjY5MTIxfQ.U6trlOhUabvEkQOb83J2xo20By4qMkekIz-oykmrg_s; Max-Age=3600; Path=/; Expires=Tue, 17 Mar 2026 08:38:41 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=765b4815afea218f0c859b4405c48f419e15849cf70437f654a53979cfcf3965bf917a0be0c7285984e195aebb9113de12ed150cee73f419b45563044d7345ec; Max-Age=2592000; Path=/; Expires=Thu, 16 Apr 2026 07:38:41 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-9DqQQxscA7fPJeqeX/GR8iDssbA"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "VwTbQ2Lf15FIuaTQ4bLC",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6ImhFdTl1MHpwbU5PS0RURkJqRnduIiwiand0SWQiOiI3OHZRN210cFpQbU1Ec1dLYnR0cyIsImlhdCI6MTc3MzczMzEyMSwiZXhwIjoxODA1MjY5MTIxfQ.U6trlOhUabvEkQOb83J2xo20By4qMkekIz-oykmrg_s",
+        "refreshToken": "765b4815afea218f0c859b4405c48f419e15849cf70437f654a53979cfcf3965bf917a0be0c7285984e195aebb9113de12ed150cee73f419b45563044d7345ec",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:38:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:38:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 432
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1b0-BYZOOgFlhecIXL9azz6EmxpW+sA"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "roles": [
+            
+        ],
+        "id": "VwTbQ2Lf15FIuaTQ4bLC",
+        "firstname": "Admin 2",
+        "lastname": "Frugal",
+        "middlename": "",
+        "primaryEmail": "eshareddy+102@frugaltestingin.com",
+        "primaryPhone": "+2348899373663",
+        "emailVerified": true,
+        "phoneVerified": false,
+        "accountStatus": "active",
+        "createdAt": "2026-02-09T09:45:32.348Z",
+        "updatedAt": "2026-02-23T08:23:27.084Z",
+        "country": "NG",
+        "authType": "email",
+        "partnerId": "",
+        "area": "",
+        "territories": ""
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:38:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6ImQ4bFA5bkF3Rm5vUURUenY5YWE3Iiwiand0SWQiOiJDdENEVXFMWDVMSHhlSXYwYkMxVCIsImlhdCI6MTc3MzczMzEyNCwiZXhwIjoxODA1MjY5MTI0fQ.FJgtxA7bnIude539DZwk2i7E8ayDpzJ7HRYaKmqjYbs; Max-Age=3600; Path=/; Expires=Tue, 17 Mar 2026 08:38:44 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=61bfc967e60ca58ea1ff0da5d7a89ababfef40932e1b4703cd225f770db153aeaded4803bd20a9aca85adf60ecc89c15f3f28e0ab2e1dcb0bd9e236d2fb4d7f5; Max-Age=2592000; Path=/; Expires=Thu, 16 Apr 2026 07:38:44 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-qmxg5aOdREIAMIGgc/kqa7uyjwA"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "VwTbQ2Lf15FIuaTQ4bLC",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6ImQ4bFA5bkF3Rm5vUURUenY5YWE3Iiwiand0SWQiOiJDdENEVXFMWDVMSHhlSXYwYkMxVCIsImlhdCI6MTc3MzczMzEyNCwiZXhwIjoxODA1MjY5MTI0fQ.FJgtxA7bnIude539DZwk2i7E8ayDpzJ7HRYaKmqjYbs",
+        "refreshToken": "61bfc967e60ca58ea1ff0da5d7a89ababfef40932e1b4703cd225f770db153aeaded4803bd20a9aca85adf60ecc89c15f3f28e0ab2e1dcb0bd9e236d2fb4d7f5",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}

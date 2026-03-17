@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 07:37:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4951
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1357-CIrmkbIjfp926QQDJlmdzpD4Bik"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "E3EzajXCn",
+            "carId": "sjwNJERdN",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Toyota Wish  2010",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 42798084,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Mon Mar 16 2026 13:14:50 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "26BW09Y5U",
+            "carId": "92jcCEktf",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Ford Falcon  2017",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 78553088,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:14:49 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "HF_z2m4hUB",
+            "carId": "N8BmrFtBk",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Hyundai Accent RB  2022",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 13597566,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:14:45 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "LjooFkjTZd",
+            "carId": "qBD7CIb-C",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Lexus GS 350  2023",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 13597566,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Mon Mar 16 2026 13:14:44 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "GHrIl4mVO-",
+            "carId": "VAp-sRPXp",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Toyota Hilux  2018",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 200732992,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:14:44 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "wXrhjT1yTs",
+            "carId": "HIKAqSzj2",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Toyota Supra  2020",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 312295968,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:14:39 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "nU49o5PvL3",
+            "carId": "Y24QEQG0p",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Toyota Wish  2009",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 42798084,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Mon Mar 16 2026 13:06:20 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "Mar3kKc9FS",
+            "carId": "91NGzJKsu",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Toyota Ist   2008",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 41685984,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:06:16 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "PZnC7NgS2C",
+            "carId": "ina6aAuIK",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Toyota Hiace  2013",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 83945784,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:06:15 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "WGKiTC2nuR",
+            "carId": "uCLWB8rff",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Subaru Forester  2007",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 42798084,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:06:15 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        }
+    ],
+    "pagination": {
+        "total": 34,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
