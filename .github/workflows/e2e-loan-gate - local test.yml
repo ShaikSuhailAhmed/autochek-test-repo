@@ -274,3 +274,33 @@ jobs:
             echo "::error::Blocking severe failures detected ($API_BLOCK API, $UI_BLOCK UI)"
             exit 1
           fi
+
+      # =========================================================
+      # SEND FAILURE EMAIL
+      # =========================================================
+      - name: Send Failure Email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "❌ E2E Automation Failed - ${{ github.repository }}"
+          to: |
+            pavanagundla.jayanth@frugaltesting.com
+          from: ${{ secrets.ALERT_FROM_EMAIL }}
+          html_body: |
+            <h2>E2E Automation Failed</h2>
+
+            <p><b>Repository:</b> ${{ github.repository }}</p>
+            <p><b>Run:</b> https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}</p>
+
+            <h3>Allure Reports</h3>
+
+            <ul>
+              <li><a href="${{ env.BASE_URL }}/e2e/latest/api/">API Report</a></li>
+              <li><a href="${{ env.BASE_URL }}/e2e/latest/ui/">UI Report</a></li>
+            </ul>
+
+            <p>Please review severe failures in the GitHub Action summary.</p>
