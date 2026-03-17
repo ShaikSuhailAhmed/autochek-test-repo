@@ -303,8 +303,17 @@ jobs:
           | "<tr><td>" + $sev + "</td><td>" + (.name // .fullName) + "</td></tr>"
           ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null)
 
-          echo "API_TABLE=$API_TABLE" >> $GITHUB_ENV
-          echo "UI_TABLE=$UI_TABLE" >> $GITHUB_ENV
+          {
+          echo "API_TABLE<<EOF"
+          echo "$API_TABLE"
+          echo "EOF"
+          } >> $GITHUB_ENV
+          
+          {
+          echo "UI_TABLE<<EOF"
+          echo "$UI_TABLE"
+          echo "EOF"
+          } >> $GITHUB_ENV
 
       # =========================================================
       # SEND FAILURE EMAIL
