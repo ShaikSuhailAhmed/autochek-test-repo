@@ -275,11 +275,49 @@ jobs:
             exit 1
           fi
 
+       # =========================================================
+      # Build Failure Table
+      # =========================================================
+      - name: Build Failure Table
+        id: failure_table
+        if: always()
+        run: |
+
+          BASE="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+
+          echo "BASE_URL=$BASE" >> $GITHUB_ENV
+
+          API_TABLE=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '
+          ( $block | split(",") ) as $sevlist
+          | select(.status=="failed" or .status=="broken")
+          | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
+          | select($sev != null and ($sevlist | index($sev)))
+          | "<tr><td>" + $sev + "</td><td>" + (.name // .fullName) + "</td></tr>"
+          ' e2e/api-automation/target/allure-results/*.json 2>/dev/null)
+
+          UI_TABLE=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
+          ( $block | split(",") ) as $sevlist
+          | select(.status=="failed" or .status=="broken")
+          | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
+          | select($sev != null and ($sevlist | index($sev)))
+          | "<tr><td>" + $sev + "</td><td>" + (.name // .fullName) + "</td></tr>"
+          ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null)
+
+          echo "API_TABLE=$API_TABLE" >> $GITHUB_ENV
+          echo "UI_TABLE=$UI_TABLE" >> $GITHUB_ENV
+
       # =========================================================
       # SEND FAILURE EMAIL
       # =========================================================
+      - name: Set GitHub Pages URL
+        run: |
+          echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
+          
+      # =========================================================
+      # Send Failure Email
+      # =========================================================
       - name: Send Failure Email
-        if: failure()
+        if: always() && steps.gate.outcome == 'failure'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
@@ -288,19 +326,62 @@ jobs:
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: "❌ E2E Automation Failed - ${{ github.repository }}"
           to: |
+            04_autochek_internal_-aaaaqndy6657f4ng7lh7txbtf4@frugalworkspace.slack.com,
+            aaaalnpz7pgngksefql2mtbkl4@frugalworkspace.slack.com,
+            aaaapklh45obelfrule2qf4jbu@frugalworkspace.slack.com,
             pavanagundla.jayanth@frugaltesting.com
           from: ${{ secrets.ALERT_FROM_EMAIL }}
           html_body: |
+
             <h2>E2E Automation Failed</h2>
 
             <p><b>Repository:</b> ${{ github.repository }}</p>
-            <p><b>Run:</b> https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}</p>
+
+            <p>
+            <b>Run:</b>
+            <a href="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}">
+            View GitHub Action
+            </a>
+            </p>
 
             <h3>Allure Reports</h3>
 
             <ul>
-              <li><a href="${{ env.BASE_URL }}/e2e/latest/api/">API Report</a></li>
-              <li><a href="${{ env.BASE_URL }}/e2e/latest/ui/">UI Report</a></li>
+              <li>
+              <a href="${{ env.BASE_URL }}/e2e/latest/api/">
+              API Report
+              </a>
+              </li>
+
+              <li>
+              <a href="${{ env.BASE_URL }}/e2e/latest/ui/">
+              UI Report
+              </a>
+              </li>
             </ul>
 
-            <p>Please review severe failures in the GitHub Action summary.</p>
+            <h3>API Severe Failures</h3>
+
+            <table border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>Severity</th>
+                <th>Test</th>
+              </tr>
+              ${{ env.API_TABLE }}
+            </table>
+
+            <h3>UI Severe Failures</h3>
+
+            <table border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>Severity</th>
+                <th>Test</th>
+              </tr>
+              ${{ env.UI_TABLE }}
+            </table>
+
+            <br>
+
+            <p>
+            Detailed execution logs are available in the GitHub Action run.
+            </p>
