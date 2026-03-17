@@ -1,0 +1,188 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiI4WHZBV0EyUFVEWkxDTFpYVUpyeiIsImp3dElkIjoiMU5sa3dWOXlnUWR6N1pMajZEV3MiLCJpYXQiOjE3NzM3MzY5MDgsImV4cCI6MTgwNTI3MjkwOH0.XKhZ7mZdiX9tlsz4P1Opyx6RFNj_PUb8U0l-N7Asmls
+				x-autochek-app=marketplace_web
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "profile": [
+        {
+            "name": "sourceDataId",
+            "value": "kpMngdaMZ",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "sourceData",
+            "value": "100% Automobile Nig.",
+            "type": "email",
+            "valid": true
+        },
+        {
+            "name": "source",
+            "value": "FRANCHISE",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "referrerSource",
+            "value": "Franchise",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "referrerData",
+            "value": "100% Automobile Nig.",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "referrerDataId",
+            "value": "kpMngdaMZ",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "firstName",
+            "value": "API20d71637",
+            "type": "text",
+            "label": "First name",
+            "valid": true
+        },
+        {
+            "name": "lastName",
+            "value": "Testinge0d458a4",
+            "type": "text",
+            "label": "Last name",
+            "valid": true
+        },
+        {
+            "name": "telephone",
+            "value": "2345762620487",
+            "type": "tel",
+            "label": "Phone number",
+            "valid": true
+        },
+        {
+            "name": "email",
+            "value": "APIa6a411@test.com",
+            "type": "email",
+            "label": "Email address",
+            "valid": true
+        },
+        {
+            "name": "description",
+            "value": "Salary earner",
+            "type": "radio",
+            "label": "What best describes you",
+            "valid": true
+        },
+        {
+            "name": "monthlyGrossIncome",
+            "value": "375528.0",
+            "type": "amount",
+            "label": "Total Take-Home Pay (after salary deductions) (₦)",
+            "valid": true
+        },
+        {
+            "name": "sourceOfFunds",
+            "value": "Wages, bonuses, dividends, and other income from employment",
+            "label": "Source of Funds",
+            "valid": true
+        }
+    ],
+    "loan_fields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": false,
+            "type": "checkbox",
+            "valid": true
+        }
+    ],
+    "car_id": "0zV7bPoNG",
+    "user_id": "BQlQBbLTW",
+    "product_id": "hj43BXLXe",
+    "country": "NG",
+    "is_draft": true,
+    "captcha_token": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+}

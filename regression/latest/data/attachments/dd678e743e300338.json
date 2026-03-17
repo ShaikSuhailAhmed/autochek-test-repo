@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:50:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4626
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1212-P85h81vYS4UexvTDQyCSxA3ENcg"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "vDsqjnksz",
+            "carId": "LVjPkQ3lY",
+            "country": "GH",
+            "firstName": "johnxdcfvgb",
+            "lastName": "sdfvbg",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Audi A5  2020",
+            "email": "asdfvbg@gmail.com",
+            "phone": "233789654123",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1151128,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Thu Mar 12 2026 10:55:58 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "WCr4geygA"
+        },
+        {
+            "id": "K1EAjm8Xa",
+            "carId": "vYd_crQs1",
+            "country": "GH",
+            "firstName": "johnxdcfvgb",
+            "lastName": "sdfvbg",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Audi A5  2020",
+            "email": "asdfvbg@gmail.com",
+            "phone": "233789654123",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 7917567,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 11 2026 07:12:04 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "WCr4geygA"
+        },
+        {
+            "id": "KiudYngGE",
+            "carId": "HOli6yR81",
+            "country": "GH",
+            "firstName": "Workflow",
+            "lastName": "Task Setup",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "Hyundai Accent  2024",
+            "email": "muthaiga.s@autochek.africa",
+            "phone": "+23470355612987",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1317341.375,
+            "createdBy": "Zebbylion Njau",
+            "createdAt": "Thu Mar 12 2026 01:08:05 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "fCx7EW5jKw"
+        },
+        {
+            "id": "5rVtZcDWk",
+            "carId": "kl9plQ9uS",
+            "country": "GH",
+            "firstName": "Esha",
+            "lastName": "Reddy",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Audi A3 Sportback  2021",
+            "email": "eshareddy@frugaltestingin.com",
+            "phone": "233789456123",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 10802360,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Mon Mar 09 2026 11:53:16 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "h_zI9SbRl"
+        },
+        {
+            "id": "czdIpsqg-",
+            "carId": "F9SG5tz6N",
+            "country": "GH",
+            "firstName": "Test",
+            "lastName": "Gh test",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Toyota Corolla  2023",
+            "email": "test.gh@autochek.africa",
+            "phone": "+233242436890",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1052844,
+            "createdBy": "Test Gh test",
+            "createdAt": "Mon Mar 09 2026 08:17:15 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "5GmHAXDOB1"
+        },
+        {
+            "id": "HL2FEjHVD",
+            "carId": "HOli6yR81",
+            "country": "GH",
+            "firstName": "good",
+            "lastName": "Test",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Hyundai Accent  2024",
+            "email": "goodtest@yopmail.com",
+            "phone": "233232123432",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 440217,
+            "createdBy": "AccountGH Manager",
+            "createdAt": "Thu Mar 05 2026 22:16:23 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "S8qk5EnZM9"
+        },
+        {
+            "id": "hCq3MwO6W",
+            "carId": "HOli6yR81",
+            "country": "GH",
+            "firstName": "missings",
+            "lastName": "loans",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "Hyundai Accent  2024",
+            "email": "missingloan@yopmail.com",
+            "phone": "233231233212",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1317341.375,
+            "createdBy": "AccountGH Manager",
+            "createdAt": "Thu Mar 05 2026 20:51:06 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "Lg0DUVG5J"
+        },
+        {
+            "id": "oVrR3mV73",
+            "carId": "t17cqlzar",
+            "country": "GH",
+            "firstName": "salary",
+            "lastName": "missing",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "Toyota Corolla  2024",
+            "email": "salarymissing@yopmail.com",
+            "phone": "233231232232",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 538951,
+            "createdBy": "AccountGH Manager",
+            "createdAt": "Thu Mar 05 2026 20:46:36 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "2LIWAo0pg"
+        },
+        {
+            "id": "_lkCPGqVp",
+            "carId": "t17cqlzar",
+            "country": "GH",
+            "firstName": "Test ",
+            "lastName": "missing loans ",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "Toyota Corolla  2024",
+            "email": "missingloans@yopmail.com",
+            "phone": "233213322321",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 538951,
+            "createdBy": "AccountGH Manager",
+            "createdAt": "Thu Mar 05 2026 20:12:49 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "xk7tKhhGF"
+        },
+        {
+            "id": "vLpPMjTbe",
+            "carId": "QeWWwc9_w",
+            "country": "GH",
+            "firstName": "Self",
+            "lastName": "Employed",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "BMW X6  2021",
+            "email": "portia.444@autochek.africa",
+            "phone": "233654125856",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1230325.25,
+            "createdBy": "AccountGH Manager",
+            "createdAt": "Thu Feb 26 2026 07:52:33 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "7kW990uOp"
+        }
+    ],
+    "pagination": {
+        "total": 62,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

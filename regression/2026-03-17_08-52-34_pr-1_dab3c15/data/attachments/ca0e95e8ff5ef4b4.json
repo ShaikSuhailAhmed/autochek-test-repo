@@ -1,0 +1,490 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:36:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 7559
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1d87-2w8Q7I3JGT6V0mt1ng8qXhehfxM"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "result": [
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                {
+                    "startDay": "Monday",
+                    "endDay": "Friday",
+                    "startTime": "8:00 AM",
+                    "endTime": "5:00 PM"
+                }
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "OLf1NYnD3",
+            "name": "4x4 Autosolution",
+            "owner": "40BqM7Q3V",
+            "email": "4x4autosolutions@gmail.com",
+            "phonenumber": "2547228761027",
+            "bankName": "1234",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Village Market ",
+            "address": "1 Mpesi Lane, Nairobi, Nairobi, Kenya",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 36.80706024169922,
+            "latitude": -1.2646255493164062,
+            "isAnchor": false,
+            "forCollateralInspection": true,
+            "whatsappNumber": "254458985689",
+            "displayPhoneNumber": "254258258258",
+            "extraDisplayPhoneNumber": "254258258999",
+            "createdAt": "Wed Oct 06 2021 11:55:59 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "1",
+            "zipCode": "",
+            "streetName": "Mpesi Lane",
+            "nearestLandmark": "",
+            "territory": "",
+            "city": "Nairobi",
+            "state": "Nairobi",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                {
+                    "startDay": "Monday",
+                    "startTime": "7:00 AM",
+                    "endTime": "3:00 PM"
+                },
+                {
+                    "startDay": "Saturday",
+                    "endDay": "Sunday",
+                    "startTime": "3:00 PM",
+                    "endTime": "5:00 PM"
+                },
+                {
+                    "startDay": "Tuesday",
+                    "startTime": "3:30 PM",
+                    "endTime": "5:00 PM"
+                }
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "23ckWrT0Z",
+            "name": "Abdul Hanan & Sons Trading ltd",
+            "owner": "qW_Zh-YWz",
+            "email": "shaikh.ttc@gmail.com",
+            "phonenumber": "254786905862",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Abdul Hanan & Sons.",
+            "address": "Abdul Hanan & Sons",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 39.66820526123047,
+            "latitude": -4.0434770584106445,
+            "isAnchor": false,
+            "forCollateralInspection": true,
+            "createdAt": "Fri Sep 24 2021 09:26:58 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Makarios Road",
+            "state": "Mombasa",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                {
+                    "startDay": "Monday",
+                    "endDay": "Friday",
+                    "startTime": "8:00 AM",
+                    "endTime": "5:00 PM"
+                }
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "chDpRDE1N",
+            "name": "Ace Prestige",
+            "owner": "CSEjS8eLO",
+            "email": "aceprestigeautos@gmail.com",
+            "phonenumber": "254720443030",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Ngong Rd",
+            "address": "Kangundo Rd, Nairobi, Kenya",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 36.79201126098633,
+            "latitude": -1.2795133590698242,
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "whatsappNumber": "254723396461",
+            "displayPhoneNumber": "254723396461",
+            "instagramHandle": "https://www.instagram.com/autochek_ngr/",
+            "facebookHandle": "https://www.facebook.com/Autochekkenya",
+            "createdAt": "Wed Jan 19 2022 06:36:09 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Ngong Rd",
+            "state": "Nairobi",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "EzX_3UL_p",
+            "name": "Ace Prestige Autos",
+            "owner": "pdknvrX6B",
+            "email": "kiamburd@aceprestigeautos.co.ke",
+            "phonenumber": "254726230986",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Kiambu Rd.",
+            "address": "Kiambu Rd",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 36.830753326416016,
+            "latitude": -1.1726795434951782,
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Sep 27 2021 09:43:40 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Kiambu Rd",
+            "state": "Nairobi",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "qHf5A88LZ",
+            "name": "Adeen Investments (K) Ltd",
+            "owner": "g8DD58Aj3",
+            "email": "adeeninvestmentskltd@yahoo.com",
+            "phonenumber": "254714818131",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Adeen ",
+            "address": "Tewa Road",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 39.663169860839844,
+            "latitude": -4.0602216720581055,
+            "mapAddress": "Tewa Road, Mombasa, Kenya",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Wed Feb 16 2022 08:49:30 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Moi Avenue",
+            "state": "Mombasa",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "gOXjGHcqo",
+            "name": "Agba motors",
+            "owner": "_rUo2Drsf",
+            "email": "carsales@agbaonline.com",
+            "phonenumber": "254722857039",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Ngong road",
+            "address": "Ngong Road",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 36.77578353881836,
+            "latitude": -1.3362692594528198,
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Thu Jun 03 2021 06:25:47 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Ngong Rd",
+            "state": "Nairobi",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "81_mdMQki",
+            "name": "Aggymax motors\t\t\t\t\t\t\t",
+            "owner": "K6o-z_3XZ",
+            "email": "kinuthiaagnes7@gmail.com",
+            "phonenumber": "254718907361",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Kangundo Rd",
+            "address": "Kangundo Rd",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 36.97175216674805,
+            "latitude": -1.2591251134872437,
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Fri Jun 11 2021 06:53:05 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Nairobi",
+            "state": "Nairobi",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "TB30FDquj",
+            "name": "Ahmad Car Zone Ltd",
+            "owner": "PT9kKNuqW",
+            "email": "ahmadcarzone1@gmail.com",
+            "phonenumber": "254712793350",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Ahmad Car Zone Ltd",
+            "address": "Moi Avenue",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 39.66820526123047,
+            "latitude": -4.0434770584106445,
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Sep 21 2021 17:36:04 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Moi Avenue",
+            "state": "Mombasa",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "i-sZ9ZXEh",
+            "name": "Aichi Automobiles Ltd",
+            "owner": "jXkEAR75O",
+            "email": "kenya@aichicars.com",
+            "phonenumber": "254113271722",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Aichi",
+            "address": "kenya@aichicars.com",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 39.66820526123047,
+            "latitude": -4.0434770584106445,
+            "mapAddress": "Noopys Boutique, Mombasa, Kenya",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Wed Feb 09 2022 06:49:00 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Moi Avenue",
+            "state": "Mombasa",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "QIWyjZeT_",
+            "name": "Ajjab Autoz",
+            "owner": "XkjHuAtm8",
+            "email": "ajjabautoz@gmail.com",
+            "phonenumber": "254720273358",
+            "status": "approved",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Ngong Rd",
+            "address": "Ngong Rd",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 36.82194519042969,
+            "latitude": -1.2920658588409424,
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Thu Dec 16 2021 08:54:42 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Ngong Rd",
+            "state": "Nairobi",
+            "acceptedCodeOfConduct": false
+        }
+    ],
+    "pagination": {
+        "total": 300,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

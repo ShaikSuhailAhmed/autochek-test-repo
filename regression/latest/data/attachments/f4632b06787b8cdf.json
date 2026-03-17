@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:52:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 289
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"121-NqzQqnTqOOUFOLNC+c3uAcJdYLU"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "values": [
+            {
+                "name": "MAX_CONCURRENT_SESSIONS",
+                "value": "8"
+            }
+        ],
+        "id": "252",
+        "name": "USER_SESSION",
+        "version": "1",
+        "createdAt": "Tue Mar 17 2026 08:52:01 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Tue Mar 17 2026 08:52:01 GMT+0000 (Coordinated Universal Time)"
+    }
+}

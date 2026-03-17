@@ -1,0 +1,96 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:49:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1372
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"55c-oCx7HOcLVtsDeRhnI7XrLQPf5S0"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "features": [
+        
+    ],
+    "carFeatures": [
+        
+    ],
+    "modelFeatures": [
+        
+    ],
+    "delistReason": [
+        
+    ],
+    "damageMedia": [
+        
+    ],
+    "damages": [
+        
+    ],
+    "carMedias": [
+        
+    ],
+    "media": [
+        
+    ],
+    "id": "HkfJ2GU9L",
+    "year": 2020,
+    "insured": false,
+    "mileage": 2555,
+    "vin": "0000641987876412845",
+    "licensePlate": "78891558",
+    "engineNumber": "796252065",
+    "price": 909900,
+    "createdBy": "BQlQBbLTW",
+    "marketplacePrice": 909900,
+    "marketplaceVisible": false,
+    "isFeatured": false,
+    "imageUrl": "https://media.autochek.africa/file/w_812,q_100/X0siggWk.webp",
+    "ownerId": "-lh7_mmKJ",
+    "state": "Abuja",
+    "country": "NG",
+    "address": "test",
+    "carManagerId": "kpMngdaMZ",
+    "ownerType": "self",
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "sellingCondition": "new",
+    "city": "Airport Junction Citec",
+    "marketplaceOldPrice": 909900,
+    "createdAt": "Tue Mar 17 2026 08:48:21 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Tue Mar 17 2026 08:49:06 GMT+0000 (Coordinated Universal Time)",
+    "mileageUnit": "km",
+    "hasWarranty": false,
+    "hasFinancing": true,
+    "interiorColor": "blue",
+    "exteriorColor": "green",
+    "engineType": "2-cylinder(I2)",
+    "gradeScore": 4.5,
+    "installment": 110094,
+    "depositReceived": false,
+    "isFirstOwner": false,
+    "loanValue": 1265276,
+    "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/HkfJ2GU9L",
+    "sold": false,
+    "hasThreeDImage": false,
+    "isUpgraded": false,
+    "ccMeasurement": 1,
+    "moderated": false,
+    "summary": "test",
+    "listingScore": "3.7",
+    "accidented": false,
+    "isDraft": false,
+    "tradeIn": false
+}

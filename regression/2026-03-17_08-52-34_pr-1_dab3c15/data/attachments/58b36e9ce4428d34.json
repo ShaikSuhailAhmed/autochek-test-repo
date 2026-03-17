@@ -1,0 +1,1139 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:47:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 31998
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"7cfe-ErtiZBaDbks5wuiHIqyx5pCJXn4"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "result": [
+        {
+            "id": "6a3d4ef9-8947-4a21-8f47-06971aecd844",
+            "carId": "rUU0ET3uj",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/6a3d4ef9-8947-4a21-8f47-06971aecd844.pdf",
+            "status": "completed",
+            "createdAt": "Mon Mar 16 2026 08:53:27 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 16 2026 08:53:51 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "rUU0ET3uj",
+                "year": 2024,
+                "insured": false,
+                "mileage": 1000,
+                "vin": "ASDASDASDASDASDSA",
+                "price": 12000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 12000000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/8zHJ2HJz.webp",
+                "ownerId": "UfKaLQCFTLkI0yd1Qw8O",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1891,
+                    "name": "Corolla",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Alimosho,Lagos",
+                "carManagerId": "g8ALkLBpv",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Alimosho",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Mon Mar 16 2026 08:50:49 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Mon Mar 16 2026 08:53:28 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "miles",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "black",
+                "engineType": "6-cylinder(I6)",
+                "gradeScore": 4.5,
+                "installment": 614485,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 10164352,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/rUU0ET3uj",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2000,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/6a3d4ef9-8947-4a21-8f47-06971aecd844.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "M2mDuN2yY"
+        },
+        {
+            "id": "41ad5411-b60c-4e18-99c3-c3a6b6b3a055",
+            "carId": "rUU0ET3uj",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/41ad5411-b60c-4e18-99c3-c3a6b6b3a055.pdf",
+            "status": "completed",
+            "createdAt": "Mon Mar 16 2026 08:53:21 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 16 2026 08:53:47 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "rUU0ET3uj",
+                "year": 2024,
+                "insured": false,
+                "mileage": 1000,
+                "vin": "ASDASDASDASDASDSA",
+                "price": 12000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 12000000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/8zHJ2HJz.webp",
+                "ownerId": "UfKaLQCFTLkI0yd1Qw8O",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1891,
+                    "name": "Corolla",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Alimosho,Lagos",
+                "carManagerId": "g8ALkLBpv",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Alimosho",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Mon Mar 16 2026 08:50:49 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Mon Mar 16 2026 08:53:28 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "miles",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "black",
+                "engineType": "6-cylinder(I6)",
+                "gradeScore": 4.5,
+                "installment": 614485,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 10164352,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/rUU0ET3uj",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2000,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/41ad5411-b60c-4e18-99c3-c3a6b6b3a055.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "M2mDuN2yY"
+        },
+        {
+            "id": "5421e41c-0348-4b16-8cc5-649105828199",
+            "carId": "jO25-lE-r",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/5421e41c-0348-4b16-8cc5-649105828199.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 13 2026 11:04:50 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 13 2026 11:24:00 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "jO25-lE-r",
+                "year": 2023,
+                "insured": false,
+                "mileage": 85000,
+                "vin": "HYND2026HYNDA",
+                "licensePlate": "lhd2336hhs",
+                "engineNumber": "HYND2026HYND",
+                "price": 5605000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 5605000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "reasonForSelling": "test",
+                "imageUrl": "https://media.autochek.africa/file/wryZ5qSN.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 734,
+                    "name": "ix35",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 47,
+                        "name": "Hyundai",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/hyundai.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Anambra ",
+                "country": "NG",
+                "address": "Anambra West,Anambra ",
+                "carManagerId": "Ls_QJI5E3",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 3,
+                    "name": "SUV",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Suv.svg",
+                    "description": "Sport Utility Vehicle"
+                },
+                "city": "Anambra West",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Fri Mar 13 2026 11:03:15 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 13 2026 11:24:02 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "champagne gold",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 322229,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 4677333,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/ix35/hyundai/jO25-lE-r",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/5421e41c-0348-4b16-8cc5-649105828199.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "bd1jrIHh9"
+        },
+        {
+            "id": "f46e9123-3dfb-4273-90c8-c9b2a4b9a67f",
+            "carId": "jO25-lE-r",
+            "status": "completed",
+            "createdAt": "Fri Mar 13 2026 11:04:49 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 13 2026 11:23:47 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "jO25-lE-r",
+                "year": 2023,
+                "insured": false,
+                "mileage": 85000,
+                "vin": "HYND2026HYNDA",
+                "licensePlate": "lhd2336hhs",
+                "engineNumber": "HYND2026HYND",
+                "price": 5605000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 5605000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "reasonForSelling": "test",
+                "imageUrl": "https://media.autochek.africa/file/wryZ5qSN.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 734,
+                    "name": "ix35",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 47,
+                        "name": "Hyundai",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/hyundai.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Anambra ",
+                "country": "NG",
+                "address": "Anambra West,Anambra ",
+                "carManagerId": "Ls_QJI5E3",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 3,
+                    "name": "SUV",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Suv.svg",
+                    "description": "Sport Utility Vehicle"
+                },
+                "city": "Anambra West",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Fri Mar 13 2026 11:03:15 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 13 2026 11:24:02 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "champagne gold",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 322229,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 4677333,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/ix35/hyundai/jO25-lE-r",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "inspectionType": "regular",
+            "inspectionRequestId": "bd1jrIHh9"
+        },
+        {
+            "id": "8b2908c7-a743-4e1d-85ff-feaafb1cd0f4",
+            "carId": "2EIQ4lGxf",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/8b2908c7-a743-4e1d-85ff-feaafb1cd0f4.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 13 2026 11:10:42 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 13 2026 11:11:12 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "2EIQ4lGxf",
+                "year": 2024,
+                "insured": false,
+                "mileage": 65000,
+                "vin": "BMW2024BMW202",
+                "engineNumber": "BMW2024031",
+                "price": 4105000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 4105000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "reasonForSelling": "test",
+                "imageUrl": "https://media.autochek.africa/file/D72DVGhm.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 257,
+                    "name": "X1",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "X Series",
+                    "make": {
+                        "id": 13,
+                        "name": "BMW",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/bmw.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ikeja,Lagos",
+                "carManagerId": "Ls_QJI5E3",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ikeja",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Fri Mar 13 2026 11:09:28 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 13 2026 11:10:42 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue metallic",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 239363,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 3518774,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/x1/bmw/2EIQ4lGxf",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/8b2908c7-a743-4e1d-85ff-feaafb1cd0f4.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "dOjyWduwr"
+        },
+        {
+            "id": "7cabafcb-e2d1-434e-82d7-a157582edbfc",
+            "carId": "2EIQ4lGxf",
+            "status": "completed",
+            "createdAt": "Fri Mar 13 2026 11:10:41 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 13 2026 11:10:42 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "2EIQ4lGxf",
+                "year": 2024,
+                "insured": false,
+                "mileage": 65000,
+                "vin": "BMW2024BMW202",
+                "engineNumber": "BMW2024031",
+                "price": 4105000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 4105000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "reasonForSelling": "test",
+                "imageUrl": "https://media.autochek.africa/file/D72DVGhm.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 257,
+                    "name": "X1",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "X Series",
+                    "make": {
+                        "id": 13,
+                        "name": "BMW",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/bmw.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ikeja,Lagos",
+                "carManagerId": "Ls_QJI5E3",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ikeja",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Fri Mar 13 2026 11:09:28 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 13 2026 11:10:42 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue metallic",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 239363,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 3518774,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/x1/bmw/2EIQ4lGxf",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "inspectionType": "regular",
+            "inspectionRequestId": "dOjyWduwr"
+        },
+        {
+            "id": "8742afb3-6b62-4900-b86d-c2228ced9fc2",
+            "carId": "40jU2Koh8",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/8742afb3-6b62-4900-b86d-c2228ced9fc2.pdf",
+            "status": "completed",
+            "createdAt": "Wed Mar 11 2026 12:29:46 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 11 2026 12:30:07 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "40jU2Koh8",
+                "year": 2019,
+                "insured": false,
+                "mileage": 95800,
+                "vin": "AURISTOYO16161616",
+                "licensePlate": "dada153",
+                "engineNumber": "4553626WTWU",
+                "price": 15000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 15000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Fri Mar 06 2026 09:42:10 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/ygM9okbi.webp",
+                "ownerId": "s-tofWtKX",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1881,
+                    "name": "Auris",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ibeju-Lekki,Lagos",
+                "carManagerId": "efjxO60iO",
+                "ownerType": "individual",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ibeju-Lekki",
+                "marketplaceOldPrice": 15015000,
+                "createdAt": "Thu Nov 20 2025 16:01:19 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Mar 11 2026 12:29:49 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "off-white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3.5,
+                "installment": 737755,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 12411443,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/auris-toyota-ref-40jU2Koh8",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 45,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/8742afb3-6b62-4900-b86d-c2228ced9fc2.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "ei9fR3AVj"
+        },
+        {
+            "id": "37707e6a-07af-4b5f-8c26-cb48a951b9f7",
+            "carId": "flv1kksa8",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/37707e6a-07af-4b5f-8c26-cb48a951b9f7.pdf",
+            "status": "completed",
+            "createdAt": "Mon Mar 09 2026 12:57:19 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 09 2026 12:57:28 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "flv1kksa8",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "SGSMGLG2RS17FLOJ0",
+                "price": 10000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 10000000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_322,q_100/cV9rlV0t.webp",
+                "ownerId": "oeec-Q1T2",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 87,
+                    "name": "A5",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "country": "NG",
+                "carManagerId": "f6RPb_pKP",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "marketplaceOldPrice": 10000000,
+                "createdAt": "Mon Feb 23 2026 12:40:36 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Tue Mar 10 2026 05:42:14 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "red",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 4,
+                "installment": 433039,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 7207455,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/flv1kksa8",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 4000,
+                "moderated": true,
+                "moderationStatus": "pending",
+                "listingScore": "2.8",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/37707e6a-07af-4b5f-8c26-cb48a951b9f7.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "IRbnDl1q_"
+        },
+        {
+            "id": "e43b593a-dc90-4408-8e08-31a7893e7ca4",
+            "carId": "40jU2Koh8",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/e43b593a-dc90-4408-8e08-31a7893e7ca4.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 06 2026 09:49:46 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 06 2026 09:50:26 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "40jU2Koh8",
+                "year": 2019,
+                "insured": false,
+                "mileage": 95800,
+                "vin": "AURISTOYO16161616",
+                "licensePlate": "dada153",
+                "engineNumber": "4553626WTWU",
+                "price": 15000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 15000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Fri Mar 06 2026 09:42:10 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/ygM9okbi.webp",
+                "ownerId": "s-tofWtKX",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1881,
+                    "name": "Auris",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ibeju-Lekki,Lagos",
+                "carManagerId": "efjxO60iO",
+                "ownerType": "individual",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ibeju-Lekki",
+                "marketplaceOldPrice": 15015000,
+                "createdAt": "Thu Nov 20 2025 16:01:19 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Mar 11 2026 12:29:49 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "off-white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3.5,
+                "installment": 737755,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 12411443,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/auris-toyota-ref-40jU2Koh8",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 45,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/e43b593a-dc90-4408-8e08-31a7893e7ca4.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "ei9fR3AVj"
+        },
+        {
+            "id": "d3ef1127-6c43-4138-8b29-123ab58995ef",
+            "carId": "QtfiUYOGp",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/d3ef1127-6c43-4138-8b29-123ab58995ef.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 06 2026 09:49:41 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 06 2026 09:49:59 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "QtfiUYOGp",
+                "year": 2019,
+                "insured": false,
+                "mileage": 95800,
+                "vin": "AURISTOYO1633",
+                "licensePlate": "TESKA236",
+                "engineNumber": "TESJ346626",
+                "price": 15000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 15000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Fri Mar 06 2026 09:37:30 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/MbR3HHDg.webp",
+                "ownerId": "s-tofWtKX",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1881,
+                    "name": "Auris",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ibeju-Lekki,Lagos",
+                "carManagerId": "efjxO60iO",
+                "ownerType": "individual",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ibeju-Lekki",
+                "marketplaceOldPrice": 15015000,
+                "createdAt": "Thu Nov 20 2025 15:48:00 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 06 2026 09:49:49 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "off-white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3.5,
+                "installment": 737755,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 12411443,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/auris-toyota-ref-QtfiUYOGp",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 45,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/d3ef1127-6c43-4138-8b29-123ab58995ef.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "oWuvaF36o"
+        }
+    ],
+    "pagination": {
+        "total": 42944,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4295
+    }
+}

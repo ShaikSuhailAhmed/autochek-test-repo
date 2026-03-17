@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/partners?country=NG&page_size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				page_size=10
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6Ik5nbTIyRWFldzVDOGdkZUs5MDY4Iiwiand0SWQiOiJ4aEZlVGg0cG1kbW04cVJjVEZSZiIsImlhdCI6MTc3MzczNzQ1NywiZXhwIjoxODA1MjczNDU3fQ.NaL2W184Qcj2ojgQ5iAl-BRHSLGHjxILozKMmdV6C-I
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

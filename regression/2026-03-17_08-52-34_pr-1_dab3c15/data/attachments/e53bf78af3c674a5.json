@@ -1,0 +1,407 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:51:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4564
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"11d4-D8FprmZO1TcgLf2KLyLqNrVKc3A"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "3pogxHZef",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Mon Mar 16 2026 12:22:14 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "NEPAPRt2x",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Mon Mar 16 2026 12:21:43 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "4W4wVEuaw",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Mon Mar 16 2026 07:08:57 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "CxrbAGKFY",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Mon Mar 16 2026 07:03:14 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "gVKm5QQ2df",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Thu Mar 12 2026 11:10:11 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "uIskCFoQS",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Thu Mar 12 2026 11:09:43 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "TwHm_5-8C",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Thu Mar 12 2026 11:06:30 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "_ML7FGZv5",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Thu Mar 12 2026 11:06:17 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "10hVQDeYE",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 32192424,
+            "createdBy": "Frugal test123",
+            "createdAt": "Thu Mar 12 2026 10:11:42 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "pxzw4RIjL",
+            "country": "NG",
+            "firstName": "E2E_UG_By_FA_Salary50c1c",
+            "lastName": "AUTO_8963c",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256071296693",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Thu Mar 12 2026 10:11:26 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        }
+    ],
+    "pagination": {
+        "total": 1394,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:51:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4037
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"fc5-gtjBEQ+PK8/cSOK+mwNUPhzy66Q"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "offers": [
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                }
+            ],
+            "id": "3qLRqnlCu",
+            "partner": {
+                "id": "3PpxcIGoj",
+                "name": "Get Gari Nigeria",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/52d82efb-b5e6-4d00-b688-7c30c5469444-NEW%20GETGARI%20LOGO%20SAMPLES%20%20MAY%202024%202.png"
+            },
+            "approvedAmount": 32192424,
+            "interest": 43,
+            "tenure": 24,
+            "monthlyRepayment": "2794197.00",
+            "equity": "24300000.00",
+            "status": "ACCEPTED",
+            "createdAt": "Mon Mar 16 2026 12:23:07 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 16 2026 13:29:23 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "56.99",
+                "equity": "43.01",
+                "additionalFees": "0.00"
+            },
+            "dealerCommission": "149258.38",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "248763.96",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/2kVs45fUD-3qLRqnlCu-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanApplicationMaximumApprovedVehicleValue": "64100000",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/NpqQPsltw-3qLRqnlCu-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "dealerFacilityWithAutochek": "0"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                }
+            ],
+            "id": "0rUdZnf8a",
+            "partner": {
+                "id": "zDV2IT-QV",
+                "name": "9jaPay Microfinance Bank",
+                "logoUrl": "https://storage.googleapis.com/img.autochek.africa/3169520f-9dee-4987-a1f9-ddb4c05641eb-9japay%20(1).jpeg"
+            },
+            "approvedAmount": 28595590,
+            "interest": 42,
+            "tenure": 24,
+            "monthlyRepayment": "2122172.00",
+            "equity": "27000000.00",
+            "status": "ACCEPTED",
+            "createdAt": "Mon Mar 16 2026 12:22:55 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 16 2026 13:29:23 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "51.43",
+                "equity": "48.57",
+                "additionalFees": "0.00"
+            },
+            "dealerCommission": "149258.38",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "248763.96",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/F3ooDIZDt-0rUdZnf8a-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanApplicationMaximumApprovedVehicleValue": "63000000",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/dvEKAdiah-0rUdZnf8a-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "dealerFacilityWithAutochek": "0"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                }
+            ],
+            "id": "oDv45XmJW",
+            "partner": {
+                "id": "gaDmAJ-V1",
+                "name": "hallmark finance",
+                "logoUrl": "https://media.autochek.africa/file/SnsMLH1Z.png"
+            },
+            "approvedAmount": 32829100,
+            "interest": 47,
+            "tenure": 24,
+            "monthlyRepayment": "2292551.00",
+            "equity": "25920000.00",
+            "status": "ACCEPTED",
+            "createdAt": "Mon Mar 16 2026 12:22:43 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 16 2026 13:29:23 GMT+0000 (Coordinated Universal Time)",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "55.88",
+                "equity": "44.12",
+                "additionalFees": "0.00"
+            },
+            "dealerCommission": "149258.38",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "248763.96",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/QuT4eu_4V-oDv45XmJW-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00",
+            "isExpired": false,
+            "state": "ACTIVE",
+            "loanApplicationMaximumApprovedVehicleValue": "21000000",
+            "offerBreakDownPdf": "https://storage.googleapis.com/autochek-loan/TNeXuzism-oDv45XmJW-CONDITIONAL_OFFER-breakdown.pdf",
+            "version": "2",
+            "dealerFacilityWithAutochek": "0"
+        }
+    ]
+}

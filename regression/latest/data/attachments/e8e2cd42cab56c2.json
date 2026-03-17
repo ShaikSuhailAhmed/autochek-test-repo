@@ -1,0 +1,142 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 08:51:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2240
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"8c0-xZT9QHWdV3Qp70ImYJoghKDwcQQ"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "partners": [
+        {
+            "id": "-oJf1X3XR",
+            "name": "ABC Capital Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/d5c04f11-25d6-4324-971a-9ce3d8535b58-ug-2.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "FId4R4mAn",
+            "name": "Bank of Africa",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/11bde77e-6646-497d-bda5-8eb7c73dbac2-ug-3.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "jXeEz5VcU",
+            "name": "Bank of Baroda",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/c719692a-1462-44d5-8bc7-314cc85983e6-ug-4.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "oRz32rPJH",
+            "name": "Bank of Uganda",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/3c86b3c4-f8bc-4cad-8313-902c2f786498-ug-1.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "WH7MqKMzJ",
+            "name": "Barclays Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/5d9b7a91-e6fa-4844-8cb8-335b5d7feaeb-ug-5.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "HkWNH4a8s",
+            "name": "Cairo International Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/d886f6ea-b6ad-4f23-80d0-8fae9e8d04fb-ug-6.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "gs-70cazu",
+            "name": "Centenary Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/4b1faada-f9e6-40ab-bfe6-65c57de9c386-ug-7.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "14_9iClSM",
+            "name": "Citibank Uganda Limited",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/e8825712-56c0-472a-8b2c-06cad7049465-ug-8.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "IpdjCnaIP",
+            "name": "DFCU Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/a1b6b878-ebd1-4d9b-a6a0-7d9c8a28743e-ug-9.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "F5WNHfBTo",
+            "name": "Diamond Trust Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/7cc43704-2c84-460e-9bae-783f3411f2e7-ug-10.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        }
+    ],
+    "pagination": {
+        "total": 23,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

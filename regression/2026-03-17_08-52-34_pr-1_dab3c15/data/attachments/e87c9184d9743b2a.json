@@ -1,0 +1,22 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ1cGVITE9LNm01VUU0VGVIMzhJViIsImp3dElkIjoiNGU0dk5aRktTbkhPTGc2UmYzRzQiLCJpYXQiOjE3NzM3MzcyOTgsImV4cCI6MTgwNTI3MzI5OH0.WXdKxeVuNBDu8wDDWCfvuqsNqv70LfQyN226ZJ2Tc6A
+				x-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "vin": "0000641987876412845",
+    "model_id": 1891,
+    "country": "NG",
+    "inspection_type": "dealer-regular",
+    "source": "franchise",
+    "franchise_id": "kpMngdaMZ"
+}
