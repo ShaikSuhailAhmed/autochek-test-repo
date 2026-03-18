@@ -1,0 +1,34 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+am1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=4&page_size=50&franchise=kpMngdaMZ&country=NG&name=Toyota
+Proxy:			<none>
+Request params:	<none>
+Query params:	exclude_sold_cars=true
+				exclude_category_name=logbook
+				page_number=4
+				page_size=50
+				franchise=kpMngdaMZ
+				country=NG
+				name=Toyota
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6InFza0t3Qmx6YWplbUVRclk3OFlHIiwiand0SWQiOiJkcTV1QlRMWGJJVTJ2MEVBMk11UCIsImlhdCI6MTc3MzgxNzI3OSwiZXhwIjoxODA1MzUzMjc5fQ.GDefOzGXTTMGdQ9p7lZsdUS8PX93pl71v-Yz6RfFSYA
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

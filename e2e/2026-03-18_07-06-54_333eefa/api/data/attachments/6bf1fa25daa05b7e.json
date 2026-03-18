@@ -1,0 +1,66 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 07:01:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6InFza0t3Qmx6YWplbUVRclk3OFlHIiwiand0SWQiOiJkcTV1QlRMWGJJVTJ2MEVBMk11UCIsImlhdCI6MTc3MzgxNzI3OSwiZXhwIjoxODA1MzUzMjc5fQ.GDefOzGXTTMGdQ9p7lZsdUS8PX93pl71v-Yz6RfFSYA; Max-Age=3600; Path=/; Expires=Wed, 18 Mar 2026 08:01:19 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=e2a270f487ff8cff14ed5bfa9b2b04db3e287e6a3169d842d94675c00211dc68011f6a55c347ac308df2646bdad7adb16396865872f98ea63e5d5004629358a7; Max-Age=2592000; Path=/; Expires=Fri, 17 Apr 2026 07:01:19 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-TiM/jzWciZkZj+o7XTU+OpDw2lw"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "vr9eEIvTglZkIOM4aaES",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ2cjllRUl2VGdsWmtJT000YWFFUyIsInNlc3Npb25JZCI6InFza0t3Qmx6YWplbUVRclk3OFlHIiwiand0SWQiOiJkcTV1QlRMWGJJVTJ2MEVBMk11UCIsImlhdCI6MTc3MzgxNzI3OSwiZXhwIjoxODA1MzUzMjc5fQ.GDefOzGXTTMGdQ9p7lZsdUS8PX93pl71v-Yz6RfFSYA",
+        "refreshToken": "e2a270f487ff8cff14ed5bfa9b2b04db3e287e6a3169d842d94675c00211dc68011f6a55c347ac308df2646bdad7adb16396865872f98ea63e5d5004629358a7",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 400 Bad Request
+Date: Wed, 18 Mar 2026 07:02:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 479
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1df-bQn8mj8DtmZDDgK2JUejYhn7bJU"
+
+{
+    "code": 400,
+    "error": "14 UNAVAILABLE: No connection established. Last error: Error: connect ETIMEDOUT 10.196.2.228:4030. Resolution note:",
+    "message": "14 UNAVAILABLE: No connection established. Last error: Error: connect ETIMEDOUT 10.196.2.228:4030. Resolution note:",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=4&page_size=50&franchise=kpMngdaMZ&country=NG&name=Toyota"
+        }
+    ]
+}
