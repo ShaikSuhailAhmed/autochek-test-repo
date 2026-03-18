@@ -1,0 +1,158 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:15:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2771
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"ad3-2o6xMYDHQFZdZ7axrgo4nTiyd5w"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "partners": [
+        {
+            "id": "ghExPgBit",
+            "name": "NCBA",
+            "logoUrl": "https://media.autochek.africa/file/qRXmxTa7.jpg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "muthaiga.s@autochek.africa",
+            "partnerContactPhone": "0709090909",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "5sTnx8VSy",
+            "name": "Stanbic Bank",
+            "logoUrl": "https://media.autochek.africa/file/mv06bgAB.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "mary.w@autochek.africa",
+            "partnerContactPhone": "0732899009",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "EE8puThge",
+            "name": "Karibu",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/ff996e1a-fe93-4b2e-93b6-851d0d52049b-Karibu.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "imoite.l@autochek.africa",
+            "partnerContactPhone": "+254788888888",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "_Dm-9oFCe",
+            "name": "ABC Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/a36ec86a-4a6e-42d9-a121-323465d0335c-ABC%20bank%20Kenya.webp",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "harriet.n@autochek.africa",
+            "partnerContactPhone": "0747876545",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "0s0e7WvbE",
+            "name": "Absa Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/1babda76-63ec-4de2-83ba-ef4456c6ea26-ABSA%20bank%20Kenya.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "edwin.m@autochek.africa",
+            "partnerContactPhone": "721786563",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "TQLkJ7YP1",
+            "name": "Access Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/69b3a074-252f-4abc-81c6-85621123d8f0-Access%20Bank%20Kenya.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "muthaigasam222@gmail.com",
+            "partnerContactPhone": "+254798989898",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "7kBYNCL1T",
+            "name": "Bank Al-Habib",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/e2154128-8a97-412c-b311-5265bd2221a2-Bank%20Al-Habib.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "3Pcla-MX7",
+            "name": "Bank of Africa",
+            "logoUrl": "https://media.autochek.africa/file/l9feAfuc.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "edwin.m@autochek.africa",
+            "partnerContactPhone": "0723396461",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "EMls72fDZ",
+            "name": "Bank of Baroda",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/48f580e1-3d7f-47ba-b8c7-35f39b9255de-Baroda%20Bank.jpeg",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "Fnm0pBnbP",
+            "name": "Bank of China",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/bcf34553-af6b-485e-990e-4f2fa3a25c45-Bank_Of_China_logo.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        }
+    ],
+    "pagination": {
+        "total": 69,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

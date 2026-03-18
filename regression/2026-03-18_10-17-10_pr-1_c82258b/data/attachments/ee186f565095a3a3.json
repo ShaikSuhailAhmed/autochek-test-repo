@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:15:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4620
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"120c-N8C9kis5eZLukQ8+LKvgPOO8oSE"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "hbkNnmz8a",
+            "carId": "kq_TTqb2K",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_ac851",
+            "lastName": "AUTO_5c8f7e",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_self_employed_01aa70@test.com",
+            "phone": "2342700057901",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1113925,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-18T09:58:19.267Z",
+            "customerType": "Self-Employed",
+            "customerId": "WG2O_iiKrV"
+        },
+        {
+            "id": "fvtK3imZPW",
+            "carId": "uDea88erd",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_BO_f44508",
+            "lastName": "AUTO_9972f9",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Highlander  2020",
+            "email": "ng_bo_e4c28a@test.com",
+            "phone": "2342539205664",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1294566,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-18T09:58:19.169Z",
+            "customerType": "Business owner",
+            "customerId": "5WSSnwaa_"
+        },
+        {
+            "id": "6L2Phe569n",
+            "carId": "SqbFDkBlq",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_Salary_c84abc",
+            "lastName": "AUTO_8e815e",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng970583@gmail.com",
+            "phone": "2341574749804",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 819766,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-18T09:58:14.170Z",
+            "customerType": "Salary earner",
+            "customerId": "VH8h2_xyMZ"
+        },
+        {
+            "id": "sJruhCoT5T",
+            "carId": "ckj7mp6JB",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_Salary_69ea5d",
+            "lastName": "AUTO_e2815e",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Audi A5  2020",
+            "email": "ng5f7920@gmail.com",
+            "phone": "2347772512139",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 4628545,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-18T09:58:13.270Z",
+            "customerType": "Salary earner",
+            "customerId": "uZbBkfbpZY"
+        },
+        {
+            "id": "XK5W-zHepu",
+            "carId": "uznzbOOo4",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_SelfEmployed_5c3ca",
+            "lastName": "AUTO_120fac",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Highlander  2023",
+            "email": "ng_self_employed_f1c4ce@test.com",
+            "phone": "2347746236993",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 8639525,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-18T09:58:13.068Z",
+            "customerType": "Self-Employed",
+            "customerId": "2phqrZDojG"
+        },
+        {
+            "id": "yebeasidi_",
+            "carId": "NCUxlr7zo",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_28aa1b",
+            "lastName": "AUTO_288397",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_bo_301525@test.com",
+            "phone": "2346982094195",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1094031,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-18T09:58:12.969Z",
+            "customerType": "Business owner",
+            "customerId": "2nHOa6C0L8"
+        },
+        {
+            "id": "HKQxJAiJwJ",
+            "carId": "HtGgZ9q1B",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_SelfEmployed_76890",
+            "lastName": "AUTO_1b78d0",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_self_employed_e7bee1@test.com",
+            "phone": "2343710825964",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1094031,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-18T09:38:54.562Z",
+            "customerType": "Self-Employed",
+            "customerId": "qoX8G5lYg"
+        },
+        {
+            "id": "29ZA6V5kx",
+            "carId": "qgABhWWGi",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_1d403",
+            "lastName": "AUTO_c39b3d",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_self_employed_b7e7c6@test.com",
+            "phone": "2346094518588",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1113925,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-18T09:38:38.179Z",
+            "customerType": "Self-Employed",
+            "customerId": "gQwgb_wq-c"
+        },
+        {
+            "id": "G6oRWun2O5",
+            "carId": "BFB2RABRN",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_BO_a41c66",
+            "lastName": "AUTO_9ba25d",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Toyota Highlander  2024",
+            "email": "ng_bo_0656d3@test.com",
+            "phone": "2343482845879",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1495020,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "2026-03-18T09:38:23.780Z",
+            "customerType": "Business owner",
+            "customerId": "L7QyRBJuek"
+        },
+        {
+            "id": "O7RrDv_GEl",
+            "carId": "uo0MxqqPi",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_89f14d",
+            "lastName": "AUTO_054548",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng_bo_4e5363@test.com",
+            "phone": "2345171180208",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1113925,
+            "createdBy": "Frugal test123",
+            "createdAt": "2026-03-18T09:38:10.593Z",
+            "customerType": "Business owner",
+            "customerId": "uPhv52FZM7"
+        }
+    ],
+    "pagination": {
+        "total": 1447,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/model?country=NG&fields=make%28name%29
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				fields=make(name)
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6IlY1eFQ5WFo4RE5vMFo5UExkOHVlIiwiand0SWQiOiJ5UVF3SENscmdNOVphb1ZGaHhISyIsImlhdCI6MTc3MzgyODQ4OCwiZXhwIjoxODA1MzY0NDg4fQ.srd7Lob0y4L4iHld6-5A5KqqRR0ICQF8Gpt8SvO9aLQ
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

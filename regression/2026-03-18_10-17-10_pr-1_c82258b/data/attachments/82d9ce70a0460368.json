@@ -1,0 +1,60 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/refresh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		refresh_token=9f36f9aa9cc84c383fdd0dbdacd551416d563b1e202efee5c969aa082b5a92ec659501f4d4485dff8b46bc84d6271d1a0e744fb02b4c474703024bbab36962ef
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IktkS3ZWenVpalpsOUxPNDRvM3dIIiwiand0SWQiOiJhY1RkQnFWZXA1VjNaNlV2c3lHNCIsImlhdCI6MTc3MzgyODk3NSwiZXhwIjoxODA1MzY0OTc1fQ.RSGIDUU3bAm8LWwJZ9PdneXEaMVr9dLG29RsClrQ1ZA
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IktkS3ZWenVpalpsOUxPNDRvM3dIIiwiand0SWQiOiJEaE9odnNIbUtYVGpFNXlieEFLTSIsImlhdCI6MTc3MzgyODk3NSwiZXhwIjoxODA1MzY0OTc1fQ.3sO1Bf4bQGYLJjxE1frvrlgYYB7ZB0YjjVPx8_PqYsA
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/refresh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		refresh_token=9f36f9aa9cc84c383fdd0dbdacd551416d563b1e202efee5c969aa082b5a92ec659501f4d4485dff8b46bc84d6271d1a0e744fb02b4c474703024bbab36962ef
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/refresh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		refresh_token=e331e97c7a3747e5d59346af0ad8e6477286c1014357fab2023c70dbc1f0945a7e52aa1ac5d9f4d071ab3b484fb8b4f4b884402db72b644dad0e69362a0537ec
+Multiparts:		<none>
+Body:			<none>
