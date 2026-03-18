@@ -1,0 +1,56 @@
+HTTP/1.1 429 Too Many Requests
+Date: Wed, 18 Mar 2026 07:19:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 203
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"cb-zdeJKYBS6Ma4FzgfqQShnOLcJT4"
+
+{
+    "error": " Maximum concurrent sessions limit (3) exceeded. Please logout from another device first.",
+    "message": " Maximum concurrent sessions limit (3) exceeded. Please logout from another device first."
+}
+HTTP/1.1 401 Unauthorized
+Date: Wed, 18 Mar 2026 07:19:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 264
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"108-ZwRFxzAz8LS8i04QXuJsZ6ifpn8"
+
+{
+    "error": "jwt malformed",
+    "message": "jwt malformed",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/car?exclude_sold_cars=true&exclude_category_name=logbook&page_number=8&page_size=50&franchise=kpMngdaMZ&country=NG&name=Toyota"
+        }
+    ]
+}
