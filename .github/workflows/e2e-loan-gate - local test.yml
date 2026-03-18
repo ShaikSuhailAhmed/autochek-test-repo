@@ -268,52 +268,11 @@ jobs:
         run: |
           echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
 
-       # =========================================================
-      # Build Failure Table
-      # =========================================================
-      - name: Build Failure Table
-        id: failure_table
-        if: always()
-        run: |
-
-          BASE="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
-
-          echo "BASE_URL=$BASE" >> $GITHUB_ENV
-
-          API_TABLE=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '
-          ( $block | split(",") ) as $sevlist
-          | select(.status=="failed" or .status=="broken")
-          | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-          | select($sev != null and ($sevlist | index($sev)))
-          | "<tr><td>" + $sev + "</td><td>" + (.name // .fullName) + "</td></tr>"
-          ' e2e/api-automation/target/allure-results/*.json 2>/dev/null)
-
-          UI_TABLE=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
-          ( $block | split(",") ) as $sevlist
-          | select(.status=="failed" or .status=="broken")
-          | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-          | select($sev != null and ($sevlist | index($sev)))
-          | "<tr><td>" + $sev + "</td><td>" + (.name // .fullName) + "</td></tr>"
-          ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null)
-
-          {
-          echo "API_TABLE<<EOF"
-          echo "$API_TABLE"
-          echo "EOF"
-          } >> $GITHUB_ENV
-          
-          {
-          echo "UI_TABLE<<EOF"
-          echo "$UI_TABLE"
-          echo "EOF"
-          } >> $GITHUB_ENV
-
       # =========================================================
       # FINAL PR GATE
       # =========================================================
       - name: Final PR Gate
         if: always()
-        continue-on-error: true
         run: |
           API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
           UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
@@ -323,10 +282,10 @@ jobs:
             exit 1
           fi
       # =========================================================
-      # Send Failure Email
+      # SEND FAILURE EMAIL
       # =========================================================
       - name: Send Failure Email
-        if: always() && steps.gate.outcome == 'failure'
+        if: failure()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
@@ -334,34 +293,21 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: "❌ E2E Automation Failed - ${{ github.repository }}"
-          to: pavanagundla.jayanth@frugaltesting.com
+          to: |
+            pavanagundla.jayanth@frugaltesting.com,
+            04_autochek_internal_-aaaaqndy6657f4ng7lh7txbtf4@frugalworkspace.slack.com
           from: ${{ secrets.ALERT_FROM_EMAIL }}
           html_body: |
             <h2>E2E Automation Failed</h2>
 
             <p><b>Repository:</b> ${{ github.repository }}</p>
-            <p><b>Run:</b> <a href="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}">Open GitHub Action Run</a></p>
+            <p><b>Run:</b> https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}</p>
 
             <h3>Allure Reports</h3>
+
             <ul>
               <li><a href="${{ env.BASE_URL }}/e2e/latest/api/">API Report</a></li>
               <li><a href="${{ env.BASE_URL }}/e2e/latest/ui/">UI Report</a></li>
             </ul>
 
-            <h3>API Severe Failures</h3>
-            <table border="1" cellpadding="6" cellspacing="0">
-              <tr><th>Severity</th><th>Test</th></tr>
-              ${{ env.API_TABLE }}
-            </table>
-
-            <h3>UI Severe Failures</h3>
-            <table border="1" cellpadding="6" cellspacing="0">
-              <tr><th>Severity</th><th>Test</th></tr>
-              ${{ env.UI_TABLE }}
-            </table>
-            
-      - name: Enforce Final Failure
-        if: always() && steps.gate.outcome == 'failure'
-        run: |
-          echo "::error::Failing workflow after sending notification email."
-          exit 1
+            <p>Please review severe failures in the GitHub Action summary.</p>
