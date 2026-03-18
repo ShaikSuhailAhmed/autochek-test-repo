@@ -232,7 +232,7 @@ jobs:
       - name: Set GitHub Pages URL
         if: always()
         run: |
-         cho "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
+          echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
 
       # =========================================================
       # FINAL PR GATE
@@ -277,7 +277,7 @@ jobs:
             <h3>Allure Reports</h3>
 
             <ul>
-              <li><a href="${{ env.BASE_URL }}/regression_ui/latest/">UI Report</a></li>
+              <li><a href="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/regression_ui/latest/">UI Report</a></li>
             </ul>
 
             <p>Please review severe failures in the GitHub Action summary.</p>
