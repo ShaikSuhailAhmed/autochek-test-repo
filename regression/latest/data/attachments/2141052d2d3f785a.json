@@ -1,0 +1,306 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:26:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 902
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"386-lPx0A9HENIsDQUq8dw2ReMxPzEk"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "result": [
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "HwaUoAP3h",
+            "name": "franchise test creation",
+            "owner": "6JUN5hOSw",
+            "email": "zebbylion.n+02819@autochek.africa",
+            "phonenumber": "254781921010",
+            "bankName": "1234567890",
+            "accountName": "teesttest",
+            "accountBvn": 646131,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "123584511",
+            "displayAddress": "Maryland, Kenya.",
+            "address": "Airport Junction Citec, Abuja, Nigeria",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 2.2137489318847656,
+            "latitude": 46.227638244628906,
+            "mapAddress": "France",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue May 13 2025 09:18:14 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Airport Junction Citec",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        }
+    ],
+    "pagination": {
+        "total": 166,
+        "currentPage": 1,
+        "pageSize": 1
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:26:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1334
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"536-APRpcHYk3b69j+6hyXSsPOnWn8Y"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "users": [
+        
+    ],
+    "documents": [
+        
+    ],
+    "dsas": [
+        
+    ],
+    "openingDaysAndTime": [
+        
+    ],
+    "staffs": [
+        
+    ],
+    "pictures": [
+        
+    ],
+    "id": "4gYt9HCUw",
+    "name": "Frugal Automation",
+    "owner": "diyrHzEg6",
+    "email": "test41875@mail.com",
+    "phonenumber": "+2348989541875",
+    "bankName": "GTBank",
+    "accountName": "Acc1",
+    "accountBvn": 566726707,
+    "status": "pending",
+    "contract": "pending",
+    "type": "dealer",
+    "subscriptionStatus": false,
+    "accountNumber": "894526341875",
+    "ownerInfo": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-18T10:26:50.419Z"
+    },
+    "displayAddress": "Addr1",
+    "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+    "hasAssociation": false,
+    "longitude": 3.379199981689453,
+    "latitude": 6.524400234222412,
+    "onboardingSource": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-18T10:26:50.419Z"
+    },
+    "mapAddress": "Lagos",
+    "isAnchor": false,
+    "forCollateralInspection": false,
+    "createdAt": "2026-03-18T10:26:48.752Z",
+    "houseNo": "12B",
+    "zipCode": "100001",
+    "streetName": "Awolowo Rd",
+    "nearestLandmark": "Lekki Phase 1",
+    "city": "Apo Mechanic",
+    "state": "Abuja",
+    "acceptedCodeOfConduct": false
+}
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:26:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1695
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"69f-DPT0hxPgsLRF4WmoOyTM0/APms0"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "users": [
+        {
+            "roles": [
+                
+            ],
+            "deviceTokens": [
+                
+            ],
+            "id": "diyrHzEg6",
+            "referrerCode": "X22RYC52",
+            "country": "NG",
+            "createdAt": "2025-06-26T07:49:55.056Z",
+            "updatedAt": "2026-03-18T10:26:50.419Z"
+        }
+    ],
+    "documents": [
+        
+    ],
+    "dsas": [
+        
+    ],
+    "openingDaysAndTime": [
+        
+    ],
+    "staffs": [
+        {
+            "roles": [
+                
+            ],
+            "deviceTokens": [
+                
+            ],
+            "id": "diyrHzEg6",
+            "referrerCode": "X22RYC52",
+            "country": "NG",
+            "createdAt": "2025-06-26T07:49:55.056Z",
+            "updatedAt": "2026-03-18T10:26:50.419Z"
+        }
+    ],
+    "pictures": [
+        
+    ],
+    "id": "9QVjIgEHO",
+    "name": "Frugal Automation 07",
+    "owner": "diyrHzEg6",
+    "email": "test65319@mail.com",
+    "phonenumber": "+2348989565319",
+    "bankName": "Autobank",
+    "accountName": "TestUser",
+    "accountBvn": 566750151,
+    "status": "pending",
+    "contract": "pending",
+    "type": "dealer",
+    "subscriptionStatus": false,
+    "accountNumber": "894526365319",
+    "ownerInfo": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-18T10:26:50.419Z"
+    },
+    "displayAddress": "123 Test St",
+    "address": "12B Allen Avenue (Near Ikeja Mall), Apo Mechanic, Abuja 100001, NG",
+    "hasAssociation": false,
+    "longitude": 3.379199981689453,
+    "latitude": 6.524400234222412,
+    "onboardingSource": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-18T10:26:50.419Z"
+    },
+    "mapAddress": "Ikeja Center",
+    "isAnchor": true,
+    "forCollateralInspection": false,
+    "createdAt": "2026-03-18T10:26:50.325Z",
+    "houseNo": "12B",
+    "zipCode": "100001",
+    "streetName": "Allen Avenue",
+    "nearestLandmark": "Near Ikeja Mall",
+    "city": "Apo Mechanic",
+    "state": "Abuja",
+    "acceptedCodeOfConduct": false
+}

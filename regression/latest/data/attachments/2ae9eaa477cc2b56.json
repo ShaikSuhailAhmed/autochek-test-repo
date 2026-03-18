@@ -1,0 +1,14 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/offers?country=GH&page_size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=GH
+				page_size=10
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6IkpieHFtMU9QZ3BKNGJtUnNYbkxOIiwiand0SWQiOiJsODlIejdHU0c0ZWRpcm16VEJwbSIsImlhdCI6MTc3MzgzMTQyNywiZXhwIjoxODA1MzY3NDI3fQ.LNCghaKbiv6y8T0MLYPDGsnUVVqgGK6YCvzo3ye1IPE
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

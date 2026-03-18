@@ -1,0 +1,93 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:53:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJxd0JvZWVveXVaRHRxZkVtM3JpRiIsImp3dElkIjoiRG80dXZQdlNOS0pteU11Y0VJWFEiLCJpYXQiOjE3NzM4MzExODgsImV4cCI6MTgwNTM2NzE4OH0.1Bqej-LQKgi7Jy0SrdNRr133ThH1p5o-NV1mDCVBe7o; Max-Age=3600; Path=/; Expires=Wed, 18 Mar 2026 11:53:08 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=5b8b5d61b5db0b7cd99cd20db534d0498b9ec50458a2b6cff47e42fba0f90b785a925dddfa1c5d7e89f992af8afa185e324b2d5de340f8eb82b2a8a33ce2f451; Max-Age=2592000; Path=/; Expires=Fri, 17 Apr 2026 10:53:08 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-mt8UIFe3D+dJy/Q52yCrS2z111A"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "BQlQBbLTW",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJxd0JvZWVveXVaRHRxZkVtM3JpRiIsImp3dElkIjoiRG80dXZQdlNOS0pteU11Y0VJWFEiLCJpYXQiOjE3NzM4MzExODgsImV4cCI6MTgwNTM2NzE4OH0.1Bqej-LQKgi7Jy0SrdNRr133ThH1p5o-NV1mDCVBe7o",
+        "refreshToken": "5b8b5d61b5db0b7cd99cd20db534d0498b9ec50458a2b6cff47e42fba0f90b785a925dddfa1c5d7e89f992af8afa185e324b2d5de340f8eb82b2a8a33ce2f451",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:53:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiIxb1czY2Q1NGJjbzF1N1BPbkFJVyIsImp3dElkIjoiU0ZremJtSHNmcjBmejhuc09MUzIiLCJpYXQiOjE3NzM4MzExODksImV4cCI6MTgwNTM2NzE4OX0.OWU5dZm0lIxnhthDCITfk8jSwoI4MhV5_tYXmYQBU-Q; Max-Age=3600; Path=/; Expires=Wed, 18 Mar 2026 11:53:09 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=dc31728395e2d52ce9bc79bad188e2346eca69ec57fbd2a157c0bbdbd7c0ddf87373de3c8998cde985a99a5e10b3e1f389dfbe8edc53dd77eaee37a7b3ee141c; Max-Age=2592000; Path=/; Expires=Fri, 17 Apr 2026 10:53:09 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-oErtQppXzD8ccI4r8TSvXqexnaA"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "IkzXrHLw0",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiIxb1czY2Q1NGJjbzF1N1BPbkFJVyIsImp3dElkIjoiU0ZremJtSHNmcjBmejhuc09MUzIiLCJpYXQiOjE3NzM4MzExODksImV4cCI6MTgwNTM2NzE4OX0.OWU5dZm0lIxnhthDCITfk8jSwoI4MhV5_tYXmYQBU-Q",
+        "refreshToken": "dc31728395e2d52ce9bc79bad188e2346eca69ec57fbd2a157c0bbdbd7c0ddf87373de3c8998cde985a99a5e10b3e1f389dfbe8edc53dd77eaee37a7b3ee141c",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 400 Bad Request
+Date: Wed, 18 Mar 2026 10:53:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 65
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"41-CcwXzylQ1aUCt/caj1IOmN1e8Bk"
+
+{
+    "error": " Invalid credentials",
+    "message": " Invalid credentials"
+}

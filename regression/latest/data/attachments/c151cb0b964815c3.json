@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans?country=true&page_size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=true
+				page_size=10
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6Ik5lZktjV29RS3d4ckFtVWNJTmlhIiwiand0SWQiOiJGNkt6eWN6Z3dQbGtkVWYyb3hmZiIsImlhdCI6MTc3MzgzMTM0MywiZXhwIjoxODA1MzY3MzQzfQ.Z4gXvXsJt5EXilqQHEQPmnaqxWgsC9MVhOOI67NJELM
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,58 @@
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/franchise/4gYt9HCUw/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiIybjA5dlludkxiZDVhZkRSTHphdSIsImp3dElkIjoiU2FUbjE1REVWc1BzbGtpREc5aGEiLCJpYXQiOjE3NzM4Mjk2MDUsImV4cCI6MTgwNTM2NTYwNX0.045TRqJuAPxpKtHhGy6mAhH6FHjrYZavK6uY98XPChs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "franchise_id": "4gYt9HCUw",
+    "status": "rejected"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/franchise/4gYt9HCUw
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiIybjA5dlludkxiZDVhZkRSTHphdSIsImp3dElkIjoiU2FUbjE1REVWc1BzbGtpREc5aGEiLCJpYXQiOjE3NzM4Mjk2MDUsImV4cCI6MTgwNTM2NTYwNX0.045TRqJuAPxpKtHhGy6mAhH6FHjrYZavK6uY98XPChs
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/franchise/9QVjIgEHO/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiIybjA5dlludkxiZDVhZkRSTHphdSIsImp3dElkIjoiU2FUbjE1REVWc1BzbGtpREc5aGEiLCJpYXQiOjE3NzM4Mjk2MDUsImV4cCI6MTgwNTM2NTYwNX0.045TRqJuAPxpKtHhGy6mAhH6FHjrYZavK6uY98XPChs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "franchise_id": "9QVjIgEHO",
+    "status": "rejected"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/franchise/9QVjIgEHO
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiIybjA5dlludkxiZDVhZkRSTHphdSIsImp3dElkIjoiU2FUbjE1REVWc1BzbGtpREc5aGEiLCJpYXQiOjE3NzM4Mjk2MDUsImV4cCI6MTgwNTM2NTYwNX0.045TRqJuAPxpKtHhGy6mAhH6FHjrYZavK6uY98XPChs
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

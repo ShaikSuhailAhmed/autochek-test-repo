@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 10:57:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4871
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1307-r0ilPuCfdbnlaN3IK5M2eOgqzV0"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "shf6cQg6Xt",
+            "carId": "u3ZxT2u89",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary0abcc",
+            "lastName": "AUTO_031f1",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Toyota RAV 4  2008",
+            "email": "uge8c0e0@test.com",
+            "phone": "+256726742184",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 72824784,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 09:40:57 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "yFbzAbHtIy"
+        },
+        {
+            "id": "bShAUDCgqh",
+            "carId": "8Ya9f0y1J",
+            "country": "UG",
+            "firstName": "E2E_UG_By_AM_Salary060b6",
+            "lastName": "AUTO_47dbd",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Hyundai Getz  2020",
+            "email": "ugb45bb7@test.com",
+            "phone": "+256051654048",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 5488168,
+            "createdBy": "esha reddy",
+            "createdAt": "Wed Mar 18 2026 08:26:12 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "eqHSRP0hM8"
+        },
+        {
+            "id": "eZRS1J6-Hu",
+            "carId": "92jcCEktf",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary74781",
+            "lastName": "AUTO_5419e",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "Ford Falcon  2017",
+            "email": "ug53d0aa@test.com",
+            "phone": "+256665940625",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 78553088,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 08:25:58 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "x-iW5gdMjv"
+        },
+        {
+            "id": "mcF6vWYGka",
+            "carId": "_9n3myATK",
+            "country": "UG",
+            "firstName": "manual salary",
+            "lastName": "Reddy",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Harrier  2025",
+            "email": "eshareddy+zqzqzqz@frugaltestingin.com",
+            "phone": "256887744664",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 68997728,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 07:59:22 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "EybtnjO8z-"
+        },
+        {
+            "id": "Wh9RvbA2e",
+            "carId": "4Ul5Yb025",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary5c2d1",
+            "lastName": "AUTO_f9020",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Volkswagen Tiguan  2013",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256464888661",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 72882136,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 07:44:49 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "PF3010j3I",
+            "carId": "fjGD6S7iv",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary5c2d1",
+            "lastName": "AUTO_f9020",
+            "status": "PPI_REQUESTED",
+            "carName": "Subaru Impreza  2008",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256464888661",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 07:44:41 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "rGH0N2rvI",
+            "carId": "PtweZWbja",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary5c2d1",
+            "lastName": "AUTO_f9020",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Ford Raptor  2025",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256464888661",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 120728296,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 07:31:12 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "ouwfSolsH",
+            "carId": "pHp9JnpJl",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary5c2d1",
+            "lastName": "AUTO_f9020",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Ractis  2010",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256464888661",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Wed Mar 18 2026 07:31:05 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "E3EzajXCn",
+            "carId": "sjwNJERdN",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary5c2d1",
+            "lastName": "AUTO_f9020",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Toyota Wish  2010",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256464888661",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 42798084,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "Mon Mar 16 2026 13:14:50 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        },
+        {
+            "id": "26BW09Y5U",
+            "carId": "92jcCEktf",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary5c2d1",
+            "lastName": "AUTO_f9020",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Ford Falcon  2017",
+            "email": "eshareddy+uitest2@frugaltestingin.com",
+            "phone": "+256464888661",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 78553088,
+            "createdBy": "esha reddy",
+            "createdAt": "Mon Mar 16 2026 13:14:49 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "y2uNgEJ_4"
+        }
+    ],
+    "pagination": {
+        "total": 42,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

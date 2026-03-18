@@ -1,0 +1,59 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+102@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Ik96S1o1Rnk1RU50SnptR1h2V1RiIiwiand0SWQiOiJUaTdhcDNPMmNyQVd6eFRQTk9HRyIsImlhdCI6MTc3MzgzMTQ4MCwiZXhwIjoxODA1MzY3NDgwfQ.dQFGOsFW7-OyWH3WQOIFY_WWJz4sAl2CeAroz_IGdrU
+				refresh_token=bdd721d9f4412cd407af60321a8be9d3943f9cc78b626837fd9bba092051c893cbc8e3cb5b6c45e12005d38b1c7a1c576966bb79b88cfe997e48bb3ed446602b
+Multiparts:		<none>
+Body:
+{
+    
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Ikg2N0FacWY5Mkk1WEN5UUNoSmVIIiwiand0SWQiOiI1ODJmUU1Wbk5GN0ZXWDhhRlloSSIsImlhdCI6MTc3MzgzMTQ3OSwiZXhwIjoxODA1MzY3NDc5fQ.GZk4rSmWr4KJE64KHi2FQpHfMIKKQGPmc9gleGM_uZM
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+102@frugaltestingin.com",
+    "password": "Autochek@123"
+}
