@@ -262,18 +262,11 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       # =========================================================
-      # FINAL PR GATE
+      # SEND FAILURE EMAIL
       # =========================================================
-      - name: Final PR Gate
-        if: always()
+      - name: Set GitHub Pages URL
         run: |
-          API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
-          UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
-
-          if [ "$API_BLOCK" -gt 0 ] || [ "$UI_BLOCK" -gt 0 ]; then
-            echo "::error::Blocking severe failures detected ($API_BLOCK API, $UI_BLOCK UI)"
-            exit 1
-          fi
+          echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
 
        # =========================================================
       # Build Failure Table
@@ -316,12 +309,18 @@ jobs:
           } >> $GITHUB_ENV
 
       # =========================================================
-      # SEND FAILURE EMAIL
+      # FINAL PR GATE
       # =========================================================
-      - name: Set GitHub Pages URL
+      - name: Final PR Gate
+        if: always()
         run: |
-          echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
-          
+          API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+          UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+
+          if [ "$API_BLOCK" -gt 0 ] || [ "$UI_BLOCK" -gt 0 ]; then
+            echo "::error::Blocking severe failures detected ($API_BLOCK API, $UI_BLOCK UI)"
+            exit 1
+          fi
       # =========================================================
       # Send Failure Email
       # =========================================================
