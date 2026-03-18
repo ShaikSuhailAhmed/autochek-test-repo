@@ -1,0 +1,31 @@
+HTTP/1.1 401 Unauthorized
+Date: Wed, 18 Mar 2026 07:08:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 255
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"ff-fMcc8w5iKdKi3rr5b6QMq0IdDd0"
+
+{
+    "error": "Session is invalid",
+    "message": "Session is invalid",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/origination/loans/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/logbook/booking-info"
+        }
+    ]
+}

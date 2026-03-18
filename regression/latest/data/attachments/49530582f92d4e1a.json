@@ -1,0 +1,871 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 07:02:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4760
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1298-lGCFTi2GAb7z1cJWMBR+16stwoc"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "carList": [
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "7ISZidzbG",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 9,
+                    "name": "Audi"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "j1JtCSbYh",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 9,
+                    "name": "Audi"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "uo0MxqqPi",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "3dp25bkDZ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "JvjhVcvpf",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "R4GXpRF5F",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "kq_TTqb2K",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "Clf9VLfsR",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "WEgEoGdBi",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "LmypF3YPV",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "BiUjCbAMD",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "OD387POYs",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "iZSSeV7ZC",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "uTXIKkQE0",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "qD6YVEiN8",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "x1TJZ634C",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "yRZF45vt6",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "n1vELhRDx",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "lj8tjH2ej",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 106,
+                    "name": "Toyota"
+                }
+            }
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "o5ZlnSBE7",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "make": {
+                    "id": 13,
+                    "name": "BMW"
+                }
+            }
+        }
+    ],
+    "pagination": {
+        "total": 60224,
+        "currentPage": 1,
+        "pageSize": 20
+    }
+}

@@ -1,0 +1,64 @@
+Request method:	PATCH
+Request URI:	https://api.staging.myautochek.com/v2/users/passwords
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IkFPRG9kZDZyYmFHbk5TSkFXTDNoIiwiand0SWQiOiJjQlNlalBWMFc3R01MSVlkWWprSyIsImlhdCI6MTc3MzgxNzc0MiwiZXhwIjoxODA1MzUzNzQyfQ.XvbJ7nuAA4WbB0WNObqnpB13TUaa6rx1UDhJT4BzonM
+Multiparts:		<none>
+Body:
+{
+    "currentPassword": "Autochek@123",
+    "newPassword": "Autochek@117"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+102@frugaltestingin.com",
+    "password": "Autochek@117"
+}
+Request method:	PATCH
+Request URI:	https://api.staging.myautochek.com/v2/users/passwords
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Ilh5NTZEOU0yRXpEdm03MzI3bWpQIiwiand0SWQiOiI1ODlGUTNYQzlYb0pXWnBtakhvVCIsImlhdCI6MTc3MzgxNzc0NCwiZXhwIjoxODA1MzUzNzQ0fQ.keQzXF4Rh7Vj8Zyx2l9O5rPjifvELSKETMCai_fL8aU
+Multiparts:		<none>
+Body:
+{
+    "currentPassword": "Autochek@117",
+    "newPassword": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+102@frugaltestingin.com",
+    "password": "Autochek@123"
+}

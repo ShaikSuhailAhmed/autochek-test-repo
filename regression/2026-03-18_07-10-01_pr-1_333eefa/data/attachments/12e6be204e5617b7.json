@@ -1,0 +1,15 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/tyres/brands?country=NG&car_id&currentPage=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				car_id
+				currentPage=3
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJHYlhGbUkwMVp6UWJFQXpsVDdBOCIsImp3dElkIjoid3dOMDlnMlNnR3BPV2VsbHRCbEEiLCJpYXQiOjE3NzM4MTY2NzcsImV4cCI6MTgwNTM1MjY3N30.yOHNQT_6njlg3vtnyWiLITryfQAy1BwBr6VyqYEy-LY
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

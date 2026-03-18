@@ -1,0 +1,73 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 07:03:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 799
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"31f-SmNiBV4PWbFmfCCsS73gVfCdJ1E"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "obds": [
+        {
+            "code": "B1200",
+            "description": "climate control pushbutton circuit failure"
+        },
+        {
+            "code": "B1201",
+            "description": "fuel sender circuit failure"
+        },
+        {
+            "code": "B1202",
+            "description": "fuel sender circuit open"
+        },
+        {
+            "code": "B1203",
+            "description": "fuel sender circuit short to battery"
+        },
+        {
+            "code": "B1204",
+            "description": "fuel sender circuit short to ground"
+        },
+        {
+            "code": "B1205",
+            "description": "eic switch-1 assembly circuit failure"
+        },
+        {
+            "code": "B1206",
+            "description": "eic switch-1 assembly circuit open"
+        },
+        {
+            "code": "B1207",
+            "description": "eic switch-1 assembly circuit short to battery"
+        },
+        {
+            "code": "B1208",
+            "description": "eic switch-1 assembly circuit short to ground"
+        },
+        {
+            "code": "B1209",
+            "description": "eic switch-2 assembly circuit failure"
+        }
+    ],
+    "pagination": {
+        "total": 3223,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 323
+    }
+}

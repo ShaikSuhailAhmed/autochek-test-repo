@@ -1,0 +1,100 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 07:08:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1791
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"6ff-xqNo1KSR/hcWe+2JrV1csEkYfes"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "banks": [
+        {
+            "id": "569",
+            "name": "Absa Bank Kenya",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/1babda76-63ec-4de2-83ba-ef4456c6ea26-ABSA%20bank%20Kenya.png",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "570",
+            "name": "Access Bank Kenya",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/69b3a074-252f-4abc-81c6-85621123d8f0-Access%20Bank%20Kenya.png",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "614",
+            "name": "Bank AL Habib",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/e2154128-8a97-412c-b311-5265bd2221a2-Bank%20Al-Habib.png",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "571",
+            "name": "Bank of Africa",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/bb6420fb-096b-4d9a-bfa8-d3cf64c17c6b-bank%20of%20africa.jpeg",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "572",
+            "name": "Bank of Baroda",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/48f580e1-3d7f-47ba-b8c7-35f39b9255de-Baroda%20Bank.jpeg",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "611",
+            "name": "Bank of China",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/bcf34553-af6b-485e-990e-4f2fa3a25c45-Bank_Of_China_logo.png",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "573",
+            "name": "Bank of India",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/99f73ae7-dd95-4ba8-a8dc-bade43a3f759-Bank%20of%20india.png",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "613",
+            "name": "Bank of Kigali",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/2dd25ae5-3032-4eef-9090-2ae9aaf4e904-Bank%20of%20kigali.png",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "615",
+            "name": "Banque Misr",
+            "country": "KE",
+            "active": true
+        },
+        {
+            "id": "574",
+            "name": "Citibank",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/5556771d-16db-4cbd-b746-089a455aa807-citibank-logo.png",
+            "country": "KE",
+            "active": true
+        }
+    ],
+    "pagination": {
+        "total": 48,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

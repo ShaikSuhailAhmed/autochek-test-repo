@@ -1,0 +1,645 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 07:08:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 8902
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"22c6-PuCgFQY4JnynqGxEvq5nXylMEQs"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "offers": [
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "968000"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "400000"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "40000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "67726"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "1260000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "41962"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "382226"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "ZflZ2AD1E",
+            "approvedAmount": 2468333,
+            "interest": 30.950000762939453,
+            "tenure": 24,
+            "monthlyRepayment": "253490.00",
+            "equity": "280000.00",
+            "createdAt": "Mon Feb 16 2026 07:29:41 GMT+0000 (Coordinated Universal Time)",
+            "status": "ACCEPTED",
+            "customerName": "Salary Apson",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "41.78",
+                "equity": "4.74",
+                "additionalFees": "53.48"
+            },
+            "dealerCommission": "11996.10",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "19993.50",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/RIUnv8Lvb-ZflZ2AD1E-FINAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "0"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "_R_-DzX9v",
+            "approvedAmount": 0,
+            "interest": 0,
+            "tenure": 0,
+            "monthlyRepayment": "0.00",
+            "equity": "0.00",
+            "createdAt": "Mon Mar 16 2026 21:00:52 GMT+0000 (Coordinated Universal Time)",
+            "status": "OFFER_REJECTED",
+            "customerName": "E2E_UG_By_FA_Salary50c1c AUTO_8963c",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "NaN",
+                "equity": "NaN",
+                "additionalFees": "NaN"
+            }
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "0"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "NYK_VAok7",
+            "approvedAmount": 0,
+            "interest": 0,
+            "tenure": 0,
+            "monthlyRepayment": "0.00",
+            "equity": "0.00",
+            "createdAt": "Mon Mar 16 2026 13:15:20 GMT+0000 (Coordinated Universal Time)",
+            "status": "OFFER_REJECTED",
+            "customerName": "E2E_UG_By_FA_Salary50c1c AUTO_8963c",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "NaN",
+                "equity": "NaN",
+                "additionalFees": "NaN"
+            }
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "0"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "AduVyHYt4G",
+            "approvedAmount": 0,
+            "interest": 0,
+            "tenure": 0,
+            "monthlyRepayment": "0.00",
+            "equity": "0.00",
+            "createdAt": "Mon Mar 16 2026 13:15:19 GMT+0000 (Coordinated Universal Time)",
+            "status": "OFFER_REJECTED",
+            "customerName": "E2E_UG_By_FA_Salary50c1c AUTO_8963c",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "NaN",
+                "equity": "NaN",
+                "additionalFees": "NaN"
+            }
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "0"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "q6O8x9MIyn",
+            "approvedAmount": 0,
+            "interest": 0,
+            "tenure": 0,
+            "monthlyRepayment": "0.00",
+            "equity": "0.00",
+            "createdAt": "Mon Mar 16 2026 13:06:22 GMT+0000 (Coordinated Universal Time)",
+            "status": "OFFER_REJECTED",
+            "customerName": "E2E_UG_By_FA_Salary50c1c AUTO_8963c",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "NaN",
+                "equity": "NaN",
+                "additionalFees": "NaN"
+            }
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "0"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "-unjI8Nk1",
+            "approvedAmount": 0,
+            "interest": 0,
+            "tenure": 0,
+            "monthlyRepayment": "0.00",
+            "equity": "0.00",
+            "createdAt": "Mon Mar 16 2026 13:06:16 GMT+0000 (Coordinated Universal Time)",
+            "status": "OFFER_REJECTED",
+            "customerName": "E2E_UG_By_FA_Salary50c1c AUTO_8963c",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "NaN",
+                "equity": "NaN",
+                "additionalFees": "NaN"
+            }
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "968000"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "400000"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "60000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "65564"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "1260000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "38847"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "560064"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "iK4ssVk-1",
+            "approvedAmount": 2285107,
+            "interest": 33.75,
+            "tenure": 24,
+            "monthlyRepayment": "248758.00",
+            "equity": "460000.00",
+            "createdAt": "Thu Feb 12 2026 09:26:48 GMT+0000 (Coordinated Universal Time)",
+            "status": "ACCEPTED",
+            "customerName": "Business  Activation",
+            "offerType": "FINAL_OFFER",
+            "loanSummary": {
+                "loan": "37.48",
+                "equity": "7.54",
+                "additionalFees": "54.98"
+            },
+            "dealerCommission": "11105.62",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "18509.37",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/_1cU2Pv52-iK4ssVk-1-FINAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "968000"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "400000"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "40000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "67726"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "1260000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "41962"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "382226"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "rzYhusjgD",
+            "approvedAmount": 2468333,
+            "interest": 30.950000762939453,
+            "tenure": 24,
+            "monthlyRepayment": "253613.00",
+            "equity": "280000.00",
+            "createdAt": "Fri Feb 13 2026 13:53:39 GMT+0000 (Coordinated Universal Time)",
+            "status": "ACCEPTED",
+            "customerName": "Salary Apson",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "41.78",
+                "equity": "4.74",
+                "additionalFees": "53.48"
+            },
+            "dealerCommission": "11996.10",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "19993.50",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/-za2mENpo-rzYhusjgD-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "0"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "0"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "0"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "0"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "0"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "0"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "0"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "WCMS-hW9X",
+            "approvedAmount": 0,
+            "interest": 0,
+            "tenure": 0,
+            "monthlyRepayment": "0.00",
+            "equity": "0.00",
+            "createdAt": "Fri Feb 13 2026 13:57:09 GMT+0000 (Coordinated Universal Time)",
+            "status": "OFFER_REFERRED",
+            "customerName": "Black  Salary",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "NaN",
+                "equity": "NaN",
+                "additionalFees": "NaN"
+            }
+        },
+        {
+            "additionalPayments": [
+                {
+                    "name": "Annual maintenance cost",
+                    "value": "968000"
+                },
+                {
+                    "name": "Vehicle registration",
+                    "value": "400000"
+                },
+                {
+                    "name": "Insurance fees",
+                    "value": "60000"
+                },
+                {
+                    "name": "Service charge",
+                    "value": "65564"
+                },
+                {
+                    "name": "spare Key",
+                    "value": "0"
+                },
+                {
+                    "name": "Tracker",
+                    "value": "1260000"
+                },
+                {
+                    "name": "Credit life insurance",
+                    "value": "38847"
+                },
+                {
+                    "name": "Logbook Transfer",
+                    "value": "0"
+                },
+                {
+                    "name": "Total upfront payment",
+                    "value": "560064"
+                },
+                {
+                    "name": "Warranty",
+                    "value": "0"
+                }
+            ],
+            "id": "mmQ1PAJRq",
+            "approvedAmount": 2285107,
+            "interest": 33.75,
+            "tenure": 24,
+            "monthlyRepayment": "248384.00",
+            "equity": "460000.00",
+            "createdAt": "Thu Feb 12 2026 09:08:47 GMT+0000 (Coordinated Universal Time)",
+            "status": "PENDING",
+            "customerName": "Business  Activation",
+            "offerType": "CONDITIONAL_OFFER",
+            "loanSummary": {
+                "loan": "37.48",
+                "equity": "7.54",
+                "additionalFees": "54.98"
+            },
+            "dealerCommission": "11105.62",
+            "dsaCommission": "0.00",
+            "leadManagerCommission": "0.00",
+            "accountManagerCommission": "18509.37",
+            "pdfUrl": "https://storage.googleapis.com/autochek-loan/yxjR4f-Su-mmQ1PAJRq-CONDITIONAL_OFFER.pdf",
+            "dealerDsaCommission": "0.00"
+        }
+    ],
+    "pagination": {
+        "total": 138,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

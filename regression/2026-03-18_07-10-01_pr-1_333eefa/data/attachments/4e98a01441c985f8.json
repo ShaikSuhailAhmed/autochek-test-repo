@@ -1,0 +1,12 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/inspection_request?fields=id%20OR%201%3D1
+Proxy:			<none>
+Request params:	<none>
+Query params:	fields=id OR 1=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJZN3Qxb2cxUFo3ZXRjYWNVUzNMbiIsImp3dElkIjoiNTkwZkZzaFNaZWNMenNqRXo5VXQiLCJpYXQiOjE3NzM4MTczOTcsImV4cCI6MTgwNTM1MzM5N30.MT1c7tjuMKkSQtXzJuQQ97d5iaKOo2Ln4d5Aa5UN-QE
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,2212 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 06:56:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 51535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"c94f-2DsqaMOpgjtsqwi9QVdx52G1jNI"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "carList": [
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "7ISZidzbG",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "NCRDMJJB32B7OYWJTH",
+            "licensePlate": "VO96BT4460",
+            "engineNumber": "73886712224",
+            "price": 10000000,
+            "createdBy": "JRcyGKufp1UGZ0Fu4U3U",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 18 2026 06:47:14 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/kNRAH6uN.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 18 2026 06:46:25 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 18 2026 06:47:34 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 0,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/7ISZidzbG",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.5",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "j1JtCSbYh",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "NB5DJ7HZGYYQZ6X84",
+            "licensePlate": "RY75LB2953",
+            "engineNumber": "89081919002",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Tue Mar 17 2026 16:51:50 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/p2fvwqT4.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Tue Mar 17 2026 16:50:57 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:52:08 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 0,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/j1JtCSbYh",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.5",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "uo0MxqqPi",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "STZ17031636199804",
+            "licensePlate": "LP30003",
+            "engineNumber": "578792879",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:19 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:38:14 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/uo0MxqqPi",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "3dp25bkDZ",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "BVL17031636168494",
+            "licensePlate": "LP30003",
+            "engineNumber": "896715402",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:17 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:38:10 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/3dp25bkDZ",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "JvjhVcvpf",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "UXF17031636144821",
+            "licensePlate": "LP30003",
+            "engineNumber": "345452146",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:14 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:38:07 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/JvjhVcvpf",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "R4GXpRF5F",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "NBS17031636119917",
+            "licensePlate": "LP30003",
+            "engineNumber": "52280293",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:12 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:38:04 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/R4GXpRF5F",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "kq_TTqb2K",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "WUH17031636090120",
+            "licensePlate": "LP30003",
+            "engineNumber": "410628703",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:09 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:38:01 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/kq_TTqb2K",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "Clf9VLfsR",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "CAT17031636060747",
+            "licensePlate": "LP30003",
+            "engineNumber": "678808716",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:07 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:58 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/Clf9VLfsR",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "WEgEoGdBi",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "KDS17031636031795",
+            "licensePlate": "LP30003",
+            "engineNumber": "439576658",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:36:04 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:55 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/WEgEoGdBi",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "LmypF3YPV",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "FHP17031635583443",
+            "licensePlate": "LP30003",
+            "engineNumber": "597433736",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "diesel",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:58 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:52 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/LmypF3YPV",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "BiUjCbAMD",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "GAU17031635558634",
+            "licensePlate": "LP30003",
+            "engineNumber": "507438471",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:56 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:49 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/BiUjCbAMD",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "OD387POYs",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "NZI17031635533314",
+            "licensePlate": "LP30003",
+            "engineNumber": "298101147",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:53 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:46 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "4-cylinder(I4)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/OD387POYs",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "iZSSeV7ZC",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "YOB17031635502280",
+            "licensePlate": "LP30003",
+            "engineNumber": "30605048",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:50 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:43 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/iZSSeV7ZC",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "uTXIKkQE0",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "FCT17031635471720",
+            "licensePlate": "LP30003",
+            "engineNumber": "885928151",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:48 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:37 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/uTXIKkQE0",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "qD6YVEiN8",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "MYE17031635444902",
+            "licensePlate": "LP30003",
+            "engineNumber": "425706818",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:45 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:33 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/qD6YVEiN8",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "x1TJZ634C",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "SGG17031635429765",
+            "licensePlate": "LP30003",
+            "engineNumber": "378208362",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:42 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:30 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/x1TJZ634C",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "yRZF45vt6",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "HGE17031635384259",
+            "licensePlate": "LP30003",
+            "engineNumber": "661550323",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:39 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:27 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 109998,
+            "isFirstOwner": false,
+            "loanValue": 1263258,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/yRZF45vt6",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "n1vELhRDx",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "KNT17031635351453",
+            "licensePlate": "LP30003",
+            "engineNumber": "314856300",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:35 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:24 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/n1vELhRDx",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "lj8tjH2ej",
+            "year": 2020,
+            "insured": false,
+            "mileage": 1000,
+            "vin": "JBH17031635306703",
+            "licensePlate": "LP30003",
+            "engineNumber": "167638655",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/GmrpM01J.jpg",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Block A, Apo Resettlement",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "company",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Borgu",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 16:35:31 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 16:37:19 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/lj8tjH2ej",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "TEST123",
+            "listingScore": "3.1",
+            "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "OtpOFCYJz",
+            "year": 2020,
+            "insured": false,
+            "mileage": 2555,
+            "vin": "0000610355140715328",
+            "licensePlate": "78891558",
+            "engineNumber": "721480873",
+            "price": 909900,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 909900,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_812,q_100/X0siggWk.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1891,
+                "name": "Corolla",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": true
+            },
+            "state": "Abuja",
+            "country": "NG",
+            "address": "test",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Airport Junction Citec",
+            "marketplaceOldPrice": 909900,
+            "createdAt": "Tue Mar 17 2026 11:47:15 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Tue Mar 17 2026 11:48:19 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "green",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4.5,
+            "installment": 110094,
+            "isFirstOwner": false,
+            "loanValue": 1265276,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/OtpOFCYJz",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1,
+            "moderated": false,
+            "summary": "test",
+            "listingScore": "3.7",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        }
+    ],
+    "pagination": {
+        "total": 1629,
+        "currentPage": 1,
+        "pageSize": 20
+    }
+}

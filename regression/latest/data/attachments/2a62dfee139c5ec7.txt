@@ -1,0 +1,2 @@
+The following asserts failed:
+	Expected status should match for invalid loan id | Expected: 400, Actual: 401 expected [400] but found [401]

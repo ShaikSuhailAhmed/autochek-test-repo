@@ -1,0 +1,193 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Mar 2026 07:03:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2151
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"867-/EuPWXqCz8d1AKizps8nN2aaaps"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "modelList": [
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            }
+        }
+    ],
+    "pagination": {
+        "total": 3353,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 336
+    }
+}

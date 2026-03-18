@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/sources?country=GH&page_size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=GH
+				page_size=10
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6Iko0ZUl2RnREa2JFUjhSOGgxTllWIiwiand0SWQiOiJzSDV3Yjl5WG1GZWw5ODVJMUJ2SSIsImlhdCI6MTc3MzgxNzY4NywiZXhwIjoxODA1MzUzNjg3fQ.VuOLEJEDS9WXXPrcXsgShyAxM12lKQ6aoI5ufWuy2lc
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,156 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans/offer-simulations
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJJa3pYckhMdzAiLCJzZXNzaW9uSWQiOiI3dmVYVWlYZkZhRVRJdnpLRmdXdyIsImp3dElkIjoia0FWbWxpaDVWTGxwaWNFV3pSa1MiLCJpYXQiOjE3NzM4MTcwMTUsImV4cCI6MTgwNTM1MzAxNX0.T8KemvaYTTxjA-UUgmL8Nit46pZvK2vzDc6JbQbNDDo
+				x-autochek-app=dealerPlus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "partner_id": null,
+    "customer_preferences": [
+        {
+            "valid": true,
+            "value": "1%",
+            "type": "selection",
+            "name": "vehicleDiscount"
+        },
+        {
+            "valid": true,
+            "value": "2%",
+            "type": "selection",
+            "name": "dealDiscount"
+        },
+        {
+            "valid": true,
+            "value": "USD",
+            "type": "selection",
+            "name": "desiredLoanCurrency"
+        },
+        {
+            "valid": true,
+            "value": 4832960,
+            "type": "amount",
+            "name": "equityContribution"
+        },
+        {
+            "valid": true,
+            "value": "6655545",
+            "type": "amount",
+            "name": "monthlyPayment"
+        },
+        {
+            "valid": true,
+            "value": "Floating/Variable",
+            "type": "selection",
+            "name": "interestRateType"
+        },
+        {
+            "valid": true,
+            "value": "28",
+            "type": "selection",
+            "name": "interestRate"
+        },
+        {
+            "valid": true,
+            "value": "0%",
+            "type": "selection",
+            "name": "residualPercentage"
+        },
+        {
+            "valid": true,
+            "value": "12 months",
+            "type": "selection",
+            "name": "term"
+        },
+        {
+            "valid": true,
+            "value": "Yes",
+            "type": "radio",
+            "name": "includeRoadworthinessFees"
+        },
+        {
+            "valid": true,
+            "value": "null",
+            "type": "radio",
+            "name": "includeLicenceRenewalFees"
+        },
+        {
+            "valid": true,
+            "value": "Upfront",
+            "type": "radio",
+            "name": "feePaymentMethod"
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "valid": true,
+            "type": "checkbox",
+            "value": "TRUE",
+            "label": "Vehicle Registration"
+        },
+        {
+            "valid": true,
+            "value": "TRUE",
+            "type": "checkbox",
+            "name": "upfrontInsurance"
+        },
+        {
+            "valid": true,
+            "value": "TRUE",
+            "type": "checkbox",
+            "name": "upfrontVehicleTracking"
+        },
+        {
+            "valid": true,
+            "value": "TRUE",
+            "type": "checkbox",
+            "name": "upfrontMaintenancePlan"
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "valid": true,
+            "type": "checkbox",
+            "value": "TRUE",
+            "label": "Credit Life Insurance"
+        },
+        {
+            "valid": true,
+            "value": "Plan 1",
+            "type": "checkbox",
+            "name": "upfrontWarranty"
+        },
+        {
+            "valid": true,
+            "value": "TRUE",
+            "type": "checkbox",
+            "name": "upfrontTyres"
+        },
+        {
+            "label": "Tyre Brand",
+            "valid": true,
+            "value": "Accelera",
+            "name": "tyreBrand"
+        },
+        {
+            "label": "Tyre Quantity",
+            "valid": true,
+            "value": "2",
+            "name": "tyreQuantity"
+        },
+        {
+            "label": "Requested Warranty Plan",
+            "valid": true,
+            "value": "Plan 2",
+            "name": "requestedWarrantyPlan"
+        }
+    ],
+    "car_id": "WEgEoGdBi",
+    "offer_id": null,
+    "loan_id": "j5MCc72fVy"
+}
