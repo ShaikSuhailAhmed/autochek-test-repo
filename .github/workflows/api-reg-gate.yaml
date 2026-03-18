@@ -235,6 +235,11 @@ jobs:
             echo "[Open This Run](${BASE}/regression/${DEST}/)"
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Set GitHub Pages URL
+        if: always()
+        run: |
+          echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
+
       # =========================================================
       # PR gating on severe failures
       # =========================================================
@@ -277,3 +282,33 @@ jobs:
             echo "::error::Severe test failures detected ($BLOCK_COUNT)"
             exit 1
           fi
+
+      # =========================================================
+      # SEND FAILURE EMAIL
+      # =========================================================
+      - name: Send Failure Email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "❌ API Automation Failed - ${{ github.repository }}"
+          to: |
+            pavanagundla.jayanth@frugaltesting.com,
+            04_autochek_internal_-aaaaqndy6657f4ng7lh7txbtf4@frugalworkspace.slack.com
+          from: ${{ secrets.ALERT_FROM_EMAIL }}
+          html_body: |
+            <h2>API Automation Failed</h2>
+
+            <p><b>Repository:</b> ${{ github.repository }}</p>
+            <p><b>Run:</b> https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}</p>
+
+            <h3>Allure Reports</h3>
+
+            <ul>
+              <li><a href="${{ env.BASE_URL }}/regression/latest/">API Report</a></li>
+            </ul>
+
+            <p>Please review severe failures in the GitHub Action summary.</p>
