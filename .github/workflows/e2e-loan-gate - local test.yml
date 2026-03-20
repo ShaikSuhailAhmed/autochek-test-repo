@@ -11,7 +11,6 @@ permissions:
 env:
   API_BLOCK_SEVERITIES: blocker,critical,sev1,p0
   UI_BLOCK_SEVERITIES: blocker,critical
-  AUTOMATION_REPO: ShaikSuhailAhmed/autochek-api-e2e-loan-automation
 
 jobs:
   e2e-tests:
@@ -19,14 +18,20 @@ jobs:
 
     steps:
       # =========================================================
-      # Checkout automation repo
+      # Checkout current repo
       # =========================================================
-      - name: Checkout E2E automation repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          repository: ${{ env.AUTOMATION_REPO }}
-          token: ${{ secrets.E2E_AUTOMATION_TOKEN }}
-          path: e2e
+
+      # =========================================================
+      # Validate required folders
+      # =========================================================
+      - name: Validate automation folders
+        run: |
+          test -d api-automation || (echo "::error::api-automation folder not found" && exit 1)
+          test -d ui-automation || (echo "::error::ui-automation folder not found" && exit 1)
+          test -f api-automation/pom.xml || (echo "::error::api-automation/pom.xml not found" && exit 1)
+          test -f ui-automation/pom.xml || (echo "::error::ui-automation/pom.xml not found" && exit 1)
 
       # =========================================================
       # Setup Java
@@ -42,40 +47,67 @@ jobs:
       # Run API Tests
       # =========================================================
       - name: Run API E2E Tests
-        working-directory: e2e/api-automation
-        continue-on-error: true
+        id: api_test
+        working-directory: api-automation
+        shell: bash
         run: |
+          set +e
           mvn -B clean test \
-            -DsuiteXmlFile=testng-api.xml \
+            -Dsurefire.suiteXmlFiles=testng-api.xml \
             -Dallure.results.directory=target/allure-results
+          EXIT_CODE=$?
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      # =========================================================
+      # Install API module (CRITICAL FIX)
+      # =========================================================
+      - name: Install API module for UI dependency
+        working-directory: api-automation
+        run: mvn -B clean install -DskipTests
 
       # =========================================================
       # Run UI Tests
       # =========================================================
       - name: Run UI E2E Tests
-        working-directory: e2e/ui-automation
-        continue-on-error: true
+        id: ui_test
+        working-directory: ui-automation
+        shell: bash
         run: |
+          set +e
           mvn -B clean test \
-            -DsuiteXmlFile=testng-ui.xml \
+            -Dsurefire.suiteXmlFiles=testng-ui.xml \
             -Dallure.results.directory=target/allure-results
+          EXIT_CODE=$?
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          exit 0
 
       # =========================================================
-      # Verify Allure results (API + UI)
+      # Print exit codes
+      # =========================================================
+      - name: Print test exit codes
+        run: |
+          echo "API Maven exit code: ${{ steps.api_test.outputs.exit_code }}"
+          echo "UI Maven exit code: ${{ steps.ui_test.outputs.exit_code }}"
+
+      # =========================================================
+      # Verify Allure results
       # =========================================================
       - name: Verify Allure results exist
         id: verify
+        shell: bash
         run: |
-          API_COUNT=$(find e2e/api-automation/target/allure-results -name "*.json" -not -path "*/history/*" | wc -l)
-          UI_COUNT=$(find e2e/ui-automation/target/allure-results -name "*.json" -not -path "*/history/*" | wc -l)
+          mkdir -p api-automation/target/allure-results
+          mkdir -p ui-automation/target/allure-results
 
-          echo "api_count=$API_COUNT" >> $GITHUB_OUTPUT
-          echo "ui_count=$UI_COUNT" >> $GITHUB_OUTPUT
+          API_COUNT=$(find api-automation/target/allure-results -type f -name "*.json" ! -path "*/history/*" | wc -l)
+          UI_COUNT=$(find ui-automation/target/allure-results -type f -name "*.json" ! -path "*/history/*" | wc -l)
 
-          if [ "$API_COUNT" -eq 0 ] || [ "$UI_COUNT" -eq 0 ]; then
-            echo "::error::Allure results missing"
-            exit 1
-          fi
+          echo "api_count=$API_COUNT" >> "$GITHUB_OUTPUT"
+          echo "ui_count=$UI_COUNT" >> "$GITHUB_OUTPUT"
+
+          echo "API Allure JSON count: $API_COUNT"
+          echo "UI Allure JSON count: $UI_COUNT"
 
       # =========================================================
       # Checkout gh-pages
@@ -88,24 +120,47 @@ jobs:
         continue-on-error: true
 
       # =========================================================
-      # Restore Allure history (For Trend Charts)
+      # Prepare gh-pages base
+      # =========================================================
+      - name: Prepare gh-pages base
+        run: |
+          mkdir -p ghp
+          mkdir -p ghp/latest/api ghp/latest/ui
+
+      # =========================================================
+      # Restore Allure history
       # =========================================================
       - name: Restore Allure history
         run: |
-          mkdir -p e2e/api-automation/target/allure-results/history
-          mkdir -p e2e/ui-automation/target/allure-results/history
+          mkdir -p api-automation/target/allure-results/history
+          mkdir -p ui-automation/target/allure-results/history
 
-          cp -r ghp/e2e/latest/api/history/* e2e/api-automation/target/allure-results/history/ 2>/dev/null || true
-          cp -r ghp/e2e/latest/ui/history/* e2e/ui-automation/target/allure-results/history/  2>/dev/null || true
+          cp -r ghp/latest/api/history/. api-automation/target/allure-results/history/ 2>/dev/null || true
+          cp -r ghp/latest/ui/history/. ui-automation/target/allure-results/history/ 2>/dev/null || true
 
       # =========================================================
-      # Generate Allure reports
+      # Install Allure CLI
       # =========================================================
-      - name: Generate Allure reports
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline
+
+      # =========================================================
+      # Generate API Allure report
+      # =========================================================
+      - name: Generate API Allure report
+        if: steps.verify.outputs.api_count != '0'
         run: |
-          npm install -g allure-commandline
-          allure generate e2e/api-automation/target/allure-results -o e2e/api-automation/target/allure-report --clean
-          allure generate e2e/ui-automation/target/allure-results  -o e2e/ui-automation/target/allure-report --clean
+          allure generate api-automation/target/allure-results \
+            -o api-automation/target/allure-report --clean
+
+      # =========================================================
+      # Generate UI Allure report
+      # =========================================================
+      - name: Generate UI Allure report
+        if: steps.verify.outputs.ui_count != '0'
+        run: |
+          allure generate ui-automation/target/allure-results \
+            -o ui-automation/target/allure-report --clean
 
       # =========================================================
       # Compute archive directory
@@ -116,115 +171,46 @@ jobs:
           TS=$(date -u +"%Y-%m-%d_%H-%M-%S")
           SHORT_SHA=${GITHUB_SHA::7}
           DEST="${TS}_${SHORT_SHA}"
-          echo "dest_dir=$DEST" >> $GITHUB_OUTPUT
+          echo "dest_dir=$DEST" >> "$GITHUB_OUTPUT"
 
       # =========================================================
-      # Prepare gh-pages content (The Fix is Here)
+      # Prepare gh-pages content
       # =========================================================
       - name: Prepare gh-pages content
         run: |
           DEST="${{ steps.meta.outputs.dest_dir }}"
 
-          mkdir -p ghp/e2e/${DEST}/api ghp/e2e/${DEST}/ui
-          mkdir -p ghp/e2e/latest/api ghp/e2e/latest/ui
-          mkdir -p ghp/regression || true
+          mkdir -p ghp/${DEST}/api ghp/${DEST}/ui
+          mkdir -p ghp/latest/api ghp/latest/ui
 
-          rm -rf ghp/e2e/latest/api/*
-          rm -rf ghp/e2e/latest/ui/*
+          if [ -d api-automation/target/allure-report ]; then
+            rm -rf ghp/latest/api/*
+            cp -r api-automation/target/allure-report/. ghp/${DEST}/api/
+            cp -r api-automation/target/allure-report/. ghp/latest/api/
+          fi
 
-          cp -r e2e/api-automation/target/allure-report/* ghp/e2e/${DEST}/api/
-          cp -r e2e/ui-automation/target/allure-report/* ghp/e2e/${DEST}/ui/
+          if [ -d ui-automation/target/allure-report ]; then
+            rm -rf ghp/latest/ui/*
+            cp -r ui-automation/target/allure-report/. ghp/${DEST}/ui/
+            cp -r ui-automation/target/allure-report/. ghp/latest/ui/
+          fi
 
-          cp -r e2e/api-automation/target/allure-report/* ghp/e2e/latest/api/
-          cp -r e2e/ui-automation/target/allure-report/* ghp/e2e/latest/ui/
-
-          cat <<EOF > ghp/index.html
-          <!doctype html>
-          <html>
-          <head>
-            <meta charset="utf-8">
-            <title>Test Automation Dashboard</title>
-            <style>
-              body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial; padding:40px; max-width:900px; margin:auto; line-height:1.5; color:#24292e;}
-              h1 { border-bottom:1px solid #eaecef; padding-bottom:10px;}
-              .section{margin-bottom:30px;}
-              .run{display:flex;justify-content:space-between;padding:10px;border-bottom:1px solid #f0f0f0;}
-              .latest{background:#f6f8fa;padding:20px;border-radius:6px;border:1px solid #d1d5da;}
-              a{color:#0366d6;text-decoration:none;font-weight:500;}
-            </style>
-          </head>
-
-          <body>
-
-          <h1>Test Automation Dashboard</h1>
-
-           $(if [ -d "ghp/e2e/latest/api" ]; then
-            echo "<div class='section latest'>"
-            echo "<h2>🚀 Latest E2E Runs</h2>"
-            echo "<a href='./e2e/latest/api/'>API E2E</a><br>"
-            echo "<a href='./e2e/latest/ui/'>UI E2E</a>"
-            echo "</div>"
-          fi)
-
-          $(if [ -d "ghp/regression/latest" ]; then
-            echo "<div class='section latest'>"
-            echo "<h2>🚀 Latest Regression Run</h2>"
-            echo "<a href='./regression/latest/'>API Regression</a>"
-            echo "</div>"
-          fi)
-           $(if [ -d "ghp/regression_ui/latest" ]; then
-            echo "<div class='section latest'>"
-            echo "<h2>🚀 Latest UI Regression Run</h2>"
-            echo "<a href='./regression_ui/latest/'>UI Regression</a>"
-            echo "</div>"
-          fi)
-
-          
-          $(if [ -d "ghp/e2e" ]; then
-            echo "<div class='section'>"
-            echo "<h2>📅 Historical E2E Runs</h2>"
-          
-            for run in $(ls -1 ghp/e2e | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'><span>$run</span>"
-              echo "<span><a href='./e2e/$run/api/'>API</a> | <a href='./e2e/$run/ui/'>UI</a></span></div>"
-            done
-          
-            echo "</div>"
-          fi)
-          
-          $(if [ -d "ghp/regression" ]; then
-            echo "<div class='section'>"
-            echo "<h2>📅 Historical API Regression Runs</h2>"
-          
-            for run in $(ls -1 ghp/regression 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'><span>$run</span><a href='./regression/$run/'>API Regression Report</a></div>"
-            done
-          
-            echo "</div>"
-          fi)
-           $(if [ -d "ghp/regression_ui" ]; then
-            echo "<div class='section'>"
-            echo "<h2>📅 Historical UI Regression Runs</h2>"
-
-            for run in $(ls -1 ghp/regression_ui 2>/dev/null | grep -E '^[0-9]{4}-' | sort -r); do
-              echo "<div class='run'><span>$run</span><a href='./regression_ui/$run/'>UI Regression Report</a></div>"
-            done
-
-            echo "</div>"
-          fi)
+          touch ghp/.nojekyll
 
       # =========================================================
       # Publish gh-pages
       # =========================================================
       - name: Publish gh-pages
+        if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ghp
           keep_files: true
 
       # =========================================================
-      # Job Summary (Markdown for GitHub)
+      # Job Summary (NEW)
       # =========================================================
       - name: Job Summary
         if: always()
@@ -232,82 +218,31 @@ jobs:
           BASE="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
 
           {
-            echo "## Allure Reports"
-            echo "- [API Report](${BASE}/e2e/latest/api/)"
-            echo "- [UI Report](${BASE}/e2e/latest/ui/)"
+            echo "## 🚀 Allure Reports"
             echo ""
-
-            echo "### API Severe Failures"
-            echo "| Severity | Test |"
-            echo "|---|---|"
-            jq -r --arg block "${API_BLOCK_SEVERITIES}" '
-              ( $block | split(",") ) as $sevlist
-              | select(.status=="failed" or .status=="broken")
-              | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-              | select($sev != null and ($sevlist | index($sev)))
-              | "| \($sev) | \(.name // .fullName) |"
-            ' e2e/api-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
-
+            echo "- 🔗 [API Report](${BASE}/latest/api/)"
+            echo "- 🔗 [UI Report](${BASE}/latest/ui/)"
             echo ""
-            echo "### UI Severe Failures"
-            echo "| Severity | Test |"
-            echo "|---|---|"
-            jq -r --arg block "${UI_BLOCK_SEVERITIES}" '
-              ( $block | split(",") ) as $sevlist
-              | select(.status=="failed" or .status=="broken")
-              | (.labels // [] | map(select(.name=="severity") | .value | ascii_downcase) | .[0]) as $sev
-              | select($sev != null and ($sevlist | index($sev)))
-              | "| \($sev) | \(.name // .fullName) |"
-            ' e2e/ui-automation/target/allure-results/*.json 2>/dev/null || echo "| — | — |"
-          } >> "$GITHUB_STEP_SUMMARY"
+            echo "### 📊 Execution Summary"
+            echo "- API JSON Count: ${{ steps.verify.outputs.api_count }}"
+            echo "- UI JSON Count: ${{ steps.verify.outputs.ui_count }}"
+          } >> $GITHUB_STEP_SUMMARY
 
       # =========================================================
-      # SEND FAILURE EMAIL
-      # =========================================================
-      - name: Set GitHub Pages URL
-        run: |
-          echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> $GITHUB_ENV
-
-      # =========================================================
-      # FINAL PR GATE
+      # Final Gate
       # =========================================================
       - name: Final PR Gate
         if: always()
         run: |
-          API_BLOCK=$(jq -r --arg block "${API_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/api-automation/target/allure-results/*.json 2>/dev/null | wc -l)
-          UI_BLOCK=$(jq -r --arg block "${UI_BLOCK_SEVERITIES}" '( $block | split(",") ) as $sevlist | select(.status=="failed" or .status=="broken") | (.labels[]? | select(.name=="severity") | .value | ascii_downcase) as $sev | select($sevlist | index($sev))' e2e/ui-automation/target/allure-results/*.json 2>/dev/null | wc -l)
+          API_EXIT="${{ steps.api_test.outputs.exit_code }}"
+          UI_EXIT="${{ steps.ui_test.outputs.exit_code }}"
 
-          if [ "$API_BLOCK" -gt 0 ] || [ "$UI_BLOCK" -gt 0 ]; then
-            echo "::error::Blocking severe failures detected ($API_BLOCK API, $UI_BLOCK UI)"
+          if [ "$API_EXIT" != "0" ]; then
+            echo "::error::API tests failed"
             exit 1
           fi
-      # =========================================================
-      # SEND FAILURE EMAIL
-      # =========================================================
-      - name: Send Failure Email
-        if: failure()
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: ${{ secrets.SMTP_SERVER }}
-          server_port: ${{ secrets.SMTP_PORT }}
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "❌ E2E Automation Failed - ${{ github.repository }}"
-          to: |
-            pavanagundla.jayanth@frugaltesting.com,
-            04_autochek_internal_-aaaaqndy6657f4ng7lh7txbtf4@frugalworkspace.slack.com
-          from: ${{ secrets.ALERT_FROM_EMAIL }}
-          html_body: |
-            <h2>E2E Automation Failed</h2>
 
-            <p><b>Repository:</b> ${{ github.repository }}</p>
-            <p><b>Run:</b> https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}</p>
-
-            <h3>Allure Reports</h3>
-
-            <ul>
-              <li><a href="${{ env.BASE_URL }}/e2e/latest/api/">API Report</a></li>
-              <li><a href="${{ env.BASE_URL }}/e2e/latest/ui/">UI Report</a></li>
-            </ul>
-
-            <p>Please review severe failures in the GitHub Action summary.</p>
+          if [ "$UI_EXIT" != "0" ]; then
+            echo "::error::UI tests failed"
+            exit 1
+          fi
