@@ -1,0 +1,11 @@
+{
+    "code": 400,
+    "error": "Do you want to exclude Tint Permit as part of the loan? is required",
+    "message": "Do you want to exclude Tint Permit as part of the loan? is required",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/origination/loan"
+        }
+    ]
+}
