@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:57:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4348
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"10fc-7NHZxqVrwySj852lQmceGiI6DYo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "BA602D8dN",
+            "carId": "KVfiaPjks",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary2bf50",
+            "lastName": "AUTO_6f403",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Harrier  2020",
+            "email": "ug92b51c@test.com",
+            "phone": "+256796813238",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 76161088,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "2026-03-25T06:21:35.637Z",
+            "customerType": "Salary earner",
+            "customerId": "EZcwEXvZpY"
+        },
+        {
+            "id": "DsVAxjP9w",
+            "carId": "aeZ5GJ6E6",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary1345c",
+            "lastName": "AUTO_cc8d2",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Honda Airwave   2020",
+            "email": "ugc80875@test.com",
+            "phone": "+256798792183",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 7832626,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "2026-03-25T05:19:30.845Z",
+            "customerType": "Salary earner",
+            "customerId": "uDhC5-TbdX"
+        },
+        {
+            "id": "ONcahOuMDZ",
+            "carId": "e9i5XuGjL",
+            "country": "UG",
+            "firstName": "E2E_UG_By_AM_Salary6731e",
+            "lastName": "AUTO_30f40",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Wish  2010",
+            "email": "ugd9a9b4@test.com",
+            "phone": "+256796154823",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "esha reddy",
+            "createdAt": "2026-03-24T12:49:35.159Z",
+            "customerType": "Salary earner",
+            "customerId": "_o0nC9Tfs"
+        },
+        {
+            "id": "f1WSwfCZq",
+            "carId": "PtweZWbja",
+            "country": "UG",
+            "firstName": "E2E_UG_By_AM_Salaryded42",
+            "lastName": "AUTO_d8021",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Ford Raptor  2025",
+            "email": "ug15f364@test.com",
+            "phone": "+256798951518",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 120728296,
+            "createdBy": "esha reddy",
+            "createdAt": "2026-03-24T11:52:50.426Z",
+            "customerType": "Salary earner",
+            "customerId": "hC4GuIsAs"
+        },
+        {
+            "id": "4xyr9D3FAe",
+            "carId": "06vMJN91F",
+            "country": "UG",
+            "firstName": "E2E_UG_By_AM_Salary31aa2",
+            "lastName": "AUTO_8a05b",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Rumion  2009",
+            "email": "ug665b3c@test.com",
+            "phone": "+256791962939",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 42798084,
+            "createdBy": "esha reddy",
+            "createdAt": "2026-03-24T11:30:39.625Z",
+            "customerType": "Salary earner",
+            "customerId": "f_JSooNfP"
+        },
+        {
+            "id": "pd5hj5KJc",
+            "carId": "BXb4d0fet",
+            "country": "UG",
+            "firstName": "SE_bqpmb",
+            "lastName": "CarLoan_glgek",
+            "status": "PPI_REQUESTED",
+            "carName": "Audi A5  2020",
+            "email": "salarycarloane2e_8155015@gmail.com",
+            "phone": "256818119984",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 9376545,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "2026-03-24T11:00:33.119Z",
+            "customerType": "Salary earner",
+            "customerId": "SE5PPF20cz"
+        },
+        {
+            "id": "1VX-Fy9b-",
+            "carId": "YlPxKXPZH",
+            "country": "UG",
+            "firstName": "SE_pllme",
+            "lastName": "CarLoan_qfcwf",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Audi A5  2020",
+            "email": "salarycarloane2e_2549581@gmail.com",
+            "phone": "256778830611",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 9376545,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "2026-03-24T09:28:14.215Z",
+            "customerType": "Salary earner",
+            "customerId": "YBxCjJZGQ"
+        },
+        {
+            "id": "DDrDcPB_h",
+            "carId": "m-yveL5m7",
+            "country": "UG",
+            "firstName": "SE_kkglp",
+            "lastName": "CarLoan_qynau",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Audi A5  2020",
+            "email": "salarycarloane2e_8775527@gmail.com",
+            "phone": "256849027340",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 9376545,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "2026-03-24T07:46:04.826Z",
+            "customerType": "Salary earner",
+            "customerId": "Imtg5OuZTf"
+        },
+        {
+            "id": "rbtL16TQTj",
+            "carId": "-TIJR2BkB",
+            "country": "UG",
+            "firstName": "E2E_UG_By_FA_Salary6334c",
+            "lastName": "AUTO_5414c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Hyundai ix35  2023",
+            "email": "ug86a282@test.com",
+            "phone": "+256798358889",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 123255792,
+            "createdBy": "Esha testing  zz",
+            "createdAt": "2026-03-24T06:03:48.927Z",
+            "customerType": "Salary earner",
+            "customerId": "UljTndkD_N"
+        },
+        {
+            "id": "vj9t2A_C7",
+            "carId": "vRwitfq4r",
+            "country": "UG",
+            "firstName": "E2E_UG_By_AM_Salaryf9393",
+            "lastName": "AUTO_72c0e",
+            "status": "APPLICATION_COMPLETED",
+            "carName": "Toyota Hiace  2020",
+            "email": "ug91a178@test.com",
+            "phone": "+256790063419",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 95066784,
+            "createdBy": "esha reddy",
+            "createdAt": "2026-03-24T06:03:48.832Z",
+            "customerType": "Salary earner",
+            "customerId": "vTbZ4waOn1"
+        }
+    ],
+    "pagination": {
+        "total": 108,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

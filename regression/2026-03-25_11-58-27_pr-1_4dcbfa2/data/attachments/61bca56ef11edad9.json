@@ -1,0 +1,14 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans?country=KE&page_size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=KE
+				page_size=10
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6ImJhSVJrZXFSdnMxQmdOamZEeUp3Iiwiand0SWQiOiJMcVNDRGFLT2xWVjJPa3FOdmVGSSIsImlhdCI6MTc3NDQzOTgzNywiZXhwIjoxODA1OTc1ODM3fQ.By_pBTddvQuIs-8hhzVxAmgU_iwQ8C60EJP8t_1bBVc
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

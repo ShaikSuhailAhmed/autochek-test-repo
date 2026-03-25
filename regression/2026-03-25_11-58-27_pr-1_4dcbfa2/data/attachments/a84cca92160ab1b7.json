@@ -1,0 +1,2795 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:32:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 44553
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"ae09-adY5OcxtrLAQMevXy+CpDhY4uow"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "result": [
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "EKZbvgU7T",
+            "name": "@#$%^&",
+            "owner": "diyrHzEg6",
+            "email": "test73475@mail.com",
+            "phonenumber": "+2348989527420",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566771656,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526361539",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:50:42 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "9c5FpFac0",
+            "name": "@#$%^&",
+            "owner": "diyrHzEg6",
+            "email": "test10591@mail.com",
+            "phonenumber": "+2348989583817",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566773570,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526391300",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 06:35:27 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "Xki2UIqWA",
+            "name": "@#$%^&",
+            "owner": "diyrHzEg6",
+            "email": "test11977@mail.com",
+            "phonenumber": "2349053530564",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566775129,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526388363",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:09 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "AE0qoQ5md",
+            "name": "@#$%^&",
+            "owner": "diyrHzEg6",
+            "email": "test91049@mail.com",
+            "phonenumber": "+2348989560262",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566695909,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526327120",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:36:04 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "Q31NtvD3W",
+            "name": "@#$%^&",
+            "owner": "diyrHzEg6",
+            "email": "test65475@mail.com",
+            "phonenumber": "+2348989557915",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566729121,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526360054",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 05:00:45 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "PBfDircIxr",
+            "name": "alert(1)",
+            "owner": "diyrHzEg6",
+            "email": "test36770@mail.com",
+            "phonenumber": "+2348989518226",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566715298,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526365059",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:50:43 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "1xpLOXf53",
+            "name": "alert(1)",
+            "owner": "diyrHzEg6",
+            "email": "test66669@mail.com",
+            "phonenumber": "+2348989558943",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566720672,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526352426",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:10 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "f6mgLCuru",
+            "name": "alert(1)",
+            "owner": "diyrHzEg6",
+            "email": "test20276@mail.com",
+            "phonenumber": "+2348989529568",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566704325,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526361341",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 06:35:28 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "EatJ84wLm",
+            "name": "alert(1)",
+            "owner": "diyrHzEg6",
+            "email": "test74491@mail.com",
+            "phonenumber": "+2348989579989",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566768194,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526357803",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:36:05 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "sN3p0ouzM",
+            "name": "alert(1)",
+            "owner": "diyrHzEg6",
+            "email": "test25588@mail.com",
+            "phonenumber": "+2348989545165",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566738542,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526330485",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 05:00:46 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "o0CSftwZE",
+            "name": "Esha Reddy",
+            "owner": "diyrHzEg6",
+            "email": "eshareddysdfghj@frugaltestingin.com",
+            "phonenumber": "+2348956231472",
+            "bankName": "kuytyghj",
+            "accountName": "efwdfg",
+            "accountBvn": 980040789,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "[arr]",
+            "displayAddress": "Dzorwulu",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 7.498526096343994,
+            "latitude": 9.056264877319336,
+            "mapAddress": "Abuja, Nigeria",
+            "isAnchor": true,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 05:30:32 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "jVj74uoET7",
+            "name": "F",
+            "owner": "diyrHzEg6",
+            "email": "test40141@mail.com",
+            "phonenumber": "+2348989582843",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566735668,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526375292",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:50:39 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "9XaPjbh2N",
+            "name": "F",
+            "owner": "diyrHzEg6",
+            "email": "test35857@mail.com",
+            "phonenumber": "+2348989572732",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566752541,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526389938",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:07 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "jgHa1oRad",
+            "name": "F",
+            "owner": "diyrHzEg6",
+            "email": "test94162@mail.com",
+            "phonenumber": "+2348989588551",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566756262,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526320996",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 06:35:22 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "zvf48Zwen",
+            "name": "F",
+            "owner": "diyrHzEg6",
+            "email": "test19039@mail.com",
+            "phonenumber": "+2348989551515",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566744516,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526345373",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:36:02 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "rG9ktjy0B",
+            "name": "F",
+            "owner": "diyrHzEg6",
+            "email": "test90887@mail.com",
+            "phonenumber": "+2348989525828",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566762219,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526374136",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 05:00:43 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "HwaUoAP3h",
+            "name": "franchise test creation",
+            "owner": "6JUN5hOSw",
+            "email": "zebbylion.n+02819@autochek.africa",
+            "phonenumber": "254781921010",
+            "bankName": "1234567890",
+            "accountName": "teesttest",
+            "accountBvn": 646131,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "123584511",
+            "displayAddress": "Maryland, Kenya.",
+            "address": "Airport Junction Citec, Abuja, Nigeria",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 2.2137489318847656,
+            "latitude": 46.227638244628906,
+            "mapAddress": "France",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue May 13 2025 09:18:14 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Airport Junction Citec",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "0bKKT3LaQ",
+            "name": "Franko Franko",
+            "owner": "nvvfuO3ZZ",
+            "email": "franko@gmail.com",
+            "phonenumber": "2348033964707",
+            "status": "pending",
+            "contract": "pending",
+            "pocketReferenceId": "200000748",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "displayAddress": "Sanya Busstop Oshodi Apapa Expressway",
+            "address": "Sanya Busstop Oshodi Apapa Expressway",
+            "hasAssociation": false,
+            "area": "",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Wed Jun 23 2021 11:26:32 GMT+0000 (Coordinated Universal Time)",
+            "territory": "",
+            "city": "Apapa",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "0RUUlyhLe",
+            "name": "Frugal Audsxtomjkhgfatiordfgn",
+            "owner": "diyrHzEg6",
+            "email": "testfgdf3sadfdsxddsf33@mail.com",
+            "phonenumber": "+2348908938604",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 1258606554,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "ewrfghjkljhgfdsa",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:43:33 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "A95ryYHk5",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test26881@mail.com",
+            "phonenumber": "+2348989526881",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566711713,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526326881",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Feb 23 2026 15:26:18 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Apo Mechanic",
+            "state": "Abuja",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "CmWxIvUSP",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test38152@mail.com",
+            "phonenumber": "+2348989547261",
+            "bankName": "GTBank",
+            "accountName": "Acc11",
+            "accountBvn": 566744741,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526347402",
+            "displayAddress": "Display Addr",
+            "address": "11A Allen Ave (Landmark A), CityNameThatIsWayTooLongAndInvalid, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Map Street",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 10:59:36 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "11A",
+            "zipCode": "100001",
+            "streetName": "Allen Ave",
+            "nearestLandmark": "Landmark A",
+            "territory": "",
+            "city": "CityNameThatIsWayTooLongAndInvalid",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "mOnozsEg9",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test36924@mail.com",
+            "phonenumber": "+2348989553605",
+            "bankName": "GTBank",
+            "accountName": "Acc11",
+            "accountBvn": 566722113,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526317716",
+            "displayAddress": "Display Addr",
+            "address": "11A Allen Ave (Landmark A), CityNameThatIsWayTooLongAndInvalid, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Map Street",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 11:12:32 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "11A",
+            "zipCode": "100001",
+            "streetName": "Allen Ave",
+            "nearestLandmark": "Landmark A",
+            "territory": "",
+            "city": "CityNameThatIsWayTooLongAndInvalid",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "CzfEMTfMB",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test42168@mail.com",
+            "phonenumber": "+2348989584587",
+            "bankName": "GTBank",
+            "accountName": "Acc11",
+            "accountBvn": 566744951,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526383661",
+            "displayAddress": "Display Addr",
+            "address": "11A Allen Ave (Landmark A), CityNameThatIsWayTooLongAndInvalid, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Map Street",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 11:15:44 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "11A",
+            "zipCode": "100001",
+            "streetName": "Allen Ave",
+            "nearestLandmark": "Landmark A",
+            "territory": "",
+            "city": "CityNameThatIsWayTooLongAndInvalid",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "evEmtZhmv",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test38596@mail.com",
+            "phonenumber": "+2348989573298",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566748301,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526355214",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:50:38 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "REHFQtuby",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test12979@mail.com",
+            "phonenumber": "+2348989549296",
+            "bankName": "GTBank",
+            "accountName": "Acc11",
+            "accountBvn": 566698949,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526373510",
+            "displayAddress": "Display Addr",
+            "address": "11A Allen Ave (Landmark A), CityNameThatIsWayTooLongAndInvalid, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Map Street",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:07:47 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "11A",
+            "zipCode": "100001",
+            "streetName": "Allen Ave",
+            "nearestLandmark": "Landmark A",
+            "territory": "",
+            "city": "CityNameThatIsWayTooLongAndInvalid",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "VObUsrdZh",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test23313@mail.com",
+            "phonenumber": "+2348989582627",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566758992,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526379981",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:19:53 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "-6o1IaqOs",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test79274@mail.com",
+            "phonenumber": "+2348989581350",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566707084,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526396151",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:50:58 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "WchGmsztt",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test57109@mail.com",
+            "phonenumber": "+2348989530314",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566741410,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526341508",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:50:59 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "5IwJATRfc",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test67801@mail.com",
+            "phonenumber": "+2348989512813",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566773825,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526347773",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:01 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "l_qgBDLlD",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test82909@mail.com",
+            "phonenumber": "+2348989548026",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566771673,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526360172",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:01 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "-8LbDBc-v",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test98132@mail.com",
+            "phonenumber": "+2348989511973",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566745153,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526368224",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:02 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "qQFQyykhNE",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test22707@mail.com",
+            "phonenumber": "+2348989519347",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566762927,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526363339",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:04 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "40kxKBXKL",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test46409@mail.com",
+            "phonenumber": "+2348989511861",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566758710,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526334812",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:30 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "aTmuGyvkr",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test98666@mail.com",
+            "phonenumber": "+2348989583007",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566751388,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526328018",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:32 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "xgAfnvOqs",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test70335@mail.com",
+            "phonenumber": "+2348989571478",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566750510,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526373860",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:33 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "L6rCeXQTx",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test68109@mail.com",
+            "phonenumber": "+2348989599945",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566707204,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526372786",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:35 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "JAeRi8Xnk",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test36375@mail.com",
+            "phonenumber": "+2348989587783",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566707847,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526367520",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:37 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "7ntjr8MpX",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test28888@mail.com",
+            "phonenumber": "+2348989582619",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566768173,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526323858",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:04 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "VwBrERj0E",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test79729@mail.com",
+            "phonenumber": "+2348989580936",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566748602,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526345161",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:05 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "zzolwRpxc_",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test65430@mail.com",
+            "phonenumber": "+2348989515746",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566731030,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526313278",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:06 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "YFfH8EsFd",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test78814@mail.com",
+            "phonenumber": "+2348989567759",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566703033,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526369316",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:38 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "aqpp4o4ntn",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test46370@mail.com",
+            "phonenumber": "+2348989561354",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566739966,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526332191",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:39 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "Aasm6p8Ya",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test21997@mail.com",
+            "phonenumber": "+2348989562743",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566752922,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526340774",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:40 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "KvHjvqAu2",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test11988@mail.com",
+            "phonenumber": "+2348989564128",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566703850,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526357808",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:41 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "_6dSI8Fpf",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test89356@mail.com",
+            "phonenumber": "+2348989511617",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566733597,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526341679",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:42 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "Wfy5WCjro",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test19036@mail.com",
+            "phonenumber": "+2348989552656",
+            "bankName": "GTBank",
+            "accountName": "null",
+            "accountBvn": 566747893,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526364540",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:43 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "ez6O3S0fZ",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test70341@mail.com",
+            "phonenumber": "+2348989581940",
+            "bankName": "Addr1",
+            "accountName": "dealer",
+            "accountBvn": 566777206,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "null",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:44 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "xWHdTScRZ",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test12867@mail.com",
+            "phonenumber": "+2348989552722",
+            "bankName": "Addr1",
+            "accountName": "dealer",
+            "accountBvn": 566731485,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "ABCDEFGH",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:45 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "awaJqmBmr",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test65542@mail.com",
+            "phonenumber": "+2348989560132",
+            "bankName": "Addr1",
+            "accountName": "dealer",
+            "accountBvn": 566753693,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "@#123456",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": false,
+            "forCollateralInspection": false,
+            "createdAt": "Mon Mar 23 2026 12:20:47 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        },
+        {
+            "users": [
+                
+            ],
+            "documents": [
+                
+            ],
+            "dsas": [
+                
+            ],
+            "openingDaysAndTime": [
+                
+            ],
+            "staffs": [
+                
+            ],
+            "pictures": [
+                
+            ],
+            "id": "KjoI_JFHy",
+            "name": "Frugal Automation",
+            "owner": "diyrHzEg6",
+            "email": "test78293@mail.com",
+            "phonenumber": "+2348989535713",
+            "bankName": "GTBank",
+            "accountName": "Acc1",
+            "accountBvn": 566751599,
+            "status": "pending",
+            "contract": "pending",
+            "type": "dealer",
+            "subscriptionStatus": false,
+            "accountNumber": "894526310962",
+            "displayAddress": "Addr1",
+            "address": "12B Awolowo Rd (Lekki Phase 1), Lagos, Lagos 100001, NG",
+            "hasAssociation": false,
+            "area": "",
+            "longitude": 3.379199981689453,
+            "latitude": 6.524400234222412,
+            "mapAddress": "Lagos",
+            "isAnchor": true,
+            "forCollateralInspection": false,
+            "createdAt": "Tue Mar 24 2026 06:51:18 GMT+0000 (Coordinated Universal Time)",
+            "houseNo": "12B",
+            "zipCode": "100001",
+            "streetName": "Awolowo Rd",
+            "nearestLandmark": "Lekki Phase 1",
+            "territory": "",
+            "city": "Lagos",
+            "state": "Lagos",
+            "acceptedCodeOfConduct": false
+        }
+    ],
+    "pagination": {
+        "total": 505,
+        "currentPage": 1,
+        "pageSize": 50
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:32:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1334
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"536-KbFdSxiFj8yuz6ZliZ9wfnFxn4M"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "users": [
+        
+    ],
+    "documents": [
+        
+    ],
+    "dsas": [
+        
+    ],
+    "openingDaysAndTime": [
+        
+    ],
+    "staffs": [
+        
+    ],
+    "pictures": [
+        
+    ],
+    "id": "H3JVGYuvS",
+    "name": "Frugal Automation",
+    "owner": "diyrHzEg6",
+    "email": "test97351@mail.com",
+    "phonenumber": "+2348989597351",
+    "bankName": "GTBank",
+    "accountName": "Acc1",
+    "accountBvn": 566782183,
+    "status": "pending",
+    "contract": "pending",
+    "type": "dealer",
+    "subscriptionStatus": false,
+    "accountNumber": "894526397351",
+    "ownerInfo": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-25T11:31:57.528Z"
+    },
+    "displayAddress": "Addr1",
+    "address": "12B Awolowo Rd (Lekki Phase 1), Apo Mechanic, Abuja 100001, NG",
+    "hasAssociation": false,
+    "longitude": 3.379199981689453,
+    "latitude": 6.524400234222412,
+    "onboardingSource": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-25T11:31:57.528Z"
+    },
+    "mapAddress": "Lagos",
+    "isAnchor": false,
+    "forCollateralInspection": false,
+    "createdAt": "2026-03-25T11:31:56.279Z",
+    "houseNo": "12B",
+    "zipCode": "100001",
+    "streetName": "Awolowo Rd",
+    "nearestLandmark": "Lekki Phase 1",
+    "city": "Apo Mechanic",
+    "state": "Abuja",
+    "acceptedCodeOfConduct": false
+}
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:32:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1695
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"69f-VUzdjIJcx1uaq71Kc55OXuSkQSQ"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "users": [
+        {
+            "roles": [
+                
+            ],
+            "deviceTokens": [
+                
+            ],
+            "id": "diyrHzEg6",
+            "referrerCode": "X22RYC52",
+            "country": "NG",
+            "createdAt": "2025-06-26T07:49:55.056Z",
+            "updatedAt": "2026-03-25T11:31:57.528Z"
+        }
+    ],
+    "documents": [
+        
+    ],
+    "dsas": [
+        
+    ],
+    "openingDaysAndTime": [
+        
+    ],
+    "staffs": [
+        {
+            "roles": [
+                
+            ],
+            "deviceTokens": [
+                
+            ],
+            "id": "diyrHzEg6",
+            "referrerCode": "X22RYC52",
+            "country": "NG",
+            "createdAt": "2025-06-26T07:49:55.056Z",
+            "updatedAt": "2026-03-25T11:31:57.528Z"
+        }
+    ],
+    "pictures": [
+        
+    ],
+    "id": "XkWpXOj64",
+    "name": "Frugal Automation 07",
+    "owner": "diyrHzEg6",
+    "email": "test38550@mail.com",
+    "phonenumber": "+2348989538550",
+    "bankName": "Autobank",
+    "accountName": "TestUser",
+    "accountBvn": 566723382,
+    "status": "pending",
+    "contract": "pending",
+    "type": "dealer",
+    "subscriptionStatus": false,
+    "accountNumber": "894526338550",
+    "ownerInfo": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "firstname": "esha 13",
+        "lastname": "reddy",
+        "email": "esharedddy@frugaltestingin.com",
+        "primaryPhone": "+23412345689",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "active": true,
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-25T11:31:57.528Z"
+    },
+    "displayAddress": "123 Test St",
+    "address": "12B Allen Avenue (Near Ikeja Mall), Apo Mechanic, Abuja 100001, NG",
+    "hasAssociation": false,
+    "longitude": 3.379199981689453,
+    "latitude": 6.524400234222412,
+    "onboardingSource": {
+        "roles": [
+            
+        ],
+        "deviceTokens": [
+            
+        ],
+        "id": "diyrHzEg6",
+        "referrerCode": "X22RYC52",
+        "country": "NG",
+        "createdAt": "2025-06-26T07:49:55.056Z",
+        "updatedAt": "2026-03-25T11:31:57.528Z"
+    },
+    "mapAddress": "Ikeja Center",
+    "isAnchor": true,
+    "forCollateralInspection": false,
+    "createdAt": "2026-03-25T11:31:57.441Z",
+    "houseNo": "12B",
+    "zipCode": "100001",
+    "streetName": "Allen Avenue",
+    "nearestLandmark": "Near Ikeja Mall",
+    "city": "Apo Mechanic",
+    "state": "Abuja",
+    "acceptedCodeOfConduct": false
+}
