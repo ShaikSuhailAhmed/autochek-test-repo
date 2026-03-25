@@ -1,0 +1,1038 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:39:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 30516
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"7734-NeN7ba2Kw9x5zotGYy62OUs+6ds"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "result": [
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "LZCE2wV0u",
+                "year": 2023,
+                "insured": false,
+                "mileage": 85000,
+                "vin": "LEXUS200020LE",
+                "engineNumber": "LEXUS2023",
+                "price": 8030000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 8030000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/iQhmTJ1s.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 916,
+                    "name": "ES 300",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "ES Series",
+                    "make": {
+                        "id": 61,
+                        "name": "Lexus",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/lexus.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos Island,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Lagos Island",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Thu Mar 19 2026 09:02:26 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Mon Mar 23 2026 10:00:15 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 430263,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 6960515,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/es-300/lexus/LZCE2wV0u",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_bkN34FbaNM\",\"brand\":\"Michelin\",\"code\":\"215/60R17\",\"description\":\"215/60R17\",\"prices\":[{\"id\":\"tprice_KbYMlEe24m\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_bkN34FbaNM\",\"price\":\"230000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.577Z\",\"updatedAt\":\"2025-07-29T07:32:21.993Z\"}],\"price\":83000},{\"id\":\"tyre_x7UqGa4bLC\",\"brand\":\"Boto\",\"code\":\"215/60R17\",\"description\":\"215/60R17\",\"prices\":[{\"id\":\"tprice_3DEeLW2biy\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_x7UqGa4bLC\",\"price\":\"83000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.718Z\",\"updatedAt\":\"2025-07-29T07:30:41.032Z\"}],\"price\":83000},{\"id\":\"tyre_s3HtnfBhZz\",\"brand\":\"Joyroad\",\"code\":\"215/60R17\",\"description\":\"215/60R17\",\"prices\":[{\"id\":\"tprice_9Ee26M70uY\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s3HtnfBhZz\",\"price\":\"103000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:51.025Z\",\"updatedAt\":\"2025-07-29T07:31:03.445Z\"}],\"price\":83000},{\"id\":\"tyre_TkhlBxOSAA\",\"brand\":\"Otani\",\"code\":\"215/60R17\",\"description\":\"215/60R17\",\"prices\":[{\"id\":\"tprice_dK5kqoyEzQ\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_TkhlBxOSAA\",\"price\":\"145000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-25T09:44:12.607Z\",\"updatedAt\":\"2025-07-29T07:31:51.687Z\"}],\"price\":83000}],\"price\":83000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "5d4aeCsnn",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "NISSAN2024024",
+                "engineNumber": "NAVARA2024",
+                "price": 42105000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 42105000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/9zLdodtJ.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1487,
+                    "name": "Navara",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 76,
+                        "name": "Nissan",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/nissan.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos Island,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "diesel",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 1,
+                    "name": "Pickup",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Pickup.svg"
+                },
+                "city": "Lagos Island",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Thu Mar 19 2026 08:52:59 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Sat Mar 21 2026 15:23:12 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "brown",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4,
+                "installment": 1872595,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 31966172,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/navara/nissan/5d4aeCsnn",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 60,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "5d4aeCsnn",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "NISSAN2024024",
+                "engineNumber": "NAVARA2024",
+                "price": 42105000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 42105000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/9zLdodtJ.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1487,
+                    "name": "Navara",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 76,
+                        "name": "Nissan",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/nissan.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos Island,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "diesel",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 1,
+                    "name": "Pickup",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Pickup.svg"
+                },
+                "city": "Lagos Island",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Thu Mar 19 2026 08:52:59 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Sat Mar 21 2026 15:23:12 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "brown",
+                "exteriorColor": "black",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4,
+                "installment": 1872595,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 31966172,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/navara/nissan/5d4aeCsnn",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 60,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "UhfxMq0jB",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "TYRTYRTYRTYRTYRTY",
+                "price": 18000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 18000000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/j3AcPgzf.webp",
+                "ownerId": "UfKaLQCFTLkI0yd1Qw8O",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1887,
+                    "name": "Camry",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Alimosho,Lagos",
+                "carManagerId": "g8ALkLBpv",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Alimosho",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Tue Mar 17 2026 12:04:04 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Mar 19 2026 09:41:43 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "adoptive",
+                "engineType": "8-cylinder(V8)",
+                "gradeScore": 4,
+                "installment": 909367,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 15072298,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/camry/toyota/UhfxMq0jB",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 3000,
+                "trimId": 4506,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "7XZH_eWX1",
+                "year": 2025,
+                "insured": false,
+                "mileage": 55000,
+                "vin": "ACCENTACC2225",
+                "engineNumber": "40HYUNFAI202",
+                "price": 28615000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 28615000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/jAbVGVge.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 711,
+                    "name": "Accent",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 47,
+                        "name": "Hyundai",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/hyundai.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Lagos",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Wed Mar 18 2026 08:08:52 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Mar 18 2026 08:10:03 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "pearl white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 1280466,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 21843876,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/accent/hyundai/7XZH_eWX1",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 40,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "7XZH_eWX1",
+                "year": 2025,
+                "insured": false,
+                "mileage": 55000,
+                "vin": "ACCENTACC2225",
+                "engineNumber": "40HYUNFAI202",
+                "price": 28615000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 28615000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/jAbVGVge.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 711,
+                    "name": "Accent",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 47,
+                        "name": "Hyundai",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/hyundai.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Lagos",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Wed Mar 18 2026 08:08:52 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Mar 18 2026 08:10:03 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "pearl white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.300000190734863,
+                "installment": 1280466,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 21843876,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/accent/hyundai/7XZH_eWX1",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 40,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "o5ZlnSBE7",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "BMWX1BMW11254",
+                "engineNumber": "BMW2026BMW",
+                "price": 41050000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 41050000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/wwSP04wL.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 257,
+                    "name": "X1",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "X Series",
+                    "make": {
+                        "id": 13,
+                        "name": "BMW",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/bmw.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Abuja",
+                "country": "NG",
+                "address": "Lokogoma,Abuja",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Lokogoma",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Tue Mar 17 2026 13:09:44 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 20 2026 12:44:38 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "beige",
+                "exteriorColor": "blue",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4,
+                "installment": 1809776,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 31164340,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/x1/bmw/o5ZlnSBE7",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 60,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_xIYmMidbyE\",\"brand\":\"Joyroad\",\"code\":\"195/50R15\",\"description\":\"195/50R15\",\"prices\":[{\"id\":\"tprice_VS2izaQKJL\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_xIYmMidbyE\",\"price\":\"58000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:46.812Z\",\"updatedAt\":\"2025-07-29T07:30:26.784Z\"}],\"price\":58000}],\"price\":58000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "d4C10pmIk",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "SPORTAGE20260",
+                "engineNumber": "KIA2355KI",
+                "price": 52520000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 52520000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/edseMc1c.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 841,
+                    "name": "Sportage",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 53,
+                        "name": "Kia",
+                        "imageUrl": "https://i.imgur.com/0Bk6H23.png"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos Island,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 3,
+                    "name": "SUV",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Suv.svg",
+                    "description": "Sport Utility Vehicle"
+                },
+                "city": "Lagos Island",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Tue Mar 17 2026 12:02:26 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Mar 19 2026 12:09:38 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "beige",
+                "exteriorColor": "army green",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4,
+                "installment": 2252321,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 38438492,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/sportage/kia/d4C10pmIk",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "d4C10pmIk",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "SPORTAGE20260",
+                "engineNumber": "KIA2355KI",
+                "price": 52520000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 52520000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/edseMc1c.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 841,
+                    "name": "Sportage",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 53,
+                        "name": "Kia",
+                        "imageUrl": "https://i.imgur.com/0Bk6H23.png"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos Island,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 3,
+                    "name": "SUV",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Suv.svg",
+                    "description": "Sport Utility Vehicle"
+                },
+                "city": "Lagos Island",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Tue Mar 17 2026 12:02:26 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Mar 19 2026 12:09:38 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "beige",
+                "exteriorColor": "army green",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4,
+                "installment": 2252321,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 38438492,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/sportage/kia/d4C10pmIk",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        },
+        {
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "d4C10pmIk",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "SPORTAGE20260",
+                "engineNumber": "KIA2355KI",
+                "price": 52520000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 52520000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/edseMc1c.webp",
+                "ownerId": "p3NK_bYNE",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 841,
+                    "name": "Sportage",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 53,
+                        "name": "Kia",
+                        "imageUrl": "https://i.imgur.com/0Bk6H23.png"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Lagos Island,Lagos",
+                "carManagerId": "6HJu-ptnm",
+                "ownerType": "company",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 3,
+                    "name": "SUV",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Suv.svg",
+                    "description": "Sport Utility Vehicle"
+                },
+                "city": "Lagos Island",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Tue Mar 17 2026 12:02:26 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Mar 19 2026 12:09:38 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "beige",
+                "exteriorColor": "army green",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4,
+                "installment": 2252321,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 38438492,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/sportage/kia/d4C10pmIk",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_s22o9QZvjI\",\"brand\":\"Michelin\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_cCdx2SwkpP\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_s22o9QZvjI\",\"price\":\"300000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:30:03.041Z\",\"updatedAt\":\"2025-07-29T07:33:08.797Z\"}],\"price\":110000},{\"id\":\"tyre_JpGMkQefHK\",\"brand\":\"Maxtour\",\"code\":\"265/65R17\",\"description\":\"265/65R17 112S TL LTX A/T 2 ORWL MI\",\"prices\":[{\"id\":\"tprice_9cbe3TPwGE\",\"vendorId\":\"Fj3uWpf6L\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"402000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2024-12-30T08:15:43.803Z\",\"updatedAt\":\"2024-12-30T08:15:43.803Z\"},{\"id\":\"tprice_gkY4ahxSW7\",\"vendorId\":\"qHGAf-NQH\",\"tyreId\":\"tyre_JpGMkQefHK\",\"price\":\"584000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-01-16T17:24:37.108Z\",\"updatedAt\":\"2025-01-16T17:24:37.108Z\"}],\"price\":110000},{\"id\":\"tyre_SGL4ZXQ6hX\",\"brand\":\"Joyroad\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_b5Kq3Xro9B\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_SGL4ZXQ6hX\",\"price\":\"110000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:48.173Z\",\"updatedAt\":\"2025-07-29T07:31:12.409Z\"}],\"price\":110000},{\"id\":\"tyre_ApJcuFNA9i\",\"brand\":\"Bridgestone\",\"code\":\"265/65R17\",\"description\":\"265/65R17\",\"prices\":[{\"id\":\"tprice_6Qll4WMHpr\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_ApJcuFNA9i\",\"price\":\"258000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.941Z\",\"updatedAt\":\"2025-07-29T07:32:25.614Z\"}],\"price\":110000}],\"price\":110000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 42955,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4296
+    }
+}

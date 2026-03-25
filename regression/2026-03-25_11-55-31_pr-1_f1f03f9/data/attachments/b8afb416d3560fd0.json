@@ -1,0 +1,2180 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:29:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 39068
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"989c-CAJbGmHREJ7fHzE/JvP5jrqEprU"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "carList": [
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "ElixoctB5",
+            "year": 2015,
+            "insured": false,
+            "mileage": 10,
+            "vin": "8LY12Y4GXCBPQ6D6N",
+            "licensePlate": "VG25RQ5660",
+            "engineNumber": "11433432716",
+            "price": 5000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 5000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 10:16:43 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/6bLWR6TJ.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 5000000,
+            "createdAt": "Wed Mar 25 2026 10:15:43 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 10:16:48 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 3,
+            "installment": 250186,
+            "isFirstOwner": false,
+            "loanValue": 3853053,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/ElixoctB5",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "5xcrlUJGU",
+            "year": 2019,
+            "insured": false,
+            "mileage": 21,
+            "vin": "NGTEST87031481",
+            "price": 1075718,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 1075718,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:51:16 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1075718,
+            "createdAt": "Wed Mar 25 2026 09:51:02 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:51:18 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4.5,
+            "installment": 118300,
+            "isFirstOwner": false,
+            "loanValue": 1322184,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/5xcrlUJGU",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 130836886,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "pHTmTFOok",
+            "year": 2019,
+            "insured": false,
+            "mileage": 21,
+            "vin": "NGTEST23834467",
+            "price": 1094753,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 1094753,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:49:27 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1094753,
+            "createdAt": "Wed Mar 25 2026 09:49:13 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:49:30 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4.5,
+            "installment": 119155,
+            "isFirstOwner": false,
+            "loanValue": 1337374,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/pHTmTFOok",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1009644669,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "d1GVAsTm7",
+            "year": 2016,
+            "insured": false,
+            "mileage": 21,
+            "vin": "NGTEST58849376",
+            "price": 1013572,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 1013572,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:44:08 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1013572,
+            "createdAt": "Wed Mar 25 2026 09:44:01 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:44:09 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4.5,
+            "installment": 114577,
+            "isFirstOwner": false,
+            "loanValue": 1252986,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/d1GVAsTm7",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1587193640,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "VJgIrqUtA0",
+            "year": 2014,
+            "insured": false,
+            "mileage": 21,
+            "vin": "NGTEST03561199",
+            "price": 1085820,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 1085820,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:42:58 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1085820,
+            "createdAt": "Wed Mar 25 2026 09:42:51 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:42:59 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4.5,
+            "installment": 117914,
+            "isFirstOwner": false,
+            "loanValue": 1312641,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/VJgIrqUtA0",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": -93363501,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "592DOkYS4",
+            "year": 2025,
+            "insured": false,
+            "mileage": 21,
+            "vin": "NGTEST12283040",
+            "price": 1043541,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 1043541,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:42:22 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1043541,
+            "createdAt": "Wed Mar 25 2026 09:42:10 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:42:25 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4.5,
+            "installment": 116856,
+            "isFirstOwner": false,
+            "loanValue": 1296506,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/592DOkYS4",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 120209736,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "Jkd3oZcze",
+            "year": 2015,
+            "insured": false,
+            "mileage": 10,
+            "vin": "KEYEK8M3EPLSPTV0Z",
+            "licensePlate": "JQ06MA7013",
+            "engineNumber": "78758196558",
+            "price": 5000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 5000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:30:52 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/gqn1ziAb.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 5000000,
+            "createdAt": "Wed Mar 25 2026 09:29:43 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:30:53 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 3,
+            "installment": 250186,
+            "isFirstOwner": false,
+            "loanValue": 3853053,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/Jkd3oZcze",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "k8eR9hBJb",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "Y6SRFA8BEE9V07B6V",
+            "licensePlate": "UN19IM6327",
+            "engineNumber": "91632991341",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:20:21 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/q7q84SZA.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 09:18:39 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:28:52 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/k8eR9hBJb",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "h7_qY8Mta",
+            "year": 2015,
+            "insured": false,
+            "mileage": 10,
+            "vin": "1N1GOUNXEY5ACJJH5",
+            "licensePlate": "BQ76RB2041",
+            "engineNumber": "02939006314",
+            "price": 5000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 5000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:16:23 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/Bje7fHQV.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 5000000,
+            "createdAt": "Wed Mar 25 2026 09:15:03 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:16:24 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 3,
+            "installment": 250186,
+            "isFirstOwner": false,
+            "loanValue": 3853053,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/h7_qY8Mta",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "26i_2IVeK",
+            "year": 2015,
+            "insured": false,
+            "mileage": 10,
+            "vin": "VV6ZYAO66J1BV7VJM",
+            "licensePlate": "YG99NZ9519",
+            "engineNumber": "78876155461",
+            "price": 5000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 5000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 09:10:22 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/Dlw4sgcg.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 5000000,
+            "createdAt": "Wed Mar 25 2026 09:09:18 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 09:10:23 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 3,
+            "installment": 250186,
+            "isFirstOwner": false,
+            "loanValue": 3853053,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/26i_2IVeK",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "y7X5AuPvT",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "94ULA4D0LXC4JZ3NU",
+            "licensePlate": "GK59PL2704",
+            "engineNumber": "76666676581",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 08:25:16 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/hvwLw90Z.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 08:23:51 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 08:33:53 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/y7X5AuPvT",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "hoCinCM0d",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "HO0RIQNB04WBED72N",
+            "licensePlate": "GN05FK0859",
+            "engineNumber": "87477996893",
+            "price": 5000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 5000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 08:02:27 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/gxu9nJeR.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 5000000,
+            "createdAt": "Wed Mar 25 2026 08:01:07 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 08:10:34 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 250186,
+            "isFirstOwner": false,
+            "loanValue": 3853053,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/hoCinCM0d",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "9xlmBD2LL",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "X5MQG56IVLXYF2H2O",
+            "licensePlate": "LH58RF5576",
+            "engineNumber": "39721069057",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 07:48:17 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/givtlpV8.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 07:46:35 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 07:56:46 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/9xlmBD2LL",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "eRWev5XDA",
+            "year": 2015,
+            "insured": false,
+            "mileage": 10,
+            "vin": "S7NYHTG6LSYYLWDUS",
+            "licensePlate": "QZ75IK8933",
+            "engineNumber": "45389836481",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 07:25:12 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/DelLTZ7y.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 07:22:21 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 07:25:16 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 3,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/eRWev5XDA",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "NXRHDA_oF",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "F3I31PMLZ44OG0EQC",
+            "licensePlate": "KE19IC8259",
+            "engineNumber": "33192681828",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 07:18:48 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/Meqqi0pk.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 07:17:40 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 07:27:25 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/NXRHDA_oF",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "QM5C63sWJ",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "Y9RDHD2OEEYLXWAJG",
+            "licensePlate": "YG24RJ8441",
+            "engineNumber": "68598310101",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 06:52:26 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/vxvGP15m.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 06:51:09 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 07:00:06 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/QM5C63sWJ",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "aicBqT8nF",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "SVWYM5XI7PRE2NROW",
+            "licensePlate": "YF68CA5718",
+            "engineNumber": "33178898325",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 06:45:26 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/R2MJ0ahy.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 06:44:15 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 06:53:02 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/aicBqT8nF",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "dxJafrd4T",
+            "year": 2017,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "NGTEST72641046",
+            "price": 1034055,
+            "createdBy": "tGYnjVhUdESMepjFmVMf",
+            "marketplacePrice": 1034055,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1034055,
+            "createdAt": "Wed Mar 25 2026 06:37:58 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 06:38:14 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4,
+            "installment": 116431,
+            "isFirstOwner": false,
+            "loanValue": 1288937,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/dxJafrd4T",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 1150677489,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "oQAtxpJDN",
+            "year": 2017,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "NGTEST97498143",
+            "price": 1029627,
+            "createdBy": "tGYnjVhUdESMepjFmVMf",
+            "marketplacePrice": 1029627,
+            "marketplaceVisible": false,
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_855,q_100/rGJuPbNx.webp",
+            "ownerId": "q679csyql",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 1881,
+                "name": "Auris",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 106,
+                    "name": "Toyota",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                },
+                "popular": false
+            },
+            "country": "NG",
+            "carManagerId": "kpMngdaMZ",
+            "transmission": "automatic",
+            "fuelType": "petrol",
+            "sellingCondition": "new",
+            "bodyType": {
+                "id": 5,
+                "name": "Hatchback",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+            },
+            "marketplaceOldPrice": 1029627,
+            "createdAt": "Wed Mar 25 2026 06:27:35 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 06:27:46 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "green",
+            "exteriorColor": "red",
+            "engineType": "6-cylinder(I6)",
+            "gradeScore": 4,
+            "installment": 116232,
+            "isFirstOwner": false,
+            "loanValue": 1285403,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/auris/toyota/oQAtxpJDN",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": -2118312488,
+            "moderated": false,
+            "summary": "Automation ZZZZZ",
+            "listingScore": "4.6",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "ItIYtF0pK",
+            "year": 2020,
+            "insured": false,
+            "mileage": 23000,
+            "vin": "HD0DORKTL22ALB27Y",
+            "licensePlate": "FP06QU8855",
+            "engineNumber": "53611319540",
+            "price": 10000000,
+            "createdBy": "BQlQBbLTW",
+            "marketplacePrice": 10000000,
+            "marketplaceVisible": true,
+            "marketplaceVisibleDate": "Wed Mar 25 2026 05:50:27 GMT+0000 (Coordinated Universal Time)",
+            "isFeatured": false,
+            "imageUrl": "https://media.autochek.africa/file/w_322,q_100/4BjTl5is.webp",
+            "ownerId": "-lh7_mmKJ",
+            "model": {
+                "modelFeatures": [
+                    
+                ],
+                "trimFeatures": [
+                    
+                ],
+                "trims": [
+                    
+                ],
+                "id": 87,
+                "name": "A5",
+                "imageUrl": "",
+                "wheelType": "2WD",
+                "make": {
+                    "id": 9,
+                    "name": "Audi",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                },
+                "popular": false
+            },
+            "state": "Niger",
+            "country": "NG",
+            "address": "Chanchaga City",
+            "carManagerId": "kpMngdaMZ",
+            "ownerType": "self",
+            "transmission": "manual",
+            "fuelType": "petrol",
+            "sellingCondition": "local",
+            "bodyType": {
+                "id": 7,
+                "name": "Coupe",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+            },
+            "city": "Chanchaga",
+            "marketplaceOldPrice": 10000000,
+            "createdAt": "Wed Mar 25 2026 05:49:22 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Mar 25 2026 05:59:31 GMT+0000 (Coordinated Universal Time)",
+            "mileageUnit": "km",
+            "hasWarranty": false,
+            "hasFinancing": true,
+            "interiorColor": "blue",
+            "exteriorColor": "red",
+            "engineType": "2-cylinder(I2)",
+            "gradeScore": 4,
+            "installment": 433039,
+            "isFirstOwner": false,
+            "loanValue": 7207455,
+            "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/ItIYtF0pK",
+            "stats": {
+                "webViewCount": 0,
+                "webViewerCount": 0,
+                "interestCount": 0,
+                "testDriveCount": 0,
+                "appViewCount": 0,
+                "appViewerCount": 0,
+                "processedLoanCount": 0
+            },
+            "sold": false,
+            "hasThreeDImage": false,
+            "isUpgraded": false,
+            "ccMeasurement": 4000,
+            "moderated": true,
+            "moderationStatus": "approved",
+            "summary": "This is an automated test car listing created using Selenium automation.",
+            "listingScore": "4.4",
+            "accidented": false,
+            "isDraft": false,
+            "tradeIn": false
+        }
+    ],
+    "pagination": {
+        "total": 1937,
+        "currentPage": 1,
+        "pageSize": 20
+    }
+}

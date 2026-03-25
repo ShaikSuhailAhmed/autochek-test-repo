@@ -1,0 +1,73 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+103@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/disable
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IlpxbEdqNjhCRzNCNXZPVW02cXhEIiwiand0SWQiOiI1ekU2TGhkSTN2SkdEU29JdURFSSIsImlhdCI6MTc3NDQzOTY2OSwiZXhwIjoxODA1OTc1NjY5fQ.TF0MBTEGP8cNrAVxOIdGg3qcwJLd3dVdTFxZ8asWKdo
+				x-autochek-app=CONSOLE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": "wPPmSpXfXaXLwewbOkAH"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ3UFBtU3BYZlhhWEx3ZXdiT2tBSCIsInNlc3Npb25JZCI6ImVsS3djc3VOWXM5dGROeTl2NHd1Iiwiand0SWQiOiJtSjdDUmxTR1htbjBZMzNJdFU4OCIsImlhdCI6MTc3NDQzOTY3MCwiZXhwIjoxODA1OTc1NjcwfQ.0kBiMCQFVNFasp5oPg4iUg9LpTwM1MEezhyPCqqyums
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/refresh
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		refresh_token=d5476ae9c72241113e89ec62b7cf050acbfd90002a671b062e758cb1d6c33fa985f99e8797a14d08a9815c9290874000cb46694f1100d49c8c15138150cef453
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+103@frugaltestingin.com",
+    "password": "Autochek@123"
+}

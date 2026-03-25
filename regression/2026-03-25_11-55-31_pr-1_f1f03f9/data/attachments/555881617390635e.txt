@@ -1,0 +1,4 @@
+The following asserts failed:
+	Response code should be 200 | Expected: 200, Actual: 500 expected [200] but found [500],
+	Assertion failed for Response body should contain 'success' expected [true] but found [false],
+	Update password to original should return 200 | Expected: 200, Actual: 500 expected [200] but found [500]

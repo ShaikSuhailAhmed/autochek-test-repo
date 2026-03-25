@@ -1,0 +1,211 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:47:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4920
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1338-B7/s2CdysYTEgEmZiLtMPk7kjDE"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "bIkPNdpRyF",
+            "carId": "ycmbnoMTt",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_860c9e",
+            "lastName": "AUTO_6c127a",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Toyota Auris  2020",
+            "email": "ng_bo_9855b1@test.com",
+            "phone": "+2349717784520",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1036120,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 11:41:53 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "19w2l8J4eC"
+        },
+        {
+            "id": "-HuGKO5iaX",
+            "carId": "aMGQ_FDHZ",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_SelfEmployed_63646",
+            "lastName": "AUTO_f28dbf",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "Toyota Auris  2011",
+            "email": "ng_self_employed_13a3a6@test.com",
+            "phone": "+2349829936275",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 970113,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 25 2026 11:41:53 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "NGv5F8zPmU"
+        },
+        {
+            "id": "at_FbfOZe",
+            "carId": "hP3jCxWP8",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_d64a9",
+            "lastName": "AUTO_2a0c02",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Audi A5  2015",
+            "email": "ng_self_employed_b61d7b@test.com",
+            "phone": "+2349855980136",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1869898,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 11:41:50 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "wjsLhvUBw1"
+        },
+        {
+            "id": "Gc81Bw93LR",
+            "carId": "vNLOwCopy",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_Salary_7ec747",
+            "lastName": "AUTO_682162",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Audi A5  2015",
+            "email": "ngc58778@gmail.com",
+            "phone": "+2349653156372",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 2146524,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 25 2026 11:41:45 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "W2hjGIW0QG"
+        },
+        {
+            "id": "fzk-PC039u",
+            "carId": "jgUTEAmvX",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_Salary_8a5cb0",
+            "lastName": "AUTO_ebdfbb",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Toyota Corolla  2020",
+            "email": "ng6f3662@gmail.com",
+            "phone": "+2349682011645",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 819766,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 11:41:45 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "Gyq72Hw2w_"
+        },
+        {
+            "id": "mGKIlsBMM",
+            "carId": "oulIfpHgL",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_BO_40b0eb",
+            "lastName": "AUTO_72bc8c",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Toyota Corolla  2026",
+            "email": "ng_bo_05d3f9@test.com",
+            "phone": "+2349769066567",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 13081629,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 25 2026 11:41:36 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "ZjCtNj9ED"
+        },
+        {
+            "id": "F4D0NM2yUY",
+            "carId": "a1yfATfAK",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_SelfEmployed_e5862",
+            "lastName": "AUTO_09a509",
+            "status": "FINAL_OFFER_RECEIVED",
+            "carName": "Toyota Auris  2020",
+            "email": "ng_self_employed_444153@test.com",
+            "phone": "+2349863310941",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1019936,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 11:27:52 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "AsaRXwLQlG"
+        },
+        {
+            "id": "AU9a49d4iz",
+            "carId": "Sj1Y0by2X",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_SelfEmployed_d4cc0",
+            "lastName": "AUTO_2a9e56",
+            "status": "FINAL_OFFER_RECEIVED",
+            "carName": "Toyota Auris  2020",
+            "email": "ng_self_employed_362a61@test.com",
+            "phone": "+2349885935572",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1014009,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 25 2026 11:27:52 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Self-Employed",
+            "customerId": "HR70ePFkAi"
+        },
+        {
+            "id": "6B59r-k1Sp",
+            "carId": "Sj1Y0by2X",
+            "country": "NG",
+            "firstName": "E2E_By_AM_For_BO_c1bf80",
+            "lastName": "AUTO_c1c21d",
+            "status": "FINAL_OFFER_RECEIVED",
+            "carName": "Toyota Auris  2020",
+            "email": "ng_bo_7dc071@test.com",
+            "phone": "+2349708149615",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 991619,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 25 2026 11:27:45 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "qfzUzAnqu"
+        },
+        {
+            "id": "vpatgDiDI",
+            "carId": "rV7AknpJM",
+            "country": "NG",
+            "firstName": "E2E_By_FA_For_BO_f1bb78",
+            "lastName": "AUTO_64f979",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "Toyota Auris  2021",
+            "email": "ng_bo_cf1e0b@test.com",
+            "phone": "+2349776903747",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 1050337,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 11:27:47 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Business owner",
+            "customerId": "KKRqB-Wb3B"
+        }
+    ],
+    "pagination": {
+        "total": 2078,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,53 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:48:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 626
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"272-VgVnpevIk+AIBAkCUi5NQCqs6fM"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "id": "p4IzVKrYo",
+    "country": "GH",
+    "firstName": "Auto_GH_By_FA_27d54",
+    "lastName": "Testing",
+    "status": "REFERRED_CONDITIONAL_OFFER",
+    "email": "gh_43c51@test.com",
+    "phone": "+233555190752",
+    "productType": "Logbook Finance",
+    "expired": false,
+    "version": 3,
+    "assignedAssessorEmail": "",
+    "creator": {
+        "firstname": "Esha",
+        "lastname": "Reddy"
+    },
+    "profile": {
+        "city": "TestCity",
+        "state": "TestState"
+    },
+    "loanCustomerValidation": {
+        "isEmailVerified": false,
+        "isPhNoVerified": false,
+        "declaredNotByMe": false
+    },
+    "createdAt": "Wed Mar 25 2026 06:48:19 GMT+0000 (Coordinated Universal Time)",
+    "disburseAmount": 0,
+    "customerId": "RhfCWfIghR",
+    "loanCurrency": "GH",
+    "source": "FRANCHISE"
+}

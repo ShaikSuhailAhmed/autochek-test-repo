@@ -1,0 +1,118 @@
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 25 Mar 2026 11:54:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 139
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"8b-awQyFstysUnW5Ga8iU84194p5Tg"
+
+{
+    "error": "New password must be different from your current password",
+    "message": "New password must be different from your current password"
+}
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:54:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IkxuaXY1dXhFMER6dUpxM2NCVzlmIiwiand0SWQiOiJHR0NhemU2eGw1dXpYR2J3S3RieCIsImlhdCI6MTc3NDQzOTY2MSwiZXhwIjoxODA1OTc1NjYxfQ.kbw6HcoRrpGyFBmjETyefEUoDfdmM4mHXBUq9X5jEvQ; Max-Age=3600; Path=/; Expires=Wed, 25 Mar 2026 12:54:21 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=76d96d8f7e538653b099295fea141dda4eca81ac010a139a072a7faaa2bd97d91a957d90a278e313af1cd5442533dd98ea7918eba5c8d455f4ecb759f53da5ef; Max-Age=2592000; Path=/; Expires=Fri, 24 Apr 2026 11:54:21 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-TJMaTON8lLbbv2ImMIB8CdcsWWc"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "VwTbQ2Lf15FIuaTQ4bLC",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IkxuaXY1dXhFMER6dUpxM2NCVzlmIiwiand0SWQiOiJHR0NhemU2eGw1dXpYR2J3S3RieCIsImlhdCI6MTc3NDQzOTY2MSwiZXhwIjoxODA1OTc1NjYxfQ.kbw6HcoRrpGyFBmjETyefEUoDfdmM4mHXBUq9X5jEvQ",
+        "refreshToken": "76d96d8f7e538653b099295fea141dda4eca81ac010a139a072a7faaa2bd97d91a957d90a278e313af1cd5442533dd98ea7918eba5c8d455f4ecb759f53da5ef",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 25 Mar 2026 11:54:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 139
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"8b-awQyFstysUnW5Ga8iU84194p5Tg"
+
+{
+    "error": "New password must be different from your current password",
+    "message": "New password must be different from your current password"
+}
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:54:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Ino5VFY1aVpETFVtbU9xOWpncUpDIiwiand0SWQiOiJMN2ZLMUtrREV0YWtWdTFFbWZ5byIsImlhdCI6MTc3NDQzOTY2MiwiZXhwIjoxODA1OTc1NjYyfQ.tIx604XlmSwDDtdC8mUofnwyNydbKtVk8lAze8ps-F0; Max-Age=3600; Path=/; Expires=Wed, 25 Mar 2026 12:54:22 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=776c7b2190aa0d0ccbadddfb95b0cc7bfd03ab3974881916d0f83b232b2af1fb5c2244f92f46a8f3ade8679a940394a6713dc038c860fde5d1695364666dda41; Max-Age=2592000; Path=/; Expires=Fri, 24 Apr 2026 11:54:22 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-h0mx5g8/Cb9ZnHf1VfVfOsNUV2o"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "VwTbQ2Lf15FIuaTQ4bLC",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Ino5VFY1aVpETFVtbU9xOWpncUpDIiwiand0SWQiOiJMN2ZLMUtrREV0YWtWdTFFbWZ5byIsImlhdCI6MTc3NDQzOTY2MiwiZXhwIjoxODA1OTc1NjYyfQ.tIx604XlmSwDDtdC8mUofnwyNydbKtVk8lAze8ps-F0",
+        "refreshToken": "776c7b2190aa0d0ccbadddfb95b0cc7bfd03ab3974881916d0f83b232b2af1fb5c2244f92f46a8f3ade8679a940394a6713dc038c860fde5d1695364666dda41",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}

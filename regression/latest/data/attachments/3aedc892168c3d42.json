@@ -1,0 +1,27 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans?country=NG&product_id=LlqGYJbe9
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=NG
+				product_id=LlqGYJbe9
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6Inh3MnJVNmNwVE5GR21lVmtGNkJIIiwiand0SWQiOiI1MHg2NXJBMmpmRVdMdmYwUElyNiIsImlhdCI6MTc3NDQzOTI1MSwiZXhwIjoxODA1OTc1MjUxfQ._0qVznFMftQeoLOIYU8-MEZrfo4kedRbyMm_Lx8yDS0
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/origination/loans/NC2A9pjZz/logbook/car-details
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanID=NC2A9pjZz
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJKTnFsTWVWc3huNWh2eml4M3FISyIsInNlc3Npb25JZCI6Inh3MnJVNmNwVE5GR21lVmtGNkJIIiwiand0SWQiOiI1MHg2NXJBMmpmRVdMdmYwUElyNiIsImlhdCI6MTc3NDQzOTI1MSwiZXhwIjoxODA1OTc1MjUxfQ._0qVznFMftQeoLOIYU8-MEZrfo4kedRbyMm_Lx8yDS0
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

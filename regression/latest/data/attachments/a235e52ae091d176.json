@@ -1,0 +1,238 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:52:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4600
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"11f8-J9Ud8vixfgC03YHsyrgZVHgd2qE"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "NC2A9pjZz",
+            "country": "NG",
+            "firstName": "SE_vbsvz",
+            "lastName": "CashLoan_cnjxo",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "salarycashloane2e_9502749@gmail.com",
+            "phone": "2347626035037",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 2720041,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 10:58:38 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "XqgZWq2cX"
+        },
+        {
+            "id": "i3JOyPM_s",
+            "country": "NG",
+            "firstName": "SE_mobbe",
+            "lastName": "CashLoan_ifgzt",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "salarycashloane2e_5982990@gmail.com",
+            "phone": "2348653720084",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 2720041,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 10:50:56 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "SVQhmie_M"
+        },
+        {
+            "id": "mlD6cWUdW",
+            "carId": "dxJafrd4T",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_53b77",
+            "lastName": "Testing",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Toyota Auris  2017",
+            "email": "ng_salary_3195b@test.com",
+            "phone": "+2348736421245",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 4474191,
+            "createdBy": "Frugal test123",
+            "createdAt": "Wed Mar 25 2026 06:31:43 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "j5MFypFUYA"
+        },
+        {
+            "id": "q2URZ7V_9",
+            "carId": "oQAtxpJDN",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_7000d",
+            "lastName": "Testing",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Toyota Auris  2017",
+            "email": "ng_salary_2bfd5@test.com",
+            "phone": "+2348792842702",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 1089524,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Wed Mar 25 2026 06:21:28 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "CHD94uo_0m"
+        },
+        {
+            "id": "WFp7TDU333",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_2c48e",
+            "lastName": "Testing",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "ng_salary_0db03@test.com",
+            "phone": "+2348740873754",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 31871130,
+            "createdBy": "Frugal test123",
+            "createdAt": "Tue Mar 24 2026 13:01:39 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "MwWi2VpUxH"
+        },
+        {
+            "id": "Cfbe_eZeL",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_51533",
+            "lastName": "Testing",
+            "status": "DOCUMENT_SUBMITTED",
+            "carName": "",
+            "email": "ng_salary_26840@test.com",
+            "phone": "+2348724591916",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 31871130,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Tue Mar 24 2026 13:01:35 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "hGyrdYi8S"
+        },
+        {
+            "id": "O6l6uBVbnw",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_f8e8b",
+            "lastName": "Testing",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "ng_salary_6df4b@test.com",
+            "phone": "+2348786328850",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 31871130,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Tue Mar 24 2026 13:00:33 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "1m4zZhlce"
+        },
+        {
+            "id": "t-5cgAEBwU",
+            "country": "NG",
+            "firstName": "Auto_NG_By_FA_Salary_b5a47",
+            "lastName": "Testing",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "ng_salary_df0ea@test.com",
+            "phone": "+2348778389343",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 31871130,
+            "createdBy": "Frugal test123",
+            "createdAt": "Tue Mar 24 2026 13:00:31 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "--SqvMHHI"
+        },
+        {
+            "id": "neKvBCqPBV",
+            "carId": "fQgkishcO",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_7412f",
+            "lastName": "Testing",
+            "status": "SIGNED_LOAN_DOCUMENTS_SUBMITTED",
+            "carName": "Toyota Auris  2017",
+            "email": "ng_salary_9a275@test.com",
+            "phone": "+2348714711867",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 1082259,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Tue Mar 24 2026 12:49:26 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "b_16KxCvn-"
+        },
+        {
+            "id": "-M2IpdnCK5",
+            "country": "NG",
+            "firstName": "Auto_NG_By_AM_Salary_7e0f1",
+            "lastName": "Testing",
+            "status": "CONDITIONAL_OFFER_RECEIVED",
+            "carName": "",
+            "email": "ng_salary_4e838@test.com",
+            "phone": "+2348783464305",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 31871130,
+            "createdBy": "AccountManager Testing",
+            "createdAt": "Tue Mar 24 2026 12:49:26 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "XqgYtbea5Z"
+        }
+    ],
+    "pagination": {
+        "total": 185,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:52:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 183
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"b7-hKGABHBsf6ruJOpJ1jkIPRM/r2E"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "vin": "",
+    "make": "Audi",
+    "model": "A5",
+    "year": "2019",
+    "bodyType": "Coupe",
+    "vehicleUse": "Private",
+    "carWorth": "9000000",
+    "spareKey": "Yes",
+    "engineCapacity": "2-cylinder",
+    "vehicleModelId": "87"
+}

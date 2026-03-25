@@ -1,0 +1,24 @@
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/car/u0yavYd2g
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJZcGlSeTVZWWgxSVByenc5aWlRVCIsImp3dElkIjoiRmNJaDcyc0JkNmlYTEZIWXVFaW8iLCJpYXQiOjE3NzQ0Mzg5MzQsImV4cCI6MTgwNTk3NDkzNH0.BSDxfnBHK7Mx1wLnZqd_XhKELxzQhjKgD-Ewtn1oaOI
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "license_plate": "78891558",
+    "address": "test",
+    "city": "Airport Junction Citec",
+    "is_draft": "TRUE",
+    "is_upgraded": "false",
+    "engine_number": "320014121",
+    "state": "Abuja",
+    "created_by": "BQlQBbLTW",
+    "owner_type": "self"
+}

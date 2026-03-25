@@ -1,0 +1,209 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:48:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4602
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"11fa-Fi9tJ9jRxdbznmZhhCWZBjcRP2w"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "loanLeads": [
+        {
+            "id": "p4IzVKrYo",
+            "country": "GH",
+            "firstName": "Auto_GH_By_FA_27d54",
+            "lastName": "Testing",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "",
+            "email": "gh_43c51@test.com",
+            "phone": "+233555190752",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 06:48:19 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "RhfCWfIghR"
+        },
+        {
+            "id": "UbYUazOz0",
+            "country": "GH",
+            "firstName": "Auto_GH_By_AM_5faaa",
+            "lastName": "Testing",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "",
+            "email": "gh_d944d@test.com",
+            "phone": "+233553708761",
+            "productType": "Logbook Finance",
+            "expired": false,
+            "loanValue": 0,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 06:42:00 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "1YYmvOYuwp"
+        },
+        {
+            "id": "eBAT7KH0P",
+            "carId": "HBCWryNXx",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salary83051",
+            "lastName": "AUTO_1cab9",
+            "status": "PPI_REQUESTED",
+            "carName": "Kia Carens  2020",
+            "email": "gh5e8d67@test.com",
+            "phone": "+233545635300",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 98056,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 06:35:25 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "zp_RbkgRu"
+        },
+        {
+            "id": "AyjWujOW7",
+            "carId": "q-zeKYxc8",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salary65ce7",
+            "lastName": "AUTO_587ad",
+            "status": "REFERRED_CONDITIONAL_OFFER",
+            "carName": "Audi A5  2020",
+            "email": "gh6819df@test.com",
+            "phone": "+233547407474",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 7917567,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 06:34:32 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "2BaC7nbymf"
+        },
+        {
+            "id": "tRgaaM1aF",
+            "carId": "mKTdrj0T6",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salary179c2",
+            "lastName": "AUTO_a23fe",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "ABARTH 500C  2023",
+            "email": "ghd8ce29@test.com",
+            "phone": "+233543423310",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 13071146,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 06:28:41 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "S7q1wwqrn2"
+        },
+        {
+            "id": "lG5zZtrix2",
+            "carId": "Rf3lD8RXX",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salarycdd49",
+            "lastName": "AUTO_77602",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Tacoma  2020",
+            "email": "ghfaa625@test.com",
+            "phone": "+233544446853",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 494660.75,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 05:53:33 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "m2gVpieM8M"
+        },
+        {
+            "id": "7ZRO-M96tE",
+            "carId": "aftYFjq5u",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salarye878a",
+            "lastName": "AUTO_a10ef",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Corolla  2020",
+            "email": "gh86a404@test.com",
+            "phone": "+233544555568",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 696783,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 05:38:53 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "TLP8hEp2J"
+        },
+        {
+            "id": "5xcdu8Hu8-",
+            "carId": "gEeFEth-w",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salary96e83",
+            "lastName": "AUTO_0579a",
+            "status": "PPI_REQUESTED",
+            "carName": "Toyota Highlander  2015",
+            "email": "gh241a5c@test.com",
+            "phone": "+233547207999",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 310058.75,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 05:32:55 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "TwKY-LV5RT"
+        },
+        {
+            "id": "2isudwpae",
+            "carId": "2yiQ5qZq1",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salaryadb97",
+            "lastName": "AUTO_6fa76",
+            "status": "PPI_REQUESTED",
+            "carName": "Mitsubishi Eclipse Cross 4x2  2020",
+            "email": "gh5fa2b7@test.com",
+            "phone": "+233545433275",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 265955.75,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 05:24:37 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "KEQYsD1ABg"
+        },
+        {
+            "id": "uR2MqM3qY",
+            "carId": "ogJPFNfvV",
+            "country": "GH",
+            "firstName": "E2E_GH_By_FM_Salaryfe488",
+            "lastName": "AUTO_20a48",
+            "status": "REJECTED_FINAL_OFFER",
+            "carName": "Ford Focus  2020",
+            "email": "gh24e83b@test.com",
+            "phone": "+233547637282",
+            "productType": "Decision Engine Loan",
+            "expired": false,
+            "loanValue": 114552.75,
+            "createdBy": "Esha Reddy",
+            "createdAt": "Wed Mar 25 2026 04:40:39 GMT+0000 (Coordinated Universal Time)",
+            "customerType": "Salary earner",
+            "customerId": "oBQq6SoEZh"
+        }
+    ],
+    "pagination": {
+        "total": 119,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

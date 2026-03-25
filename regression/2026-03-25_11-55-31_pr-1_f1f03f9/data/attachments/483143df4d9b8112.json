@@ -1,0 +1,591 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2026 11:39:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 3173
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"c65-+gcUBb4u4JWnn7VcT1cRLCss280"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "carList": [
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "ElixoctB5",
+            "year": 2015
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "oulIfpHgL",
+            "year": 2026
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "5xcrlUJGU",
+            "year": 2019
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "pHTmTFOok",
+            "year": 2019
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "d1GVAsTm7",
+            "year": 2016
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "VJgIrqUtA0",
+            "year": 2014
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "592DOkYS4",
+            "year": 2025
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "Jkd3oZcze",
+            "year": 2015
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "k8eR9hBJb",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "h7_qY8Mta",
+            "year": 2015
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "26i_2IVeK",
+            "year": 2015
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "y7X5AuPvT",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "hoCinCM0d",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "9xlmBD2LL",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "eRWev5XDA",
+            "year": 2015
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "NXRHDA_oF",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "QM5C63sWJ",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "aicBqT8nF",
+            "year": 2020
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "dxJafrd4T",
+            "year": 2017
+        },
+        {
+            "features": [
+                
+            ],
+            "carFeatures": [
+                
+            ],
+            "modelFeatures": [
+                
+            ],
+            "delistReason": [
+                
+            ],
+            "damageMedia": [
+                
+            ],
+            "damages": [
+                
+            ],
+            "carMedias": [
+                
+            ],
+            "media": [
+                
+            ],
+            "id": "oQAtxpJDN",
+            "year": 2017
+        }
+    ],
+    "pagination": {
+        "total": 60536,
+        "currentPage": 1,
+        "pageSize": 20
+    }
+}
